@@ -1,0 +1,11 @@
+# OS-specific
+.DS_Store
+Thumbs.db
+
+# IDE
+.idea/
+.vscode/
+
+# Temporary extraction directories
+tmp/
+temp/
