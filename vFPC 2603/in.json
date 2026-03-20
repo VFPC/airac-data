@@ -1,0 +1,3880 @@
+{
+  "$schema": "\"C:\\Users\\jkino\\Documents\\GitHub\\SRDData\\Schemas\\in_json_schema.json\"",
+  "notes": [
+    {
+      "note": 2,
+      "start": {
+        "date": 4,
+        "time": "1801"
+      },
+      "end": {
+        "date": 0,
+        "time": "0759"
+      }
+    },
+    {
+      "note": 2,
+      "start": {
+        "date": 0,
+        "time": "0800"
+      },
+      "end": {
+        "date": 4,
+        "time": "1800"
+      },
+      "alert": {
+        "ban": true,
+        "note": "This route should be allowed by ATC if flight is on a public holiday."
+      }
+    },
+    {
+      "note": 7,
+      "start": {
+        "date": 0,
+        "time": "0000"
+      },
+      "end": {
+        "date": 4,
+        "time": "2359"
+      },
+      "alert": {
+        "ban": true,
+        "note": "Route segment TLA N864 ASNUD is not allowed during these times."
+      }
+    },
+    {
+      "note": 7,
+      "start": {
+        "date": 5,
+        "time": "0000"
+      },
+      "end": {
+        "date": 6,
+        "time": "2359"
+      }
+    },
+    {
+      "note": 17,
+      "comment": "This note is coded in airports - EGKK - BOGNA."
+    },
+    {
+      "note": 21,
+      "comment": "This note is coded in airports - EGPH - GOSAM."
+    },
+    {
+      "note": 22,
+      "comment": "This note is coded in airports - EGPF - LUSIV."
+    },
+    {
+      "note": 24,
+      "max": 195,
+      "alert": {
+        "warn": true,
+        "note": "Max flight level of 195 due to city pair capping."
+      }
+    },
+    {
+      "note": 25,
+      "max": 295,
+      "alert": {
+        "warn": true,
+        "note": "Max flight level of 295 due to city pair capping."
+      }
+    },
+    {
+      "note": 26,
+      "max": 285,
+      "alert": {
+        "warn": true,
+        "note": "Max flight level of 285 due to city pair capping."
+      }
+    },
+    {
+      "note": 29,
+      "comment": "Not encoded: not used by parser (non-enforceable / informational). SRD text: Dublin TMA outbounds via UL975"
+    },
+    {
+      "note": 40,
+      "comment": "This note is coded in airports - EGKK - HARDY."
+    },
+    {
+      "note": 41,
+      "alert": {
+        "warn": true,
+        "note": "US Military hazardous cargo flights only."
+      }
+    },
+    {
+      "note": 42,
+      "comment": "Coded in airport section as SANBA/LISTO SID jet/non-jet aircraft separation."
+    },
+    {
+      "note": 43,
+      "comment": "Not encoded: tactical vectoring/procedural guidance. SRD text: SANBA SID"
+    },
+    {
+      "note": 60,
+      "comment": "Note coding removed June 29, 2023 per issue #96"
+    },
+    {
+      "note": 65,
+      "comment": "This note is coded in airports - EGCC - LISTO."
+    },
+    {
+      "note": 66,
+      "comment": "Note coding removed June 29, 2023 per issue #96"
+    },
+    {
+      "note": 69,
+      "max": 195,
+      "alert": {
+        "warn": true,
+        "note": "Max flight level of 195 due to city pair capping."
+      }
+    },
+    {
+      "note": 79,
+      "comment": "This note is coded in airports - EGPF - NORBO."
+    },
+    {
+      "note": 84,
+      "alert": {
+        "warn": true,
+        "note": "Approved vSOA operations only."
+      }
+    },
+    {
+      "note": 93,
+      "comment": "Note coding removed June 29, 2023 per issue #96"
+    },
+    {
+      "note": 94,
+      "comment": "This note is coded in airports - EGKK - SFD."
+    },
+    {
+      "note": 105,
+      "comment": "This note is coded in airports - EGPH - TLA."
+    },
+    {
+      "note": 112,
+      "comment": "Not encoded: informational reference (CDR/AIP), not a constraint. SRD text: UN867 (GARMI - VASUX) & UM184"
+    },
+    {
+      "note": 113,
+      "min": 305,
+      "comment": "Note 113 (NIRIF routing) is only valid in real life when EGD201F/G danger area is active above FL145 AND M17/Q63 VATRY is unavailable. On Vatsim, danger areas are not used, so this route is effectively never available. Rather than remove the route (which causes ATC/pilot conflicts), it is coded as FL305 only, overnight/weekend windows, to make it practically unusable while remaining technically present in the SRD."
+    },
+    {
+      "note": 113,
+      "max": 305,
+      "start": {
+        "date": 0,
+        "time": "1800"
+      },
+      "end": {
+        "date": 1,
+        "time": "0900"
+      }
+    },
+    {
+      "note": 113,
+      "max": 305,
+      "start": {
+        "date": 1,
+        "time": "1800"
+      },
+      "end": {
+        "date": 2,
+        "time": "0900"
+      }
+    },
+    {
+      "note": 113,
+      "max": 305,
+      "start": {
+        "date": 2,
+        "time": "1800"
+      },
+      "end": {
+        "date": 3,
+        "time": "0900"
+      }
+    },
+    {
+      "note": 113,
+      "max": 305,
+      "start": {
+        "date": 3,
+        "time": "1800"
+      },
+      "end": {
+        "date": 4,
+        "time": "0900"
+      }
+    },
+    {
+      "note": 113,
+      "max": 305,
+      "start": {
+        "date": 4,
+        "time": "1700"
+      },
+      "end": {
+        "date": 0,
+        "time": "0900"
+      }
+    },
+    {
+      "note": 117,
+      "comment": "note says L/UL9 KONAN UL607 which has no meaning NATS contacted 16/03/2026."
+    },
+    {
+      "note": 124,
+      "max": 250,
+      "nodests": [
+        "EGNT",
+        "EGNV",
+        "EGPD"
+      ]
+    },
+    {
+      "note": 124,
+      "min": 285,
+      "nodests": [
+        "EGNT",
+        "EGNV",
+        "EGPD"
+      ]
+    },
+    {
+      "note": 124,
+      "dests": [
+        "EGNT",
+        "EGNV",
+        "EGPD"
+      ]
+    },
+    {
+      "note": 125,
+      "comment": "Removed from SRD notes 2603."
+    },
+    {
+      "note": 127,
+      "start": {
+        "date": 0,
+        "time": "2359"
+      },
+      "end": {
+        "date": 1,
+        "time": "0759"
+      }
+    },
+    {
+      "note": 127,
+      "start": {
+        "date": 1,
+        "time": "2359"
+      },
+      "end": {
+        "date": 2,
+        "time": "0759"
+      }
+    },
+    {
+      "note": 127,
+      "start": {
+        "date": 2,
+        "time": "2359"
+      },
+      "end": {
+        "date": 3,
+        "time": "0759"
+      }
+    },
+    {
+      "note": 127,
+      "start": {
+        "date": 3,
+        "time": "2359"
+      },
+      "end": {
+        "date": 4,
+        "time": "0759"
+      }
+    },
+    {
+      "note": 127,
+      "start": {
+        "date": 4,
+        "time": "1600"
+      },
+      "end": {
+        "date": 0,
+        "time": "0759"
+      }
+    },
+    {
+      "note": 134,
+      "comment": "Not encoded: informational reference (CDR/AIP), not a constraint. SRD text: M79"
+    },
+    {
+      "note": 162,
+      "max": 335
+    },
+    {
+      "note": 168,
+      "comment": "Not encoded: time-window availability note (already enforced by included routes/filters). SRD text: FOXLA DCT NICXI"
+    },
+    {
+      "note": 172,
+      "alert": {
+        "warn": true,
+        "note": "Alternative route for channel Islands TMA Inbounds (EGJJ, EGJB, EGJA) only."
+      },
+      "start": {
+        "date": 4,
+        "time": "1600"
+      },
+      "end": {
+        "date": 0,
+        "time": "0745"
+      }
+    },
+    {
+      "note": 188,
+      "max": 275
+    },
+    {
+      "note": 195,
+      "comment": "Not encoded: not used by parser (non-enforceable / informational). SRD text: TIPOD STAR"
+    },
+    {
+      "note": 196,
+      "comment": "Not encoded: not used by parser (non-enforceable / informational). SRD text: KEGUN STAR"
+    },
+    {
+      "note": 201,
+      "alert": {
+        "warn": true,
+        "note": "Air-to-air refuelling operations only."
+      }
+    },
+    {
+      "note": 202,
+      "min": 195
+    },
+    {
+      "note": 207,
+      "comment": "Not encoded: RAD cross-reference (handled by published routes). SRD text: EBBR TMA DEPARTURES"
+    },
+    {
+      "note": 213,
+      "comment": "Note coding removed June 29, 2023 per issue #96"
+    },
+    {
+      "note": 219,
+      "comment": "Not encoded: not used by parser (non-enforceable / informational). SRD text: B-RNAV STAR"
+    },
+    {
+      "note": 220,
+      "comment": "Not encoded: military/danger-area dependent (NOTAM/dynamic). SRD text: ROUTEING OUTSIDE CAS"
+    },
+    {
+      "note": 225,
+      "start": {
+        "date": 1,
+        "time": "0530"
+      },
+      "end": {
+        "date": 1,
+        "time": "0900"
+      },
+      "alt": [
+        "N601 GRICE P600 ADN",
+        "UN601 TLA DCT GRICE P600 ADN"
+      ]
+    },
+    {
+      "note": 225,
+      "start": {
+        "date": 2,
+        "time": "0530"
+      },
+      "end": {
+        "date": 2,
+        "time": "0900"
+      },
+      "alt": [
+        "N601 GRICE P600 ADN",
+        "UN601 TLA DCT GRICE P600 ADN"
+      ]
+    },
+    {
+      "note": 225,
+      "start": {
+        "date": 3,
+        "time": "0530"
+      },
+      "end": {
+        "date": 3,
+        "time": "0900"
+      },
+      "alt": [
+        "N601 GRICE P600 ADN",
+        "UN601 TLA DCT GRICE P600 ADN"
+      ]
+    },
+    {
+      "note": 225,
+      "start": {
+        "date": 4,
+        "time": "0530"
+      },
+      "end": {
+        "date": 4,
+        "time": "0900"
+      },
+      "alt": [
+        "N601 GRICE P600 ADN",
+        "UN601 TLA DCT GRICE P600 ADN"
+      ]
+    },
+    {
+      "note": 225,
+      "start": {
+        "date": 4,
+        "time": "1500"
+      },
+      "end": {
+        "date": 0,
+        "time": "1000"
+      },
+      "alt": [
+        "N601 GRICE P600 ADN",
+        "UN601 TLA DCT GRICE P600 ADN"
+      ]
+    },
+    {
+      "note": 227,
+      "comment": "This note is coded in airports - EGNX - BPK."
+    },
+    {
+      "note": 229,
+      "max": 70
+    },
+    {
+      "note": 230,
+      "max": 295
+    },
+    {
+      "note": 234,
+      "comment": "Not encoded: military/danger-area dependent (NOTAM/dynamic). SRD text: PACSE/ZESPE DCT DAWLY"
+    },
+    {
+      "note": 235,
+      "comment": "Not encoded: military/danger-area dependent (NOTAM/dynamic). SRD text: TRA 002"
+    },
+    {
+      "note": 236,
+      "comment": "Not encoded: military/danger-area dependent (NOTAM/dynamic). SRD text: SIDHO DCT DAWLY"
+    },
+    {
+      "note": 237,
+      "dests": [
+        "EICK",
+        "EINN"
+      ]
+    },
+    {
+      "note": 237,
+      "nodests": [
+        "EICK",
+        "EINN"
+      ],
+      "region": {
+        "any-active": [
+          "D064A",
+          "D064B",
+          "D064C"
+        ]
+      }
+    },
+    {
+      "note": 251,
+      "comment": "Not encoded: time-window availability note (already enforced by included routes/filters). SRD text: EGKK NAT TRAFFIC"
+    },
+    {
+      "note": 258,
+      "types": [
+        "T"
+      ],
+      "alert": {
+        "warn": true,
+        "note": "This route is not available for traffic above FL165 or for traffic inbound to LE** (except LEMG), LF** (except LFBZ), or LI**."
+      },
+      "max": 165,
+      "nodests": [
+        "LEAL",
+        "LEAM",
+        "LEBB",
+        "LEBG",
+        "LEBL",
+        "LEDA",
+        "LEGE",
+        "LEIB",
+        "LELL",
+        "LEMH",
+        "LEPA",
+        "LERS",
+        "LESB",
+        "LESA",
+        "LESJ",
+        "LESL",
+        "LEVD",
+        "LEVN",
+        "LFBF",
+        "LFBG",
+        "LFBH",
+        "LFBK",
+        "LFBL",
+        "LFBM",
+        "LFBN",
+        "LFBO",
+        "LFBP",
+        "LFBR",
+        "LFBS",
+        "LFBT",
+        "LFBU",
+        "LFBX",
+        "LFCC",
+        "LFCD",
+        "LFCG",
+        "LFCH",
+        "LFCI",
+        "LFCJ",
+        "LFCK",
+        "LFCL",
+        "LFCN",
+        "LFCP",
+        "LFCQ",
+        "LFCR",
+        "LFCS",
+        "LFCU",
+        "LFCW",
+        "LFCX",
+        "LFCY",
+        "LFCZ",
+        "LFDA",
+        "LFDB",
+        "LFDC",
+        "LFDH",
+        "LFDI",
+        "LFDJ",
+        "LFDK",
+        "LFDM",
+        "LFDN",
+        "LFDP",
+        "LFDR",
+        "LFDS",
+        "LFDU",
+        "LFDX",
+        "LFGA",
+        "LFGB",
+        "LFGC",
+        "LFGD",
+        "LFGE",
+        "LFGF",
+        "LFGG",
+        "LFGH",
+        "LFGI",
+        "LFGJ",
+        "LFGK",
+        "LFGP",
+        "LFIT",
+        "LFIV",
+        "LFLF",
+        "LFLW",
+        "LFMK",
+        "LFMW",
+        "LFRO",
+        "LFRB",
+        "LFRJ",
+        "LFRU",
+        "LFPB",
+        "LFPC",
+        "LFPO",
+        "LFPY",
+        "LFRG",
+        "LFRK",
+        "LFRN",
+        "LFRT",
+        "LFSL",
+        "LFXB",
+        "LIAP",
+        "LIBR",
+        "LICJ",
+        "LIEA",
+        "LIEE",
+        "LIEL",
+        "LIEO",
+        "LIMC",
+        "LIME",
+        "LIMF",
+        "LIMG",
+        "LIMJ",
+        "LIML",
+        "LIMP",
+        "LIMS",
+        "LIMW",
+        "LIPA",
+        "LIPB",
+        "LIPC",
+        "LIPD",
+        "LIPE",
+        "LIPH",
+        "LIPI",
+        "LIPK",
+        "LIPL",
+        "LIPN",
+        "LIPO",
+        "LIPP",
+        "LIPQ",
+        "LIPR",
+        "LIPS",
+        "LIPT",
+        "LIPU",
+        "LIPX"
+      ],
+      "start": {
+        "date": 1,
+        "time": "0900"
+      },
+      "end": {
+        "date": 1,
+        "time": "1615"
+      }
+    },
+    {
+      "note": 258,
+      "types": [
+        "T"
+      ],
+      "alert": {
+        "warn": true,
+        "note": "This route is not available for traffic above FL165 or for traffic inbound to LE** (except LEMG), LF** (except LFBZ), or LI**."
+      },
+      "max": 165,
+      "nodests": [
+        "LEAL",
+        "LEAM",
+        "LEBB",
+        "LEBG",
+        "LEBL",
+        "LEDA",
+        "LEGE",
+        "LEIB",
+        "LELL",
+        "LEMH",
+        "LEPA",
+        "LERS",
+        "LESB",
+        "LESA",
+        "LESJ",
+        "LESL",
+        "LEVD",
+        "LEVN",
+        "LFBF",
+        "LFBG",
+        "LFBH",
+        "LFBK",
+        "LFBL",
+        "LFBM",
+        "LFBN",
+        "LFBO",
+        "LFBP",
+        "LFBR",
+        "LFBS",
+        "LFBT",
+        "LFBU",
+        "LFBX",
+        "LFCC",
+        "LFCD",
+        "LFCG",
+        "LFCH",
+        "LFCI",
+        "LFCJ",
+        "LFCK",
+        "LFCL",
+        "LFCN",
+        "LFCP",
+        "LFCQ",
+        "LFCR",
+        "LFCS",
+        "LFCU",
+        "LFCW",
+        "LFCX",
+        "LFCY",
+        "LFCZ",
+        "LFDA",
+        "LFDB",
+        "LFDC",
+        "LFDH",
+        "LFDI",
+        "LFDJ",
+        "LFDK",
+        "LFDM",
+        "LFDN",
+        "LFDP",
+        "LFDR",
+        "LFDS",
+        "LFDU",
+        "LFDX",
+        "LFGA",
+        "LFGB",
+        "LFGC",
+        "LFGD",
+        "LFGE",
+        "LFGF",
+        "LFGG",
+        "LFGH",
+        "LFGI",
+        "LFGJ",
+        "LFGK",
+        "LFGP",
+        "LFIT",
+        "LFIV",
+        "LFLF",
+        "LFLW",
+        "LFMK",
+        "LFMW",
+        "LFRO",
+        "LFRB",
+        "LFRJ",
+        "LFRU",
+        "LFPB",
+        "LFPC",
+        "LFPO",
+        "LFPY",
+        "LFRG",
+        "LFRK",
+        "LFRN",
+        "LFRT",
+        "LFSL",
+        "LFXB",
+        "LIAP",
+        "LIBR",
+        "LICJ",
+        "LIEA",
+        "LIEE",
+        "LIEL",
+        "LIEO",
+        "LIMC",
+        "LIME",
+        "LIMF",
+        "LIMG",
+        "LIMJ",
+        "LIML",
+        "LIMP",
+        "LIMS",
+        "LIMW",
+        "LIPA",
+        "LIPB",
+        "LIPC",
+        "LIPD",
+        "LIPE",
+        "LIPH",
+        "LIPI",
+        "LIPK",
+        "LIPL",
+        "LIPN",
+        "LIPO",
+        "LIPP",
+        "LIPQ",
+        "LIPR",
+        "LIPS",
+        "LIPT",
+        "LIPU",
+        "LIPX"
+      ],
+      "start": {
+        "date": 2,
+        "time": "0900"
+      },
+      "end": {
+        "date": 2,
+        "time": "1615"
+      }
+    },
+    {
+      "note": 258,
+      "types": [
+        "T"
+      ],
+      "alert": {
+        "warn": true,
+        "note": "This route is not available for traffic above FL165 or for traffic inbound to LE** (except LEMG), LF** (except LFBZ), or LI**."
+      },
+      "max": 165,
+      "nodests": [
+        "LEAL",
+        "LEAM",
+        "LEBB",
+        "LEBG",
+        "LEBL",
+        "LEDA",
+        "LEGE",
+        "LEIB",
+        "LELL",
+        "LEMH",
+        "LEPA",
+        "LERS",
+        "LESB",
+        "LESA",
+        "LESJ",
+        "LESL",
+        "LEVD",
+        "LEVN",
+        "LFBF",
+        "LFBG",
+        "LFBH",
+        "LFBK",
+        "LFBL",
+        "LFBM",
+        "LFBN",
+        "LFBO",
+        "LFBP",
+        "LFBR",
+        "LFBS",
+        "LFBT",
+        "LFBU",
+        "LFBX",
+        "LFCC",
+        "LFCD",
+        "LFCG",
+        "LFCH",
+        "LFCI",
+        "LFCJ",
+        "LFCK",
+        "LFCL",
+        "LFCN",
+        "LFCP",
+        "LFCQ",
+        "LFCR",
+        "LFCS",
+        "LFCU",
+        "LFCW",
+        "LFCX",
+        "LFCY",
+        "LFCZ",
+        "LFDA",
+        "LFDB",
+        "LFDC",
+        "LFDH",
+        "LFDI",
+        "LFDJ",
+        "LFDK",
+        "LFDM",
+        "LFDN",
+        "LFDP",
+        "LFDR",
+        "LFDS",
+        "LFDU",
+        "LFDX",
+        "LFGA",
+        "LFGB",
+        "LFGC",
+        "LFGD",
+        "LFGE",
+        "LFGF",
+        "LFGG",
+        "LFGH",
+        "LFGI",
+        "LFGJ",
+        "LFGK",
+        "LFGP",
+        "LFIT",
+        "LFIV",
+        "LFLF",
+        "LFLW",
+        "LFMK",
+        "LFMW",
+        "LFRO",
+        "LFRB",
+        "LFRJ",
+        "LFRU",
+        "LFSL",
+        "LFPB",
+        "LFPC",
+        "LFPO",
+        "LFPY",
+        "LFRG",
+        "LFRK",
+        "LFRN",
+        "LFRT",
+        "LFXB",
+        "LIAP",
+        "LIBR",
+        "LICJ",
+        "LIEA",
+        "LIEE",
+        "LIEL",
+        "LIEO",
+        "LIMC",
+        "LIME",
+        "LIMF",
+        "LIMG",
+        "LIMJ",
+        "LIML",
+        "LIMP",
+        "LIMS",
+        "LIMW",
+        "LIPA",
+        "LIPB",
+        "LIPC",
+        "LIPD",
+        "LIPE",
+        "LIPH",
+        "LIPI",
+        "LIPK",
+        "LIPL",
+        "LIPN",
+        "LIPO",
+        "LIPP",
+        "LIPQ",
+        "LIPR",
+        "LIPS",
+        "LIPT",
+        "LIPU",
+        "LIPX"
+      ],
+      "start": {
+        "date": 3,
+        "time": "0900"
+      },
+      "end": {
+        "date": 3,
+        "time": "1615"
+      }
+    },
+    {
+      "note": 258,
+      "types": [
+        "T"
+      ],
+      "alert": {
+        "warn": true,
+        "note": "This route is not available for traffic above FL165 or for traffic inbound to LE** (except LEMG), LF** (except LFBZ), or LI**."
+      },
+      "max": 165,
+      "nodests": [
+        "LEAL",
+        "LEAM",
+        "LEBB",
+        "LEBG",
+        "LEBL",
+        "LEDA",
+        "LEGE",
+        "LEIB",
+        "LELL",
+        "LEMH",
+        "LEPA",
+        "LERS",
+        "LESB",
+        "LESA",
+        "LESJ",
+        "LESL",
+        "LEVD",
+        "LEVN",
+        "LFBF",
+        "LFBG",
+        "LFBH",
+        "LFBK",
+        "LFBL",
+        "LFBM",
+        "LFBN",
+        "LFBO",
+        "LFBP",
+        "LFBR",
+        "LFBS",
+        "LFBT",
+        "LFBU",
+        "LFBX",
+        "LFCC",
+        "LFCD",
+        "LFCG",
+        "LFCH",
+        "LFCI",
+        "LFCJ",
+        "LFCK",
+        "LFCL",
+        "LFCN",
+        "LFCP",
+        "LFCQ",
+        "LFCR",
+        "LFCS",
+        "LFCU",
+        "LFCW",
+        "LFCX",
+        "LFCY",
+        "LFCZ",
+        "LFDA",
+        "LFDB",
+        "LFDC",
+        "LFDH",
+        "LFDI",
+        "LFDJ",
+        "LFDK",
+        "LFDM",
+        "LFDN",
+        "LFDP",
+        "LFDR",
+        "LFDS",
+        "LFDU",
+        "LFDX",
+        "LFGA",
+        "LFGB",
+        "LFGC",
+        "LFGD",
+        "LFGE",
+        "LFGF",
+        "LFGG",
+        "LFGH",
+        "LFGI",
+        "LFGJ",
+        "LFGK",
+        "LFGP",
+        "LFIT",
+        "LFIV",
+        "LFLF",
+        "LFLW",
+        "LFMK",
+        "LFMW",
+        "LFRO",
+        "LFRB",
+        "LFRJ",
+        "LFRU",
+        "LFPB",
+        "LFPC",
+        "LFPO",
+        "LFPY",
+        "LFRG",
+        "LFRK",
+        "LFRN",
+        "LFRT",
+        "LFSL",
+        "LFXB",
+        "LIAP",
+        "LIBR",
+        "LICJ",
+        "LIEA",
+        "LIEE",
+        "LIEL",
+        "LIEO",
+        "LIMC",
+        "LIME",
+        "LIMF",
+        "LIMG",
+        "LIMJ",
+        "LIML",
+        "LIMP",
+        "LIMS",
+        "LIMW",
+        "LIPA",
+        "LIPB",
+        "LIPC",
+        "LIPD",
+        "LIPE",
+        "LIPH",
+        "LIPI",
+        "LIPK",
+        "LIPL",
+        "LIPN",
+        "LIPO",
+        "LIPP",
+        "LIPQ",
+        "LIPR",
+        "LIPS",
+        "LIPT",
+        "LIPU",
+        "LIPX"
+      ],
+      "start": {
+        "date": 4,
+        "time": "0900"
+      },
+      "end": {
+        "date": 4,
+        "time": "1615"
+      }
+    },
+    {
+      "note": 258,
+      "types": [
+        "T"
+      ],
+      "alert": {
+        "warn": true,
+        "note": "This route is not available for traffic above FL165 or for traffic inbound to LE** (except LEMG), LF** (except LFBZ), or LI**."
+      },
+      "max": 165,
+      "nodests": [
+        "LEAL",
+        "LEAM",
+        "LEBB",
+        "LEBG",
+        "LEBL",
+        "LEDA",
+        "LEGE",
+        "LEIB",
+        "LELL",
+        "LEMH",
+        "LEPA",
+        "LERS",
+        "LESB",
+        "LESA",
+        "LESJ",
+        "LESL",
+        "LEVD",
+        "LEVN",
+        "LFBF",
+        "LFBG",
+        "LFBH",
+        "LFBK",
+        "LFBL",
+        "LFBM",
+        "LFBN",
+        "LFBO",
+        "LFBP",
+        "LFBR",
+        "LFBS",
+        "LFBT",
+        "LFBU",
+        "LFBX",
+        "LFCC",
+        "LFCD",
+        "LFCG",
+        "LFCH",
+        "LFCI",
+        "LFCJ",
+        "LFCK",
+        "LFCL",
+        "LFCN",
+        "LFCP",
+        "LFCQ",
+        "LFCR",
+        "LFCS",
+        "LFCU",
+        "LFCW",
+        "LFCX",
+        "LFCY",
+        "LFCZ",
+        "LFDA",
+        "LFDB",
+        "LFDC",
+        "LFDH",
+        "LFDI",
+        "LFDJ",
+        "LFDK",
+        "LFDM",
+        "LFDN",
+        "LFDP",
+        "LFDR",
+        "LFDS",
+        "LFDU",
+        "LFDX",
+        "LFGA",
+        "LFGB",
+        "LFGC",
+        "LFGD",
+        "LFGE",
+        "LFGF",
+        "LFGG",
+        "LFGH",
+        "LFGI",
+        "LFGJ",
+        "LFGK",
+        "LFGP",
+        "LFIT",
+        "LFIV",
+        "LFLF",
+        "LFLW",
+        "LFMK",
+        "LFMW",
+        "LFRO",
+        "LFRB",
+        "LFRJ",
+        "LFRU",
+        "LFSL",
+        "LFPB",
+        "LFPC",
+        "LFPO",
+        "LFPY",
+        "LFRG",
+        "LFRK",
+        "LFRN",
+        "LFRT",
+        "LFXB",
+        "LIAP",
+        "LIBR",
+        "LICJ",
+        "LIEA",
+        "LIEE",
+        "LIEL",
+        "LIEO",
+        "LIMC",
+        "LIME",
+        "LIMF",
+        "LIMG",
+        "LIMJ",
+        "LIML",
+        "LIMP",
+        "LIMS",
+        "LIMW",
+        "LIPA",
+        "LIPB",
+        "LIPC",
+        "LIPD",
+        "LIPE",
+        "LIPH",
+        "LIPI",
+        "LIPK",
+        "LIPL",
+        "LIPN",
+        "LIPO",
+        "LIPP",
+        "LIPQ",
+        "LIPR",
+        "LIPS",
+        "LIPT",
+        "LIPU",
+        "LIPX"
+      ],
+      "start": {
+        "date": 5,
+        "time": "0900"
+      },
+      "end": {
+        "date": 5,
+        "time": "1615"
+      }
+    },
+    {
+      "note": 262,
+      "max": 300
+    },
+    {
+      "note": 263,
+      "start": {
+        "date": 0
+      },
+      "end": {
+        "date": 4
+      }
+    },
+    {
+      "note": 264,
+      "region": {
+        "any-active": [
+          "SANDY L15 MOTOX"
+        ]
+      }
+    },
+    {
+      "note": 267,
+      "comment": "Not encoded: informational reference (CDR/AIP), not a constraint. SRD text: N97 NATEB - ROKAN"
+    },
+    {
+      "note": 269,
+      "min": 195
+    },
+    {
+      "note": 270,
+      "comment": "Not encoded: military/danger-area dependent (NOTAM/dynamic). SRD text: ORIST alternative routeing"
+    },
+    {
+      "note": 271,
+      "alert": {
+        "warn": true,
+        "note": "If after leaving the UK the aircraft routes via ARE or DIN, it must re-file using a route that exits UK at LELNA."
+      },
+      "alt": [
+        "reroute via LELNA"
+      ],
+      "nopoints": [
+        "ARE",
+        "DIN"
+      ]
+    },
+    {
+      "note": 272,
+      "alert": {
+        "warn": true,
+        "note": "If after leaving the UK the aircraft routes via QPR, it must re-file using a route that exits UK at LORKU."
+      },
+      "alt": [
+        "reroute via LORKU"
+      ],
+      "nopoints": [
+        "QPR"
+      ]
+    },
+    {
+      "note": 273,
+      "comment": "Not encoded: military/danger-area dependent (NOTAM/dynamic). SRD text: EGSS/SC/GW/BB/BE/NE/NX/SH arrivals via GARMI"
+    },
+    {
+      "note": 275,
+      "start": {
+        "date": 0,
+        "time": "1700"
+      },
+      "end": {
+        "date": 1,
+        "time": "0830"
+      },
+      "alt": [
+        "Also available if TRA008C inactive."
+      ]
+    },
+    {
+      "note": 275,
+      "start": {
+        "date": 1,
+        "time": "1700"
+      },
+      "end": {
+        "date": 2,
+        "time": "0830"
+      },
+      "alt": [
+        "Also available if TRA008C inactive."
+      ]
+    },
+    {
+      "note": 275,
+      "start": {
+        "date": 2,
+        "time": "1700"
+      },
+      "end": {
+        "date": 3,
+        "time": "0830"
+      },
+      "alt": [
+        "Also available if TRA008C inactive."
+      ]
+    },
+    {
+      "note": 275,
+      "start": {
+        "date": 3,
+        "time": "1700"
+      },
+      "end": {
+        "date": 4,
+        "time": "0830"
+      },
+      "alt": [
+        "Also available if TRA008C inactive."
+      ]
+    },
+    {
+      "note": 275,
+      "start": {
+        "date": 4,
+        "time": "1700"
+      },
+      "end": {
+        "date": 0,
+        "time": "0830"
+      },
+      "alt": [
+        "Also available if TRA008C inactive."
+      ]
+    },
+    {
+      "note": 279,
+      "alert": {
+        "warn": true,
+        "note": "EGKK to EGGW/SC/SS: expect to follow the trajectory of FRANE SID to DET then join DET2A STAR."
+      }
+    },
+    {
+      "note": 280,
+      "comment": "Not encoded: not used by parser (non-enforceable / informational). SRD text: DVR / LYD SID to DET"
+    },
+    {
+      "note": 281,
+      "comment": "Not encoded: not used by parser (non-enforceable / informational). SRD text: EGSS to EGGW"
+    },
+    {
+      "note": 282,
+      "comment": "Not encoded: not used by parser (non-enforceable / informational). SRD text: EGWU to EGGW/SC/SS"
+    },
+    {
+      "note": 284,
+      "comment": "Not encoded: not used by parser (non-enforceable / informational). SRD text: EGWU to EGLL"
+    },
+    {
+      "note": 289,
+      "comment": "Not encoded: not used by parser (non-enforceable / informational). SRD text: EGPC TO/FROM TOPPA/GODOS"
+    },
+    {
+      "note": 291,
+      "max": 315
+    },
+    {
+      "note": 295,
+      "max": 285,
+      "start": {
+        "time": "1000"
+      },
+      "end": {
+        "time": "1600"
+      }
+    },
+    {
+      "note": 295,
+      "start": {
+        "time": "1600"
+      },
+      "end": {
+        "time": "1000"
+      }
+    },
+    {
+      "note": 303,
+      "comment": "Not encoded: not used by parser (non-enforceable / informational). SRD text: DEST EGPD"
+    },
+    {
+      "note": 306,
+      "comment": "Not encoded: military/danger-area dependent (NOTAM/dynamic). SRD text: L602/M79/N110 - PROVISION OF ATSOCAS"
+    },
+    {
+      "note": 307,
+      "comment": "Not encoded: not used by parser (non-enforceable / informational). SRD text: SCOTTISH FIR - DEST JERSEY GROUP VIA LELNA"
+    },
+    {
+      "note": 311,
+      "comment": "Not encoded: not used by parser (non-enforceable / informational). SRD text: EGNT DCT DCS"
+    },
+    {
+      "note": 314,
+      "comment": "Not encoded: not used by parser (non-enforceable / informational). SRD text: Solent CTA - base of L620"
+    },
+    {
+      "note": 315,
+      "comment": "Not encoded: RAD cross-reference (handled by published routes). SRD text: EGTE DEPS/ARR VIA GIBSO"
+    },
+    {
+      "note": 317,
+      "comment": "Not encoded: not used by parser (non-enforceable / informational). SRD text: NIGHT TIME FUEL SAVING ROUTE"
+    },
+    {
+      "note": 318,
+      "comment": "Not encoded: time-window availability note (already enforced by included routes/filters). SRD text: NIGHT TIME FUEL SAVING ROUTE"
+    },
+    {
+      "note": 321,
+      "comment": "Not encoded: not used by parser (non-enforceable / informational). SRD text: EGAA DEPS VIA DEGOS"
+    },
+    {
+      "note": 322,
+      "comment": "Not encoded: time-window availability note (already enforced by included routes/filters). SRD text: NIGHT TIME FUEL SAVING ROUTE"
+    },
+    {
+      "note": 323,
+      "comment": "Not encoded: time-window availability note (already enforced by included routes/filters). SRD text: NIGHT TIME FUEL SAVING ROUTE"
+    },
+    {
+      "note": 324,
+      "comment": "Not encoded: time-window availability note (already enforced by included routes/filters). SRD text: NIGHT TIME FUEL SAVING ROUTE"
+    },
+    {
+      "note": 325,
+      "comment": "Not encoded: not used by parser (non-enforceable / informational). SRD text: NIGHT TIME FUEL SAVING ROUTE"
+    },
+    {
+      "note": 326,
+      "comment": "Not encoded: not used by parser (non-enforceable / informational). SRD text: NIGHT TIME FUEL SAVING ROUTE"
+    },
+    {
+      "note": 327,
+      "comment": "Not encoded: not used by parser (non-enforceable / informational). SRD text: NIGHT TIME FUEL SAVING ROUTE"
+    },
+    {
+      "note": 328,
+      "comment": "Not encoded: time-window availability note (already enforced by included routes/filters). SRD text: NIGHT TIME FUEL SAVING ROUTE"
+    },
+    {
+      "note": 330,
+      "min": 285
+    },
+    {
+      "note": 333,
+      "dests": [
+        "EGJA",
+        "EGJB",
+        "EGJJ"
+      ]
+    },
+    {
+      "note": 335,
+      "alert": {
+        "warn": true,
+        "note": "RAPIX DCT LESTA/ELVOS: LESTA available 00:30–06:00 UTC (1hr earlier in summer); ELVOS available 22:30–06:00 (23:30–05:00) at RAPIX."
+      }
+    },
+    {
+      "note": 336,
+      "comment": "Not encoded: not used by parser (non-enforceable / informational). SRD text: STANDING AGREEMENT"
+    },
+    {
+      "note": 337,
+      "comment": "Not encoded: not used by parser (non-enforceable / informational). SRD text: MIMVA DCT OTBED"
+    },
+    {
+      "note": 338,
+      "comment": "Not encoded: time-window availability note (already enforced by included routes/filters). SRD text: RAPIX DCT BETAX/WELIN"
+    },
+    {
+      "note": 339,
+      "comment": "Not encoded: time-window availability note (already enforced by included routes/filters). SRD text: VASUX DCT ELVOS/LESTA"
+    },
+    {
+      "note": 342,
+      "alert": {
+        "warn": true,
+        "note": "GALSO DCT ELVOS/LESTA/BETAX/WELIN: DCTs only with RFL above FL245 and limited to night-time windows (winter 00:30–06:00; summer 1hr earlier). ELVOS variant limited to MANCHESTER_GROUP 22:30–06:00 (23:30–05:00) at GALSO."
+      }
+    },
+    {
+      "note": 344,
+      "comment": "Not encoded: not used by parser (non-enforceable / informational). SRD text: NIGHT TIME FUEL SAVING ROUTE ELEMENT"
+    },
+    {
+      "note": 348,
+      "dests": [
+        "ENBR",
+        "ENZV"
+      ]
+    },
+    {
+      "note": 349,
+      "min": 245,
+      "start": {
+        "time": "0000"
+      },
+      "end": {
+        "time": "0600"
+      }
+    },
+    {
+      "note": 350,
+      "comment": "Not encoded: time-window availability note (already enforced by included routes/filters). SRD text: NIGHT TIME FUEL SAVING ROUTES INTO EGLL/KK"
+    },
+    {
+      "note": 351,
+      "comment": "Not encoded: not used by parser (non-enforceable / informational). SRD text: EGPH/EGPK-IBROD"
+    },
+    {
+      "note": 356,
+      "dests": [
+        "GC",
+        "LEAL",
+        "LEBL",
+        "LEMI",
+        "LEMG",
+        "LEPA",
+        "LP"
+      ]
+    },
+    {
+      "note": 372,
+      "comment": "Only applies inbound"
+    },
+    {
+      "note": 374,
+      "comment": "Not encoded: RAD cross-reference (handled by published routes). SRD text: SOMVA DCT ELVOS/LESTA/BETAX NIGHT TIME DCTS"
+    },
+    {
+      "note": 375,
+      "comment": "Not encoded: informational reference (CDR/AIP), not a constraint. SRD text: TIPAN UM185 DIGSU"
+    },
+    {
+      "note": 376,
+      "comment": "Not encoded: informational reference (CDR/AIP), not a constraint. SRD text: DIGSU P144 LARGA"
+    },
+    {
+      "note": 377,
+      "dests": [
+        "EGJ"
+      ]
+    },
+    {
+      "note": 377,
+      "nodests": [
+        "EG"
+      ]
+    },
+    {
+      "note": 378,
+      "start": {
+        "date": 0
+      },
+      "end": {
+        "date": 4
+      },
+      "region": {
+        "all-inactive": [
+          "DIGSU P144 LARGA",
+          "TIPAN UM185 DIGSU"
+        ]
+      }
+    },
+    {
+      "note": 381,
+      "comment": "Not encoded: Only applies to external inbound flights at the moment. SRD text: MIDLANDS GROUP NIGHT DCTS"
+    },
+    {
+      "note": 382,
+      "max": 195,
+      "start": {
+        "time": "0630"
+      },
+      "end": {
+        "time": "1000"
+      }
+    },
+    {
+      "note": 382,
+      "max": 235,
+      "start": {
+        "time": "1000"
+      },
+      "end": {
+        "time": "0630"
+      }
+    },
+    {
+      "note": 384,
+      "comment": "Not encoded: time-window availability note (already enforced by included routes/filters). SRD text: RINTI - EGSS/SC/GW"
+    },
+    {
+      "note": 389,
+      "comment": "No coding required; handled by EGBB ADMEX routes in SRD."
+    },
+    {
+      "note": 390,
+      "comment": "Not encoded: not used by parser (non-enforceable / informational). SRD text: EGBB DCT DTY"
+    },
+    {
+      "note": 392,
+      "max": 215,
+      "alert": {
+        "warn": true,
+        "note": "Max flight level of 215 due to city pair capping."
+      }
+    },
+    {
+      "note": 396,
+      "comment": "Not encoded: RAD cross-reference (handled by published routes). SRD text: EN**/EF**/EK**/ES** arrivals/departures via NATEB area"
+    },
+    {
+      "note": 397,
+      "min": 345,
+      "alert": {
+        "warn": true,
+        "note": "Pilot may be required to fly FL345+ by continental controllers after entering French Airspace."
+      }
+    },
+    {
+      "note": 398,
+      "comment": "Not encoded: not used by parser (non-enforceable / informational). SRD text: EGCC DESIG SID"
+    },
+    {
+      "note": 401,
+      "comment": "This note is coded in airports - EGPF - TLA."
+    },
+    {
+      "note": 402,
+      "comment": "This note is coded in airports - EGPF - TRN."
+    },
+    {
+      "note": 404,
+      "region": {
+        "any-active": [
+          "D701A",
+          "D701B",
+          "D701C",
+          "D701D",
+          "D701E",
+          "D701F",
+          "D701G",
+          "D701H",
+          "D701I",
+          "D701J",
+          "D701K",
+          "D701L",
+          "D701M",
+          "D701N",
+          "D701O",
+          "D701P",
+          "D701Q",
+          "D701R",
+          "D701S",
+          "D701T",
+          "D701U",
+          "D701V",
+          "D701W",
+          "D701X",
+          "D701Y"
+        ]
+      }
+    },
+    {
+      "note": 408,
+      "region": {
+        "all-active": [
+          "J1"
+        ]
+      }
+    },
+    {
+      "note": 413,
+      "comment": "Not encoded: informational reference (CDR/AIP), not a constraint. SRD text: TRA008C"
+    },
+    {
+      "note": 416,
+      "alert": {
+        "warn": true,
+        "note": "Route will enter Class G airspace if routing below the variable base of N560."
+      }
+    },
+    {
+      "note": 417,
+      "region": {
+        "all-inactive": [
+          "D701B"
+        ]
+      }
+    },
+    {
+      "note": 418,
+      "comment": "Not encoded: informational reference (CDR/AIP), not a constraint. SRD text: N21"
+    },
+    {
+      "note": 419,
+      "comment": "Not encoded: not used by parser (non-enforceable / informational). SRD text: FJA North & South"
+    },
+    {
+      "note": 423,
+      "max": 190
+    },
+    {
+      "note": 424,
+      "min": 195,
+      "max": 245,
+      "start": {
+        "date": 0,
+        "time": "0830"
+      },
+      "end": {
+        "date": 0,
+        "time": "1700"
+      },
+      "region": {
+        "all-inactive": [
+          "TRA008A",
+          "TRA008B",
+          "TRA008C"
+        ]
+      }
+    },
+    {
+      "note": 424,
+      "min": 195,
+      "max": 245,
+      "start": {
+        "date": 1,
+        "time": "0830"
+      },
+      "end": {
+        "date": 1,
+        "time": "1700"
+      },
+      "region": {
+        "all-inactive": [
+          "TRA008A",
+          "TRA008B",
+          "TRA008C"
+        ]
+      }
+    },
+    {
+      "note": 424,
+      "min": 195,
+      "max": 245,
+      "start": {
+        "date": 2,
+        "time": "0830"
+      },
+      "end": {
+        "date": 2,
+        "time": "1700"
+      },
+      "region": {
+        "all-inactive": [
+          "TRA008A",
+          "TRA008B",
+          "TRA008C"
+        ]
+      }
+    },
+    {
+      "note": 424,
+      "min": 195,
+      "max": 245,
+      "start": {
+        "date": 3,
+        "time": "0830"
+      },
+      "end": {
+        "date": 3,
+        "time": "1700"
+      },
+      "region": {
+        "all-inactive": [
+          "TRA008A",
+          "TRA008B",
+          "TRA008C"
+        ]
+      }
+    },
+    {
+      "note": 424,
+      "min": 195,
+      "max": 245,
+      "start": {
+        "date": 4,
+        "time": "0830"
+      },
+      "end": {
+        "date": 4,
+        "time": "1700"
+      },
+      "region": {
+        "all-inactive": [
+          "TRA008A",
+          "TRA008B",
+          "TRA008C"
+        ]
+      }
+    },
+    {
+      "note": 425,
+      "min": 195,
+      "max": 240,
+      "region": {
+        "all-inactive": [
+          "TRA008A",
+          "TRA008B",
+          "TRA008C"
+        ]
+      }
+    },
+    {
+      "note": 426,
+      "min": 245
+    },
+    {
+      "note": 427,
+      "region": {
+        "all-inactive": [
+          "D701C",
+          "D701E",
+          "D701F"
+        ]
+      }
+    },
+    {
+      "note": 429,
+      "comment": "Not encoded: RAD cross-reference (handled by published routes). SRD text: D138/D138A SHOEBURYNESS ACTIVITY ABOVE 13000FT"
+    },
+    {
+      "note": 431,
+      "alert": {
+        "ban": true,
+        "note": "Refile via ORIST or ORTAC"
+      }
+    },
+    {
+      "note": 433,
+      "comment": "This note is coded in airports - EGSS - CLN, DET."
+    },
+    {
+      "note": 434,
+      "region": {
+        "any-inactive": [
+          "D138A",
+          "D138B",
+          "D138C",
+          "D138D"
+        ]
+      }
+    },
+    {
+      "note": 435,
+      "comment": "Not encoded: not used by parser (non-enforceable / informational). SRD text: MIMVA DCT GETNO"
+    },
+    {
+      "note": 436,
+      "comment": "Not encoded: not used by parser (non-enforceable / informational). SRD text: BELOX DCT BUKUT"
+    },
+    {
+      "note": 438,
+      "comment": "Not encoded: time-window availability note (already enforced by included routes/filters). SRD text: AVANT DCT TNT"
+    },
+    {
+      "note": 439,
+      "region": {
+        "all-active": [
+          "D201A"
+        ],
+        "all-inactive": [
+          "M17"
+        ]
+      }
+    },
+    {
+      "note": 440,
+      "alert": {
+        "ban": true,
+        "note": "Only available when pre-approved during events. Reroute at all other times."
+      }
+    },
+    {
+      "note": 441,
+      "comment": "Not encoded: RAD cross-reference (handled by published routes). SRD text: MIMVA ARR SCOTTISH GROUP"
+    },
+    {
+      "note": 443,
+      "comment": "Not encoded: not used by parser (non-enforceable / informational). SRD text: ROUTEING WHEN P18 IS CLOSED"
+    },
+    {
+      "note": 445,
+      "alert": {
+        "ban": true,
+        "note": "Only available when T999 temporary ATS route is activated by NOTAM during sustained main system failure within London FIR/UIR. Reroute at all other times."
+      }
+    },
+    {
+      "note": 447,
+      "max": 325,
+      "start": {
+        "time": "0901"
+      },
+      "end": {
+        "time": "0559"
+      }
+    },
+    {
+      "note": 447,
+      "max": 285,
+      "start": {
+        "time": "0600"
+      },
+      "end": {
+        "time": "0900"
+      }
+    },
+    {
+      "note": 448,
+      "comment": "Not encoded: military/danger-area dependent (NOTAM/dynamic). SRD text: D712"
+    },
+    {
+      "note": 449,
+      "comment": "Note removed from SRD 2603"
+    },
+    {
+      "note": 450,
+      "comment": "Not encoded: not used by parser (non-enforceable / informational). SRD text: EGLF and Wessex Group Routes"
+    },
+    {
+      "note": 451,
+      "region": {
+        "all-inactive": [
+          "D013"
+        ]
+      }
+    },
+    {
+      "note": 452,
+      "comment": "Not applied – note specifies RNAV1-only routing and VATSIM UK does not enforce RNAV capability."
+    },
+    {
+      "note": 453,
+      "comment": "Not applied – note specifies RNAV1-only routing and VATSIM UK does not enforce RNAV capability."
+    },
+    {
+      "note": 454,
+      "min": 255,
+      "comment": "SOSIM L15 RISLA: FL255+ restriction enforced for all aircraft. RNAV distinctions are not enforced."
+    },
+    {
+      "note": 454,
+      "min": 255,
+      "comment": "SOSIM L15 KEPAD: FL255+ restriction enforced for all aircraft. RNAV distinctions are not enforced."
+    },
+    {
+      "note": 454,
+      "min": 285,
+      "comment": "DCT KELLY: FL285+ enforced regardless of equipment type."
+    },
+    {
+      "note": 454,
+      "min": 255,
+      "max": 285,
+      "comment": "DCT SOSIM UL28: FL255–285 range enforced. RNAV capability not validated."
+    },
+    {
+      "note": 454,
+      "comment": "REMSI DCT NELBO: Informational only. No constraints enforced."
+    },
+    {
+      "note": 455,
+      "types": [
+        "J"
+      ],
+      "nodests": [
+        "EIDG",
+        "EIDW",
+        "EIME",
+        "EIWT"
+      ],
+      "start": {
+        "time": "0630"
+      },
+      "end": {
+        "time": "2230"
+      },
+      "alt": [
+        "Reroute via M145"
+      ]
+    },
+    {
+      "note": 455,
+      "types": [
+        "P",
+        "T",
+        "E"
+      ],
+      "start": {
+        "time": "0630"
+      },
+      "end": {
+        "time": "2230"
+      }
+    },
+    {
+      "note": 455,
+      "start": {
+        "time": "2230"
+      },
+      "end": {
+        "time": "0630"
+      }
+    },
+    {
+      "note": 456,
+      "comment": "Ignored — condition does not apply to VATSIM UK."
+    },
+    {
+      "note": 457,
+      "types": [
+        "J"
+      ],
+      "dests": [
+        "EIDG",
+        "EIDW",
+        "EIME",
+        "EIWT"
+      ],
+      "alt": [
+        "Reroute via M144"
+      ]
+    },
+    {
+      "note": 458,
+      "comment": "Not encoded: military/danger-area dependent (NOTAM/dynamic). SRD text: RNAV5 alternative route via BOLRO"
+    },
+    {
+      "note": 459,
+      "comment": "Not encoded: not used by parser (non-enforceable / informational). SRD text: ENDEQ Q36"
+    },
+    {
+      "note": 460,
+      "comment": "Not encoded: not used by parser (non-enforceable / informational). SRD text: BOFUM Q37"
+    },
+    {
+      "note": 461,
+      "region": {
+        "all-inactive": [
+          "ORIST L982"
+        ]
+      }
+    },
+    {
+      "note": 463,
+      "comment": "Ignored — condition does not apply to VATSIM UK."
+    },
+    {
+      "note": 464,
+      "comment": "Not encoded: not used by parser (non-enforceable / informational). SRD text: This routeing is predominantly available for non-RNAV1 equipped aircraft.  However it may also be used by RNAV1 equip..."
+    },
+    {
+      "note": 465,
+      "comment": "Ignored — condition does not apply to VATSIM UK."
+    },
+    {
+      "note": 466,
+      "region": {
+        "all-inactive": [
+          "(U)Y124"
+        ]
+      },
+      "alt": [
+        "DEXEN"
+      ]
+    },
+    {
+      "note": 467,
+      "alert": {
+        "warn": true,
+        "note": "CDR Routeing. Use local knowledge as to whether to allow or not."
+      }
+    },
+    {
+      "note": 468,
+      "max": 165,
+      "types": [
+        "T"
+      ],
+      "dests": [
+        "EGBB"
+      ],
+      "start": {
+        "date": 0,
+        "time": "0900"
+      },
+      "end": {
+        "date": 0,
+        "time": "1630"
+      }
+    },
+    {
+      "note": 468,
+      "max": 165,
+      "types": [
+        "T"
+      ],
+      "dests": [
+        "EGBB"
+      ],
+      "start": {
+        "date": 1,
+        "time": "0900"
+      },
+      "end": {
+        "date": 1,
+        "time": "1630"
+      }
+    },
+    {
+      "note": 468,
+      "max": 165,
+      "types": [
+        "T"
+      ],
+      "dests": [
+        "EGBB"
+      ],
+      "start": {
+        "date": 2,
+        "time": "0900"
+      },
+      "end": {
+        "date": 2,
+        "time": "1630"
+      }
+    },
+    {
+      "note": 468,
+      "max": 165,
+      "types": [
+        "T"
+      ],
+      "dests": [
+        "EGBB"
+      ],
+      "start": {
+        "date": 3,
+        "time": "0900"
+      },
+      "end": {
+        "date": 3,
+        "time": "1630"
+      }
+    },
+    {
+      "note": 468,
+      "max": 165,
+      "types": [
+        "T"
+      ],
+      "dests": [
+        "EGBB"
+      ],
+      "start": {
+        "date": 4,
+        "time": "0900"
+      },
+      "end": {
+        "date": 4,
+        "time": "1630"
+      }
+    },
+    {
+      "note": 469,
+      "dests": [
+        "EGBB"
+      ],
+      "start": {
+        "date": 0,
+        "time": "1715"
+      },
+      "end": {
+        "date": 1,
+        "time": "0830"
+      }
+    },
+    {
+      "note": 469,
+      "dests": [
+        "EGBB"
+      ],
+      "start": {
+        "date": 1,
+        "time": "1715"
+      },
+      "end": {
+        "date": 2,
+        "time": "0830"
+      }
+    },
+    {
+      "note": 469,
+      "dests": [
+        "EGBB"
+      ],
+      "start": {
+        "date": 2,
+        "time": "1715"
+      },
+      "end": {
+        "date": 3,
+        "time": "0830"
+      }
+    },
+    {
+      "note": 469,
+      "dests": [
+        "EGBB"
+      ],
+      "start": {
+        "date": 3,
+        "time": "1715"
+      },
+      "end": {
+        "date": 4,
+        "time": "0830"
+      }
+    },
+    {
+      "note": 469,
+      "dests": [
+        "EGBB"
+      ],
+      "start": {
+        "date": 4,
+        "time": "1715"
+      },
+      "end": {
+        "date": 0,
+        "time": "0830"
+      }
+    },
+    {
+      "note": 470,
+      "comment": "Note 470 is implemented in constraints under airports EGBB and EGNX. See those sections for time-based restrictions on N92 departures."
+    },
+    {
+      "note": 472,
+      "comment": "Not encoded: not used by parser (non-enforceable / informational). SRD text: Route not available for flight planning"
+    },
+    {
+      "note": 476,
+      "comment": "Not encoded: not used by parser (non-enforceable / informational). SRD text: THESE STARS CAN ONLY BE USED FOR RNAV5 ARRIVALS TO THE FARNBOROUGH GROUP (EGLF /EGHL / EGLK / EGTD / EGTF / EGVO) ABS..."
+    },
+    {
+      "note": 477,
+      "comment": "Not encoded: not used by parser (non-enforceable / informational). SRD text: THE EGLF GWC/HAZEL SIDS ARE RNAV1 ONLY. THESE CAN NOT BE USED BY THE WESSEX GROUP."
+    },
+    {
+      "note": 478,
+      "comment": "Not encoded: not used by parser (non-enforceable / informational). SRD text: Wessex Group Departures"
+    },
+    {
+      "note": 479,
+      "comment": "Ignored — condition does not apply to VATSIM UK."
+    },
+    {
+      "note": 480,
+      "max": 115
+    },
+    {
+      "note": 480,
+      "dests": [
+        "LFAC",
+        "LFAQ",
+        "LFAT",
+        "LFAV",
+        "LFAY",
+        "LFQQ",
+        "LFQO",
+        "LFQT"
+      ]
+    },
+    {
+      "note": 480,
+      "dep": [
+        "EGKK"
+      ],
+      "dests": [
+        "LA",
+        "LD",
+        "LO",
+        "LT",
+        "LG",
+        "HE",
+        "LC",
+        "LIPZ"
+      ]
+    },
+    {
+      "note": 481,
+      "comment": "Ignored — condition does not apply to VATSIM UK."
+    },
+    {
+      "note": 482,
+      "comment": "Not encoded: not used by parser (non-enforceable / informational). SRD text: EGKK DVR SIDS ARE RWY 08 ONLY / RWY26 RNAV5 USE THE MIMFO SID"
+    },
+    {
+      "note": 483,
+      "comment": "Ignored — condition does not apply to VATSIM UK."
+    },
+    {
+      "note": 484,
+      "nodep": [
+        "EGCC",
+        "EGGP",
+        "EGNR",
+        "EGBB",
+        "EGBE",
+        "EGNX",
+        "EGCN",
+        "EGNM"
+      ],
+      "min": 305,
+      "start": {
+        "time": "0601"
+      },
+      "end": {
+        "time": "2359"
+      }
+    },
+    {
+      "note": 485,
+      "nodep": [
+        "EGCC",
+        "EGGP",
+        "EGNR",
+        "EGBB",
+        "EGBE",
+        "EGNX",
+        "EGCN",
+        "EGNM"
+      ],
+      "min": 305,
+      "start": {
+        "time": "0601"
+      },
+      "end": {
+        "time": "2359"
+      }
+    },
+    {
+      "note": 486,
+      "region": {
+        "all-active": [
+          "TDA597Z"
+        ]
+      }
+    },
+    {
+      "note": 487,
+      "alert": {
+        "warn": true,
+        "note": "Route enters Class G airspace."
+      }
+    },
+    {
+      "note": 488,
+      "region": {
+        "any-active": [
+          "D138A",
+          "D138B",
+          "D138C",
+          "D138D"
+        ]
+      }
+    },
+    {
+      "note": 489,
+      "alert": {
+        "warn": true,
+        "note": "Route enters Class G airspace."
+      }
+    },
+    {
+      "note": 490,
+      "alert": {
+        "warn": true,
+        "note": "Pilot may be _OFFERED_ 'NAXIL P600 ASNUD N864 TLA' above FL255 if N864 is available."
+      },
+      "start": {
+        "date": 5,
+        "time": "0000"
+      },
+      "end": {
+        "date": 6,
+        "time": "2359"
+      },
+      "dep": [
+        "EGPD"
+      ],
+      "min": 255
+    },
+    {
+      "note": 491,
+      "alert": {
+        "ban": true,
+        "note": "Military only and requires NATS pre-approval so banned on VATSIM."
+      }
+    },
+    {
+      "note": 492,
+      "dep": [
+        "EG"
+      ],
+      "dests": [
+        "EGKK"
+      ]
+    },
+    {
+      "note": 493,
+      "comment": "Note applies to RNAV1 vs RNAV and vFPC assumes RNAV, so note is not coded."
+    },
+    {
+      "note": 494,
+      "comment": "Note only applies to UK inbound flights using BAKUR entrance, so note is not coded."
+    },
+    {
+      "note": 495,
+      "comment": "MEDOG DCT VATRY/LANON DEP EGLL... this routeing is not available when activity is promulgated in North Wales MTA South Low"
+    },
+    {
+      "note": 496,
+      "comment": "NEBIN/DOGAL via SLANY - This routeing is only available when activity is promulgated in the AUP/UUP for North Wales MTA South/D201 complex at the filed FL. If no activity is promulgated, traffic to NEBIN may route via BAKUR and traffic to DOGAL may route via VATRY (or VATRY/BAKUR if departing London Group/Farnborough Group/EGHH/HI)."
+    },
+    {
+      "note": 497,
+      "comment": "NEBIN via BAKUR is allowed unless military activity for North Wales MTA South/D201 complex at the filed FL. If activity is promulgated, traffic to NEBIN may route via SLANY."
+    },
+    {
+      "note": 498,
+      "comment": "DOGAL via VATRY - This routeing is only available when there is no activity promulgated in the AUP/UUP for North Wales MTA South/D201 complex at the filed FL. If activity is promulgated, traffic to DOGAL may route via SLANY. London Group/Farnborough Group/EGHH/EGHI departures may also use BAKUR."
+    },
+    {
+      "note": 499,
+      "comment": "Military route, generally available via certain exit points shown in SRD unless activity in north wales at filed flight levels"
+    },
+    {
+      "note": 500,
+      "comment": "VENER via VATRY is allowed unless military activity for North Wales MTA South/D201 complex at the filed FL. If activity is promulgated, traffic to VENER may route via BAKUR."
+    },
+    {
+      "note": 501,
+      "comment": "VENER via LIPGO is allowed unless military activity for North Wales MTA South/D201 complex at the filed FL. If activity is promulgated, traffic to VENER may route via VATRY."
+    },
+    {
+      "note": 502,
+      "comment": "LTMA deps to RESNO/ETARI/PIKIL via VATRY is allowed if no northern Wales military activity at filed flight levels.  If activity is promulgated, traffic to VENER may route via BAKUR (or LIPGO if D201F/G are active). Traffic departing London Group/Farnborough Group/EGHH/EGHI to RESNO/ETARI/PIKIL may route via BAKUR."
+    },
+    {
+      "note": 503,
+      "alert": {
+        "warn": true,
+        "note": "RINGA DCT BABGU DCT ETIGA may be filed for these entries as an alternative to RINGA Q39 ETIGA."
+      }
+    },
+    {
+      "note": 504,
+      "alert": {
+        "warn": true,
+        "note": "L9 BIBPE DCT BUCGO DCT FELCA may be filed for these entries as an alternative to L9 BUCGO DCT FELCA."
+      }
+    },
+    {
+      "note": 505,
+      "comment": "Applies only to inbound flights."
+    },
+    {
+      "note": 506,
+      "comment": "Not applicable to vatsimUK. Not available for traffic during the activated times of EGD218A/B/C/D"
+    },
+    {
+      "note": 507,
+      "comment": "Only available for traffic during the activated times of EGD218A/B/C/D. Not applicable to vatsimUK."
+    },
+    {
+      "note": 508,
+      "alert": {
+        "warn": true,
+        "note": "P17 (ATHAS-OXCUD). This routeing contains a CDR portion which might, or might not, apply in vatsimUK. For full details of the CDR availability please refer to the UK AIP."
+      }
+    },
+    {
+      "note": 509,
+      "alert": {
+        "warn": true,
+        "note": "L180 (TIGWE-FIGZI). This routeing contains a CDR portion which might, or might not, apply in vatsimUK. For full details of the CDR availability please refer to the UK AIP."
+      }
+    },
+    {
+      "note": 510,
+      "alert": {
+        "warn": true,
+        "note": "N91 (CARWI-FIGZI). This routeing contains a CDR portion which might, or might not, apply in vatsimUK. For full details of the CDR availability please refer to the UK AIP."
+      }
+    },
+    {
+      "note": 511,
+      "alert": {
+        "warn": true,
+        "note": "N92 (LUXTO-OKTAD). This routeing contains a CDR portion which might, or might not, apply in vatsimUK. For full details of the CDR availability please refer to the UK AIP."
+      }
+    },
+    {
+      "note": 512,
+      "comment": "Not applicable to vatsimUK. EXARO (N514) Not available for EGLL deps via GASGU or GOGSI during Farnborough International Airshow 2024. This traffic shall file GOGSI N621 SAM/GASGU N866 SAM (15th July - 26th July inclusive) Tango SID may be used tactically - refer to AIP SUP"
+    },
+    {
+      "note": 513,
+      "alert": {
+        "warn": true,
+        "note": "EGNT DEPS/ARRS via ERKIT Depending on VATSIMUK rules implementations, These routes are not permitted between 08:00-20:00 UTC 1st May to 30th September due to potential unavailability of derogated service outside controlled airspace."
+      }
+    },
+    {
+      "note": 514,
+      "alert": {
+        "warn": true,
+        "note": "EGPD via BEREP This route is only available at FL250 if inbound to ENBR.  EGPD DCT LESNI P600 OVDAN DCT BEREP may also be filed."
+      }
+    },
+    {
+      "note": 515,
+      "alert": {
+        "warn": true,
+        "note": "KONAN arr EGKK (High Level) Only available arriving EGKK via KOK and level FL300/KOK during nighttime hours 00:00-05:00 (00:00-04:00)."
+      }
+    },
+    {
+      "note": 516,
+      "start": {
+        "date": 0,
+        "time": "1700"
+      },
+      "end": {
+        "date": 1,
+        "time": "0800"
+      },
+      "alert": {
+        "warn": true,
+        "note": "LAKEY–ODVOD route only available 1800–0900 (1700–0800 Summer) UTC"
+      }
+    },
+    {
+      "note": 516,
+      "start": {
+        "date": 1,
+        "time": "1700"
+      },
+      "end": {
+        "date": 2,
+        "time": "0800"
+      },
+      "alert": {
+        "warn": true,
+        "note": "LAKEY–ODVOD route only available 1800–0900 (1700–0800 Summer) UTC"
+      }
+    },
+    {
+      "note": 516,
+      "start": {
+        "date": 2,
+        "time": "1700"
+      },
+      "end": {
+        "date": 3,
+        "time": "0800"
+      },
+      "alert": {
+        "warn": true,
+        "note": "LAKEY–ODVOD route only available 1800–0900 (1700–0800 Summer) UTC"
+      }
+    },
+    {
+      "note": 516,
+      "start": {
+        "date": 3,
+        "time": "1700"
+      },
+      "end": {
+        "date": 4,
+        "time": "0800"
+      },
+      "alert": {
+        "warn": true,
+        "note": "LAKEY–ODVOD route only available 1800–0900 (1700–0800 Summer) UTC"
+      }
+    },
+    {
+      "note": 516,
+      "start": {
+        "date": 4,
+        "time": "1700"
+      },
+      "end": {
+        "date": 5,
+        "time": "0800"
+      },
+      "alert": {
+        "warn": true,
+        "note": "LAKEY–ODVOD route only available 1800–0900 (1700–0800 Summer) UTC"
+      }
+    },
+    {
+      "note": 516,
+      "start": {
+        "date": 5,
+        "time": "1700"
+      },
+      "end": {
+        "date": 6,
+        "time": "0800"
+      },
+      "alert": {
+        "warn": true,
+        "note": "LAKEY–ODVOD route only available 1800–0900 (1700–0800 Summer) UTC"
+      }
+    },
+    {
+      "note": 516,
+      "start": {
+        "date": 6,
+        "time": "1700"
+      },
+      "end": {
+        "date": 0,
+        "time": "0800"
+      },
+      "alert": {
+        "warn": true,
+        "note": "LAKEY–ODVOD route only available 1800–0900 (1700–0800 Summer) UTC"
+      }
+    },
+    {
+      "note": 517,
+      "alert": {
+        "warn": true,
+        "note": "Flight must terminate in Ireland to use this route."
+      }
+    },
+    {
+      "note": 518,
+      "alert": {
+        "warn": true,
+        "note": "Flight must not terminate in EI/Ireland."
+      }
+    },
+    {
+      "note": 519,
+      "alert": {
+        "warn": true,
+        "note": "LEDGO for EIWF arrivals/departures. The portion of this route to the east of LEDGO may also be used for EIWF arrivals/departures."
+      }
+    },
+    {
+      "note": 520,
+      "comment": "Not encoded: not used by parser (military). SRD text: When EDG509 Active"
+    },
+    {
+      "note": 521,
+      "comment": "Not encoded: not used by parser (military). SRD text: When EDG509 Active"
+    },
+    {
+      "note": 522,
+      "comment": "Not encoded: not used by parser (military). SRD text: EGBB arrivals via FIGZI and departures via LUXTO/MOSUN are permitted during the activation of EGD218. AOs should ensure IFPS trajectories are (FL170 or below at FIGZI, FL170 or below during LUXTO N92 OKTAD/BRUMI DCT MOSUN) to ensure IFPS validation."
+    },
+    {
+      "note": 523,
+      "comment": "Not encoded: not used by parser (military). SRD text: ERKIT L602 OTR/OTR L602 ERKIT is only available arr/dep EGSH/EGUL/EGUN or FLT-TYP(M) & VIA NAVPI, when EGD323 is not active."
+    }
+
+  ],
+  "airports": [
+    {
+      "icao": "EGBB",
+      "sids": [
+        {
+          "point": "DTY",
+          "restrictions": [
+            {
+              "suffix": [
+                "Y"
+              ]
+            },
+            {
+              "suffix": [
+                "F"
+              ],
+              "banned": true,
+              "alt": [
+                "ADMEX",
+                "UNGAP"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "icao": "EGCC",
+      "comment": "SRD notes 42 and 65 are coded in LISTO, SANBA.",
+      "sids": [
+        {
+          "point": "LISTO",
+          "restrictions": [
+            {
+              "suffix": [
+                "S",
+                "Z"
+              ]
+            },
+            {
+              "types": [
+                "P",
+                "T",
+                "E",
+                "ASTR",
+                "B461",
+                "B462",
+                "B463",
+                "C25C",
+                "CRJ1",
+                "CRJ2",
+                "CRJ7",
+                "CRJ9",
+                "E135",
+                "E35X",
+                "E145",
+                "E45X",
+                "G150",
+                "G159",
+                "G250",
+                "GA5C",
+                "GA6C",
+                "GA7C",
+                "GALX",
+                "GL5T",
+                "GL7T",
+                "GLEX",
+                "GLF1",
+                "GLF2",
+                "GLF3",
+                "GLF4",
+                "GLF5",
+                "SF50"
+              ],
+              "alt": [
+                "SANBA"
+              ],
+              "suffix": [
+                "R",
+                "Y"
+              ]
+            }
+          ]
+        },
+        {
+          "point": "SANBA",
+          "restrictions": [
+            {
+              "types": [
+                "J"
+              ],
+              "alt": [
+                "LISTO"
+              ],
+              "suffix": [
+                "R",
+                "Y"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "icao": "EGKK",
+      "comment": "MIMFO is listed below without any restrictions to indicate that it IS allowed. SRD note 17 is coded in BOGNA. SRD note 40 is coded in HARDY. SRD note 94 is coded in SFD.",
+      "sids": [
+        {
+          "point": "BOGNA",
+          "restrictions": [
+            {
+              "alt": [
+                "SFD"
+              ],
+              "start": {
+                "time": "0600"
+              },
+              "end": {
+                "time": "2300"
+              }
+            }
+          ]
+        },
+        {
+          "point": "HARDY",
+          "restrictions": [
+            {
+              "alt": [
+                "SFD"
+              ],
+              "start": {
+                "time": "0600"
+              },
+              "end": {
+                "time": "2300"
+              }
+            }
+          ]
+        },
+        {
+          "point": "MIMFO",
+          "aliases": [
+            "ADMAG"
+          ]
+        },
+        {
+          "point": "SFD",
+          "restrictions": [
+            {
+              "suffix": [
+                "M",
+                "V",
+                "X"
+              ],
+              "alt": [
+                "BOGNA",
+                "HARDY"
+              ],
+              "start": {
+                "time": "2300"
+              },
+              "end": {
+                "time": "0600"
+              }
+            },
+            {
+              "suffix": [
+                "P",
+                "W",
+                "Z"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "icao": "EGLL",
+      "sids": [
+        {
+          "point": "CPT",
+          "restrictions": [
+            {
+              "suffix": [
+                "CHK",
+                "F",
+                "G"
+              ]
+            },
+            {
+              "suffix": [
+                "J",
+                "K"
+              ],
+              "alt": [
+                "CHK"
+              ],
+              "banned": true
+            }
+          ]
+        },
+        {
+          "point": "MAY",
+          "restrictions": [
+            {
+              "alt": [
+                "DET",
+                "MID"
+              ],
+              "banned": true
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "icao": "EGNX",
+      "comment": "SRD note 227 is coded in BPK. BPK SID not to be used on Vatsim.",
+      "sids": [
+        {
+          "point": "BPK",
+          "restrictions": [
+            {
+              "banned": true,
+              "alt": [
+                "SAPCO"
+              ]
+            }
+          ]
+        },
+        {
+          "point": "BRUMI",
+          "restrictions": [
+            {
+              "note": 470,
+              "start": {
+                "date": 0,
+                "time": "0025"
+              },
+              "end": {
+                "date": 0,
+                "time": "0835"
+              }
+            },
+            {
+              "note": 470,
+              "start": {
+                "date": 1,
+                "time": "0025"
+              },
+              "end": {
+                "date": 1,
+                "time": "0835"
+              }
+            },
+            {
+              "note": 470,
+              "start": {
+                "date": 2,
+                "time": "0025"
+              },
+              "end": {
+                "date": 2,
+                "time": "0835"
+              }
+            },
+            {
+              "note": 470,
+              "start": {
+                "date": 3,
+                "time": "0025"
+              },
+              "end": {
+                "date": 3,
+                "time": "0835"
+              }
+            },
+            {
+              "note": 470,
+              "start": {
+                "date": 4,
+                "time": "0025"
+              },
+              "end": {
+                "date": 4,
+                "time": "0835"
+              }
+            },
+            {
+              "note": 470,
+              "start": {
+                "date": 5,
+                "time": "0025"
+              },
+              "end": {
+                "date": 5,
+                "time": "0835"
+              }
+            },
+            {
+              "note": 470,
+              "start": {
+                "date": 6,
+                "time": "0025"
+              },
+              "end": {
+                "date": 6,
+                "time": "0835"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "icao": "EGPF",
+      "comment": "SRD note 22 is coded in LUSIV. SRD note 79 is coded in NORBO. SRD note 401 is coded in TLA. SRD note 402 is coded in TRN.",
+      "sids": [
+        {
+          "point": "NORBO",
+          "restrictions": [
+            {
+              "types": [
+                "J"
+              ],
+              "alt": [
+                "LUSIV",
+                "TLA",
+                "TRN"
+              ]
+            }
+          ]
+        },
+        {
+          "point": "LUSIV",
+          "restrictions": [
+            {
+              "types": [
+                "T",
+                "P",
+                "E"
+              ],
+              "alt": [
+                "NORBO"
+              ]
+            }
+          ]
+        },
+        {
+          "point": "TLA",
+          "restrictions": [
+            {
+              "types": [
+                "T",
+                "P",
+                "E"
+              ],
+              "alt": [
+                "NORBO"
+              ]
+            }
+          ]
+        },
+        {
+          "point": "TRN",
+          "restrictions": [
+            {
+              "types": [
+                "T",
+                "P",
+                "E"
+              ],
+              "alt": [
+                "NORBO"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "icao": "EGPH",
+      "comment": "SRD note 21 is coded in GOSAM. SRD note 105 is coded in TLA.",
+      "sids": [
+        {
+          "point": "GOSAM",
+          "restrictions": [
+            {
+              "types": [
+                "J"
+              ],
+              "alt": [
+                "TLA"
+              ]
+            }
+          ]
+        },
+        {
+          "point": "TLA",
+          "restrictions": [
+            {
+              "types": [
+                "T",
+                "P",
+                "E"
+              ],
+              "alt": [
+                "GOSAM"
+              ]
+            },
+            {
+              "types": [
+                "J"
+              ],
+              "noroute": [
+                "N864",
+                "N57",
+                "L612",
+                "UN864",
+                "UN57",
+                "UL612",
+                "TRN"
+              ],
+              "sidlevel": true
+            },
+            {
+              "types": [
+                "J"
+              ],
+              "route": [
+                "N864",
+                "N57",
+                "L612",
+                "UN864",
+                "UN57",
+                "UL612",
+                "TRN"
+              ],
+              "start": {
+                "time": "2300"
+              },
+              "end": {
+                "time": "0559"
+              },
+              "sidlevel": true
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "icao": "EGSS",
+      "comment": "SRD note 433 is coded in CLN, DET.",
+      "sids": [
+        {
+          "point": "CLN",
+          "restrictions": [
+            {
+              "alt": [
+                "DET"
+              ],
+              "points": [
+                "KONAN"
+              ],
+              "start": {
+                "time": "0600"
+              },
+              "end": {
+                "time": "2300"
+              },
+              "sidlevel": true
+            }
+          ]
+        },
+        {
+          "point": "DET",
+          "restrictions": [
+            {
+              "alt": [
+                "CLN"
+              ],
+              "points": [
+                "KONAN"
+              ],
+              "start": {
+                "time": "2300"
+              },
+              "end": {
+                "time": "0600"
+              },
+              "sidlevel": true
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "exits": [
+    {
+      "point": "ADARA",
+      "dir": "EVEN"
+    },
+    {
+      "point": "ADODO",
+      "dir": "EVEN"
+    },
+    {
+      "point": "AGORI",
+      "dir": "EVEN"
+    },
+    {
+      "point": "ALOTI",
+      "dir": "ODD"
+    },
+    {
+      "point": "AMLAD",
+      "dir": "EVEN"
+    },
+    {
+      "point": "AMPOP",
+      "dir": "ODD"
+    },
+    {
+      "point": "ANNET",
+      "dir": "ODD"
+    },
+    {
+      "point": "APSOV",
+      "dir": "EVEN"
+    },
+    {
+      "point": "ARKIL",
+      "dir": "EVEN"
+    },
+    {
+      "point": "ATSIX",
+      "dir": "EVEN"
+    },
+    {
+      "point": "BAGSO",
+      "dir": "EVEN"
+    },
+    {
+      "point": "BAKUR",
+      "dir": "EVEN"
+    },
+    {
+      "point": "BALIX",
+      "dir": "EVEN"
+    },
+    {
+      "point": "BANBA",
+      "dir": "EVEN"
+    },
+    {
+      "point": "BEDRA",
+      "dir": "EVEN"
+    },
+    {
+      "point": "BEREP",
+      "dir": "ODD"
+    },
+    {
+      "point": "BIGNO",
+      "dir": "ODD"
+    },
+    {
+      "point": "BILTO",
+      "dir": "EVEN"
+    },
+    {
+      "point": "BOYNE",
+      "dir": "EVEN"
+    },
+    {
+      "point": "DEGOS",
+      "dir": "EVEN"
+    },
+    {
+      "point": "DINIM",
+      "dir": "EVEN"
+    },
+    {
+      "point": "DOGAL",
+      "dir": "EVEN"
+    },
+    {
+      "point": "DOLUR",
+      "dir": "ODD"
+    },
+    {
+      "point": "EICK",
+      "dir": "EVEN"
+    },
+    {
+      "point": "EIKN",
+      "dir": "EVEN"
+    },
+    {
+      "point": "EIKY",
+      "dir": "EVEN"
+    },
+    {
+      "point": "EINN",
+      "dir": "EVEN"
+    },
+    {
+      "point": "EIDW",
+      "dir": "EVEN"
+    },
+    {
+      "point": "ENJEX",
+      "dir": "EVEN"
+    },
+    {
+      "point": "ERAKA",
+      "dir": "EVEN"
+    },
+    {
+      "point": "ERNAN",
+      "dir": "EVEN"
+    },
+    {
+      "point": "ETARI",
+      "dir": "EVEN"
+    },
+    {
+      "point": "ETILO",
+      "dir": "EVEN"
+    },
+    {
+      "point": "EVRIN",
+      "dir": "EVEN"
+    },
+    {
+      "point": "GAPLI",
+      "dir": "EVEN"
+    },
+    {
+      "point": "GIMRO",
+      "dir": "EVEN"
+    },
+    {
+      "point": "GELPO",
+      "dir": "EVEN"
+    },
+    {
+      "point": "GERVO",
+      "dir": "EVEN"
+    },
+    {
+      "point": "GODOS",
+      "dir": "ODD"
+    },
+    {
+      "point": "GOMUP",
+      "dir": "EVEN"
+    },
+    {
+      "point": "GOREV",
+      "dir": "ODD"
+    },
+    {
+      "point": "IBROD",
+      "dir": "EVEN"
+    },
+    {
+      "point": "INBOB",
+      "dir": "ODD"
+    },
+    {
+      "point": "KER",
+      "dir": "EVEN"
+    },
+    {
+      "point": "KLONN",
+      "dir": "ODD"
+    },
+    {
+      "point": "KOGAD",
+      "dir": "EVEN"
+    },
+    {
+      "point": "KONAN",
+      "dir": "ODD"
+    },
+    {
+      "point": "KUGUR",
+      "dir": "EVEN"
+    },
+    {
+      "point": "LAMSO",
+      "dir": "ODD"
+    },
+    {
+      "point": "LASNO",
+      "dir": "EVEN"
+    },
+    {
+      "point": "LEDGO",
+      "dir": "EVEN"
+    },
+    {
+      "point": "LELNA",
+      "dir": "ODD"
+    },
+    {
+      "point": "LESLU",
+      "dir": "EVEN"
+    },
+    {
+      "point": "LESRA",
+      "dir": "ODD"
+    },
+    {
+      "point": "LIFFY",
+      "dir": "EVEN"
+    },
+    {
+      "point": "LIMRI",
+      "dir": "EVEN"
+    },
+    {
+      "point": "LIPGO",
+      "dir": "EVEN"
+    },
+    {
+      "point": "LIZAD",
+      "dir": "ODD"
+    },
+    {
+      "point": "LONAM",
+      "dir": "ODD"
+    },
+    {
+      "point": "LORKU",
+      "dir": "ODD"
+    },
+    {
+      "point": "LULOX",
+      "dir": "EVEN"
+    },
+    {
+      "point": "LUTOV",
+      "dir": "EVEN"
+    },
+    {
+      "point": "MALOT",
+      "dir": "EVEN"
+    },
+    {
+      "point": "MANIG",
+      "dir": "ODD"
+    },
+    {
+      "point": "MATIK",
+      "dir": "EVEN"
+    },
+    {
+      "point": "MIMKU",
+      "dir": "EVEN"
+    },
+    {
+      "point": "MOLAK",
+      "dir": "EVEN"
+    },
+    {
+      "point": "MOLIX",
+      "dir": "EVEN"
+    },
+    {
+      "point": "MOPAT",
+      "dir": "EVEN"
+    },
+    {
+      "point": "MOTOX",
+      "dir": "ODD"
+    },
+    {
+      "point": "NALAN",
+      "dir": "EVEN"
+    },
+    {
+      "point": "NAVPI",
+      "dir": "ODD"
+    },
+    {
+      "point": "NEBIN",
+      "dir": "EVEN"
+    },
+    {
+      "point": "NEVIL",
+      "dir": "ODD"
+    },
+    {
+      "point": "NIBOG",
+      "dir": "EVEN"
+    },
+    {
+      "point": "NIMAT",
+      "dir": "EVEN"
+    },
+    {
+      "point": "NIPIT",
+      "dir": "EVEN"
+    },
+    {
+      "point": "NIRIF",
+      "dir": "EVEN"
+    },
+    {
+      "point": "NIVUN",
+      "dir": "ODD"
+    },
+    {
+      "point": "OMOKO",
+      "dir": "EVEN"
+    },
+    {
+      "point": "ORTAC",
+      "dir": "ODD"
+    },
+    {
+      "point": "ORTAV",
+      "dir": "EVEN"
+    },
+    {
+      "point": "ORVIK",
+      "dir": "ODD"
+    },
+    {
+      "point": "OSBON",
+      "dir": "EVEN"
+    },
+    {
+      "point": "PELIG",
+      "dir": "EVEN"
+    },
+    {
+      "point": "PEMOS",
+      "dir": "EVEN"
+    },
+    {
+      "point": "PENUN",
+      "dir": "ODD"
+    },
+    {
+      "point": "PEPIN",
+      "dir": "ODD"
+    },
+    {
+      "point": "PETIL",
+      "dir": "ODD"
+    },
+    {
+      "point": "PIKIL",
+      "dir": "EVEN"
+    },
+    {
+      "point": "RATKA",
+      "dir": "EVEN"
+    },
+    {
+      "point": "RATSU",
+      "dir": "EVEN"
+    },
+    {
+      "point": "REDFA",
+      "dir": "ODD"
+    },
+    {
+      "point": "RENEQ",
+      "dir": "ODD"
+    },
+    {
+      "point": "RESNO",
+      "dir": "EVEN"
+    },
+    {
+      "point": "REVNU",
+      "dir": "EVEN"
+    },
+    {
+      "point": "RIGVU",
+      "dir": "ODD"
+    },
+    {
+      "point": "RINTI",
+      "dir": "ODD"
+    },
+    {
+      "point": "RIXUN",
+      "dir": "EVEN"
+    },
+    {
+      "point": "RINUS",
+      "dir": "EVEN"
+    },
+    {
+      "point": "RODEL",
+      "dir": "EVEN"
+    },
+    {
+      "point": "ROTEV",
+      "dir": "EVEN"
+    },
+    {
+      "point": "SALCO",
+      "dir": "ODD"
+    },
+    {
+      "point": "SITET",
+      "dir": "ODD"
+    },
+    {
+      "point": "SKESO",
+      "dir": "ODD"
+    },
+    {
+      "point": "SLANY",
+      "dir": "EVEN"
+    },
+    {
+      "point": "SOMAX",
+      "dir": "EVEN"
+    },
+    {
+      "point": "SOMVA",
+      "dir": "ODD"
+    },
+    {
+      "point": "SOPTO",
+      "dir": "ODD"
+    },
+    {
+      "point": "SOSAR",
+      "dir": "ODD"
+    },
+    {
+      "point": "SUMUM",
+      "dir": "ODD"
+    },
+    {
+      "point": "SUNOT",
+      "dir": "EVEN"
+    },
+    {
+      "point": "TAKAS",
+      "dir": "EVEN"
+    },
+    {
+      "point": "TALIG",
+      "dir": "ODD"
+    },
+    {
+      "point": "TAMEL",
+      "dir": "EVEN"
+    },
+    {
+      "point": "TINAC",
+      "dir": "ODD"
+    },
+    {
+      "point": "TOBOR",
+      "dir": "EVEN"
+    },
+    {
+      "point": "TOPPA",
+      "dir": "ODD"
+    },
+    {
+      "point": "TULTA",
+      "dir": "EVEN"
+    },
+    {
+      "point": "TUVEN",
+      "dir": "EVEN"
+    },
+    {
+      "point": "UTFAV",
+      "dir": "EVEN"
+    },
+    {
+      "point": "VABIK",
+      "dir": "ODD"
+    },
+    {
+      "point": "VALBO",
+      "dir": "ODD"
+    },
+    {
+      "point": "VATRY",
+      "dir": "EVEN"
+    },
+    {
+      "point": "VAXIT",
+      "dir": "ODD"
+    },
+    {
+      "point": "VENER",
+      "dir": "EVEN"
+    },
+    {
+      "point": "WETFI",
+      "dir": "ANY"
+    },
+    {
+      "point": "XAMAB",
+      "dir": "ODD"
+    },
+    {
+      "point": "XIDIL",
+      "dir": "ODD"
+    }
+  ],
+  "fixes": [
+    {
+      "_note": "ESHIN not in VATSIM UK SCT as of 2602. Remove when SCT includes it.",
+      "name": "ESHIN",
+      "lat": 53.577000,
+      "lon": -0.303625,
+      "type": "FIX"
+    },
+    {
+      "_note": "Shannon FIR waypoints — never in UK SCT, permanent entries.",
+      "name": "PELIG",
+      "lat": 53.199720,
+      "lon": -7.333330,
+      "type": "FIX"
+    },
+    {
+      "name": "RINUS",
+      "lat": 53.644170,
+      "lon": -7.662220,
+      "type": "FIX"
+    },
+    {
+      "name": "GERVO",
+      "lat": 53.091390,
+      "lon": -6.506670,
+      "type": "FIX"
+    },
+    {
+      "name": "GIMRO",
+      "lat": 53.652780,
+      "lon": -5.748640,
+      "type": "FIX"
+    },
+    {
+      "name": "REVNU",
+      "lat": 54.466670,
+      "lon": -10.116670,
+      "type": "FIX"
+    },
+    {
+      "name": "KER",
+      "lat": 52.181940,
+      "lon": -9.524440,
+      "type": "NDB"
+    },
+    {
+      "name": "TUVEN",
+      "lat": 51.000000,
+      "lon": -8.250000,
+      "type": "FIX"
+    },
+    {
+      "_note": "Irish airports — not in UK SCT, permanent entries. Used as exit/destination points on EG-departure routes.",
+      "name": "EICK",
+      "lat": 51.841333,
+      "lon": -8.491167,
+      "type": "AIRPORT"
+    },
+    {
+      "name": "EIKN",
+      "lat": 53.910333,
+      "lon": -8.818500,
+      "type": "AIRPORT"
+    },
+    {
+      "name": "EIKY",
+      "lat": 52.180833,
+      "lon": -9.523833,
+      "type": "AIRPORT"
+    },
+    {
+      "name": "EINN",
+      "lat": 52.702000,
+      "lon": -8.924667,
+      "type": "AIRPORT"
+    },
+    {
+      "_note": "Oceanic/Shannon FIR entry points — not in UK SCT, permanent entries. Used as exit points in the exits section.",
+      "name": "ADARA",
+      "lat": 51.500000,
+      "lon": -15.000000,
+      "type": "FIX"
+    },
+    {
+      "name": "LIMRI",
+      "lat": 52.000000,
+      "lon": -15.000000,
+      "type": "FIX"
+    },
+    {
+      "name": "MALOT",
+      "lat": 53.000000,
+      "lon": -15.000000,
+      "type": "FIX"
+    },
+    {
+      "name": "NEBIN",
+      "lat": 53.500000,
+      "lon": -15.000000,
+      "type": "FIX"
+    },
+    {
+      "name": "TOBOR",
+      "lat": 52.500000,
+      "lon": -15.000000,
+      "type": "FIX"
+    }
+  ]
+}

@@ -1,0 +1,18 @@
+Here's the audit in full. Let's go through each decision point:
+
+Section A — FL Value Errors (6 notes)
+These are straightforward data corrections. Walk me through each one:
+Note 113 — The SRD says "above FL145" in a danger area context, but in.json has min=305, max=305. This is unclear — FL305 appears nowhere in the SRD text. Do you know what FL constraint was intended here? Should it be min=145 with no max, or something else?
+Note 124 — max=245 but SRD says FL250 is the bottom of the exclusion band. Fix to max=250?
+Note 229 — max=75 but SRD says "maximum level of FL70". Fix to max=70?
+Note 397 — min=245 but SRD says "RFL345+". Fix to min=345?
+Note 423 — max=195 but SRD says "FL190 and Below". Fix to max=190?
+Note 425 — max=245 but SRD says "FL195–FL240". Fix to max=240?
+
+Section B — Phantom Notes
+Note 446 — Has real destination logic coded but the note ID doesn't exist in the current SRD (skips 445→447). Remove it, or do you believe the ID might be correct and it's the SRD that's in error?
+Notes 120, 241–247, 329, 331, 353, 420, 462, 473, 474 — All no-ops with empty properties. Were these intentional placeholders for future coding, or safe to delete?
+Notes 106, 990, 991 — Already confirmed intentional, no action needed.
+
+Section C — Missing Notes
+Notes 520 & 521 — Contingency/danger area scenario notes (EGD509 active/inactive). These reference a specific danger area activation scenario. Can these be modelled, or are they too conditional to code usefully?
