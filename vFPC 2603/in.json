@@ -3168,29 +3168,13 @@
               "types": [
                 "J"
               ],
-              "noroute": [
-                "N864",
-                "N57",
-                "L612",
-                "UN864",
-                "UN57",
-                "UL612",
-                "TRN"
-              ],
-              "sidlevel": true
-            },
-            {
-              "types": [
-                "J"
-              ],
               "route": [
                 "N864",
                 "N57",
                 "L612",
                 "UN864",
                 "UN57",
-                "UL612",
-                "TRN"
+                "UL612"
               ],
               "start": {
                 "time": "2300"
