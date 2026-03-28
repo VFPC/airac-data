@@ -1,3 +1,0 @@
-2026-03-19 07:52:21.476 +01:00 [WRN] ConstraintValidator: Min 285 greater than Max 255 at line 19561 [at ConstraintValidator.cs::Validate]
-2026-03-19 07:52:21.636 +01:00 [ERR] SctParser: Fix 'WTN' appears 2 times (allowed: 1). [at SctParser.cs::ValidateDuplicates]
-2026-03-19 07:52:21.744 +01:00 [WRN] InJsonLoader: Fix 'ESHIN' is in the in.json fixes section but already has coordinates (53.57700, -0.30362) — likely loaded from the SCT. The override may not be needed. [at InJsonLoader.cs::LoadFromJson]
