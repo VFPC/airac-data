@@ -17,7 +17,8 @@ vFPC 2603/
   UK_2026_03.sct
   in.json
   out.2603.1.json        ← first archive run
-  out.2603.2.json        ← re-archive after parser update
+  out.2603.2.json        ← re-archive after PR #121 MC fix
+  out.2603.3.json        ← re-archive after EGPH TLA in.json corrections
   manifest.md
 vFPC 2604/               ← added each cycle
   ...
@@ -29,7 +30,7 @@ vFPC 2604/               ← added each cycle
 
 | Cycle | Effective | Expires | out.json versions | Notes |
 |-------|-----------|---------|-------------------|-------|
-| 2603 | 2026-03-19 | 2026-04-15 | `out.2603.1.json`, `out.2603.2.json` | `.2` is the production parse after PR #121 (13,736 constraints, 4,626/4,626 MC resolved) |
+| 2603 | 2026-03-19 | 2026-04-15 | `out.2603.1.json`, `out.2603.2.json`, `out.2603.3.json` | `.2` added PR #121 MC fix; `.3` is the production parse after Ari's EGPH TLA SID restriction corrections (137 EGPH N864 constraints updated) |
 
 ---
 
