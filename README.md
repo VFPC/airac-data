@@ -14,6 +14,7 @@ Each cycle occupies its own subdirectory with flat files:
 vFPC 2603/
   Routes.csv
   Notes.csv
+  curation_notes.md      ← optional manual row-removal / curation rationale
   UK_2026_03.sct
   in.json
   out.2603.1.json        ← first archive run
@@ -42,6 +43,7 @@ Each archive contains these allowlisted files:
 |------|-------------|
 | `Routes.csv` | SRD route data — primary input to New-SRDParser |
 | `Notes.csv` | SRD notes sheet |
+| `curation_notes.md` | Optional manual curation note explaining any cycle-specific row removals or similar interventions |
 | `UK_YYYY_NN.sct` | VATSIM UK sector file |
 | `in.json` | Parser configuration (carried forward from the previous cycle) |
 | `out.{ident}.{n}.json` | Versioned SRD Parser output (e.g. `out.2603.1.json`) |
