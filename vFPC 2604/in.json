@@ -2693,83 +2693,37 @@
         }
       ]
     },
+ {
+  "icao": "EGCC",
+  "comment": "SRD notes 42 and 65 are coded in LISTO, SANBA.",
+  "sids": [
     {
-      "icao": "EGCC",
-      "comment": "SRD notes 42 and 65 are coded in LISTO, SANBA.",
-      "sids": [
+      "point": "SANBA",
+      "restrictions": [
         {
-          "point": "LISTO",
-          "restrictions": [
-            {
-              "suffix": [
-                "S",
-                "Z"
-              ]
-            },
-            {
-              "types": [
-                "P",
-                "T",
-                "E",
-                "ASTR",
-                "B461",
-                "B462",
-                "B463",
-                "C25C",
-                "CRJ1",
-                "CRJ2",
-                "CRJ7",
-                "CRJ9",
-                "E135",
-                "E35X",
-                "E145",
-                "E45X",
-                "G150",
-                "G159",
-                "G250",
-                "GA5C",
-                "GA6C",
-                "GA7C",
-                "GALX",
-                "GL5T",
-                "GL7T",
-                "GLEX",
-                "GLF1",
-                "GLF2",
-                "GLF3",
-                "GLF4",
-                "GLF5",
-                "SF50"
-              ],
-              "alt": [
-                "SANBA"
-              ],
-              "suffix": [
-                "R",
-                "Y"
-              ]
-            }
-          ]
-        },
-        {
-          "point": "SANBA",
-          "restrictions": [
-            {
-              "types": [
-                "J"
-              ],
-              "alt": [
-                "LISTO"
-              ],
-              "suffix": [
-                "R",
-                "Y"
-              ]
-            }
-          ]
+          "types": [
+            "P",
+            "T",
+            "E",
+            "B461",
+            "B462",
+            "B463",
+            "CRJ1",
+            "CRJ2",
+            "CRJ7",
+            "CRJ9",
+            "E135",
+            "E35X",
+            "E145",
+            "E45X",
+            "GLF5"
+          ],
+          "alt": ["LISTO"]
         }
       ]
-    },
+    }
+  ]
+},
     {
       "icao": "EGKK",
       "comment": "MIMFO is listed below without any restrictions to indicate that it IS allowed. SRD note 17 is coded in BOGNA. SRD note 40 is coded in HARDY. SRD note 94 is coded in SFD.",
