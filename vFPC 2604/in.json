@@ -2693,37 +2693,151 @@
         }
       ]
     },
- {
-  "icao": "EGCC",
-  "comment": "SRD notes 42 and 65 are coded in LISTO, SANBA.",
-  "sids": [
-    {
-      "point": "SANBA",
-      "restrictions": [
         {
-          "types": [
-            "P",
-            "T",
-            "E",
-            "B461",
-            "B462",
-            "B463",
-            "CRJ1",
-            "CRJ2",
-            "CRJ7",
-            "CRJ9",
-            "E135",
-            "E35X",
-            "E145",
-            "E45X",
-            "GLF5"
-          ],
-          "alt": ["LISTO"]
-        }
-      ]
-    }
-  ]
-},
+            "icao": "EGCC",
+            "comment": "SRD notes 42 and 65 are coded in LISTO/SANBA. RWY 23: LISTO is available to non-jets and listed/light jet aircraft; SANBA is available to other jet aircraft. RWY 05 LISTO S/Z suffixes remain unrestricted.",
+            "sids": [
+                {
+                    "point": "LISTO",
+                    "restrictions": [
+                        {
+                            "suffix": [
+                                "S",
+                                "Z"
+                            ]
+                        },
+                        {
+                            "suffix": [
+                                "R",
+                                "Y"
+                            ],
+                            "types": [
+                "P",
+                "T",
+                "E",
+                "A10",
+                "AN72",
+                "ASTR",
+                "B461",
+                "B462",
+                "B463",
+                "BA46",
+                "BE40",
+                "C25A",
+                "C25B",
+                "C25C",
+                "C25M",
+                "C500",
+                "C501",
+                "C510",
+                "C525",
+                "C526",
+                "C550",
+                "C551",
+                "C55B",
+                "C560",
+                "C56X",
+                "C650",
+                "C680",
+                "C68A",
+                "C700",
+                "C750",
+                "CL30",
+                "CL35",
+                "CL41",
+                "CL60",
+                "CRJ1",
+                "CRJ2",
+                "CRJ7",
+                "CRJ9",
+                "E135",
+                "E145",
+                "E35L",
+                "E45X",
+                "E50P",
+                "E545",
+                "E550",
+                "E55P",
+                "EA50",
+                "F16",
+                "F18H",
+                "F18S",
+                "F2TH",
+                "F900",
+                "FA10",
+                "FA20",
+                "FA50",
+                "FA7X",
+                "FA8X",
+                "G150",
+                "G280",
+                "GALX",
+                "GL5T",
+                "GL7T",
+                "GLEX",
+                "GLF2",
+                "GLF3",
+                "GLF4",
+                "GLF5",
+                "H25A",
+                "H25B",
+                "H25C",
+                "HA4T",
+                "HAWK",
+                "HDJT",
+                "J328",
+                "L29B",
+                "LJ23",
+                "LJ24",
+                "LJ25",
+                "LJ31",
+                "LJ35",
+                "LJ40",
+                "LJ45",
+                "LJ55",
+                "LJ60",
+                "LJ70",
+                "LJ75",
+                "MU30",
+                "PC24",
+                "PRM1",
+                "RJ1H",
+                "RJ70",
+                "RJ85",
+                "RX1H",
+                "RX70",
+                "RX85",
+                "SBR1",
+                "SBR2",
+                "SF50",
+                "T38",
+                "WW24"
+                            ],
+                            "alt": [
+                                "SANBA"
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "point": "SANBA",
+                    "restrictions": [
+                        {
+                            "suffix": [
+                                "R",
+                                "Y"
+                            ],
+                            "types": [
+                                "J"
+                            ],
+                            "alt": [
+                                "LISTO"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
     {
       "icao": "EGKK",
       "comment": "MIMFO is listed below without any restrictions to indicate that it IS allowed. SRD note 17 is coded in BOGNA. SRD note 40 is coded in HARDY. SRD note 94 is coded in SFD.",
