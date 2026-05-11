@@ -34,23 +34,12 @@
         "time": "0000"
       },
       "end": {
-        "date": 4,
-        "time": "2359"
-      },
-      "alert": {
-        "ban": true,
-        "note": "Route segment TLA N864 ASNUD is not allowed during these times."
-      }
-    },
-    {
-      "note": 7,
-      "start": {
         "date": 5,
         "time": "0000"
       },
-      "end": {
-        "date": 6,
-        "time": "2359"
+      "alert": {
+        "ban": true,
+        "note": "N864 TLA-ASNUD only available SAT 0001 to SUN 2359 LOCAL TIME."
       }
     },
     {
@@ -1952,25 +1941,15 @@
       "comment": "Not encoded — RNAV1 vs non-RNAV1 FL distinctions are not enforceable by vFPC. SRD Min/Max and route availability already enforce the applicable rules."
     },
     {
-      "note": 455,
-      "types": [
-        "J"
-      ],
-      "nodests": [
-        "EIDG",
-        "EIDW",
-        "EIME",
-        "EIWT"
-      ],
-      "start": {
-        "time": "0630"
-      },
-      "end": {
-        "time": "2230"
-      },
-      "alt": [
-        "Reroute via M145"
-      ]
+  "note": 455,
+  "types": ["J"],
+  "dests": ["EIDG",
+            "EIDW",
+            "EIME",
+            "EIWT"],
+  "start": {"time": "0630"},
+  "end": {"time": "2230"},
+  "alt": ["Reroute via M145"]
     },
     {
       "note": 455,
@@ -2001,18 +1980,7 @@
     },
     {
       "note": 457,
-      "types": [
-        "J"
-      ],
-      "dests": [
-        "EIDG",
-        "EIDW",
-        "EIME",
-        "EIWT"
-      ],
-      "alt": [
-        "Reroute via M144"
-      ]
+      "comment": "Not encoded — RNAV1 vs non-RNAV1 routing distinctions are not enforceable by vFPC."
     },
     {
       "note": 458,
@@ -2693,25 +2661,25 @@
         }
       ]
     },
+    {
+      "icao": "EGCC",
+      "comment": "SRD notes 42 and 65 are coded in LISTO/SANBA. RWY 23: LISTO is available to non-jets and listed/light jet aircraft; SANBA is available to other jet aircraft. RWY 05 LISTO S/Z suffixes remain unrestricted.",
+      "sids": [
         {
-            "icao": "EGCC",
-            "comment": "SRD notes 42 and 65 are coded in LISTO/SANBA. RWY 23: LISTO is available to non-jets and listed/light jet aircraft; SANBA is available to other jet aircraft. RWY 05 LISTO S/Z suffixes remain unrestricted.",
-            "sids": [
-                {
-                    "point": "LISTO",
-                    "restrictions": [
-                        {
-                            "suffix": [
-                                "S",
-                                "Z"
-                            ]
-                        },
-                        {
-                            "suffix": [
-                                "R",
-                                "Y"
-                            ],
-                            "types": [
+          "point": "LISTO",
+          "restrictions": [
+            {
+              "suffix": [
+                "S",
+                "Z"
+              ]
+            },
+            {
+              "suffix": [
+                "R",
+                "Y"
+              ],
+              "types": [
                 "P",
                 "T",
                 "E",
@@ -2812,32 +2780,32 @@
                 "SF50",
                 "T38",
                 "WW24"
-                            ],
-                            "alt": [
-                                "SANBA"
-                            ]
-                        }
-                    ]
-                },
-                {
-                    "point": "SANBA",
-                    "restrictions": [
-                        {
-                            "suffix": [
-                                "R",
-                                "Y"
-                            ],
-                            "types": [
-                                "J"
-                            ],
-                            "alt": [
-                                "LISTO"
-                            ]
-                        }
-                    ]
-                }
-            ]
+              ],
+              "alt": [
+                "SANBA"
+              ]
+            }
+          ]
         },
+        {
+          "point": "SANBA",
+          "restrictions": [
+            {
+              "suffix": [
+                "R",
+                "Y"
+              ],
+              "types": [
+                "J"
+              ],
+              "alt": [
+                "LISTO"
+              ]
+            }
+          ]
+        }
+      ]
+    },
     {
       "icao": "EGKK",
       "comment": "MIMFO is listed below without any restrictions to indicate that it IS allowed. SRD note 17 is coded in BOGNA. SRD note 40 is coded in HARDY. SRD note 94 is coded in SFD.",
@@ -2886,8 +2854,7 @@
             {
               "suffix": [
                 "M",
-                "V",
-                "X"
+                "V"
               ],
               "alt": [
                 "BOGNA",
