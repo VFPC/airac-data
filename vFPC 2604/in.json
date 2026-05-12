@@ -1980,7 +1980,18 @@
     },
     {
       "note": 457,
-      "comment": "Not encoded — RNAV1 vs non-RNAV1 routing distinctions are not enforceable by vFPC."
+      "types": [
+        "J"
+      ],
+      "dests": [
+        "EIDG",
+        "EIDW",
+        "EIME",
+        "EIWT"
+      ],
+      "alt": [
+        "Reroute via M144"
+      ]
     },
     {
       "note": 458,
