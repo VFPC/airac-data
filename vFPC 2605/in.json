@@ -3778,12 +3778,7 @@
     },
     {
       "note": 492,
-      "dep": [
-        "EG"
-      ],
-      "dests": [
-        "EGKK"
-      ]
+      "comment": "Not encoded: permissive note. SRD text says this DCT / route can be used by both RNAV1 and non-RNAV1 EG departures with arrival EGKK; IFPUV accepted the two AIRAC 2605 rows carrying this note."
     },
     {
       "note": 493,
