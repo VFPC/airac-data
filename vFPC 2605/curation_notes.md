@@ -62,3 +62,15 @@ Route: `DCT TIPTA GAT UP17 POL Y250 OBOXA P17 MEJAC <FRA> REKNA DCT`
 Remarks: none
 Defect: Segments TIPTA UP17 POL and POL Y250 OBOXA do not exist in the current AIRAC.
 Original CSV row: `EGXW,,255,660,DCT TIPTA GAT UP17 POL Y250 OBOXA P17 MEJAC <FRA> REKNA DCT,,VAXIT,`
+
+## Summer-time current-season coding
+
+Date: 2026-05-16
+
+Purpose: generate the AIRAC 2605.3 `out.json` during UK summer time using the explicit summer variants in `Notes.csv`, without changing parser code.
+
+Method: checked `Notes.csv` for notes that explicitly state a summer-time variant, then updated the corresponding timed `in.json` entries only where a coded time window already existed. Most affected notes move the coded UTC window one hour earlier. Explicit bracketed summer windows were followed where present, notably Note 335 ELVOS (`2330-0500`) and Note 516 allowed window (`1700-0800 Summer UTC`, encoded as a hard-ban complement `0801-1659`).
+
+Affected coded notes: 258, 295, 335, 338, 339, 344, 350, 374, 382, 447, 455, 468, 469, 470, 484, 485, 516.
+
+Follow-up: New-SRDParser#170 tracks automating summer/winter SRD time conversion so future cycles do not need this manual current-season data pass.

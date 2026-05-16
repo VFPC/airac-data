@@ -946,7 +946,7 @@
   ],
   "fixes": [
     {
-      "_note": "Shannon FIR waypoints — never in UK SCT, permanent entries.",
+      "_note": "Shannon FIR waypoints \u2014 never in UK SCT, permanent entries.",
       "name": "PELIG",
       "lat": 53.19972,
       "lon": -7.33333,
@@ -989,7 +989,7 @@
       "type": "FIX"
     },
     {
-      "_note": "Irish airports — not in UK SCT, permanent entries. Used as exit/destination points on EG-departure routes.",
+      "_note": "Irish airports \u2014 not in UK SCT, permanent entries. Used as exit/destination points on EG-departure routes.",
       "name": "EICK",
       "lat": 51.841333,
       "lon": -8.491167,
@@ -1014,7 +1014,7 @@
       "type": "AIRPORT"
     },
     {
-      "_note": "Oceanic/Shannon FIR entry points — not in UK SCT, permanent entries. Used as exit points in the exits section.",
+      "_note": "Oceanic/Shannon FIR entry points \u2014 not in UK SCT, permanent entries. Used as exit points in the exits section.",
       "name": "ADARA",
       "lat": 51.5,
       "lon": -15.0,
@@ -1282,7 +1282,7 @@
     },
     {
       "note": 127,
-      "comment": "Not coded — routing available only when D201F/G active AND M17/Q63 VATRY unavailable at filed FL. Both conditions are military activation state; cannot be encoded without live airspace data. SRD text: PEMOB EVTOL NIRIF (Dublin Group inbound)."
+      "comment": "Not coded \u2014 routing available only when D201F/G active AND M17/Q63 VATRY unavailable at filed FL. Both conditions are military activation state; cannot be encoded without live airspace data. SRD text: PEMOB EVTOL NIRIF (Dublin Group inbound)."
     },
     {
       "note": 134,
@@ -1294,7 +1294,7 @@
     },
     {
       "note": 168,
-      "comment": "Not coded — military activation condition (EGD201H FBZ or EGD201F active). SRD text: FOXLA DCT NICXI"
+      "comment": "Not coded \u2014 military activation condition (EGD201H FBZ or EGD201F active). SRD text: FOXLA DCT NICXI"
     },
     {
       "note": 172,
@@ -1522,12 +1522,13 @@
       ],
       "start": {
         "date": 2,
-        "time": "0900"
+        "time": "0800"
       },
       "end": {
         "date": 2,
-        "time": "1615"
-      }
+        "time": "1515"
+      },
+      "comment": "Summer UTC coding for AIRAC 2605.3 current-season generation; winter variant is not encoded by the current schema."
     },
     {
       "note": 258,
@@ -1673,12 +1674,13 @@
       ],
       "start": {
         "date": 1,
-        "time": "0900"
+        "time": "0800"
       },
       "end": {
         "date": 1,
-        "time": "1615"
-      }
+        "time": "1515"
+      },
+      "comment": "Summer UTC coding for AIRAC 2605.3 current-season generation; winter variant is not encoded by the current schema."
     },
     {
       "note": 258,
@@ -1824,12 +1826,13 @@
       ],
       "start": {
         "date": 0,
-        "time": "0900"
+        "time": "0800"
       },
       "end": {
         "date": 0,
-        "time": "1615"
-      }
+        "time": "1515"
+      },
+      "comment": "Summer UTC coding for AIRAC 2605.3 current-season generation; winter variant is not encoded by the current schema."
     },
     {
       "note": 258,
@@ -1975,12 +1978,13 @@
       ],
       "start": {
         "date": 3,
-        "time": "0900"
+        "time": "0800"
       },
       "end": {
         "date": 3,
-        "time": "1615"
-      }
+        "time": "1515"
+      },
+      "comment": "Summer UTC coding for AIRAC 2605.3 current-season generation; winter variant is not encoded by the current schema."
     },
     {
       "note": 258,
@@ -2126,12 +2130,13 @@
       ],
       "start": {
         "date": 4,
-        "time": "0900"
+        "time": "0800"
       },
       "end": {
         "date": 4,
-        "time": "1615"
-      }
+        "time": "1515"
+      },
+      "comment": "Summer UTC coding for AIRAC 2605.3 current-season generation; winter variant is not encoded by the current schema."
     },
     {
       "note": 262,
@@ -2257,20 +2262,22 @@
       "note": 295,
       "max": 285,
       "start": {
-        "time": "1000"
+        "time": "0900"
       },
       "end": {
-        "time": "1600"
-      }
+        "time": "1500"
+      },
+      "comment": "Summer UTC coding for AIRAC 2605.3 current-season generation; winter variant is not encoded by the current schema."
     },
     {
       "note": 295,
       "start": {
-        "time": "1600"
+        "time": "1500"
       },
       "end": {
-        "time": "1000"
-      }
+        "time": "0900"
+      },
+      "comment": "Summer UTC coding for AIRAC 2605.3 current-season generation; winter variant is not encoded by the current schema."
     },
     {
       "note": 303,
@@ -2356,12 +2363,12 @@
         "EGNR"
       ],
       "start": {
-        "time": "0030"
+        "time": "2330"
       },
       "end": {
-        "time": "0600"
+        "time": "0500"
       },
-      "comment": "Winter UTC coding for current RAPIX DCT LESTA rows. Summer window one hour earlier is not encoded by the current schema."
+      "comment": "Summer UTC coding for AIRAC 2605.3 current-season generation; winter variant is not encoded by the current schema."
     },
     {
       "note": 335,
@@ -2372,13 +2379,13 @@
       ],
       "start": {
         "date": 0,
-        "time": "2230"
+        "time": "2330"
       },
       "end": {
         "date": 1,
-        "time": "0600"
+        "time": "0500"
       },
-      "comment": "Winter UTC coding for current RAPIX DCT ELVOS rows. Summer window 2330-0500 is not encoded by the current schema."
+      "comment": "Summer UTC coding for AIRAC 2605.3 current-season generation; winter variant is not encoded by the current schema."
     },
     {
       "note": 335,
@@ -2389,13 +2396,13 @@
       ],
       "start": {
         "date": 1,
-        "time": "2230"
+        "time": "2330"
       },
       "end": {
         "date": 2,
-        "time": "0600"
+        "time": "0500"
       },
-      "comment": "Winter UTC coding for current RAPIX DCT ELVOS rows. Summer window 2330-0500 is not encoded by the current schema."
+      "comment": "Summer UTC coding for AIRAC 2605.3 current-season generation; winter variant is not encoded by the current schema."
     },
     {
       "note": 335,
@@ -2406,13 +2413,13 @@
       ],
       "start": {
         "date": 3,
-        "time": "2230"
+        "time": "2330"
       },
       "end": {
         "date": 4,
-        "time": "0600"
+        "time": "0500"
       },
-      "comment": "Winter UTC coding for current RAPIX DCT ELVOS rows. Summer window 2330-0500 is not encoded by the current schema."
+      "comment": "Summer UTC coding for AIRAC 2605.3 current-season generation; winter variant is not encoded by the current schema."
     },
     {
       "note": 335,
@@ -2423,13 +2430,13 @@
       ],
       "start": {
         "date": 4,
-        "time": "2230"
+        "time": "2330"
       },
       "end": {
         "date": 5,
-        "time": "0600"
+        "time": "0500"
       },
-      "comment": "Winter UTC coding for current RAPIX DCT ELVOS rows. Summer window 2330-0500 is not encoded by the current schema."
+      "comment": "Summer UTC coding for AIRAC 2605.3 current-season generation; winter variant is not encoded by the current schema."
     },
     {
       "note": 335,
@@ -2440,13 +2447,13 @@
       ],
       "start": {
         "date": 5,
-        "time": "2230"
+        "time": "2330"
       },
       "end": {
         "date": 6,
-        "time": "0600"
+        "time": "0500"
       },
-      "comment": "Winter UTC coding for current RAPIX DCT ELVOS rows. Summer window 2330-0500 is not encoded by the current schema."
+      "comment": "Summer UTC coding for AIRAC 2605.3 current-season generation; winter variant is not encoded by the current schema."
     },
     {
       "note": 335,
@@ -2457,13 +2464,13 @@
       ],
       "start": {
         "date": 6,
-        "time": "2230"
+        "time": "2330"
       },
       "end": {
         "date": 0,
-        "time": "0600"
+        "time": "0500"
       },
-      "comment": "Winter UTC coding for current RAPIX DCT ELVOS rows. Summer window 2330-0500 is not encoded by the current schema."
+      "comment": "Summer UTC coding for AIRAC 2605.3 current-season generation; winter variant is not encoded by the current schema."
     },
     {
       "note": 335,
@@ -2474,13 +2481,13 @@
       ],
       "start": {
         "date": 2,
-        "time": "2230"
+        "time": "2330"
       },
       "end": {
         "date": 3,
-        "time": "0600"
+        "time": "0500"
       },
-      "comment": "Winter UTC coding for current RAPIX DCT ELVOS rows. Summer window 2330-0500 is not encoded by the current schema."
+      "comment": "Summer UTC coding for AIRAC 2605.3 current-season generation; winter variant is not encoded by the current schema."
     },
     {
       "note": 336,
@@ -2493,12 +2500,12 @@
     {
       "note": 338,
       "start": {
-        "time": "0030"
+        "time": "2330"
       },
       "end": {
-        "time": "0600"
+        "time": "0500"
       },
-      "comment": "Winter UTC coding for current RAPIX DCT BETAX/WELIN rows. Summer window one hour earlier is not encoded by the current schema."
+      "comment": "Summer UTC coding for AIRAC 2605.3 current-season generation; winter variant is not encoded by the current schema."
     },
     {
       "note": 339,
@@ -2508,13 +2515,13 @@
       ],
       "start": {
         "date": 2,
-        "time": "2100"
+        "time": "2000"
       },
       "end": {
         "date": 3,
-        "time": "0600"
+        "time": "0500"
       },
-      "comment": "Winter UTC coding for current VASUX DCT LESTA rows. Route min/max rows carry the RFL285+ constraint. Summer window one hour earlier is not encoded by the current schema."
+      "comment": "Summer UTC coding for AIRAC 2605.3 current-season generation; winter variant is not encoded by the current schema."
     },
     {
       "note": 339,
@@ -2524,13 +2531,13 @@
       ],
       "start": {
         "date": 3,
-        "time": "2100"
+        "time": "2000"
       },
       "end": {
         "date": 4,
-        "time": "0600"
+        "time": "0500"
       },
-      "comment": "Winter UTC coding for current VASUX DCT LESTA rows. Route min/max rows carry the RFL285+ constraint. Summer window one hour earlier is not encoded by the current schema."
+      "comment": "Summer UTC coding for AIRAC 2605.3 current-season generation; winter variant is not encoded by the current schema."
     },
     {
       "note": 339,
@@ -2540,13 +2547,13 @@
       ],
       "start": {
         "date": 4,
-        "time": "2100"
+        "time": "2000"
       },
       "end": {
         "date": 5,
-        "time": "0600"
+        "time": "0500"
       },
-      "comment": "Winter UTC coding for current VASUX DCT LESTA rows. Route min/max rows carry the RFL285+ constraint. Summer window one hour earlier is not encoded by the current schema."
+      "comment": "Summer UTC coding for AIRAC 2605.3 current-season generation; winter variant is not encoded by the current schema."
     },
     {
       "note": 339,
@@ -2556,13 +2563,13 @@
       ],
       "start": {
         "date": 5,
-        "time": "2100"
+        "time": "2000"
       },
       "end": {
         "date": 6,
-        "time": "0600"
+        "time": "0500"
       },
-      "comment": "Winter UTC coding for current VASUX DCT LESTA rows. Route min/max rows carry the RFL285+ constraint. Summer window one hour earlier is not encoded by the current schema."
+      "comment": "Summer UTC coding for AIRAC 2605.3 current-season generation; winter variant is not encoded by the current schema."
     },
     {
       "note": 339,
@@ -2572,13 +2579,13 @@
       ],
       "start": {
         "date": 6,
-        "time": "2100"
+        "time": "2000"
       },
       "end": {
         "date": 0,
-        "time": "0600"
+        "time": "0500"
       },
-      "comment": "Winter UTC coding for current VASUX DCT LESTA rows. Route min/max rows carry the RFL285+ constraint. Summer window one hour earlier is not encoded by the current schema."
+      "comment": "Summer UTC coding for AIRAC 2605.3 current-season generation; winter variant is not encoded by the current schema."
     },
     {
       "note": 339,
@@ -2588,13 +2595,13 @@
       ],
       "start": {
         "date": 0,
-        "time": "2100"
+        "time": "2000"
       },
       "end": {
         "date": 1,
-        "time": "0600"
+        "time": "0500"
       },
-      "comment": "Winter UTC coding for current VASUX DCT LESTA rows. Route min/max rows carry the RFL285+ constraint. Summer window one hour earlier is not encoded by the current schema."
+      "comment": "Summer UTC coding for AIRAC 2605.3 current-season generation; winter variant is not encoded by the current schema."
     },
     {
       "note": 339,
@@ -2634,12 +2641,12 @@
         "RATSU"
       ],
       "start": {
-        "time": "0001"
+        "time": "2301"
       },
       "end": {
-        "time": "0600"
+        "time": "0500"
       },
-      "comment": "Winter UTC coding for current VASUX DCT ELVOS rows. Route min/max rows carry the RFL285+ constraint. Summer window one hour earlier is not encoded by the current schema; four apparent VEXEN/L980 note placements are excluded for NATS follow-up."
+      "comment": "Summer UTC coding for AIRAC 2605.3 current-season generation; winter variant is not encoded by the current schema."
     },
     {
       "note": 339,
@@ -2649,13 +2656,13 @@
       ],
       "start": {
         "date": 1,
-        "time": "2100"
+        "time": "2000"
       },
       "end": {
         "date": 2,
-        "time": "0600"
+        "time": "0500"
       },
-      "comment": "Winter UTC coding for current VASUX DCT LESTA rows. Route min/max rows carry the RFL285+ constraint. Summer window one hour earlier is not encoded by the current schema."
+      "comment": "Summer UTC coding for AIRAC 2605.3 current-season generation; winter variant is not encoded by the current schema."
     },
     {
       "note": 342,
@@ -2669,12 +2676,12 @@
       "note": 344,
       "max": 340,
       "start": {
-        "time": "0001"
+        "time": "2301"
       },
       "end": {
-        "time": "0520"
+        "time": "0420"
       },
-      "comment": "Winter UTC coding for below-FL345 MORAG/LIPGO exception. Summer window one hour earlier is not encoded by the current schema."
+      "comment": "Summer UTC coding for AIRAC 2605.3 current-season generation; winter variant is not encoded by the current schema."
     },
     {
       "note": 348,
@@ -2691,85 +2698,85 @@
       "note": 350,
       "start": {
         "date": 6,
-        "time": "2359"
+        "time": "2259"
       },
       "end": {
         "date": 0,
-        "time": "0615"
+        "time": "0515"
       },
-      "comment": "Winter UTC coding for current EGLL LIFFY rows. Route min/max and destination rows carry RFL285+ and EGLL. Summer window one hour earlier is not encoded by the current schema."
+      "comment": "Summer UTC coding for AIRAC 2605.3 current-season generation; winter variant is not encoded by the current schema."
     },
     {
       "note": 350,
       "start": {
         "date": 5,
-        "time": "2359"
+        "time": "2259"
       },
       "end": {
         "date": 6,
-        "time": "0615"
+        "time": "0515"
       },
-      "comment": "Winter UTC coding for current EGLL LIFFY rows. Route min/max and destination rows carry RFL285+ and EGLL. Summer window one hour earlier is not encoded by the current schema."
+      "comment": "Summer UTC coding for AIRAC 2605.3 current-season generation; winter variant is not encoded by the current schema."
     },
     {
       "note": 350,
       "start": {
         "date": 3,
-        "time": "2359"
+        "time": "2259"
       },
       "end": {
         "date": 4,
-        "time": "0615"
+        "time": "0515"
       },
-      "comment": "Winter UTC coding for current EGLL LIFFY rows. Route min/max and destination rows carry RFL285+ and EGLL. Summer window one hour earlier is not encoded by the current schema."
+      "comment": "Summer UTC coding for AIRAC 2605.3 current-season generation; winter variant is not encoded by the current schema."
     },
     {
       "note": 350,
       "start": {
         "date": 2,
-        "time": "2359"
+        "time": "2259"
       },
       "end": {
         "date": 3,
-        "time": "0615"
+        "time": "0515"
       },
-      "comment": "Winter UTC coding for current EGLL LIFFY rows. Route min/max and destination rows carry RFL285+ and EGLL. Summer window one hour earlier is not encoded by the current schema."
+      "comment": "Summer UTC coding for AIRAC 2605.3 current-season generation; winter variant is not encoded by the current schema."
     },
     {
       "note": 350,
       "start": {
         "date": 1,
-        "time": "2359"
+        "time": "2259"
       },
       "end": {
         "date": 2,
-        "time": "0615"
+        "time": "0515"
       },
-      "comment": "Winter UTC coding for current EGLL LIFFY rows. Route min/max and destination rows carry RFL285+ and EGLL. Summer window one hour earlier is not encoded by the current schema."
+      "comment": "Summer UTC coding for AIRAC 2605.3 current-season generation; winter variant is not encoded by the current schema."
     },
     {
       "note": 350,
       "start": {
         "date": 0,
-        "time": "2359"
+        "time": "2259"
       },
       "end": {
         "date": 1,
-        "time": "0615"
+        "time": "0515"
       },
-      "comment": "Winter UTC coding for current EGLL LIFFY rows. Route min/max and destination rows carry RFL285+ and EGLL. Summer window one hour earlier is not encoded by the current schema."
+      "comment": "Summer UTC coding for AIRAC 2605.3 current-season generation; winter variant is not encoded by the current schema."
     },
     {
       "note": 350,
       "start": {
         "date": 4,
-        "time": "2359"
+        "time": "2259"
       },
       "end": {
         "date": 5,
-        "time": "0615"
+        "time": "0515"
       },
-      "comment": "Winter UTC coding for current EGLL LIFFY rows. Route min/max and destination rows carry RFL285+ and EGLL. Summer window one hour earlier is not encoded by the current schema."
+      "comment": "Summer UTC coding for AIRAC 2605.3 current-season generation; winter variant is not encoded by the current schema."
     },
     {
       "note": 351,
@@ -2796,91 +2803,91 @@
       "min": 250,
       "start": {
         "date": 0,
-        "time": "2330"
+        "time": "2230"
       },
       "end": {
         "date": 1,
-        "time": "0600"
+        "time": "0500"
       },
-      "comment": "Winter UTC coding for SOMVA DCT ELVOS/LESTA/BETAX nighttime DCTs. Note requires RFL above FL245, encoded as min 250. Summer window one hour earlier is not encoded by the current schema."
+      "comment": "Summer UTC coding for AIRAC 2605.3 current-season generation; winter variant is not encoded by the current schema."
     },
     {
       "note": 374,
       "min": 250,
       "start": {
         "date": 1,
-        "time": "2330"
+        "time": "2230"
       },
       "end": {
         "date": 2,
-        "time": "0600"
+        "time": "0500"
       },
-      "comment": "Winter UTC coding for SOMVA DCT ELVOS/LESTA/BETAX nighttime DCTs. Note requires RFL above FL245, encoded as min 250. Summer window one hour earlier is not encoded by the current schema."
+      "comment": "Summer UTC coding for AIRAC 2605.3 current-season generation; winter variant is not encoded by the current schema."
     },
     {
       "note": 374,
       "min": 250,
       "start": {
         "date": 2,
-        "time": "2330"
+        "time": "2230"
       },
       "end": {
         "date": 3,
-        "time": "0600"
+        "time": "0500"
       },
-      "comment": "Winter UTC coding for SOMVA DCT ELVOS/LESTA/BETAX nighttime DCTs. Note requires RFL above FL245, encoded as min 250. Summer window one hour earlier is not encoded by the current schema."
+      "comment": "Summer UTC coding for AIRAC 2605.3 current-season generation; winter variant is not encoded by the current schema."
     },
     {
       "note": 374,
       "min": 250,
       "start": {
         "date": 3,
-        "time": "2330"
+        "time": "2230"
       },
       "end": {
         "date": 4,
-        "time": "0600"
+        "time": "0500"
       },
-      "comment": "Winter UTC coding for SOMVA DCT ELVOS/LESTA/BETAX nighttime DCTs. Note requires RFL above FL245, encoded as min 250. Summer window one hour earlier is not encoded by the current schema."
+      "comment": "Summer UTC coding for AIRAC 2605.3 current-season generation; winter variant is not encoded by the current schema."
     },
     {
       "note": 374,
       "min": 250,
       "start": {
         "date": 4,
-        "time": "2330"
+        "time": "2230"
       },
       "end": {
         "date": 5,
-        "time": "0600"
+        "time": "0500"
       },
-      "comment": "Winter UTC coding for SOMVA DCT ELVOS/LESTA/BETAX nighttime DCTs. Note requires RFL above FL245, encoded as min 250. Summer window one hour earlier is not encoded by the current schema."
+      "comment": "Summer UTC coding for AIRAC 2605.3 current-season generation; winter variant is not encoded by the current schema."
     },
     {
       "note": 374,
       "min": 250,
       "start": {
         "date": 5,
-        "time": "2330"
+        "time": "2230"
       },
       "end": {
         "date": 6,
-        "time": "0600"
+        "time": "0500"
       },
-      "comment": "Winter UTC coding for SOMVA DCT ELVOS/LESTA/BETAX nighttime DCTs. Note requires RFL above FL245, encoded as min 250. Summer window one hour earlier is not encoded by the current schema."
+      "comment": "Summer UTC coding for AIRAC 2605.3 current-season generation; winter variant is not encoded by the current schema."
     },
     {
       "note": 374,
       "min": 250,
       "start": {
         "date": 6,
-        "time": "2330"
+        "time": "2230"
       },
       "end": {
         "date": 0,
-        "time": "0600"
+        "time": "0500"
       },
-      "comment": "Winter UTC coding for SOMVA DCT ELVOS/LESTA/BETAX nighttime DCTs. Note requires RFL above FL245, encoded as min 250. Summer window one hour earlier is not encoded by the current schema."
+      "comment": "Summer UTC coding for AIRAC 2605.3 current-season generation; winter variant is not encoded by the current schema."
     },
     {
       "note": 375,
@@ -2906,21 +2913,23 @@
       "note": 382,
       "max": 195,
       "start": {
-        "time": "0630"
+        "time": "0530"
       },
       "end": {
-        "time": "1000"
-      }
+        "time": "0900"
+      },
+      "comment": "Summer UTC coding for AIRAC 2605.3 current-season generation; winter variant is not encoded by the current schema."
     },
     {
       "note": 382,
       "max": 235,
       "start": {
-        "time": "1000"
+        "time": "0900"
       },
       "end": {
-        "time": "0630"
-      }
+        "time": "0530"
+      },
+      "comment": "Summer UTC coding for AIRAC 2605.3 current-season generation; winter variant is not encoded by the current schema."
     },
     {
       "note": 384,
@@ -3070,21 +3079,23 @@
       "note": 447,
       "max": 325,
       "start": {
-        "time": "0901"
+        "time": "0801"
       },
       "end": {
-        "time": "0559"
-      }
+        "time": "0459"
+      },
+      "comment": "Summer UTC coding for AIRAC 2605.3 current-season generation; winter variant is not encoded by the current schema."
     },
     {
       "note": 447,
       "max": 285,
       "start": {
-        "time": "0600"
+        "time": "0500"
       },
       "end": {
-        "time": "0900"
-      }
+        "time": "0800"
+      },
+      "comment": "Summer UTC coding for AIRAC 2605.3 current-season generation; winter variant is not encoded by the current schema."
     },
     {
       "note": 448,
@@ -3108,11 +3119,11 @@
     },
     {
       "note": 453,
-      "comment": "Not applied – note specifies RNAV1-only routing and VATSIM UK does not enforce RNAV capability."
+      "comment": "Not applied \u2013 note specifies RNAV1-only routing and VATSIM UK does not enforce RNAV capability."
     },
     {
       "note": 454,
-      "comment": "Not encoded — RNAV1 vs non-RNAV1 FL distinctions are not enforceable by vFPC. SRD Min/Max and route availability already enforce the applicable rules."
+      "comment": "Not encoded \u2014 RNAV1 vs non-RNAV1 FL distinctions are not enforceable by vFPC. SRD Min/Max and route availability already enforce the applicable rules."
     },
     {
       "note": 455,
@@ -3126,14 +3137,15 @@
         "EIWT"
       ],
       "start": {
-        "time": "0630"
+        "time": "0530"
       },
       "end": {
-        "time": "2230"
+        "time": "2130"
       },
       "alt": [
         "Reroute via M145"
-      ]
+      ],
+      "comment": "Summer UTC coding for AIRAC 2605.3 current-season generation; winter variant is not encoded by the current schema."
     },
     {
       "note": 455,
@@ -3143,24 +3155,26 @@
         "E"
       ],
       "start": {
-        "time": "0630"
+        "time": "0530"
       },
       "end": {
-        "time": "2230"
-      }
+        "time": "2130"
+      },
+      "comment": "Summer UTC coding for AIRAC 2605.3 current-season generation; winter variant is not encoded by the current schema."
     },
     {
       "note": 455,
       "start": {
-        "time": "2230"
+        "time": "2130"
       },
       "end": {
-        "time": "0630"
-      }
+        "time": "0530"
+      },
+      "comment": "Summer UTC coding for AIRAC 2605.3 current-season generation; winter variant is not encoded by the current schema."
     },
     {
       "note": 456,
-      "comment": "Not coded — condition does not apply to VATSIM UK."
+      "comment": "Not coded \u2014 condition does not apply to VATSIM UK."
     },
     {
       "note": 457,
@@ -3195,7 +3209,7 @@
     },
     {
       "note": 463,
-      "comment": "Not coded — condition does not apply to VATSIM UK."
+      "comment": "Not coded \u2014 condition does not apply to VATSIM UK."
     },
     {
       "note": 464,
@@ -3203,7 +3217,7 @@
     },
     {
       "note": 465,
-      "comment": "Not coded — condition does not apply to VATSIM UK."
+      "comment": "Not coded \u2014 condition does not apply to VATSIM UK."
     },
     {
       "note": 466,
@@ -3229,13 +3243,13 @@
       ],
       "start": {
         "date": 4,
-        "time": "0915"
+        "time": "0815"
       },
       "end": {
         "date": 4,
-        "time": "1630"
+        "time": "1530"
       },
-      "comment": "Winter UTC coding only. Summer window one hour earlier and public holidays are not encoded by the current schema."
+      "comment": "Summer UTC coding for AIRAC 2605.3 current-season generation; winter variant is not encoded by the current schema."
     },
     {
       "note": 468,
@@ -3251,13 +3265,13 @@
       ],
       "start": {
         "date": 4,
-        "time": "0915"
+        "time": "0815"
       },
       "end": {
         "date": 4,
-        "time": "1630"
+        "time": "1530"
       },
-      "comment": "Winter UTC coding only. Summer window one hour earlier and public holidays are not encoded by the current schema."
+      "comment": "Summer UTC coding for AIRAC 2605.3 current-season generation; winter variant is not encoded by the current schema."
     },
     {
       "note": 468,
@@ -3275,13 +3289,13 @@
       ],
       "start": {
         "date": 1,
-        "time": "0915"
+        "time": "0815"
       },
       "end": {
         "date": 1,
-        "time": "1630"
+        "time": "1530"
       },
-      "comment": "Winter UTC coding only. Summer window one hour earlier and public holidays are not encoded by the current schema."
+      "comment": "Summer UTC coding for AIRAC 2605.3 current-season generation; winter variant is not encoded by the current schema."
     },
     {
       "note": 468,
@@ -3297,13 +3311,13 @@
       ],
       "start": {
         "date": 3,
-        "time": "0915"
+        "time": "0815"
       },
       "end": {
         "date": 3,
-        "time": "1630"
+        "time": "1530"
       },
-      "comment": "Winter UTC coding only. Summer window one hour earlier and public holidays are not encoded by the current schema."
+      "comment": "Summer UTC coding for AIRAC 2605.3 current-season generation; winter variant is not encoded by the current schema."
     },
     {
       "note": 468,
@@ -3321,13 +3335,13 @@
       ],
       "start": {
         "date": 2,
-        "time": "0915"
+        "time": "0815"
       },
       "end": {
         "date": 2,
-        "time": "1630"
+        "time": "1530"
       },
-      "comment": "Winter UTC coding only. Summer window one hour earlier and public holidays are not encoded by the current schema."
+      "comment": "Summer UTC coding for AIRAC 2605.3 current-season generation; winter variant is not encoded by the current schema."
     },
     {
       "note": 468,
@@ -3343,13 +3357,13 @@
       ],
       "start": {
         "date": 2,
-        "time": "0915"
+        "time": "0815"
       },
       "end": {
         "date": 2,
-        "time": "1630"
+        "time": "1530"
       },
-      "comment": "Winter UTC coding only. Summer window one hour earlier and public holidays are not encoded by the current schema."
+      "comment": "Summer UTC coding for AIRAC 2605.3 current-season generation; winter variant is not encoded by the current schema."
     },
     {
       "note": 468,
@@ -3365,13 +3379,13 @@
       ],
       "start": {
         "date": 1,
-        "time": "0915"
+        "time": "0815"
       },
       "end": {
         "date": 1,
-        "time": "1630"
+        "time": "1530"
       },
-      "comment": "Winter UTC coding only. Summer window one hour earlier and public holidays are not encoded by the current schema."
+      "comment": "Summer UTC coding for AIRAC 2605.3 current-season generation; winter variant is not encoded by the current schema."
     },
     {
       "note": 468,
@@ -3389,13 +3403,13 @@
       ],
       "start": {
         "date": 0,
-        "time": "0915"
+        "time": "0815"
       },
       "end": {
         "date": 0,
-        "time": "1630"
+        "time": "1530"
       },
-      "comment": "Winter UTC coding only. Summer window one hour earlier and public holidays are not encoded by the current schema."
+      "comment": "Summer UTC coding for AIRAC 2605.3 current-season generation; winter variant is not encoded by the current schema."
     },
     {
       "note": 468,
@@ -3413,13 +3427,13 @@
       ],
       "start": {
         "date": 3,
-        "time": "0915"
+        "time": "0815"
       },
       "end": {
         "date": 3,
-        "time": "1630"
+        "time": "1530"
       },
-      "comment": "Winter UTC coding only. Summer window one hour earlier and public holidays are not encoded by the current schema."
+      "comment": "Summer UTC coding for AIRAC 2605.3 current-season generation; winter variant is not encoded by the current schema."
     },
     {
       "note": 468,
@@ -3435,13 +3449,13 @@
       ],
       "start": {
         "date": 0,
-        "time": "0915"
+        "time": "0815"
       },
       "end": {
         "date": 0,
-        "time": "1630"
+        "time": "1530"
       },
-      "comment": "Winter UTC coding only. Summer window one hour earlier and public holidays are not encoded by the current schema."
+      "comment": "Summer UTC coding for AIRAC 2605.3 current-season generation; winter variant is not encoded by the current schema."
     },
     {
       "note": 469,
@@ -3450,13 +3464,13 @@
       ],
       "start": {
         "date": 2,
-        "time": "1715"
+        "time": "1615"
       },
       "end": {
         "date": 3,
-        "time": "0830"
+        "time": "0730"
       },
-      "comment": "Winter UTC coding for EGBB FIGZI arrivals. Summer window one hour earlier and public holidays are not encoded by the current schema; LE departure exclusion is not needed for current route rows."
+      "comment": "Summer UTC coding for AIRAC 2605.3 current-season generation; winter variant is not encoded by the current schema."
     },
     {
       "note": 469,
@@ -3465,13 +3479,13 @@
       ],
       "start": {
         "date": 1,
-        "time": "1715"
+        "time": "1615"
       },
       "end": {
         "date": 2,
-        "time": "0830"
+        "time": "0730"
       },
-      "comment": "Winter UTC coding for EGBB FIGZI arrivals. Summer window one hour earlier and public holidays are not encoded by the current schema; LE departure exclusion is not needed for current route rows."
+      "comment": "Summer UTC coding for AIRAC 2605.3 current-season generation; winter variant is not encoded by the current schema."
     },
     {
       "note": 469,
@@ -3480,13 +3494,13 @@
       ],
       "start": {
         "date": 0,
-        "time": "1715"
+        "time": "1615"
       },
       "end": {
         "date": 1,
-        "time": "0830"
+        "time": "0730"
       },
-      "comment": "Winter UTC coding for EGBB FIGZI arrivals. Summer window one hour earlier and public holidays are not encoded by the current schema; LE departure exclusion is not needed for current route rows."
+      "comment": "Summer UTC coding for AIRAC 2605.3 current-season generation; winter variant is not encoded by the current schema."
     },
     {
       "note": 469,
@@ -3495,13 +3509,13 @@
       ],
       "start": {
         "date": 4,
-        "time": "1715"
+        "time": "1615"
       },
       "end": {
         "date": 0,
-        "time": "0830"
+        "time": "0730"
       },
-      "comment": "Winter UTC coding for EGBB FIGZI arrivals. Summer window one hour earlier and public holidays are not encoded by the current schema; LE departure exclusion is not needed for current route rows."
+      "comment": "Summer UTC coding for AIRAC 2605.3 current-season generation; winter variant is not encoded by the current schema."
     },
     {
       "note": 469,
@@ -3510,13 +3524,13 @@
       ],
       "start": {
         "date": 3,
-        "time": "1715"
+        "time": "1615"
       },
       "end": {
         "date": 4,
-        "time": "0830"
+        "time": "0730"
       },
-      "comment": "Winter UTC coding for EGBB FIGZI arrivals. Summer window one hour earlier and public holidays are not encoded by the current schema; LE departure exclusion is not needed for current route rows."
+      "comment": "Summer UTC coding for AIRAC 2605.3 current-season generation; winter variant is not encoded by the current schema."
     },
     {
       "note": 470,
@@ -3525,13 +3539,13 @@
       ],
       "start": {
         "date": 1,
-        "time": "1700"
+        "time": "1600"
       },
       "end": {
         "date": 2,
-        "time": "0815"
+        "time": "0715"
       },
-      "comment": "Winter UTC coding only. Summer window one hour earlier and public holidays are not encoded by the current schema."
+      "comment": "Summer UTC coding for AIRAC 2605.3 current-season generation; winter variant is not encoded by the current schema."
     },
     {
       "note": 470,
@@ -3540,13 +3554,13 @@
       ],
       "start": {
         "date": 0,
-        "time": "1700"
+        "time": "1600"
       },
       "end": {
         "date": 1,
-        "time": "0815"
+        "time": "0715"
       },
-      "comment": "Winter UTC coding only. Summer window one hour earlier and public holidays are not encoded by the current schema."
+      "comment": "Summer UTC coding for AIRAC 2605.3 current-season generation; winter variant is not encoded by the current schema."
     },
     {
       "note": 470,
@@ -3554,12 +3568,12 @@
         "EGNX"
       ],
       "start": {
-        "time": "0025"
+        "time": "2325"
       },
       "end": {
-        "time": "0835"
+        "time": "0735"
       },
-      "comment": "Winter UTC coding only. Summer window one hour earlier and public holidays are not encoded by the current schema."
+      "comment": "Summer UTC coding for AIRAC 2605.3 current-season generation; winter variant is not encoded by the current schema."
     },
     {
       "note": 470,
@@ -3568,13 +3582,13 @@
       ],
       "start": {
         "date": 4,
-        "time": "1700"
+        "time": "1600"
       },
       "end": {
         "date": 0,
-        "time": "0815"
+        "time": "0715"
       },
-      "comment": "Winter UTC coding only. Summer window one hour earlier and public holidays are not encoded by the current schema."
+      "comment": "Summer UTC coding for AIRAC 2605.3 current-season generation; winter variant is not encoded by the current schema."
     },
     {
       "note": 470,
@@ -3583,13 +3597,13 @@
       ],
       "start": {
         "date": 3,
-        "time": "1700"
+        "time": "1600"
       },
       "end": {
         "date": 4,
-        "time": "0815"
+        "time": "0715"
       },
-      "comment": "Winter UTC coding only. Summer window one hour earlier and public holidays are not encoded by the current schema."
+      "comment": "Summer UTC coding for AIRAC 2605.3 current-season generation; winter variant is not encoded by the current schema."
     },
     {
       "note": 470,
@@ -3598,13 +3612,13 @@
       ],
       "start": {
         "date": 2,
-        "time": "1700"
+        "time": "1600"
       },
       "end": {
         "date": 3,
-        "time": "0815"
+        "time": "0715"
       },
-      "comment": "Winter UTC coding only. Summer window one hour earlier and public holidays are not encoded by the current schema."
+      "comment": "Summer UTC coding for AIRAC 2605.3 current-season generation; winter variant is not encoded by the current schema."
     },
     {
       "note": 472,
@@ -3627,7 +3641,7 @@
     },
     {
       "note": 479,
-      "comment": "Not coded — condition does not apply to VATSIM UK."
+      "comment": "Not coded \u2014 condition does not apply to VATSIM UK."
     },
     {
       "note": 480,
@@ -3662,7 +3676,7 @@
     },
     {
       "note": 481,
-      "comment": "Not coded — condition does not apply to VATSIM UK."
+      "comment": "Not coded \u2014 condition does not apply to VATSIM UK."
     },
     {
       "note": 482,
@@ -3670,7 +3684,7 @@
     },
     {
       "note": 483,
-      "comment": "Not coded — condition does not apply to VATSIM UK."
+      "comment": "Not coded \u2014 condition does not apply to VATSIM UK."
     },
     {
       "note": 484,
@@ -3686,11 +3700,12 @@
       ],
       "min": 310,
       "start": {
-        "time": "0601"
+        "time": "0501"
       },
       "end": {
-        "time": "2359"
-      }
+        "time": "2259"
+      },
+      "comment": "Summer UTC coding for AIRAC 2605.3 current-season generation; winter variant is not encoded by the current schema."
     },
     {
       "note": 485,
@@ -3706,11 +3721,12 @@
       ],
       "min": 310,
       "start": {
-        "time": "0601"
+        "time": "0501"
       },
       "end": {
-        "time": "2359"
-      }
+        "time": "2259"
+      },
+      "comment": "Summer UTC coding for AIRAC 2605.3 current-season generation; winter variant is not encoded by the current schema."
     },
     {
       "note": 486,
@@ -3823,11 +3839,11 @@
     },
     {
       "note": 506,
-      "comment": "Not coded — condition does not apply to VATSIM UK."
+      "comment": "Not coded \u2014 condition does not apply to VATSIM UK."
     },
     {
       "note": 507,
-      "comment": "Not coded — condition does not apply to VATSIM UK."
+      "comment": "Not coded \u2014 condition does not apply to VATSIM UK."
     },
     {
       "note": 508,
@@ -3867,106 +3883,113 @@
       "note": 516,
       "start": {
         "date": 0,
-        "time": "0901"
+        "time": "0801"
       },
       "end": {
         "date": 0,
-        "time": "1759"
+        "time": "1659"
       },
       "alert": {
         "ban": true,
-        "note": "VAMEB/KEFTE-MAMUL-MOGLI-ODVOD route only available 1800-0900 UTC."
-      }
+        "note": "VAMEB/KEFTE-MAMUL-MOGLI-ODVOD route only available 1700-0800 Summer UTC."
+      },
+      "comment": "Summer UTC coding for AIRAC 2605.3 current-season generation; winter variant is not encoded by the current schema."
     },
     {
       "note": 516,
       "start": {
         "date": 1,
-        "time": "0901"
+        "time": "0801"
       },
       "end": {
         "date": 1,
-        "time": "1759"
+        "time": "1659"
       },
       "alert": {
         "ban": true,
-        "note": "VAMEB/KEFTE-MAMUL-MOGLI-ODVOD route only available 1800-0900 UTC."
-      }
+        "note": "VAMEB/KEFTE-MAMUL-MOGLI-ODVOD route only available 1700-0800 Summer UTC."
+      },
+      "comment": "Summer UTC coding for AIRAC 2605.3 current-season generation; winter variant is not encoded by the current schema."
     },
     {
       "note": 516,
       "start": {
         "date": 2,
-        "time": "0901"
+        "time": "0801"
       },
       "end": {
         "date": 2,
-        "time": "1759"
+        "time": "1659"
       },
       "alert": {
         "ban": true,
-        "note": "VAMEB/KEFTE-MAMUL-MOGLI-ODVOD route only available 1800-0900 UTC."
-      }
+        "note": "VAMEB/KEFTE-MAMUL-MOGLI-ODVOD route only available 1700-0800 Summer UTC."
+      },
+      "comment": "Summer UTC coding for AIRAC 2605.3 current-season generation; winter variant is not encoded by the current schema."
     },
     {
       "note": 516,
       "start": {
         "date": 3,
-        "time": "0901"
+        "time": "0801"
       },
       "end": {
         "date": 3,
-        "time": "1759"
+        "time": "1659"
       },
       "alert": {
         "ban": true,
-        "note": "VAMEB/KEFTE-MAMUL-MOGLI-ODVOD route only available 1800-0900 UTC."
-      }
+        "note": "VAMEB/KEFTE-MAMUL-MOGLI-ODVOD route only available 1700-0800 Summer UTC."
+      },
+      "comment": "Summer UTC coding for AIRAC 2605.3 current-season generation; winter variant is not encoded by the current schema."
     },
     {
       "note": 516,
       "start": {
         "date": 4,
-        "time": "0901"
+        "time": "0801"
       },
       "end": {
         "date": 4,
-        "time": "1759"
+        "time": "1659"
       },
       "alert": {
         "ban": true,
-        "note": "VAMEB/KEFTE-MAMUL-MOGLI-ODVOD route only available 1800-0900 UTC."
-      }
+        "note": "VAMEB/KEFTE-MAMUL-MOGLI-ODVOD route only available 1700-0800 Summer UTC."
+      },
+      "comment": "Summer UTC coding for AIRAC 2605.3 current-season generation; winter variant is not encoded by the current schema."
     },
     {
       "note": 516,
       "start": {
         "date": 5,
-        "time": "0901"
+        "time": "0801"
       },
       "end": {
         "date": 5,
-        "time": "1759"
+        "time": "1659"
       },
       "alert": {
         "ban": true,
-        "note": "VAMEB/KEFTE-MAMUL-MOGLI-ODVOD route only available 1800-0900 UTC."
-      }
+        "note": "VAMEB/KEFTE-MAMUL-MOGLI-ODVOD route only available 1700-0800 Summer UTC."
+      },
+      "comment": "Summer UTC coding for AIRAC 2605.3 current-season generation; winter variant is not encoded by the current schema."
     },
     {
       "note": 516,
       "start": {
         "date": 6,
-        "time": "0901"
+        "time": "0801"
       },
       "end": {
         "date": 6,
-        "time": "1759"
+        "time": "1659"
       },
       "alert": {
         "ban": true,
-        "note": "VAMEB/KEFTE-MAMUL-MOGLI-ODVOD route only available 1800-0900 UTC."
-      }
+        "note": "VAMEB/KEFTE-MAMUL-MOGLI-ODVOD route only available 1700-0800 Summer UTC."
+      },
+      "comment": "Summer UTC coding for AIRAC 2605.3 current-season generation; winter variant is not encoded by the current schema."
     },
     {
       "note": 517,
@@ -4004,4 +4027,3 @@
     }
   ]
 }
-
