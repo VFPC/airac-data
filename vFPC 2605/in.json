@@ -2959,7 +2959,7 @@
     },
     {
       "note": 397,
-      "comment": "Not encoded: valid UTFAV rows already carry SRD Min FL345; three RINTI rows appear to have this note incorrectly attached and are tracked for NATS/RAD clarification in RAD-Parser#290."
+      "comment": "Not encoded: current AIRAC 2605 rows carrying this note are UTFAV rows and already carry SRD Min FL345; selected-destination detail remains route/RAD placement rather than extra note coding."
     },
     {
       "note": 398,
