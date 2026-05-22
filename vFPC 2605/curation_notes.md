@@ -125,3 +125,58 @@ Archive cleanup for `.2`/`.3` should wait until `.4` is uploaded and stable.
 - 2026-05-16: Updated in.json Note 397 comment after final spot-check. Current AIRAC 2605 rows carrying Note 397 are UTFAV/min-FL345 rows, not the earlier suspected RINTI rows; no runtime note coding added. Backup: C:\Users\jkino\Desktop\vFPC files\Historical Files\vFPC 2605\in.json.pre-note397-comment.20260516-100207.bak
 
 - 2026-05-16: Final AIRAC 2605.4 rerun after Note 270 EGKK route curation and Note 397 comment correction. Output copied to production candidate out.json. Final counts: 90 airports, 13,859 constraints, SHA256 6F0A2C1D8256E46758D283303F7AB0A72567DE7BFD1F636C1C70EA63C73ECF5A. Note 270 runtime alerts: 135 total, 0 with destination EGKK.
+
+
+## RAD Annex 2A city-pair cap curation
+
+Date: 2026-05-22
+
+Purpose: lower SRD `Routes.csv` row max levels where the row exceeded a confirmed H24 RAD Annex 2A city-pair cap. This keeps the generated route constraints aligned with RAD profile caps rather than allowing the SRD row's broader max level to publish above the RAD cap.
+
+Source data: `data/local/2605/rad/annex2a_runtime_rules.json` and `data/local/2605/rad/annex1_groups.json`, generated from `RAD_2605_v1_16.xlsx`.
+
+Method: ran the city-pair cap compliance check against this AIRAC 2605 `Routes.csv`. Edited only findings classified as `VIOLATION`: dep/arr scope matched, route conditions were confirmed, cap was H24, and the SRD row `Max` exceeded the RAD cap. Left unchanged: 69 time-limited possible exceptions, 243 sector/airspace-uncertain rows, and 17 capability-conditioned rows.
+
+Result: lowered `Max` on 336 route rows across 154 dep/arr pairs. Rule hit counts: EG4002=11, EG4009=1, EG4017=23, EG4018=2, EG4025=1, EG4063=61, EG4070=8, EG4077=1, EG4082=29, EG4092=77, EG4103=2, EG4107=1, EG4111=2, EG4119=4, EG4134=4, EG4137=2, EG4139=22, EG4141=1, EG4145=4, EG4152=9, EG4161=1, EG4162=4, EG4163=6, EG4164=1, EG4175=9, EG4178=3, EG4185=1, EG4191=11, EG4196=35.
+
+Backup: `C:\Users\jkino\Desktop\vFPC files\Historical Files\vFPC 2605\Routes.csv.pre-city-pair-cap-curation.20260522-082432.bak`
+Audit detail: `C:\Users\jkino\Desktop\vFPC files\Historical Files\vFPC 2605\Routes.city_pair_cap_edits.20260522-082432.json`
+
+
+## Note 339 route-note curation
+
+Date: 2026-05-22
+
+Purpose: remove Note 339 from rows that do not match the route family described by the note text. Note 339 is specific to `VASUX DCT ELVOS` / `VASUX DCT LESTA` availability at RFL285+; the edited rows use the `ORIST/Y110 VEXEN L980 KATHY/AVANT` family and contain neither `VASUX` nor `ELVOS`/`LESTA`.
+
+Method: searched all `Routes.csv` rows carrying Note 339. Kept all rows containing `VASUX` and either `ELVOS` or `LESTA`. Removed only the `339` token from the four non-matching rows, preserving other notes.
+
+Edited rows: 8213, 8216, 8219, 26526.
+
+Backup: `C:\Users\jkino\Desktop\vFPC files\Historical Files\vFPC 2605\Routes.csv.pre-note339-curation.20260522-084127.bak`
+Audit detail: `C:\Users\jkino\Desktop\vFPC files\Historical Files\vFPC 2605\Routes.note339_curation.20260522-084127.json`
+
+
+## Note 492 source sync for publication run
+
+Date: 2026-05-22
+
+Purpose: carry forward the already-merged AIRAC 2605.5 Note 492 fix before generating the next production candidate. The desktop source `in.json` still had the older scoped Note 492 hard-rule shape from 2605.4; `airac-data` commit `c931a43` changed Note 492 to comment-only after IFPUV accepted the affected EGKK rows.
+
+Method: copied `C:\Users\jkino\Documents\GitHub\airac-data\vFPC 2605\in.json` to this source folder before the parser run.
+
+Backup: `C:\Users\jkino\Desktop\vFPC files\Historical Files\vFPC 2605\in.json.pre-note492-sync.20260522-084323.bak`
+
+
+## AIRAC 2605.6 production candidate generation
+
+Date: 2026-05-22
+
+Purpose: generate a new publication candidate after carrying forward the Note 492 2605.5 fix, lowering confirmed H24 RAD Annex 2A city-pair caps in `Routes.csv`, and removing misplaced Note 339 from non-`VASUX DCT ELVOS/LESTA` rows.
+
+Parser: New-SRDParser `main`, git SHA `7b0948c`.
+Cycle override: `2605.6`.
+Generated candidate: `C:\Users\jkino\Desktop\vFPC files\Historical Files\vFPC 2605\out.json`.
+Previous candidate backup: `C:\Users\jkino\Desktop\vFPC files\Historical Files\vFPC 2605\out.json.pre-2605.6-publication-candidate.20260522-084659.bak`.
+Final counts: 90 airports, 13822 constraints, SHA256 `DFFA04F74C90A51C988769303B003532A7261152410BED9B8D809D9D09D70221`.
+Verification highlights: 0 `srd:492` alerts, 0 Note 270 alerts with destination EGKK, 0 unresolved AIP segments.
