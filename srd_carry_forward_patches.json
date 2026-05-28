@@ -1,0 +1,131 @@
+{
+  "schema_version": 1,
+  "purpose": "Active manual SRD/data patches that must be reviewed when preparing the next AIRAC source set.",
+  "last_reviewed_cycle": "2605",
+  "patches": [
+    {
+      "id": "SRD-CF-001",
+      "title": "Remove recurring illegal route rows using obsolete/nonexistent segments",
+      "status": "active",
+      "introduced_cycle": "2604",
+      "last_applied_cycle": "2605",
+      "linear": null,
+      "files": ["Routes.csv"],
+      "reason": "NATS republished rows containing route fragments that are not present in the current AIP/RAD route graph.",
+      "match_checks": [
+        "Rows containing UNTAL N110 DOLAS",
+        "Rows containing UNTAL N110 ERKIT",
+        "Rows containing TIPTA UP17 POL",
+        "Rows containing POL Y250 OBOXA"
+      ],
+      "carry_forward_action": "For the new cycle, search Routes.csv for the listed fragments. If they still appear and the segments are still absent from current source data, remove the affected rows and record the original rows in curation_notes.md.",
+      "stop_condition": "NATS removes the rows, or current AIP/RAD source data again publishes the referenced segments.",
+      "last_verification": "AIRAC 2605 curation_notes.md records identical defects carried forward from 2604."
+    },
+    {
+      "id": "SRD-CF-002",
+      "title": "Current-season summer UTC note-time adjustments",
+      "status": "active-until-automated",
+      "introduced_cycle": "2605",
+      "last_applied_cycle": "2605",
+      "linear": "VFP-255/VFP-256 and related summer-time automation work",
+      "files": ["Notes.csv", "in.json"],
+      "reason": "Some SRD notes publish local or bracketed summer/winter time variants while in.json currently carries one concrete UTC window for the production season.",
+      "match_checks": [
+        "Search Notes.csv for summer-time variants and bracketed alternate UTC windows",
+        "Compare each affected note with the corresponding timed entry in in.json"
+      ],
+      "carry_forward_action": "Before a production run, audit all notes with explicit summer/winter variants. Encode the current AIRAC season's UTC window only where a coded timed entry already exists, and record the affected note list in curation_notes.md.",
+      "stop_condition": "Parser/schema supports seasonal/local-time representation end-to-end and production data no longer needs a per-season concrete rewrite.",
+      "last_verification": "AIRAC 2605 adjusted notes: 258, 295, 335, 338, 339, 344, 350, 374, 382, 447, 455, 468, 469, 470, 484, 485, 516."
+    },
+    {
+      "id": "SRD-CF-003",
+      "title": "Note 516 route-note placement audit",
+      "status": "active",
+      "introduced_cycle": "2605",
+      "last_applied_cycle": "2605",
+      "linear": "VFP-138",
+      "files": ["Routes.csv"],
+      "reason": "Note 516 is route-specific to the VAMEB/KEFTE - MAMUL - MOGLI - ODVOD family; AIRAC 2605 included one row carrying the note without matching that route family.",
+      "match_checks": [
+        "Rows carrying Note 516 must contain VAMEB or KEFTE",
+        "Rows carrying Note 516 must contain MAMUL, MOGLI, and ODVOD",
+        "Rows matching that route family should carry Note 516"
+      ],
+      "carry_forward_action": "For the new cycle, search all Note 516 rows and remove only misplaced Note 516 tokens from non-matching rows after confirming the route family check. Record counts and edited rows in curation_notes.md.",
+      "stop_condition": "NATS corrects source placement for a full cycle, or VFP-138 resolves with different source guidance.",
+      "last_verification": "AIRAC 2605 removed Note 516 from one LISTO1C/EGKB row using VAMEB UL612 LISTO."
+    },
+    {
+      "id": "SRD-CF-004",
+      "title": "RAD Annex 2A H24 city-pair cap lowering",
+      "status": "active",
+      "introduced_cycle": "2605",
+      "last_applied_cycle": "2605",
+      "linear": null,
+      "files": ["Routes.csv"],
+      "reason": "Some SRD route rows publish max levels above confirmed H24 RAD Annex 2A city-pair caps.",
+      "match_checks": [
+        "Run the city-pair cap compliance check against current RAD Annex 2A runtime rules",
+        "Only apply VIOLATION findings where dep/arr scope matches, route conditions are confirmed, cap is H24, and SRD Max exceeds the RAD cap"
+      ],
+      "carry_forward_action": "Regenerate current-cycle RAD runtime data, rerun the city-pair cap check, lower only confirmed H24 violations, and record rule hit counts plus skipped categories in curation_notes.md.",
+      "stop_condition": "SRD rows no longer exceed confirmed H24 RAD caps, or the parser gains an automated RAD-cap reconciliation stage.",
+      "last_verification": "AIRAC 2605 lowered 336 route rows across 154 dep/arr pairs."
+    },
+    {
+      "id": "SRD-CF-005",
+      "title": "Note 339 route-note placement audit",
+      "status": "active",
+      "introduced_cycle": "2605",
+      "last_applied_cycle": "2605",
+      "linear": "VFP-166",
+      "files": ["Routes.csv"],
+      "reason": "Note 339 is specific to VASUX DCT ELVOS / VASUX DCT LESTA availability at RFL285+; AIRAC 2605 had ORIST/Y110 rows carrying it.",
+      "match_checks": [
+        "Rows carrying Note 339 should contain VASUX and either ELVOS or LESTA",
+        "Rows matching VASUX plus ELVOS/LESTA should be checked for missing Note 339"
+      ],
+      "carry_forward_action": "For the new cycle, search all Note 339 rows. Remove misplaced Note 339 tokens only from rows outside the VASUX + ELVOS/LESTA family, preserving other note tokens. Record counts and edited rows in curation_notes.md.",
+      "stop_condition": "NATS corrects source placement for a full cycle, or VFP-166 resolves with different source guidance.",
+      "last_verification": "AIRAC 2605 removed Note 339 from rows 8213, 8216, 8219, and 26526."
+    },
+    {
+      "id": "SRD-CF-006",
+      "title": "Note 270 EGJ ORIST route-scoped variants",
+      "status": "active",
+      "introduced_cycle": "2605",
+      "last_applied_cycle": "2605",
+      "linear": "VFP-229",
+      "files": ["in.json", "Routes.csv"],
+      "reason": "Note 270 needs different EGJ ORIST behavior by route family: L982 bans J/E while allowing P/T; Y110 bans J/E/P/T. The generated output must preserve source note 270.",
+      "match_checks": [
+        "EGJ*/ORIST rows carrying Note 270 should use only first-airway families L982 or Y110 unless new evidence is reviewed",
+        "in.json should keep the non-EGJ/non-EGKK broad Note 270 ban",
+        "in.json should encode egj-orist-l982-jet-electric-ban with route_scope.sid ORIST, airway L982, types J/E",
+        "in.json should encode egj-orist-y110-ban with route_scope.sid ORIST, airway Y110, types J/E/P/T"
+      ],
+      "carry_forward_action": "When bootstrapping a new cycle's in.json, carry these Note 270 variants forward. Recount EGJ*/ORIST first-airway families in Routes.csv; if a third family appears, stop and audit before production.",
+      "stop_condition": "NATS changes Note 270 text or row placement, IFPUV evidence changes, or a future parser/source-data rule supersedes the manual in.json variants.",
+      "last_verification": "AIRAC 2605.7 scratch output: 31 L982 J/E bans, 31 L982 P/T pass-through constraints, 29 Y110 all-type bans, 0 mixed L982/Y110 Note 270 alternatives."
+    },
+    {
+      "id": "SRD-CF-007",
+      "title": "Note 492 comment-only source sync",
+      "status": "watch",
+      "introduced_cycle": "2605",
+      "last_applied_cycle": "2605",
+      "linear": null,
+      "files": ["in.json"],
+      "reason": "AIRAC 2605.5 changed Note 492 to comment-only after IFPUV accepted affected EGKK rows; stale desktop copies carried the older scoped hard-rule shape.",
+      "match_checks": [
+        "Confirm Note 492 in the live source in.json matches the latest archived/repo form before parser runs",
+        "Confirm generated output has 0 srd:492 alerts unless new evidence changes the note"
+      ],
+      "carry_forward_action": "Before the new cycle production run, compare Note 492 in the live source in.json against the latest airac-data in.json baseline and avoid resurrecting the older hard-rule shape.",
+      "stop_condition": "Two consecutive cycles start from the repo baseline without stale desktop-source divergence.",
+      "last_verification": "AIRAC 2605.6 production candidate had 0 srd:492 alerts."
+    }
+  ]
+}

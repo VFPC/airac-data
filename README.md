@@ -23,6 +23,8 @@ vFPC 2603/
   manifest.md
 vFPC 2604/               ← added each cycle
   ...
+srd_carry_forward_patches.json  ← active cross-cycle manual patch ledger
+srd_patch_carry_forward.md      ← carry-forward review workflow
 ```
 
 ---
@@ -113,6 +115,23 @@ git push
 ```
 
 The `archive` command copies flat files and manifest and runs `git add`, but never auto-commits. You always review before committing.
+
+---
+
+## Carry-forward SRD/data patches
+
+Manual curation that may need to survive a new AIRAC cycle is tracked in:
+
+```text
+srd_carry_forward_patches.json
+```
+
+Before the first production parser run for a new cycle, review every non-retired
+entry in that ledger. Apply only patches whose source conditions still hold, and
+record the applied/skipped/retired decision in the new cycle's
+`curation_notes.md`.
+
+The workflow is documented in `srd_patch_carry_forward.md`.
 
 ---
 
