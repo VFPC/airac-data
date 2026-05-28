@@ -97,7 +97,7 @@
       "status": "active",
       "introduced_cycle": "2605",
       "last_applied_cycle": "2605",
-      "linear": "VFP-229",
+      "linear": "VFP-228/VFP-229",
       "files": ["in.json", "Routes.csv"],
       "reason": "Note 270 needs different EGJ ORIST behavior by route family: L982 bans J/E while allowing P/T; Y110 bans J/E/P/T. The generated output must preserve source note 270.",
       "match_checks": [
@@ -201,6 +201,79 @@
       "carry_forward_action": "Before the next production parser run, compare the current-cycle Routes.csv against this pack. If rows still appear, either add a reviewed data patch, create/update a NATS query, or explicitly defer with curation_notes.md rationale. Do not silently publish these as ordinary clean rows.",
       "stop_condition": "Each item is either corrected by NATS/source data, encoded as a reviewed production patch, or reclassified by clean current-cycle IFPUV/RAD evidence.",
       "last_verification": "Extracted from Hub data/local_generated_parser_check/2605/srd_ifpuv_evidence.json confirmed_rad_authority reviewer notes after the AIRAC 2605.6 production candidate."
+    },
+    {
+      "id": "SRD-CF-012",
+      "title": "Note 333 L151/KIDLI/SAM/LELNA overflight clarification",
+      "status": "active",
+      "introduced_cycle": "2605",
+      "last_applied_cycle": null,
+      "linear": "VFP-210",
+      "files": ["Routes.csv", "Notes.csv", "in.json"],
+      "reason": "Linear VFP-210 records AIRAC 2605.6 missing/time-conditioned missing denials for Note 333 overflight rows. Source text says Jersey Group arrivals via L151 are available only for traffic destination Jersey Group, while overflights via LELNA must file an alternative routeing option.",
+      "match_checks": [
+        "Rows carrying Note 333 using broad KEPAD/KIDLI/SAM/LELNA L151-style overflight route families",
+        "Rows where destination is not Jersey Group but Note 333 is the only SRD evidence for the restriction",
+        "Current RAD/IFPUV evidence for the representative overflight rows"
+      ],
+      "carry_forward_action": "Before production, review current-cycle Note 333 rows against VFP-210. If the same overflight rows remain, either encode a reviewed route/destination patch, defer with explicit curation rationale, or include in the NATS SRD/RAD findings batch.",
+      "stop_condition": "NATS clarifies placement, rows are corrected, or current-cycle IFPUV/RAD evidence reclassifies the issue.",
+      "last_verification": "Linear VFP-210 remains In Progress after AIRAC 2605.6 missing-denial review."
+    },
+    {
+      "id": "SRD-CF-013",
+      "title": "EGCC SANBA to EGJJ N621 Jersey arrival RAD rejection",
+      "status": "active",
+      "introduced_cycle": "2605",
+      "last_applied_cycle": null,
+      "linear": "VFP-176",
+      "files": ["Routes.csv", "in.json"],
+      "reason": "Linear VFP-176 records AIRAC 2605.4 SRD rows that appear to permit EGCC SANBA to EGJJ via SAM/MARUK/N621/LELNA where IFPUV/RAD rejected the tested RNAV/PBN Jersey arrival. VFPC returned OK because the SRD rows allowed it.",
+      "match_checks": [
+        "EGCC SANBA to EGJJ rows using SAM/MARUK/N621/LELNA route families",
+        "Rows at the levels cited in VFP-176",
+        "Current-cycle RAD/IFPUV result for a representative RNAV/PBN Jersey arrival"
+      ],
+      "carry_forward_action": "Before production, retest or review the current-cycle rows. If still rejected by RAD/IFPUV while SRD permits them, decide whether to patch the source rows, carry as an explicit known discrepancy, or include in the NATS findings batch.",
+      "stop_condition": "Rows disappear, NATS/source data changes, or current-cycle RAD/IFPUV evidence accepts the route.",
+      "last_verification": "Linear VFP-176 remains Todo under the NATS SRD/RAD findings queue."
+    },
+    {
+      "id": "SRD-CF-014",
+      "title": "EG5601 PBN equipment encoded as Type in RAD source",
+      "status": "active",
+      "introduced_cycle": "2605",
+      "last_applied_cycle": null,
+      "linear": "VFP-207",
+      "files": ["RAD runtime source", "Routes.csv"],
+      "reason": "Linear VFP-207 records a high-priority RAD authoring typo: EG5601 appears to encode PBN equipment values D1/D2/D3/D4/O1/O2/O3/O4 as an aircraft Type predicate.",
+      "match_checks": [
+        "Inspect current-cycle EG5601 source/runtime output",
+        "Confirm whether the condition still parses as aircraft_type instead of capability/PBN equipment",
+        "Check whether affected EGBB/LUVUM route rows depend on this rule for production classification"
+      ],
+      "carry_forward_action": "Before production RAD/SRD validation, confirm whether the typo persists. If it affects candidate classification, record an explicit curation decision or NATS escalation rather than treating parser output as authoritative.",
+      "stop_condition": "NATS fixes EG5601, parser gains a reviewed compatibility correction, or the rule is irrelevant to the production candidate.",
+      "last_verification": "Linear VFP-207 remains Todo and high-priority."
+    },
+    {
+      "id": "SRD-CF-015",
+      "title": "Linear NATS/source-audit queue sync",
+      "status": "active",
+      "introduced_cycle": "2605",
+      "last_applied_cycle": null,
+      "linear": "VFP-177",
+      "files": ["Routes.csv", "Notes.csv", "in.json", "RAD runtime source"],
+      "reason": "Linear is the source of truth for filed NATS/source-audit issues. Some issues are clarification-only and should not become automatic data patches, but they still need explicit review before production if their rows/rules affect the current AIRAC.",
+      "match_checks": [
+        "List open/non-canceled children of VFP-177 before AIRAC production",
+        "Check source-audit/nats issues not already represented by a specific SRD-CF entry",
+        "Pay special attention to VFP-137, VFP-142, VFP-148, VFP-149, VFP-180, VFP-185, and VFP-188 when their source rows/rules affect the candidate",
+        "Ignore canceled duplicate issues only after confirming their replacement issue or ledger entry exists"
+      ],
+      "carry_forward_action": "During rollover, run a Linear sweep of VFP-177 children and source-audit/nats labels. Add a specific ledger entry for any issue that requires a production data decision; otherwise record 'reviewed/no production patch' in curation_notes.md when it affects the current cycle.",
+      "stop_condition": "A separate automated Linear-to-ledger sync exists, or the NATS/source-audit queue is fully represented in a maintained data-production checklist.",
+      "last_verification": "Manual sweep on 2026-05-28 found VFP-210, VFP-176, and VFP-207 missing from the initial carry-forward ledger; this entry prevents that class of omission."
     }
   ]
 }

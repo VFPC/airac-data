@@ -31,6 +31,8 @@ current parser capabilities.
    the list as complete:
    - `vFPC-Hub/Documentation/butler/srd_source_issue_ledger.json`
    - current-cycle `srd_ifpuv_evidence.json`, if a RAD/SRD probe pass exists
+   - Linear `VFP-177` children and open issues with `source-audit` / `nats`
+     labels
 4. Apply only patches whose conditions still hold.
 5. If a patch no longer applies, leave the source data unchanged and mark the
    result in the new cycle's `curation_notes.md`.
