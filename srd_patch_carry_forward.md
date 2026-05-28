@@ -27,21 +27,25 @@ current parser capabilities.
 1. Open `srd_carry_forward_patches.json`.
 2. For every patch where `status` is `active` or `active-until-automated`, run
    the listed `match_checks` against the new cycle files.
-3. Apply only patches whose conditions still hold.
-4. If a patch no longer applies, leave the source data unchanged and mark the
+3. Cross-check the Hub source issue ledger and current evidence before treating
+   the list as complete:
+   - `vFPC-Hub/Documentation/butler/srd_source_issue_ledger.json`
+   - current-cycle `srd_ifpuv_evidence.json`, if a RAD/SRD probe pass exists
+4. Apply only patches whose conditions still hold.
+5. If a patch no longer applies, leave the source data unchanged and mark the
    result in the new cycle's `curation_notes.md`.
-5. If source wording or route placement changed materially, stop and create or
+6. If source wording or route placement changed materially, stop and create or
    update the relevant Linear issue before encoding a new rule.
-6. After each edit, validate JSON and rerun the parser/linter checks relevant to
+7. After each edit, validate JSON and rerun the parser/linter checks relevant to
    the changed file.
-7. Record each applied, skipped, or retired patch in the new cycle's
+8. Record each applied, skipped, or retired patch in the new cycle's
    `curation_notes.md`, including:
    - carry-forward patch ID
    - files changed
    - row/note counts before and after
    - exact verification command or query
    - any backup or audit-detail file path
-8. After the production candidate is accepted, update this ledger:
+9. After the production candidate is accepted, update this ledger:
    - set `last_reviewed_cycle`
    - set `last_applied_cycle` for applied patches
    - change `status` to `watch` or `retired` when the stop condition is met

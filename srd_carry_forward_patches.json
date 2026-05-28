@@ -126,6 +126,81 @@
       "carry_forward_action": "Before the new cycle production run, compare Note 492 in the live source in.json against the latest airac-data in.json baseline and avoid resurrecting the older hard-rule shape.",
       "stop_condition": "Two consecutive cycles start from the repo baseline without stale desktop-source divergence.",
       "last_verification": "AIRAC 2605.6 production candidate had 0 srd:492 alerts."
+    },
+    {
+      "id": "SRD-CF-008",
+      "title": "Note 258 OMOKO rows source note-tag mismatch",
+      "status": "active",
+      "introduced_cycle": "2604",
+      "last_applied_cycle": null,
+      "linear": null,
+      "files": ["Routes.csv", "in.json"],
+      "reason": "Hub source issue ledger classifies selected FL245+ OMOKO rows as Note 258 source note-tag mismatches. Note 258 is the EGBB MOSUN DCT routing note; the affected rows do not route via MOSUN, and one row is EGNX/SAPCO.",
+      "match_checks": [
+        "Rows carrying Note 258 that contain both LUXTO N92 BUCGO L9 TIGWE and ZIPWE INFEC PEWBI GAPLI",
+        "Those rows do not contain MOSUN",
+        "Affected patterns include dep EGBB with blank SID and dep EGNX with SID SAPCO at min FL245"
+      ],
+      "carry_forward_action": "For the new cycle, review matching Note 258 rows before production. If the same non-MOSUN OMOKO rows still carry Note 258, treat them as source note-tag mismatches and decide whether to remove the misplaced note token or preserve with an explicit curation note pending NATS follow-up.",
+      "stop_condition": "Rows disappear, NATS corrects the note placement, or a Linear/NATS decision says to model the rows differently.",
+      "last_verification": "Recorded in Hub Documentation/butler/srd_source_issue_ledger.json as 2604-note-258-omoko-mistag."
+    },
+    {
+      "id": "SRD-CF-009",
+      "title": "Note 455 Dublin Group destination/nodests inversion",
+      "status": "active",
+      "introduced_cycle": "2604",
+      "last_applied_cycle": null,
+      "linear": null,
+      "files": ["in.json"],
+      "reason": "Hub source issue ledger records Note 455 definition 1 as using nodests for Dublin Group airports even though the SRD source says M145 must be used by jets ARR Dublin Group between 06:30-22:30.",
+      "match_checks": [
+        "Inspect Note 455 definition 1 in in.json",
+        "Confirm whether Dublin Group airports EIDG, EIDW, EIME, EIWT are coded as nodests instead of dests",
+        "Check whether parser/runtime now supports restriction-scoped ban mode needed for the BAN+MODIFIED pattern"
+      ],
+      "carry_forward_action": "Do not blindly flip fields during rollover. Review Note 455 against current parser capability: the simple nodests-to-dests correction is necessary but may still be insufficient until restriction-scoped ban semantics exist. Record the decision in curation_notes.md.",
+      "stop_condition": "Note 455 is correctly modelled end-to-end, or source text changes so the Dublin Group inversion no longer applies.",
+      "last_verification": "Recorded in Hub Documentation/butler/srd_source_issue_ledger.json as 2604-note-455-nodests-inversion."
+    },
+    {
+      "id": "SRD-CF-010",
+      "title": "Note 2 DCS N864 WAL SRD-vs-RAD retest",
+      "status": "active",
+      "introduced_cycle": "2605",
+      "last_applied_cycle": null,
+      "linear": "VFP-130/VFP-123",
+      "files": ["Routes.csv", "Notes.csv", "in.json"],
+      "reason": "IFPUV probes on Friday 2026-05-15 at 1700Z and 1900Z rejected DCS N864 WAL at FL240 even though Note 2 implies some weekday availability by selected DEP/ARR/VIA traffic. Treat as SRD-vs-RAD conflict pending current-cycle retest.",
+      "match_checks": [
+        "Rows carrying Note 2 with route fragment DCS N864 WAL and min around FL205+",
+        "Retest representative current-cycle rows against IFPUV/RAD before trusting the existing weekday-complement coding"
+      ],
+      "carry_forward_action": "Add Note 2 / DCS N864 WAL to the pre-production RAD/SRD retest queue. Do not treat the current in.json Note 2 weekday-complement coding as proven equivalent until the retest is reviewed.",
+      "stop_condition": "Current-cycle IFPUV/RAD retest confirms the SRD coding, or a NATS/RAD clarification gives a different production patch.",
+      "last_verification": "Recorded in Hub Documentation/butler/srd_source_issue_ledger.json as 2605-note-2-n864-dcs-wal-rad-conflict."
+    },
+    {
+      "id": "SRD-CF-011",
+      "title": "RAD-confirmed SRD route-set disagreement review pack",
+      "status": "active",
+      "introduced_cycle": "2605",
+      "last_applied_cycle": null,
+      "linear": null,
+      "files": ["Routes.csv", "in.json"],
+      "reason": "Post-production RAD/IFPUV evidence found multiple SRD rows with no hard SRD ban where current RAD rules appear to prohibit or mandate different routing. These are suspected SRD route-set disagreements, not parser output-shape issues.",
+      "match_checks": [
+        "EG2444: EGGW RODNI rows via N27 ICTAM Q63 CPT MID Y803 SFD M605/UM605 at FL245+",
+        "EG3499: non-EGTE UK arrivals via WEVBE at FL245+",
+        "EG3217: EGTE departures via CARWI/AZCAL/AVTIC above FL245 that are not EGHQ departures",
+        "EG2838: EGAE-EGTE row crossing Q38/SOSIM high-level slice above FL285",
+        "EG2608: EGBB via HON L10 LAM exposing HON L10 DTY",
+        "EG2628: EGBB via HON L10 LAM where RAD says traffic via HON should plan DCT HON and not the DTY SID",
+        "EG2522: EGKK LAM to EGBB via L610 HEMEL with no hard SRD ban"
+      ],
+      "carry_forward_action": "Before the next production parser run, compare the current-cycle Routes.csv against this pack. If rows still appear, either add a reviewed data patch, create/update a NATS query, or explicitly defer with curation_notes.md rationale. Do not silently publish these as ordinary clean rows.",
+      "stop_condition": "Each item is either corrected by NATS/source data, encoded as a reviewed production patch, or reclassified by clean current-cycle IFPUV/RAD evidence.",
+      "last_verification": "Extracted from Hub data/local_generated_parser_check/2605/srd_ifpuv_evidence.json confirmed_rad_authority reviewer notes after the AIRAC 2605.6 production candidate."
     }
   ]
 }
