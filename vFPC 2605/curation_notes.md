@@ -180,3 +180,19 @@ Generated candidate: `C:\Users\jkino\Desktop\vFPC files\Historical Files\vFPC 26
 Previous candidate backup: `C:\Users\jkino\Desktop\vFPC files\Historical Files\vFPC 2605\out.json.pre-2605.6-publication-candidate.20260522-084659.bak`.
 Final counts: 90 airports, 13822 constraints, SHA256 `DFFA04F74C90A51C988769303B003532A7261152410BED9B8D809D9D09D70221`.
 Verification highlights: 0 `srd:492` alerts, 0 Note 270 alerts with destination EGKK, 0 unresolved AIP segments.
+
+
+## Note 270 route-scoped EGJ* ORIST coding test
+
+Date: 2026-05-28
+
+Purpose: replace the broad EGJ* Note 270 hard-ban branches with route-scoped variants now that New-SRDParser supports `route_scope` note variants. This avoids blocking EGJ* prop/turboprop traffic on the ORIST/L982 family while preserving the hard ban for the ORIST/Y110 family.
+
+Method: kept the non-EGJ*/non-EGKK broad Note 270 ban. Replaced the EGJ* branches with:
+
+- `egj-orist-l982-jet-electric-ban`: `dep=["EGJ"]`, `nodests=["EGKK"]`, `route_scope.sid="ORIST"`, `route_scope.airways=["L982"]`, `types=["J","E"]`.
+- `egj-orist-y110-ban`: `dep=["EGJ"]`, `nodests=["EGKK"]`, `route_scope.sid="ORIST"`, `route_scope.airways=["Y110"]`, `types=["J","E","P","T"]`.
+
+Verification: generated a scratch parser run with `CYCLE_OVERRIDE=2605.7`. EGJJ/ORIST output had 60 Note 270 alert constraints: 31 L982-only constraints with `types=["J","E"]`, 29 Y110-only constraints with `types=["J","E","P","T"]`, 31 matching L982 P/T pass-through constraints, and 0 mixed L982+Y110 Note 270 route alternatives. `vfpc_check` probes against the generated output confirmed L982/J fails at the alert round, L982/P passes, and Y110/P fails at the alert round.
+
+Operational confirmations: the earlier broad P/T `min=195` ban branch was intentionally removed for the route-scoped model; EGJ* prop/turboprop traffic on ORIST/L982 should pass rather than be blocked above FL195 by Note 270. AIRAC 2605 `Routes.csv` has no EGJ*/ORIST first-airway family other than L982 or Y110; all EGJ*/ORIST rows carrying Note 270 are in those two families.

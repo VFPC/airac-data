@@ -2178,37 +2178,52 @@
     },
     {
       "note": 270,
+      "variant": "egj-orist-l982-jet-electric-ban",
       "dep": [
         "EGJ"
       ],
       "nodests": [
         "EGKK"
       ],
-      "types": [
-        "P",
-        "T"
-      ],
-      "min": 195,
-      "alert": {
-        "ban": true,
-        "note": "EGJ* prop aircraft may use ORIST only below FL195 unless standard routeings are unavailable due to danger-area activity, which is not modelled in vFPC."
-      }
-    },
-    {
-      "note": 270,
-      "dep": [
-        "EGJ"
-      ],
-      "nodests": [
-        "EGKK"
-      ],
+      "route_scope": {
+        "sid": "ORIST",
+        "airways": [
+          "L982"
+        ]
+      },
       "types": [
         "J",
         "E"
       ],
       "alert": {
         "ban": true,
-        "note": "ORIST is only normally available for EGJ* departures below FL195 by prop aircraft, or arrivals EGKK. Other use depends on danger-area activity not modelled in vFPC."
+        "note": "ORIST L982 is not normally available for EGJ* jet/electric departures unless standard routeings are unavailable due to danger-area activity, which is not modelled in vFPC."
+      }
+    },
+    {
+      "note": 270,
+      "variant": "egj-orist-y110-ban",
+      "dep": [
+        "EGJ"
+      ],
+      "nodests": [
+        "EGKK"
+      ],
+      "route_scope": {
+        "sid": "ORIST",
+        "airways": [
+          "Y110"
+        ]
+      },
+      "types": [
+        "J",
+        "E",
+        "P",
+        "T"
+      ],
+      "alert": {
+        "ban": true,
+        "note": "ORIST Y110 is not normally available for EGJ* departures unless standard routeings are unavailable due to danger-area activity, which is not modelled in vFPC."
       }
     },
     {
