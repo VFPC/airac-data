@@ -1,0 +1,30 @@
+{
+  "cycle": "2605",
+  "date": "2026-05-29",
+  "purpose": "remove SRD route rows that current RAD/IFPUV evidence rejects under EG2444A before rerunning New-SRDParser.",
+  "reason_fragments": [
+    "MID Y803 SFD M605/UM605 to XIDIL for DEP EGGW/EGWU",
+    "EG2444A NOT AVBL FOR TFC via MID Y803 SFD",
+    "IFPUV probe rejected representative EGGW rows by EG2444A"
+  ],
+  "removals": [
+    {
+      "worksheet_line": 7198,
+      "route_id": "VFP-60-EGGW-RODNI-UM605",
+      "defect": "Current EG2444A RAD rule says MID Y803 SFD is not available for DEP EGGW/EGLL/EGWU traffic; representative IFPUV evidence rejects the EGGW UM605 row by EG2444A.",
+      "expected_raw_csv_line": "EGGW,RODNI,245,295,N27 ICTAM Q63 CPT DCT MID Y803 SFD UM605,,XIDIL,"
+    },
+    {
+      "worksheet_line": 7200,
+      "route_id": "VFP-60-EGGW-RODNI-M605",
+      "defect": "Current EG2444A RAD rule says MID Y803 SFD is not available for DEP EGGW/EGLL/EGWU traffic; representative IFPUV evidence rejects the EGGW M605 row by EG2444A.",
+      "expected_raw_csv_line": "EGGW,RODNI,MC,245,N27 ICTAM Q63 CPT DCT MID Y803 SFD M605,,XIDIL,"
+    },
+    {
+      "worksheet_line": 21193,
+      "route_id": "VFP-60-EGWU-CPT-M605",
+      "defect": "Current EG2444A RAD rule says MID Y803 SFD is not available for DEP EGGW/EGLL/EGWU traffic. EGWU is explicitly in the same RAD branch; this row is treated as the same SRD/RAD source disagreement pending NATS clarification.",
+      "expected_raw_csv_line": "EGWU,CPT,MC,245,DCT MID Y803 SFD M605,,XIDIL,"
+    }
+  ]
+}

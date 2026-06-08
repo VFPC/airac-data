@@ -1,0 +1,58 @@
+{
+  "airac": "2605",
+  "created_at_local": "2026-05-22T08:41:29",
+  "routes_csv": "C:\\Users\\jkino\\Desktop\\vFPC files\\Historical Files\\vFPC 2605\\Routes.csv",
+  "backup": "C:\\Users\\jkino\\Desktop\\vFPC files\\Historical Files\\vFPC 2605\\Routes.csv.pre-note339-curation.20260522-084127.bak",
+  "method": "Removed Note 339 only from rows whose route does not contain VASUX and ELVOS/LESTA. Note 339 source text is specific to VASUX DCT ELVOS/LESTA availability.",
+  "changed_rows": 4,
+  "edits": [
+    {
+      "line": 8213,
+      "adep": "EGJJ",
+      "sid": "ORIST",
+      "min": "125",
+      "max": "195",
+      "route": "Y110 VEXEN L980 KATHY L980 AVANT N16 GWC DCT HOLLY DCT WILLO DCT",
+      "star": "",
+      "ades": "EGKR",
+      "old_remarks": "Notes: 339 - 453",
+      "new_remarks": "Notes: 453"
+    },
+    {
+      "line": 8216,
+      "adep": "EGJJ",
+      "sid": "ORIST",
+      "min": "125",
+      "max": "235",
+      "route": "Y110 VEXEN L980 KATHY",
+      "star": "KATHY1V",
+      "ades": "EGLF",
+      "old_remarks": "Notes: 339 - 450 - 453",
+      "new_remarks": "Notes: 450 - 453"
+    },
+    {
+      "line": 8219,
+      "adep": "EGJJ",
+      "sid": "ORIST",
+      "min": "125",
+      "max": "235",
+      "route": "Y110 VEXEN L980 KATHY",
+      "star": "KATHY1V",
+      "ades": "EGLK",
+      "old_remarks": "Notes: 339 - 450 - 453",
+      "new_remarks": "Notes: 450 - 453"
+    },
+    {
+      "line": 26526,
+      "adep": "ORIST",
+      "sid": "",
+      "min": "125",
+      "max": "315",
+      "route": "Y110 VEXEN L980 AVANT N16 GWC DCT HOLLY DCT WILLO DCT",
+      "star": "",
+      "ades": "EGKR",
+      "old_remarks": "Notes: 339 - 270",
+      "new_remarks": "Notes: 270"
+    }
+  ]
+}

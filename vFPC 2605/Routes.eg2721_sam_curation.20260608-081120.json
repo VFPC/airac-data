@@ -1,0 +1,32 @@
+{
+  "timestamp_utc": "2026-06-08T05:24:10.331866+00:00",
+  "backup": "C:\\Users\\jkino\\Desktop\\vFPC files\\Historical Files\\vFPC 2605\\Routes.csv.pre-eg2721-sam-curation.20260608-081120.bak",
+  "removed_rows": [
+    {
+      "line": 10775,
+      "row": {
+        "ADEP/Entry": "EGLL",
+        "SID": "GOGSI",
+        "Min": "65",
+        "Max": "75",
+        "Route": "DCT SAM DCT BIA",
+        "STAR": "",
+        "ADES/Exit": "EGHH",
+        "Remarks": ""
+      }
+    },
+    {
+      "line": 10776,
+      "row": {
+        "ADEP/Entry": "EGLL",
+        "SID": "GOGSI",
+        "Min": "65",
+        "Max": "75",
+        "Route": "DCT SAM DCT",
+        "STAR": "",
+        "ADES/Exit": "EGHI",
+        "Remarks": ""
+      }
+    }
+  ]
+}
