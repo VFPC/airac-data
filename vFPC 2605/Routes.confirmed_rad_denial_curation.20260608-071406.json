@@ -1,0 +1,509 @@
+{
+  "cycle": "2605",
+  "date": "2026-06-08",
+  "purpose": "Remove current source rows from the June 5 confirmed RAD-denial-not-encoded-in-SRD correction packet before a 2605.9 parser dot release.",
+  "source_packet": "C:\\Users\\jkino\\Documents\\GitHub\\vFPC-Hub\\Documentation\\butler\\staging\\nats_srd_confirmed_rad_denials_2605_2026-06-05.csv",
+  "backup": "C:\\Users\\jkino\\Desktop\\vFPC files\\Historical Files\\vFPC 2605\\Routes.csv.pre-confirmed-rad-denial-curation.20260608-071406.bak",
+  "removed_source_row_count": 25,
+  "packet_route_count": 22,
+  "records": [
+    {
+      "route_index": "942",
+      "label": "EGBB (no SID) -> EGTO via HON L10 LAM",
+      "denying_rules": "EG2608, EG2628",
+      "matched_source_lines": [
+        4096
+      ],
+      "matched_rows": [
+        {
+          "ADEP/Entry": "EGBB",
+          "SID": "",
+          "Min": "MC",
+          "Max": "195",
+          "Route": "DCT HON L10 LAM DCT",
+          "STAR": "",
+          "ADES/Exit": "EGTO",
+          "Remarks": "",
+          "source_line": 4096
+        }
+      ]
+    },
+    {
+      "route_index": "1576",
+      "label": "EGBE (no SID) -> EGGW via DTY M605 FINMA",
+      "denying_rules": "EG2013",
+      "matched_source_lines": [
+        4534
+      ],
+      "matched_rows": [
+        {
+          "ADEP/Entry": "EGBE",
+          "SID": "",
+          "Min": "MC",
+          "Max": "155",
+          "Route": "DCT DTY M605 FINMA",
+          "STAR": "FINMA1N",
+          "ADES/Exit": "EGGW",
+          "Remarks": "",
+          "source_line": 4534
+        }
+      ]
+    },
+    {
+      "route_index": "1577",
+      "label": "EGBE (no SID) -> EGGW via DTY M605 FINMA BPK Q295 MATCH LOFFO",
+      "denying_rules": "EG2013",
+      "matched_source_lines": [
+        4535
+      ],
+      "matched_rows": [
+        {
+          "ADEP/Entry": "EGBE",
+          "SID": "",
+          "Min": "MC",
+          "Max": "155",
+          "Route": "DCT DTY M605 FINMA DCT BPK Q295 MATCH DCT LOFFO",
+          "STAR": "DET2A",
+          "ADES/Exit": "EGGW",
+          "Remarks": "Notes: 452",
+          "source_line": 4535
+        }
+      ]
+    },
+    {
+      "route_index": "3056",
+      "label": "EGGD BCN -> EGPT via P69 DIZIM N864 KISWO AVTIC ANJAK N38 NOKIN UP17 POL KEFTE INREV N601 TLA EDN",
+      "denying_rules": "EG3619",
+      "matched_source_lines": [
+        6398
+      ],
+      "matched_rows": [
+        {
+          "ADEP/Entry": "EGGD",
+          "SID": "BCN",
+          "Min": "255",
+          "Max": "285",
+          "Route": "P69 DIZIM N864 KISWO DCT AVTIC DCT ANJAK N38 NOKIN UP17 POL DCT KEFTE <FRA> INREV N601 TLA DCT EDN DCT",
+          "STAR": "",
+          "ADES/Exit": "EGPT",
+          "Remarks": "Notes: 447",
+          "source_line": 6398
+        }
+      ]
+    },
+    {
+      "route_index": "4896",
+      "label": "EGJJ SKERY -> EGPK via L22 EMWIP P16 FIMCA N22 BHD N864 WAL L10 IOM BLACA",
+      "denying_rules": "EG2640",
+      "matched_source_lines": [
+        8344
+      ],
+      "matched_rows": [
+        {
+          "ADEP/Entry": "EGJJ",
+          "SID": "SKERY",
+          "Min": "MC",
+          "Max": "245",
+          "Route": "L22 EMWIP P16 FIMCA N22 BHD N864 WAL L10 IOM DCT BLACA",
+          "STAR": "BLACA1P",
+          "ADES/Exit": "EGPK",
+          "Remarks": "",
+          "source_line": 8344
+        }
+      ]
+    },
+    {
+      "route_index": "5547",
+      "label": "EGKK LAM -> EGBB,EGBE via L610 HEMEL",
+      "denying_rules": "EG2522",
+      "matched_source_lines": [
+        8968,
+        8969
+      ],
+      "matched_rows": [
+        {
+          "ADEP/Entry": "EGKK",
+          "SID": "LAM",
+          "Min": "MC",
+          "Max": "195",
+          "Route": "L610 HEMEL",
+          "STAR": "HEMEL1B",
+          "ADES/Exit": "EGBB",
+          "Remarks": "",
+          "source_line": 8968
+        },
+        {
+          "ADEP/Entry": "EGKK",
+          "SID": "LAM",
+          "Min": "MC",
+          "Max": "195",
+          "Route": "L610 HEMEL",
+          "STAR": "HEMEL1B",
+          "ADES/Exit": "EGBE",
+          "Remarks": "",
+          "source_line": 8969
+        }
+      ]
+    },
+    {
+      "route_index": "7078",
+      "label": "EGLL GASGU -> EGHI via SAM",
+      "denying_rules": "EG2721",
+      "matched_source_lines": [
+        10784
+      ],
+      "matched_rows": [
+        {
+          "ADEP/Entry": "EGLL",
+          "SID": "GASGU",
+          "Min": "65",
+          "Max": "75",
+          "Route": "DCT SAM DCT",
+          "STAR": "",
+          "ADES/Exit": "EGHI",
+          "Remarks": "",
+          "source_line": 10784
+        }
+      ]
+    },
+    {
+      "route_index": "7079",
+      "label": "EGLL GASGU -> EGHH via SAM BIA",
+      "denying_rules": "EG2721",
+      "matched_source_lines": [
+        10782
+      ],
+      "matched_rows": [
+        {
+          "ADEP/Entry": "EGLL",
+          "SID": "GASGU",
+          "Min": "65",
+          "Max": "75",
+          "Route": "DCT SAM DCT BIA",
+          "STAR": "",
+          "ADES/Exit": "EGHH",
+          "Remarks": "",
+          "source_line": 10782
+        }
+      ]
+    },
+    {
+      "route_index": "8512",
+      "label": "EGNM NELSA -> EGPT via IPSIR P17 MEJAC TIPTA INREV EDN",
+      "denying_rules": "EG3619",
+      "matched_source_lines": [
+        12671
+      ],
+      "matched_rows": [
+        {
+          "ADEP/Entry": "EGNM",
+          "SID": "NELSA",
+          "Min": "255",
+          "Max": "660",
+          "Route": "DCT IPSIR P17 MEJAC DCT TIPTA <FRA> INREV DCT EDN",
+          "STAR": "",
+          "ADES/Exit": "EGPT",
+          "Remarks": "",
+          "source_line": 12671
+        }
+      ]
+    },
+    {
+      "route_index": "10868",
+      "label": "EGPD (no SID) -> EGFF via NAXIL P600 PTH ZOFAT ADZOP EGTOC NOKIN N862 KARNO ALHUP LUCSA N862 WEVBE",
+      "denying_rules": "EG3499",
+      "matched_source_lines": [
+        15151
+      ],
+      "matched_rows": [
+        {
+          "ADEP/Entry": "EGPD",
+          "SID": "",
+          "Min": "255",
+          "Max": "335",
+          "Route": "DCT NAXIL P600 PTH DCT ZOFAT <FRA> ADZOP DCT EGTOC DCT NOKIN N862 KARNO DCT ALHUP DCT LUCSA N862 WEVBE",
+          "STAR": "WEVBE1C",
+          "ADES/Exit": "EGFF",
+          "Remarks": "",
+          "source_line": 15151
+        }
+      ]
+    },
+    {
+      "route_index": "10869",
+      "label": "EGPD (no SID) -> EGGD via NAXIL P600 PTH ZOFAT ADZOP EGTOC NOKIN N862 KARNO ALHUP LUCSA N862 WEVBE",
+      "denying_rules": "EG3499",
+      "matched_source_lines": [
+        15156
+      ],
+      "matched_rows": [
+        {
+          "ADEP/Entry": "EGPD",
+          "SID": "",
+          "Min": "265",
+          "Max": "335",
+          "Route": "DCT NAXIL P600 PTH DCT ZOFAT <FRA> ADZOP DCT EGTOC DCT NOKIN N862 KARNO DCT ALHUP DCT LUCSA N862 WEVBE",
+          "STAR": "WEVBE1B",
+          "ADES/Exit": "EGGD",
+          "Remarks": "",
+          "source_line": 15156
+        }
+      ]
+    },
+    {
+      "route_index": "13028",
+      "label": "EGQS (no SID) -> EGSY via FINDO ADZOP EGTOC NOKIN N862 WEVBE",
+      "denying_rules": "EG3499",
+      "matched_source_lines": [
+        18478
+      ],
+      "matched_rows": [
+        {
+          "ADEP/Entry": "EGQS",
+          "SID": "",
+          "Min": "255",
+          "Max": "335",
+          "Route": "DCT FINDO <FRA> ADZOP DCT EGTOC DCT NOKIN N862 WEVBE",
+          "STAR": "WEVBE1C",
+          "ADES/Exit": "EGSY",
+          "Remarks": "Notes: 489",
+          "source_line": 18478
+        }
+      ]
+    },
+    {
+      "route_index": "13992",
+      "label": "EGTE (no SID) -> EGPE via EXMOR CARWI N864 ETNAH AZCAL DIZIM AVTIC ANJAK N38 NOKIN UP16 RIBEL ERSON N560 NESDI GUSSI",
+      "denying_rules": "EG3217",
+      "matched_source_lines": [
+        19570
+      ],
+      "matched_rows": [
+        {
+          "ADEP/Entry": "EGTE",
+          "SID": "",
+          "Min": "285",
+          "Max": "660",
+          "Route": "DCT EXMOR DCT CARWI N864 ETNAH DCT AZCAL DCT DIZIM DCT AVTIC DCT ANJAK N38 NOKIN UP16 RIBEL <FRA> ERSON N560 NESDI DCT GUSSI DCT",
+          "STAR": "",
+          "ADES/Exit": "EGPE",
+          "Remarks": "",
+          "source_line": 19570
+        }
+      ]
+    },
+    {
+      "route_index": "13993",
+      "label": "EGTE (no SID) -> EGPD via EXMOR CARWI N864 ETNAH AZCAL DIZIM AVTIC ANJAK N38 NOKIN UP16 RIBEL GRICE FINDO P600 NAXIL",
+      "denying_rules": "EG3217",
+      "matched_source_lines": [
+        19564,
+        19565
+      ],
+      "matched_rows": [
+        {
+          "ADEP/Entry": "EGTE",
+          "SID": "",
+          "Min": "285",
+          "Max": "660",
+          "Route": "DCT EXMOR DCT CARWI N864 ETNAH DCT AZCAL DCT DIZIM DCT AVTIC DCT ANJAK N38 NOKIN UP16 RIBEL <FRA> GRICE DCT FINDO P600 NAXIL DCT",
+          "STAR": "",
+          "ADES/Exit": "EGPD",
+          "Remarks": "",
+          "source_line": 19564
+        },
+        {
+          "ADEP/Entry": "EGTE",
+          "SID": "",
+          "Min": "285",
+          "Max": "660",
+          "Route": "DCT EXMOR DCT CARWI N864 ETNAH DCT AZCAL DCT DIZIM DCT AVTIC DCT ANJAK N38 NOKIN UP16 RIBEL <FRA> GRICE DCT FINDO P600 NAXIL DCT",
+          "STAR": "",
+          "ADES/Exit": "EGPD",
+          "Remarks": "",
+          "source_line": 19565
+        }
+      ]
+    },
+    {
+      "route_index": "13994",
+      "label": "EGTE (no SID) -> EGPH via EXMOR CARWI N864 ETNAH AZCAL DIZIM AVTIC ANJAK N38 NOKIN UP16 RIBEL INPIP",
+      "denying_rules": "EG3217",
+      "matched_source_lines": [
+        19579,
+        19580
+      ],
+      "matched_rows": [
+        {
+          "ADEP/Entry": "EGTE",
+          "SID": "",
+          "Min": "285",
+          "Max": "660",
+          "Route": "DCT EXMOR DCT CARWI N864 ETNAH DCT AZCAL DCT DIZIM DCT AVTIC DCT ANJAK N38 NOKIN UP16 RIBEL <FRA> INPIP",
+          "STAR": "INPIP1E",
+          "ADES/Exit": "EGPH",
+          "Remarks": "",
+          "source_line": 19579
+        },
+        {
+          "ADEP/Entry": "EGTE",
+          "SID": "",
+          "Min": "285",
+          "Max": "660",
+          "Route": "DCT EXMOR DCT CARWI N864 ETNAH DCT AZCAL DCT DIZIM DCT AVTIC DCT ANJAK N38 NOKIN UP16 RIBEL <FRA> INPIP",
+          "STAR": "INPIP1E",
+          "ADES/Exit": "EGPH",
+          "Remarks": "",
+          "source_line": 19580
+        }
+      ]
+    },
+    {
+      "route_index": "13996",
+      "label": "EGTE (no SID) -> EGPD via EXMOR CARWI N864 ETNAH AZCAL DIZIM AVTIC ANJAK N38 NOKIN UP17 POL KEFTE GRICE FINDO P600 NAXIL",
+      "denying_rules": "EG3217",
+      "matched_source_lines": [
+        19562
+      ],
+      "matched_rows": [
+        {
+          "ADEP/Entry": "EGTE",
+          "SID": "",
+          "Min": "255",
+          "Max": "285",
+          "Route": "DCT EXMOR DCT CARWI N864 ETNAH DCT AZCAL DCT DIZIM DCT AVTIC DCT ANJAK N38 NOKIN UP17 POL DCT KEFTE <FRA> GRICE DCT FINDO P600 NAXIL DCT",
+          "STAR": "",
+          "ADES/Exit": "EGPD",
+          "Remarks": "",
+          "source_line": 19562
+        }
+      ]
+    },
+    {
+      "route_index": "13997",
+      "label": "EGTE (no SID) -> EGPH via EXMOR CARWI N864 ETNAH AZCAL DIZIM AVTIC ANJAK N38 NOKIN UP17 POL KEFTE INPIP",
+      "denying_rules": "EG3217",
+      "matched_source_lines": [
+        19578
+      ],
+      "matched_rows": [
+        {
+          "ADEP/Entry": "EGTE",
+          "SID": "",
+          "Min": "255",
+          "Max": "285",
+          "Route": "DCT EXMOR DCT CARWI N864 ETNAH DCT AZCAL DCT DIZIM DCT AVTIC DCT ANJAK N38 NOKIN UP17 POL DCT KEFTE <FRA> INPIP",
+          "STAR": "INPIP1E",
+          "ADES/Exit": "EGPH",
+          "Remarks": "",
+          "source_line": 19578
+        }
+      ]
+    },
+    {
+      "route_index": "13998",
+      "label": "EGTE (no SID) -> EGPD via EXMOR CARWI N864 ETNAH AZCAL DIZIM AVTIC ANJAK N38 NOKIN UP17 POL KEFTE MADAD NEXUS P18 EPCAN",
+      "denying_rules": "EG3217",
+      "matched_source_lines": [
+        19563
+      ],
+      "matched_rows": [
+        {
+          "ADEP/Entry": "EGTE",
+          "SID": "",
+          "Min": "255",
+          "Max": "285",
+          "Route": "DCT EXMOR DCT CARWI N864 ETNAH DCT AZCAL DCT DIZIM DCT AVTIC DCT ANJAK N38 NOKIN UP17 POL DCT KEFTE <FRA> MADAD DCT NEXUS P18 EPCAN DCT",
+          "STAR": "",
+          "ADES/Exit": "EGPD",
+          "Remarks": "Notes: 225",
+          "source_line": 19563
+        }
+      ]
+    },
+    {
+      "route_index": "13999",
+      "label": "EGTE (no SID) -> EGPK via EXMOR CARWI N864 ETNAH AZCAL DIZIM AVTIC ANJAK N38 NOKIN UP17 POL UN601 RIBEL ASLIB",
+      "denying_rules": "EG3217",
+      "matched_source_lines": [
+        19584
+      ],
+      "matched_rows": [
+        {
+          "ADEP/Entry": "EGTE",
+          "SID": "",
+          "Min": "255",
+          "Max": "285",
+          "Route": "DCT EXMOR DCT CARWI N864 ETNAH DCT AZCAL DCT DIZIM DCT AVTIC DCT ANJAK N38 NOKIN UP17 POL UN601 RIBEL DCT ASLIB",
+          "STAR": "ASLIB1P",
+          "ADES/Exit": "EGPK",
+          "Remarks": "",
+          "source_line": 19584
+        }
+      ]
+    },
+    {
+      "route_index": "14000",
+      "label": "EGTE (no SID) -> EGPD via EXMOR CARWI N864 ETNAH AZCAL DIZIM AVTIC ANJAK N38 NOKIN UP17 POL UP18 LEHOC MADAD NEXUS P18 EPCAN",
+      "denying_rules": "EG3217",
+      "matched_source_lines": [
+        19566
+      ],
+      "matched_rows": [
+        {
+          "ADEP/Entry": "EGTE",
+          "SID": "",
+          "Min": "285",
+          "Max": "660",
+          "Route": "DCT EXMOR DCT CARWI N864 ETNAH DCT AZCAL DCT DIZIM DCT AVTIC DCT ANJAK N38 NOKIN UP17 POL UP18 LEHOC <FRA> MADAD DCT NEXUS P18 EPCAN DCT",
+          "STAR": "",
+          "ADES/Exit": "EGPD",
+          "Remarks": "Notes: 225",
+          "source_line": 19566
+        }
+      ]
+    },
+    {
+      "route_index": "14001",
+      "label": "EGTE (no SID) -> EGAC via EXMOR CARWI N864 ETNAH AZCAL DIZIM AVTIC MONTY UN864 BILVO UP6 TUPEM REMSI NINEB M148 MAGEE",
+      "denying_rules": "EG3217",
+      "matched_source_lines": [
+        19500
+      ],
+      "matched_rows": [
+        {
+          "ADEP/Entry": "EGTE",
+          "SID": "",
+          "Min": "255",
+          "Max": "285",
+          "Route": "DCT EXMOR DCT CARWI N864 ETNAH DCT AZCAL DCT DIZIM DCT AVTIC DCT MONTY UN864 BILVO UP6 TUPEM DCT REMSI DCT NINEB M148 MAGEE DCT",
+          "STAR": "",
+          "ADES/Exit": "EGAC",
+          "Remarks": "Notes: 453",
+          "source_line": 19500
+        }
+      ]
+    },
+    {
+      "route_index": "14002",
+      "label": "EGTE (no SID) -> EGAA via EXMOR CARWI N864 ETNAH AZCAL DIZIM AVTIC MONTY UN864 BILVO UP6 TUPEM REMSI UVPOK M147 ROBOP M146 IPSET P6 BELZU",
+      "denying_rules": "EG3217",
+      "matched_source_lines": [
+        19497
+      ],
+      "matched_rows": [
+        {
+          "ADEP/Entry": "EGTE",
+          "SID": "",
+          "Min": "255",
+          "Max": "285",
+          "Route": "DCT EXMOR DCT CARWI N864 ETNAH DCT AZCAL DCT DIZIM DCT AVTIC DCT MONTY UN864 BILVO UP6 TUPEM DCT REMSI DCT UVPOK M147 ROBOP M146 IPSET P6 BELZU DCT",
+          "STAR": "",
+          "ADES/Exit": "EGAA",
+          "Remarks": "Notes: 453",
+          "source_line": 19497
+        }
+      ]
+    }
+  ]
+}

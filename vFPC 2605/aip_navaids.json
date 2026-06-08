@@ -1,0 +1,493 @@
+{
+  "source_airac": "2026-05-14",
+  "generated_at": "2026-05-13T05:29:43.4743253Z",
+  "navaids": [
+    {
+      "ident": "ADN",
+      "name": "ABERDEEN",
+      "type": "VOR/DME",
+      "latitude": 57.31045,
+      "longitude": -2.267247,
+      "fir": "Scottish",
+      "raw_coordinate": "571837.62N 0021602.09W"
+    },
+    {
+      "ident": "BKY",
+      "name": "BARKWAY",
+      "type": "DME",
+      "latitude": 51.989769,
+      "longitude": 0.061908,
+      "fir": "London",
+      "raw_coordinate": "515923.17N 0000342.87E"
+    },
+    {
+      "ident": "BEL",
+      "name": "BELFAST",
+      "type": "VOR/DME",
+      "latitude": 54.661144,
+      "longitude": -6.229906,
+      "fir": "Scottish",
+      "raw_coordinate": "543940.12N 0061347.66W"
+    },
+    {
+      "ident": "BEN",
+      "name": "BENBECULA",
+      "type": "DME",
+      "latitude": 57.477936,
+      "longitude": -7.3653,
+      "fir": "Scottish",
+      "raw_coordinate": "572840.57N 0072155.08W"
+    },
+    {
+      "ident": "BHD",
+      "name": "BERRY HEAD",
+      "type": "VOR/DME",
+      "latitude": 50.3986,
+      "longitude": -3.493689,
+      "fir": "London",
+      "raw_coordinate": "502354.96N 0032937.28W"
+    },
+    {
+      "ident": "BIG",
+      "name": "BIGGIN",
+      "type": "DME",
+      "latitude": 51.330875,
+      "longitude": 0.034811,
+      "fir": "London",
+      "raw_coordinate": "511951.15N 0000205.32E"
+    },
+    {
+      "ident": "BNN",
+      "name": "BOVINGDON",
+      "type": "DME",
+      "latitude": 51.726164,
+      "longitude": -0.54975,
+      "fir": "London",
+      "raw_coordinate": "514334.19N 0003259.10W"
+    },
+    {
+      "ident": "BCN",
+      "name": "BRECON",
+      "type": "DME",
+      "latitude": 51.725525,
+      "longitude": -3.263033,
+      "fir": "London",
+      "raw_coordinate": "514331.89N 0031546.92W"
+    },
+    {
+      "ident": "BPK",
+      "name": "BROOKMANS PARK",
+      "type": "DME",
+      "latitude": 51.749736,
+      "longitude": -0.106736,
+      "fir": "London",
+      "raw_coordinate": "514459.05N 0000624.25W"
+    },
+    {
+      "ident": "CLN",
+      "name": "CLACTON",
+      "type": "VOR/DME",
+      "latitude": 51.848472,
+      "longitude": 1.147589,
+      "fir": "London",
+      "raw_coordinate": "515054.50N 0010851.32E"
+    },
+    {
+      "ident": "CPT",
+      "name": "COMPTON",
+      "type": "VOR/DME",
+      "latitude": 51.491572,
+      "longitude": -1.219692,
+      "fir": "London",
+      "raw_coordinate": "512929.66N 0011310.89W"
+    },
+    {
+      "ident": "DTY",
+      "name": "DAVENTRY",
+      "type": "DME",
+      "latitude": 52.180142,
+      "longitude": -1.113789,
+      "fir": "London",
+      "raw_coordinate": "521048.51N 0010649.64W"
+    },
+    {
+      "ident": "DCS",
+      "name": "DEAN CROSS",
+      "type": "DME",
+      "latitude": 54.721911,
+      "longitude": -3.340639,
+      "fir": "London",
+      "raw_coordinate": "544318.88N 0032026.30W"
+    },
+    {
+      "ident": "DET",
+      "name": "DETLING",
+      "type": "DME",
+      "latitude": 51.304003,
+      "longitude": 0.597275,
+      "fir": "London",
+      "raw_coordinate": "511814.41N 0003550.19E"
+    },
+    {
+      "ident": "DVR",
+      "name": "DOVER",
+      "type": "DME",
+      "latitude": 51.162622,
+      "longitude": 1.359086,
+      "fir": "London",
+      "raw_coordinate": "510945.44N 0012132.71E"
+    },
+    {
+      "ident": "DUD",
+      "name": "DUNDONALD",
+      "type": "DME",
+      "latitude": 55.558806,
+      "longitude": -4.601539,
+      "fir": "Scottish",
+      "raw_coordinate": "553331.70N 0043605.54W"
+    },
+    {
+      "ident": "GAM",
+      "name": "GAMSTON",
+      "type": "DME",
+      "latitude": 53.281467,
+      "longitude": -0.947164,
+      "fir": "London",
+      "raw_coordinate": "531653.28N 0005649.79W"
+    },
+    {
+      "ident": "GOW",
+      "name": "GLASGOW",
+      "type": "DME",
+      "latitude": 55.870503,
+      "longitude": -4.445722,
+      "fir": "Scottish",
+      "raw_coordinate": "555213.81N 0042644.60W"
+    },
+    {
+      "ident": "GWC",
+      "name": "GOODWOOD",
+      "type": "DME",
+      "latitude": 50.855219,
+      "longitude": -0.756736,
+      "fir": "London",
+      "raw_coordinate": "505118.79N 0004524.25W"
+    },
+    {
+      "ident": "DUF",
+      "name": "GREAT DUN FELL",
+      "type": "DME",
+      "latitude": 54.6835,
+      "longitude": -2.451017,
+      "fir": "London",
+      "raw_coordinate": "544100.60N 0022703.66W"
+    },
+    {
+      "ident": "GLO",
+      "name": "GREEN LOWTHER",
+      "type": "DME",
+      "latitude": 55.390122,
+      "longitude": -3.736533,
+      "fir": "Scottish",
+      "raw_coordinate": "552324.44N 0034411.52W"
+    },
+    {
+      "ident": "HEN",
+      "name": "HENTON",
+      "type": "NDB",
+      "latitude": 51.759742,
+      "longitude": -0.790292,
+      "fir": "London",
+      "raw_coordinate": "514535.07N 0004725.05W"
+    },
+    {
+      "ident": "HON",
+      "name": "HONILEY",
+      "type": "VOR/DME",
+      "latitude": 52.356678,
+      "longitude": -1.663725,
+      "fir": "London",
+      "raw_coordinate": "522124.04N 0013949.41W"
+    },
+    {
+      "ident": "IOM",
+      "name": "ISLE OF MAN",
+      "type": "VOR/DME",
+      "latitude": 54.066978,
+      "longitude": -4.763472,
+      "fir": "London",
+      "raw_coordinate": "540401.12N 0044548.50W"
+    },
+    {
+      "ident": "JSY",
+      "name": "JERSEY",
+      "type": "VOR/DME",
+      "latitude": 49.221106,
+      "longitude": -2.046144,
+      "fir": "London",
+      "raw_coordinate": "491315.98N 0020246.12W"
+    },
+    {
+      "ident": "LAM",
+      "name": "LAMBOURNE",
+      "type": "DME",
+      "latitude": 51.646025,
+      "longitude": 0.151703,
+      "fir": "London",
+      "raw_coordinate": "513845.69N 0000906.13E"
+    },
+    {
+      "ident": "LND",
+      "name": "LAND\u0027S END",
+      "type": "VOR/DME",
+      "latitude": 50.136261,
+      "longitude": -5.636961,
+      "fir": "London",
+      "raw_coordinate": "500810.54N 0053813.06W"
+    },
+    {
+      "ident": "LON",
+      "name": "LONDON",
+      "type": "DME",
+      "latitude": 51.487247,
+      "longitude": -0.466539,
+      "fir": "London",
+      "raw_coordinate": "512914.09N 0002759.54W"
+    },
+    {
+      "ident": "LYD",
+      "name": "LYDD",
+      "type": "DME",
+      "latitude": 50.999686,
+      "longitude": 0.878661,
+      "fir": "London",
+      "raw_coordinate": "505958.87N 0005243.18E"
+    },
+    {
+      "ident": "MAC",
+      "name": "MACHRIHANISH",
+      "type": "DME",
+      "latitude": 55.430022,
+      "longitude": -5.650414,
+      "fir": "Scottish",
+      "raw_coordinate": "552548.08N 0053901.49W"
+    },
+    {
+      "ident": "DFO",
+      "name": "MADFORD",
+      "type": "DME",
+      "latitude": 50.858689,
+      "longitude": -3.240681,
+      "fir": "London",
+      "raw_coordinate": "505131.28N 0031426.45W"
+    },
+    {
+      "ident": "MCT",
+      "name": "MANCHESTER",
+      "type": "DME",
+      "latitude": 53.357025,
+      "longitude": -2.262289,
+      "fir": "London",
+      "raw_coordinate": "532125.29N 0021544.24W"
+    },
+    {
+      "ident": "MAY",
+      "name": "MAYFIELD",
+      "type": "DME",
+      "latitude": 51.017183,
+      "longitude": 0.116122,
+      "fir": "London",
+      "raw_coordinate": "510101.86N 0000658.04E"
+    },
+    {
+      "ident": "MID",
+      "name": "MIDHURST",
+      "type": "DME",
+      "latitude": 51.053953,
+      "longitude": -0.625003,
+      "fir": "London",
+      "raw_coordinate": "510314.23N 0003730.01W"
+    },
+    {
+      "ident": "NEW",
+      "name": "NEWCASTLE",
+      "type": "DME",
+      "latitude": 55.038447,
+      "longitude": -1.698372,
+      "fir": "Scottish",
+      "raw_coordinate": "550218.41N 0014154.14W"
+    },
+    {
+      "ident": "OCK",
+      "name": "OCKHAM",
+      "type": "DME",
+      "latitude": 51.305047,
+      "longitude": -0.447183,
+      "fir": "London",
+      "raw_coordinate": "511818.17N 0002649.86W"
+    },
+    {
+      "ident": "OTR",
+      "name": "OTTRINGHAM",
+      "type": "VOR/DME",
+      "latitude": 53.698192,
+      "longitude": -0.103781,
+      "fir": "London",
+      "raw_coordinate": "534153.49N 0000613.61W"
+    },
+    {
+      "ident": "PTH",
+      "name": "PERTH",
+      "type": "VOR",
+      "latitude": 56.442397,
+      "longitude": -3.3686,
+      "fir": "Scottish",
+      "raw_coordinate": "562632.63N 0032206.96W"
+    },
+    {
+      "ident": "POL",
+      "name": "POLE HILL",
+      "type": "VOR/DME",
+      "latitude": 53.743778,
+      "longitude": -2.103286,
+      "fir": "London",
+      "raw_coordinate": "534437.60N 0020611.83W"
+    },
+    {
+      "ident": "SAB",
+      "name": "SAINT ABBS",
+      "type": "VOR/DME",
+      "latitude": 55.907511,
+      "longitude": -2.206336,
+      "fir": "Scottish",
+      "raw_coordinate": "555427.04N 0021222.81W"
+    },
+    {
+      "ident": "SFD",
+      "name": "SEAFORD",
+      "type": "VOR/DME",
+      "latitude": 50.760689,
+      "longitude": 0.121914,
+      "fir": "London",
+      "raw_coordinate": "504538.48N 0000718.89E"
+    },
+    {
+      "ident": "SAM",
+      "name": "SOUTHAMPTON",
+      "type": "DME",
+      "latitude": 50.95525,
+      "longitude": -1.345056,
+      "fir": "London",
+      "raw_coordinate": "505718.90N 0012042.20W"
+    },
+    {
+      "ident": "STN",
+      "name": "STORNOWAY",
+      "type": "VOR/DME",
+      "latitude": 58.20695,
+      "longitude": -6.183047,
+      "fir": "Scottish",
+      "raw_coordinate": "581225.02N 0061058.97W"
+    },
+    {
+      "ident": "STU",
+      "name": "STRUMBLE",
+      "type": "VOR/DME",
+      "latitude": 51.994686,
+      "longitude": -5.040194,
+      "fir": "London",
+      "raw_coordinate": "515940.87N 0050224.70W"
+    },
+    {
+      "ident": "SUM",
+      "name": "SUMBURGH",
+      "type": "VOR/DME",
+      "latitude": 59.878728,
+      "longitude": -1.286531,
+      "fir": "Scottish",
+      "raw_coordinate": "595243.42N 0011711.51W"
+    },
+    {
+      "ident": "TLA",
+      "name": "TALLA",
+      "type": "VOR/DME",
+      "latitude": 55.499122,
+      "longitude": -3.352803,
+      "fir": "Scottish",
+      "raw_coordinate": "552956.84N 0032110.09W"
+    },
+    {
+      "ident": "TIR",
+      "name": "TIREE",
+      "type": "VOR/DME",
+      "latitude": 56.493225,
+      "longitude": -6.875631,
+      "fir": "Scottish",
+      "raw_coordinate": "562935.61N 0065232.27W"
+    },
+    {
+      "ident": "TNT",
+      "name": "TRENT",
+      "type": "DME",
+      "latitude": 53.053953,
+      "longitude": -1.669972,
+      "fir": "London",
+      "raw_coordinate": "530314.23N 0014011.90W"
+    },
+    {
+      "ident": "TRN",
+      "name": "TURNBERRY",
+      "type": "DME",
+      "latitude": 55.313411,
+      "longitude": -4.783864,
+      "fir": "Scottish",
+      "raw_coordinate": "551848.28N 0044701.91W"
+    },
+    {
+      "ident": "VNR",
+      "name": "VENTNOR",
+      "type": "DME",
+      "latitude": 50.603831,
+      "longitude": -1.197989,
+      "fir": "London",
+      "raw_coordinate": "503613.79N 0011152.76W"
+    },
+    {
+      "ident": "WAL",
+      "name": "WALLASEY",
+      "type": "VOR/DME",
+      "latitude": 53.391936,
+      "longitude": -3.134461,
+      "fir": "London",
+      "raw_coordinate": "532330.97N 0030804.06W"
+    },
+    {
+      "ident": "WIK",
+      "name": "WICK",
+      "type": "VOR/DME",
+      "latitude": 58.458817,
+      "longitude": -3.100372,
+      "fir": "Scottish",
+      "raw_coordinate": "582731.74N 0030601.34W"
+    },
+    {
+      "ident": "WIN",
+      "name": "WINSTONE",
+      "type": "DME",
+      "latitude": 51.790639,
+      "longitude": -2.050214,
+      "fir": "London",
+      "raw_coordinate": "514726.30N 0020300.77W"
+    },
+    {
+      "ident": "WOD",
+      "name": "WOODLEY",
+      "type": "NDB",
+      "latitude": 51.452783,
+      "longitude": -0.8788,
+      "fir": "London",
+      "raw_coordinate": "512710.02N 0005243.68W"
+    }
+  ],
+  "problem_count": 0
+}
