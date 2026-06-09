@@ -274,6 +274,24 @@
       "carry_forward_action": "During rollover, run a Linear sweep of VFP-177 children and source-audit/nats labels. Add a specific ledger entry for any issue that requires a production data decision; otherwise record 'reviewed/no production patch' in curation_notes.md when it affects the current cycle.",
       "stop_condition": "A separate automated Linear-to-ledger sync exists, or the NATS/source-audit queue is fully represented in a maintained data-production checklist.",
       "last_verification": "Manual sweep on 2026-05-28 found VFP-210, VFP-176, and VFP-207 missing from the initial carry-forward ledger; this entry prevents that class of omission."
+    },
+    {
+      "id": "SRD-CF-016",
+      "title": "Note 480 DVR L10 RINTI FL band correction pending official SRD catch-up",
+      "status": "active",
+      "introduced_cycle": "2605",
+      "last_applied_cycle": "2605",
+      "linear": "VFP-235",
+      "files": ["Routes.csv"],
+      "reason": "NATS has corrected the Note 480 row-level FL band, but official SRD publication lags. Until the corrected rows appear in the official SRD source, affected Note 480 DVR L10 RINTI rows that still start at MC or below FL115 must be curated to min 115 / max 245 so the parser does not emit below-band Note 480 artifacts that Hub has to special-case.",
+      "match_checks": [
+        "Rows carrying Note 480 with ADES/Exit RINTI and route containing DVR L10",
+        "Rows whose Min is MC or below 115, including rows wholly below the Note 480 boundary",
+        "Rows still reflecting the pre-fix official SRD level band rather than min 115 / max 245"
+      ],
+      "carry_forward_action": "For the new cycle, search Routes.csv for affected Note 480 DVR L10 RINTI rows. If the official SRD still publishes them with Min MC or below FL115, set Min to 115 and Max to 245, preserve original rows in the cycle audit, and record counts in curation_notes.md. If the official SRD already publishes Min 115 / Max 245, do not edit and mark this patch skipped/ready to retire.",
+      "stop_condition": "Official SRD source publishes the affected Note 480 DVR L10 RINTI rows with Min 115 and Max 245 for a production cycle, and generated out.json no longer emits below-band Note 480 artifacts requiring the Hub workaround.",
+      "last_verification": "AIRAC 2605 source curation on 2026-06-09 updated 45 affected Note 480 rows in Routes.csv to Min 115 / Max 245. Audit: Routes.note480_fl_curation.20260609-190708.json."
     }
   ]
 }
