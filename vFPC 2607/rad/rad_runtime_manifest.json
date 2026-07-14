@@ -1,0 +1,87 @@
+{
+  "schema_version": "rad-runtime-artifact-manifest-v1",
+  "airac": "2607",
+  "artifacts": [
+    {
+      "filename": "annex2c_runtime_rules.json",
+      "label": "Annex 2C FUA flow",
+      "family": "rad_annex2c_fua_flow",
+      "artifact_kind": "runtime_rules",
+      "required": false,
+      "compiled": 403,
+      "skipped": 0
+    },
+    {
+      "filename": "annex1_groups.json",
+      "label": "Annex 1 group definitions",
+      "family": "rad_annex1_groups",
+      "artifact_kind": "group_definitions",
+      "required": true,
+      "compiled": 118,
+      "skipped": 0
+    },
+    {
+      "filename": "runtime_rules.json",
+      "label": "Annex 2B route logic",
+      "family": "rad_annex2b_route_logic",
+      "artifact_kind": "runtime_rules",
+      "required": true,
+      "compiled": 1174,
+      "skipped": 5
+    },
+    {
+      "filename": "annex2a_runtime_rules.json",
+      "label": "Annex 2A level caps",
+      "family": "rad_annex2a_level_cap",
+      "artifact_kind": "runtime_rules",
+      "required": false,
+      "compiled": 190,
+      "skipped": 0
+    },
+    {
+      "filename": "annex3a_conditions_runtime_rules.json",
+      "label": "Annex 3A conditions",
+      "family": "rad_annex3a_conditions",
+      "artifact_kind": "runtime_rules",
+      "required": false,
+      "compiled": 4,
+      "skipped": 0
+    },
+    {
+      "filename": "annex3a_arr_runtime_rules.json",
+      "label": "Annex 3A ARR",
+      "family": "rad_annex3a_arr",
+      "artifact_kind": "runtime_rules",
+      "required": false,
+      "compiled": 161,
+      "skipped": 34
+    },
+    {
+      "filename": "annex3a_dep_runtime_rules.json",
+      "label": "Annex 3A DEP",
+      "family": "rad_annex3a_dep",
+      "artifact_kind": "runtime_rules",
+      "required": false,
+      "compiled": 117,
+      "skipped": 41
+    },
+    {
+      "filename": "annex3b_fra_runtime_rules.json",
+      "label": "Annex 3B FRA",
+      "family": "rad_annex3b_fra",
+      "artifact_kind": "runtime_rules",
+      "required": false,
+      "compiled": 10,
+      "skipped": 0
+    },
+    {
+      "filename": "annex3b_dct_rules.json",
+      "label": "Annex 3B DCT",
+      "family": "rad_annex3b_dct",
+      "artifact_kind": "runtime_rules",
+      "required": false,
+      "compiled": 685,
+      "skipped": 618
+    }
+  ]
+}

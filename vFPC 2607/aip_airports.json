@@ -1,0 +1,943 @@
+{
+  "source_airac": "2026-06-11",
+  "generated_at": "2026-06-11T04:58:59.3851586Z",
+  "airports": [
+    {
+      "icao": "EGAA",
+      "name": "BELFAST ALDERGROVE",
+      "latitude": 54.6575,
+      "longitude": -6.215833,
+      "fir": "Scottish",
+      "raw_coordinate": "543927N 0061257W"
+    },
+    {
+      "icao": "EGAB",
+      "name": "ENNISKILLEN/ST ANGELO",
+      "latitude": 54.398611,
+      "longitude": -7.651944,
+      "fir": "Scottish",
+      "raw_coordinate": "542355N 0073907W"
+    },
+    {
+      "icao": "EGAC",
+      "name": "BELFAST/CITY",
+      "latitude": 54.618056,
+      "longitude": -5.8725,
+      "fir": "Scottish",
+      "raw_coordinate": "543705N 0055221W"
+    },
+    {
+      "icao": "EGAD",
+      "name": "NEWTOWNARDS",
+      "latitude": 54.581111,
+      "longitude": -5.691944,
+      "fir": "Scottish",
+      "raw_coordinate": "543452N 0054131W"
+    },
+    {
+      "icao": "EGAE",
+      "name": "LONDONDERRY/EGLINTON",
+      "latitude": 55.042778,
+      "longitude": -7.161944,
+      "fir": "Scottish",
+      "raw_coordinate": "550234N 0070943W"
+    },
+    {
+      "icao": "EGBB",
+      "name": "BIRMINGHAM",
+      "latitude": 52.453889,
+      "longitude": -1.748056,
+      "fir": "London",
+      "raw_coordinate": "522714N 0014453W"
+    },
+    {
+      "icao": "EGBD",
+      "name": "DERBY",
+      "latitude": 52.859722,
+      "longitude": -1.6175,
+      "fir": "London",
+      "raw_coordinate": "525135N 0013703W"
+    },
+    {
+      "icao": "EGBG",
+      "name": "LEICESTER",
+      "latitude": 52.607778,
+      "longitude": -1.031944,
+      "fir": "London",
+      "raw_coordinate": "523628N 0010155W"
+    },
+    {
+      "icao": "EGBJ",
+      "name": "GLOUCESTERSHIRE",
+      "latitude": 51.894167,
+      "longitude": -2.167222,
+      "fir": "London",
+      "raw_coordinate": "515339N 0021002W"
+    },
+    {
+      "icao": "EGBM",
+      "name": "TATENHILL",
+      "latitude": 52.814167,
+      "longitude": -1.764722,
+      "fir": "London",
+      "raw_coordinate": "524851N 0014553W"
+    },
+    {
+      "icao": "EGBN",
+      "name": "NOTTINGHAM",
+      "latitude": 52.92,
+      "longitude": -1.079167,
+      "fir": "London",
+      "raw_coordinate": "525512N 0010445W"
+    },
+    {
+      "icao": "EGBO",
+      "name": "WOLVERHAMPTON/HALFPENNY GREEN",
+      "latitude": 52.517778,
+      "longitude": -2.259722,
+      "fir": "London",
+      "raw_coordinate": "523104N 0021535W"
+    },
+    {
+      "icao": "EGBP",
+      "name": "KEMBLE",
+      "latitude": 51.668056,
+      "longitude": -2.056944,
+      "fir": "London",
+      "raw_coordinate": "514005N 0020325W"
+    },
+    {
+      "icao": "EGBS",
+      "name": "SHOBDON",
+      "latitude": 52.241667,
+      "longitude": -2.881111,
+      "fir": "London",
+      "raw_coordinate": "521430N 0025252W"
+    },
+    {
+      "icao": "EGBW",
+      "name": "WELLESBOURNE MOUNTFORD",
+      "latitude": 52.192222,
+      "longitude": -1.614444,
+      "fir": "London",
+      "raw_coordinate": "521132N 0013652W"
+    },
+    {
+      "icao": "EGCB",
+      "name": "MANCHESTER BARTON",
+      "latitude": 53.471667,
+      "longitude": -2.389722,
+      "fir": "London",
+      "raw_coordinate": "532818N 0022323W"
+    },
+    {
+      "icao": "EGCC",
+      "name": "MANCHESTER",
+      "latitude": 53.353611,
+      "longitude": -2.275,
+      "fir": "London",
+      "raw_coordinate": "532113N 0021630W"
+    },
+    {
+      "icao": "EGCF",
+      "name": "SANDTOFT",
+      "latitude": 53.559722,
+      "longitude": -0.858333,
+      "fir": "London",
+      "raw_coordinate": "533335N 0005130W"
+    },
+    {
+      "icao": "EGCJ",
+      "name": "SHERBURN-IN-ELMET",
+      "latitude": 53.784167,
+      "longitude": -1.217778,
+      "fir": "London",
+      "raw_coordinate": "534703N 0011304W"
+    },
+    {
+      "icao": "EGCK",
+      "name": "CAERNARFON",
+      "latitude": 53.101944,
+      "longitude": -4.3375,
+      "fir": "London",
+      "raw_coordinate": "530607N 0042015W"
+    },
+    {
+      "icao": "EGCL",
+      "name": "FENLAND",
+      "latitude": 52.739444,
+      "longitude": -0.03,
+      "fir": "London",
+      "raw_coordinate": "524422N 0000148W"
+    },
+    {
+      "icao": "EGCM",
+      "name": "LEEDS EAST",
+      "latitude": 53.834444,
+      "longitude": -1.195556,
+      "fir": "London",
+      "raw_coordinate": "535004N 0011144W"
+    },
+    {
+      "icao": "EGCV",
+      "name": "SLEAP",
+      "latitude": 52.833889,
+      "longitude": -2.771667,
+      "fir": "London",
+      "raw_coordinate": "525002N 0024618W"
+    },
+    {
+      "icao": "EGCW",
+      "name": "WELSHPOOL",
+      "latitude": 52.628611,
+      "longitude": -3.153333,
+      "fir": "London",
+      "raw_coordinate": "523743N 0030912W"
+    },
+    {
+      "icao": "EGEC",
+      "name": "CAMPBELTOWN",
+      "latitude": 55.4375,
+      "longitude": -5.688056,
+      "fir": "Scottish",
+      "raw_coordinate": "552615N 0054117W"
+    },
+    {
+      "icao": "EGED",
+      "name": "EDAY",
+      "latitude": 59.190278,
+      "longitude": -2.7725,
+      "fir": "Scottish",
+      "raw_coordinate": "591125N 0024621W"
+    },
+    {
+      "icao": "EGEF",
+      "name": "FAIR ISLE",
+      "latitude": 59.534722,
+      "longitude": -1.628611,
+      "fir": "Scottish",
+      "raw_coordinate": "593205N 0013743W"
+    },
+    {
+      "icao": "EGEL",
+      "name": "COLL",
+      "latitude": 56.601944,
+      "longitude": -6.617778,
+      "fir": "Scottish",
+      "raw_coordinate": "563607N 0063704W"
+    },
+    {
+      "icao": "EGEN",
+      "name": "NORTH RONALDSAY",
+      "latitude": 59.3675,
+      "longitude": -2.434444,
+      "fir": "Scottish",
+      "raw_coordinate": "592203N 0022604W"
+    },
+    {
+      "icao": "EGEO",
+      "name": "OBAN",
+      "latitude": 56.463611,
+      "longitude": -5.4,
+      "fir": "Scottish",
+      "raw_coordinate": "562749N 0052400W"
+    },
+    {
+      "icao": "EGEP",
+      "name": "PAPA WESTRAY",
+      "latitude": 59.351111,
+      "longitude": -2.900278,
+      "fir": "Scottish",
+      "raw_coordinate": "592104N 0025401W"
+    },
+    {
+      "icao": "EGER",
+      "name": "STRONSAY",
+      "latitude": 59.155278,
+      "longitude": -2.641389,
+      "fir": "Scottish",
+      "raw_coordinate": "590919N 0023829W"
+    },
+    {
+      "icao": "EGES",
+      "name": "SANDAY",
+      "latitude": 59.250278,
+      "longitude": -2.575,
+      "fir": "Scottish",
+      "raw_coordinate": "591501N 0023430W"
+    },
+    {
+      "icao": "EGET",
+      "name": "LERWICK/TINGWALL",
+      "latitude": 60.191944,
+      "longitude": -1.243611,
+      "fir": "Scottish",
+      "raw_coordinate": "601131N 0011437W"
+    },
+    {
+      "icao": "EGEW",
+      "name": "WESTRAY",
+      "latitude": 59.35,
+      "longitude": -2.950278,
+      "fir": "Scottish",
+      "raw_coordinate": "592100N 0025701W"
+    },
+    {
+      "icao": "EGEY",
+      "name": "COLONSAY",
+      "latitude": 56.0575,
+      "longitude": -6.243056,
+      "fir": "Scottish",
+      "raw_coordinate": "560327N 0061435W"
+    },
+    {
+      "icao": "EGFA",
+      "name": "WEST WALES/ABERPORTH",
+      "latitude": 52.114722,
+      "longitude": -4.559444,
+      "fir": "London",
+      "raw_coordinate": "520653N 0043334W"
+    },
+    {
+      "icao": "EGFE",
+      "name": "HAVERFORDWEST",
+      "latitude": 51.833333,
+      "longitude": -4.960833,
+      "fir": "London",
+      "raw_coordinate": "515000N 0045739W"
+    },
+    {
+      "icao": "EGFF",
+      "name": "CARDIFF",
+      "latitude": 51.396667,
+      "longitude": -3.343333,
+      "fir": "London",
+      "raw_coordinate": "512348N 0032036W"
+    },
+    {
+      "icao": "EGFH",
+      "name": "SWANSEA",
+      "latitude": 51.605,
+      "longitude": -4.068056,
+      "fir": "London",
+      "raw_coordinate": "513618N 0040405W"
+    },
+    {
+      "icao": "EGGD",
+      "name": "BRISTOL",
+      "latitude": 51.382778,
+      "longitude": -2.719167,
+      "fir": "London",
+      "raw_coordinate": "512258N 0024309W"
+    },
+    {
+      "icao": "EGGP",
+      "name": "LIVERPOOL",
+      "latitude": 53.333611,
+      "longitude": -2.849722,
+      "fir": "London",
+      "raw_coordinate": "532001N 0025059W"
+    },
+    {
+      "icao": "EGGW",
+      "name": "LONDON LUTON",
+      "latitude": 51.874722,
+      "longitude": -0.368333,
+      "fir": "London",
+      "raw_coordinate": "515229N 0002206W"
+    },
+    {
+      "icao": "EGHA",
+      "name": "COMPTON ABBAS",
+      "latitude": 50.967222,
+      "longitude": -2.153611,
+      "fir": "London",
+      "raw_coordinate": "505802N 0020913W"
+    },
+    {
+      "icao": "EGHC",
+      "name": "LAND\u0027S END",
+      "latitude": 50.102778,
+      "longitude": -5.670556,
+      "fir": "London",
+      "raw_coordinate": "500610N 0054014W"
+    },
+    {
+      "icao": "EGHE",
+      "name": "SCILLY ISLES/ST MARY\u0027S",
+      "latitude": 49.913333,
+      "longitude": -6.291667,
+      "fir": "London",
+      "raw_coordinate": "495448N 0061730W"
+    },
+    {
+      "icao": "EGHF",
+      "name": "LEE-ON-SOLENT",
+      "latitude": 50.815556,
+      "longitude": -1.206667,
+      "fir": "London",
+      "raw_coordinate": "504856N 0011224W"
+    },
+    {
+      "icao": "EGHG",
+      "name": "YEOVIL/WESTLAND",
+      "latitude": 50.94,
+      "longitude": -2.658889,
+      "fir": "London",
+      "raw_coordinate": "505624N 0023932W"
+    },
+    {
+      "icao": "EGHH",
+      "name": "BOURNEMOUTH",
+      "latitude": 50.78,
+      "longitude": -1.8425,
+      "fir": "London",
+      "raw_coordinate": "504648N 0015033W"
+    },
+    {
+      "icao": "EGHI",
+      "name": "SOUTHAMPTON",
+      "latitude": 50.950278,
+      "longitude": -1.356667,
+      "fir": "London",
+      "raw_coordinate": "505701N 0012124W"
+    },
+    {
+      "icao": "EGHO",
+      "name": "THRUXTON",
+      "latitude": 51.210556,
+      "longitude": -1.6,
+      "fir": "London",
+      "raw_coordinate": "511238N 0013600W"
+    },
+    {
+      "icao": "EGHQ",
+      "name": "NEWQUAY",
+      "latitude": 50.440833,
+      "longitude": -4.995278,
+      "fir": "London",
+      "raw_coordinate": "502627N 0045943W"
+    },
+    {
+      "icao": "EGHR",
+      "name": "CHICHESTER/GOODWOOD",
+      "latitude": 50.859444,
+      "longitude": -0.759167,
+      "fir": "London",
+      "raw_coordinate": "505134N 0004533W"
+    },
+    {
+      "icao": "EGJA",
+      "name": "ALDERNEY",
+      "latitude": 49.706667,
+      "longitude": -2.214444,
+      "fir": "London",
+      "raw_coordinate": "494224N 0021252W"
+    },
+    {
+      "icao": "EGJB",
+      "name": "GUERNSEY",
+      "latitude": 49.435,
+      "longitude": -2.602778,
+      "fir": "London",
+      "raw_coordinate": "492606N 0023610W"
+    },
+    {
+      "icao": "EGJJ",
+      "name": "JERSEY",
+      "latitude": 49.208056,
+      "longitude": -2.195556,
+      "fir": "London",
+      "raw_coordinate": "491229N 0021144W"
+    },
+    {
+      "icao": "EGKA",
+      "name": "SHOREHAM",
+      "latitude": 50.835556,
+      "longitude": -0.297222,
+      "fir": "London",
+      "raw_coordinate": "505008N 0001750W"
+    },
+    {
+      "icao": "EGKB",
+      "name": "BIGGIN HILL",
+      "latitude": 51.330833,
+      "longitude": 0.0325,
+      "fir": "London",
+      "raw_coordinate": "511951N 0000157E"
+    },
+    {
+      "icao": "EGKH",
+      "name": "LASHENDEN/HEADCORN",
+      "latitude": 51.156389,
+      "longitude": 0.644444,
+      "fir": "London",
+      "raw_coordinate": "510923N 0003840E"
+    },
+    {
+      "icao": "EGKK",
+      "name": "LONDON GATWICK",
+      "latitude": 51.148056,
+      "longitude": -0.190278,
+      "fir": "London",
+      "raw_coordinate": "510853N 0001125W"
+    },
+    {
+      "icao": "EGKR",
+      "name": "REDHILL",
+      "latitude": 51.213611,
+      "longitude": -0.138611,
+      "fir": "London",
+      "raw_coordinate": "511249N 0000819W"
+    },
+    {
+      "icao": "EGLC",
+      "name": "LONDON CITY",
+      "latitude": 51.505278,
+      "longitude": 0.055278,
+      "fir": "London",
+      "raw_coordinate": "513019N 0000319E"
+    },
+    {
+      "icao": "EGLD",
+      "name": "DENHAM",
+      "latitude": 51.588333,
+      "longitude": -0.513056,
+      "fir": "London",
+      "raw_coordinate": "513518N 0003047W"
+    },
+    {
+      "icao": "EGLF",
+      "name": "FARNBOROUGH",
+      "latitude": 51.275278,
+      "longitude": -0.7775,
+      "fir": "London",
+      "raw_coordinate": "511631N 0004639W"
+    },
+    {
+      "icao": "EGLJ",
+      "name": "CHALGROVE",
+      "latitude": 51.674444,
+      "longitude": -1.085278,
+      "fir": "London",
+      "raw_coordinate": "514028N 0010507W"
+    },
+    {
+      "icao": "EGLK",
+      "name": "BLACKBUSHE",
+      "latitude": 51.323889,
+      "longitude": -0.8475,
+      "fir": "London",
+      "raw_coordinate": "511926N 0005051W"
+    },
+    {
+      "icao": "EGLL",
+      "name": "LONDON HEATHROW",
+      "latitude": 51.4775,
+      "longitude": -0.461389,
+      "fir": "London",
+      "raw_coordinate": "512839N 0002741W"
+    },
+    {
+      "icao": "EGLM",
+      "name": "WHITE WALTHAM",
+      "latitude": 51.500556,
+      "longitude": -0.774722,
+      "fir": "London",
+      "raw_coordinate": "513002N 0004629W"
+    },
+    {
+      "icao": "EGMC",
+      "name": "SOUTHEND",
+      "latitude": 51.570278,
+      "longitude": 0.693333,
+      "fir": "London",
+      "raw_coordinate": "513413N 0004136E"
+    },
+    {
+      "icao": "EGMD",
+      "name": "LYDD",
+      "latitude": 50.956111,
+      "longitude": 0.938889,
+      "fir": "London",
+      "raw_coordinate": "505722N 0005620E"
+    },
+    {
+      "icao": "EGNE",
+      "name": "RETFORD/GAMSTON",
+      "latitude": 53.280556,
+      "longitude": -0.951389,
+      "fir": "London",
+      "raw_coordinate": "531650N 0005705W"
+    },
+    {
+      "icao": "EGNF",
+      "name": "NETHERTHORPE",
+      "latitude": 53.316944,
+      "longitude": -1.196111,
+      "fir": "London",
+      "raw_coordinate": "531901N 0011146W"
+    },
+    {
+      "icao": "EGNH",
+      "name": "BLACKPOOL",
+      "latitude": 53.771667,
+      "longitude": -3.028611,
+      "fir": "London",
+      "raw_coordinate": "534618N 0030143W"
+    },
+    {
+      "icao": "EGNJ",
+      "name": "HUMBERSIDE",
+      "latitude": 53.573333,
+      "longitude": -0.351389,
+      "fir": "London",
+      "raw_coordinate": "533424N 0002105W"
+    },
+    {
+      "icao": "EGNL",
+      "name": "WALNEY",
+      "latitude": 54.128611,
+      "longitude": -3.2675,
+      "fir": "London",
+      "raw_coordinate": "540743N 0031603W"
+    },
+    {
+      "icao": "EGNM",
+      "name": "LEEDS BRADFORD",
+      "latitude": 53.866111,
+      "longitude": -1.660833,
+      "fir": "London",
+      "raw_coordinate": "535158N 0013939W"
+    },
+    {
+      "icao": "EGNO",
+      "name": "WARTON",
+      "latitude": 53.745,
+      "longitude": -2.883333,
+      "fir": "London",
+      "raw_coordinate": "534442N 0025300W"
+    },
+    {
+      "icao": "EGNR",
+      "name": "HAWARDEN",
+      "latitude": 53.178056,
+      "longitude": -2.977778,
+      "fir": "London",
+      "raw_coordinate": "531041N 0025840W"
+    },
+    {
+      "icao": "EGNS",
+      "name": "ISLE OF MAN",
+      "latitude": 54.083333,
+      "longitude": -4.623333,
+      "fir": "London",
+      "raw_coordinate": "540500N 0043724W"
+    },
+    {
+      "icao": "EGNT",
+      "name": "NEWCASTLE",
+      "latitude": 55.038056,
+      "longitude": -1.689722,
+      "fir": "Scottish",
+      "raw_coordinate": "550217N 0014123W"
+    },
+    {
+      "icao": "EGNV",
+      "name": "TEESSIDE INTERNATIONAL",
+      "latitude": 54.509167,
+      "longitude": -1.429444,
+      "fir": "London",
+      "raw_coordinate": "543033N 0012546W"
+    },
+    {
+      "icao": "EGNW",
+      "name": "WICKENBY",
+      "latitude": 53.316944,
+      "longitude": -0.348889,
+      "fir": "London",
+      "raw_coordinate": "531901N 0002056W"
+    },
+    {
+      "icao": "EGNX",
+      "name": "EAST MIDLANDS",
+      "latitude": 52.831111,
+      "longitude": -1.327778,
+      "fir": "London",
+      "raw_coordinate": "524952N 0011940W"
+    },
+    {
+      "icao": "EGPA",
+      "name": "KIRKWALL",
+      "latitude": 58.958056,
+      "longitude": -2.900556,
+      "fir": "Scottish",
+      "raw_coordinate": "585729N 0025402W"
+    },
+    {
+      "icao": "EGPB",
+      "name": "SUMBURGH",
+      "latitude": 59.881389,
+      "longitude": -1.293889,
+      "fir": "Scottish",
+      "raw_coordinate": "595253N 0011738W"
+    },
+    {
+      "icao": "EGPC",
+      "name": "WICK",
+      "latitude": 58.458889,
+      "longitude": -3.093056,
+      "fir": "Scottish",
+      "raw_coordinate": "582732N 0030535W"
+    },
+    {
+      "icao": "EGPD",
+      "name": "ABERDEEN/DYCE",
+      "latitude": 57.2025,
+      "longitude": -2.198056,
+      "fir": "Scottish",
+      "raw_coordinate": "571209N 0021153W"
+    },
+    {
+      "icao": "EGPE",
+      "name": "INVERNESS",
+      "latitude": 57.5425,
+      "longitude": -4.0475,
+      "fir": "Scottish",
+      "raw_coordinate": "573233N 0040251W"
+    },
+    {
+      "icao": "EGPF",
+      "name": "GLASGOW",
+      "latitude": 55.871944,
+      "longitude": -4.433056,
+      "fir": "Scottish",
+      "raw_coordinate": "555219N 0042559W"
+    },
+    {
+      "icao": "EGPG",
+      "name": "CUMBERNAULD",
+      "latitude": 55.974722,
+      "longitude": -3.975556,
+      "fir": "Scottish",
+      "raw_coordinate": "555829N 0035832W"
+    },
+    {
+      "icao": "EGPH",
+      "name": "EDINBURGH",
+      "latitude": 55.95,
+      "longitude": -3.3725,
+      "fir": "Scottish",
+      "raw_coordinate": "555700N 0032221W"
+    },
+    {
+      "icao": "EGPI",
+      "name": "ISLAY",
+      "latitude": 55.683333,
+      "longitude": -6.259722,
+      "fir": "Scottish",
+      "raw_coordinate": "554100N 0061535W"
+    },
+    {
+      "icao": "EGPK",
+      "name": "PRESTWICK",
+      "latitude": 55.509444,
+      "longitude": -4.594444,
+      "fir": "Scottish",
+      "raw_coordinate": "553034N 0043540W"
+    },
+    {
+      "icao": "EGPL",
+      "name": "BENBECULA",
+      "latitude": 57.480556,
+      "longitude": -7.363889,
+      "fir": "Scottish",
+      "raw_coordinate": "572850N 0072150W"
+    },
+    {
+      "icao": "EGPN",
+      "name": "DUNDEE",
+      "latitude": 56.4525,
+      "longitude": -3.025833,
+      "fir": "Scottish",
+      "raw_coordinate": "562709N 0030133W"
+    },
+    {
+      "icao": "EGPO",
+      "name": "STORNOWAY",
+      "latitude": 58.215556,
+      "longitude": -6.331111,
+      "fir": "Scottish",
+      "raw_coordinate": "581256N 0061952W"
+    },
+    {
+      "icao": "EGPR",
+      "name": "BARRA",
+      "latitude": 57.023611,
+      "longitude": -7.441667,
+      "fir": "Scottish",
+      "raw_coordinate": "570125N 0072630W"
+    },
+    {
+      "icao": "EGPT",
+      "name": "PERTH/SCONE",
+      "latitude": 56.441111,
+      "longitude": -3.373889,
+      "fir": "Scottish",
+      "raw_coordinate": "562628N 0032226W"
+    },
+    {
+      "icao": "EGPU",
+      "name": "TIREE",
+      "latitude": 56.499167,
+      "longitude": -6.869167,
+      "fir": "Scottish",
+      "raw_coordinate": "562957N 0065209W"
+    },
+    {
+      "icao": "EGSC",
+      "name": "CAMBRIDGE",
+      "latitude": 52.205,
+      "longitude": 0.175,
+      "fir": "London",
+      "raw_coordinate": "521218N 0001030E"
+    },
+    {
+      "icao": "EGSG",
+      "name": "STAPLEFORD",
+      "latitude": 51.6525,
+      "longitude": 0.156111,
+      "fir": "London",
+      "raw_coordinate": "513909N 0000922E"
+    },
+    {
+      "icao": "EGSH",
+      "name": "NORWICH",
+      "latitude": 52.675833,
+      "longitude": 1.282778,
+      "fir": "London",
+      "raw_coordinate": "524033N 0011658E"
+    },
+    {
+      "icao": "EGSL",
+      "name": "ANDREWSFIELD",
+      "latitude": 51.895,
+      "longitude": 0.449167,
+      "fir": "London",
+      "raw_coordinate": "515342N 0002657E"
+    },
+    {
+      "icao": "EGSR",
+      "name": "EARLS COLNE",
+      "latitude": 51.914444,
+      "longitude": 0.6825,
+      "fir": "London",
+      "raw_coordinate": "515452N 0004057E"
+    },
+    {
+      "icao": "EGSS",
+      "name": "LONDON STANSTED",
+      "latitude": 51.885,
+      "longitude": 0.235,
+      "fir": "London",
+      "raw_coordinate": "515306N 0001406E"
+    },
+    {
+      "icao": "EGSU",
+      "name": "DUXFORD",
+      "latitude": 52.090556,
+      "longitude": 0.131389,
+      "fir": "London",
+      "raw_coordinate": "520526N 0000753E"
+    },
+    {
+      "icao": "EGSV",
+      "name": "OLD BUCKENHAM",
+      "latitude": 52.4975,
+      "longitude": 1.051944,
+      "fir": "London",
+      "raw_coordinate": "522951N 0010307E"
+    },
+    {
+      "icao": "EGSY",
+      "name": "ST ATHAN",
+      "latitude": 51.404722,
+      "longitude": -3.435833,
+      "fir": "London",
+      "raw_coordinate": "512417N 0032609W"
+    },
+    {
+      "icao": "EGTB",
+      "name": "WYCOMBE AIR PARK/BOOKER",
+      "latitude": 51.611667,
+      "longitude": -0.808333,
+      "fir": "London",
+      "raw_coordinate": "513642N 0004830W"
+    },
+    {
+      "icao": "EGTC",
+      "name": "CRANFIELD",
+      "latitude": 52.072222,
+      "longitude": -0.616667,
+      "fir": "London",
+      "raw_coordinate": "520420N 0003700W"
+    },
+    {
+      "icao": "EGTE",
+      "name": "EXETER",
+      "latitude": 50.734167,
+      "longitude": -3.413889,
+      "fir": "London",
+      "raw_coordinate": "504403N 0032450W"
+    },
+    {
+      "icao": "EGTF",
+      "name": "FAIROAKS",
+      "latitude": 51.348056,
+      "longitude": -0.558611,
+      "fir": "London",
+      "raw_coordinate": "512053N 0003331W"
+    },
+    {
+      "icao": "EGTH",
+      "name": "OLD WARDEN",
+      "latitude": 52.086667,
+      "longitude": -0.318611,
+      "fir": "London",
+      "raw_coordinate": "520512N 0001907W"
+    },
+    {
+      "icao": "EGTK",
+      "name": "OXFORD",
+      "latitude": 51.836944,
+      "longitude": -1.32,
+      "fir": "London",
+      "raw_coordinate": "515013N 0011912W"
+    },
+    {
+      "icao": "EGTO",
+      "name": "ROCHESTER",
+      "latitude": 51.351944,
+      "longitude": 0.502778,
+      "fir": "London",
+      "raw_coordinate": "512107N 0003010E"
+    },
+    {
+      "icao": "EGTR",
+      "name": "ELSTREE",
+      "latitude": 51.655833,
+      "longitude": -0.325833,
+      "fir": "London",
+      "raw_coordinate": "513921N 0001933W"
+    },
+    {
+      "icao": "EGTU",
+      "name": "DUNKESWELL",
+      "latitude": 50.86,
+      "longitude": -3.234722,
+      "fir": "London",
+      "raw_coordinate": "505136N 0031405W"
+    }
+  ],
+  "problem_count": 0
+}

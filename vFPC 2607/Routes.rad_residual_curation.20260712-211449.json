@@ -1,0 +1,361 @@
+{
+  "timestamp": "20260712-211449",
+  "source": "C:\\Users\\jkino\\Desktop\\vFPC files\\Historical Files\\vFPC 2607\\Routes.csv",
+  "backup": "C:\\Users\\jkino\\Desktop\\vFPC files\\Historical Files\\vFPC 2607\\Routes.csv.pre-rad-residual-curation.20260712-211449.bak",
+  "removed_count": 13,
+  "capped_count": 6,
+  "rows_before": 32111,
+  "rows_after": 32098,
+  "held_for_review": [
+    {
+      "rule": "EG2838",
+      "reason": "Prior evidence classifies comparable EG2838 denials as reviewed investigation / different authority; not a clean source mutation without fresh IFPUV/RAD-source review."
+    },
+    {
+      "rule": "EG3502",
+      "reason": "Prior evidence classifies EGLL ULTIB to EGNX T420 WELIN as SID/STAR modelling debt; not a clean source mutation."
+    }
+  ],
+  "removals": [
+    {
+      "source_line_before_edit": 4042,
+      "reason": "EG2608/EG2628 confirmed RAD authority: EGBB HON L10 LAM row is not available.",
+      "row": {
+        "ADEP/Entry": "EGBB",
+        "SID": "",
+        "Min": "MC",
+        "Max": "195",
+        "Route": "DCT HON L10 LAM DCT",
+        "STAR": "",
+        "ADES/Exit": "EGTO",
+        "Remarks": ""
+      }
+    },
+    {
+      "source_line_before_edit": 6880,
+      "reason": "EG2444 confirmed RAD authority: EGGW RODNI MID Y803 SFD XIDIL rows are not available.",
+      "row": {
+        "ADEP/Entry": "EGGW",
+        "SID": "RODNI",
+        "Min": "245",
+        "Max": "295",
+        "Route": "N27 ICTAM Q63 CPT DCT MID Y803 SFD UM605",
+        "STAR": "",
+        "ADES/Exit": "XIDIL",
+        "Remarks": ""
+      }
+    },
+    {
+      "source_line_before_edit": 6882,
+      "reason": "EG2444 confirmed RAD authority: EGGW RODNI MID Y803 SFD XIDIL rows are not available.",
+      "row": {
+        "ADEP/Entry": "EGGW",
+        "SID": "RODNI",
+        "Min": "MC",
+        "Max": "245",
+        "Route": "N27 ICTAM Q63 CPT DCT MID Y803 SFD M605",
+        "STAR": "",
+        "ADES/Exit": "XIDIL",
+        "Remarks": ""
+      }
+    },
+    {
+      "source_line_before_edit": 10350,
+      "reason": "EG2721 confirmed RAD authority: EGLL GASGU via SAM south-coast rows are not available.",
+      "row": {
+        "ADEP/Entry": "EGLL",
+        "SID": "GASGU",
+        "Min": "65",
+        "Max": "75",
+        "Route": "DCT SAM DCT BIA",
+        "STAR": "",
+        "ADES/Exit": "EGHH",
+        "Remarks": ""
+      }
+    },
+    {
+      "source_line_before_edit": 10352,
+      "reason": "EG2721 confirmed RAD authority: EGLL GASGU via SAM south-coast rows are not available.",
+      "row": {
+        "ADEP/Entry": "EGLL",
+        "SID": "GASGU",
+        "Min": "65",
+        "Max": "75",
+        "Route": "DCT SAM DCT",
+        "STAR": "",
+        "ADES/Exit": "EGHI",
+        "Remarks": ""
+      }
+    },
+    {
+      "source_line_before_edit": 18876,
+      "reason": "EG2328 confirmed RAD authority: EGTC MARUK M195 LORKU row is not available.",
+      "row": {
+        "ADEP/Entry": "EGTC",
+        "SID": "",
+        "Min": "245",
+        "Max": "660",
+        "Route": "DCT WEZKO DCT CPT Y321 PEPIS Q41 SAM N621 MARUK M195",
+        "STAR": "",
+        "ADES/Exit": "LORKU",
+        "Remarks": "Notes: 271 - 452"
+      }
+    },
+    {
+      "source_line_before_edit": 19904,
+      "reason": "EG3474/EG5793 confirmed RAD authority: CONKO L18 UNZIB non-exception row is not available.",
+      "row": {
+        "ADEP/Entry": "EGVA",
+        "SID": "",
+        "Min": "255",
+        "Max": "660",
+        "Route": "DCT CONKO L18 UNZIB L607 ALHAD P72 IPRIL M197 BRAIN Q295 PAAVO M604 GIVPO <FRA> LARGA DCT",
+        "STAR": "",
+        "ADES/Exit": "INBOB",
+        "Remarks": ""
+      }
+    },
+    {
+      "source_line_before_edit": 19938,
+      "reason": "EG3474/EG5793 confirmed RAD authority: CONKO L18 UNZIB non-exception row is not available.",
+      "row": {
+        "ADEP/Entry": "EGVA",
+        "SID": "",
+        "Min": "255",
+        "Max": "660",
+        "Route": "DCT CONKO L18 UNZIB L607 ALHAD P72 IPRIL M197 BRAIN Q295 PAAVO M604 GIVPO <FRA> LARGA DCT",
+        "STAR": "",
+        "ADES/Exit": "PENUN",
+        "Remarks": "Notes: 378"
+      }
+    },
+    {
+      "source_line_before_edit": 19959,
+      "reason": "EG3474/EG5793 confirmed RAD authority: CONKO L18 UNZIB non-exception row is not available.",
+      "row": {
+        "ADEP/Entry": "EGVA",
+        "SID": "",
+        "Min": "255",
+        "Max": "660",
+        "Route": "DCT CONKO L18 UNZIB L607 ALHAD P72 IPRIL M197 BRAIN Q295 PAAVO M604 GIVPO <FRA> LARGA DCT",
+        "STAR": "",
+        "ADES/Exit": "SOPTO",
+        "Remarks": "Notes: 378"
+      }
+    },
+    {
+      "source_line_before_edit": 20160,
+      "reason": "EG3474/EG5793 confirmed RAD authority: CONKO L18 UNZIB non-exception row is not available.",
+      "row": {
+        "ADEP/Entry": "EGVN",
+        "SID": "",
+        "Min": "255",
+        "Max": "660",
+        "Route": "DCT CONKO L18 UNZIB L607 ALHAD P72 IPRIL M197 BRAIN Q295 PAAVO M604 GIVPO <FRA> LARGA DCT",
+        "STAR": "",
+        "ADES/Exit": "INBOB",
+        "Remarks": ""
+      }
+    },
+    {
+      "source_line_before_edit": 20195,
+      "reason": "EG3474/EG5793 confirmed RAD authority: CONKO L18 UNZIB non-exception row is not available.",
+      "row": {
+        "ADEP/Entry": "EGVN",
+        "SID": "",
+        "Min": "255",
+        "Max": "660",
+        "Route": "DCT CONKO L18 UNZIB L607 ALHAD P72 IPRIL M197 BRAIN Q295 PAAVO M604 GIVPO <FRA> LARGA DCT",
+        "STAR": "",
+        "ADES/Exit": "PENUN",
+        "Remarks": "Notes: 378"
+      }
+    },
+    {
+      "source_line_before_edit": 20223,
+      "reason": "EG3474/EG5793 confirmed RAD authority: CONKO L18 UNZIB non-exception row is not available.",
+      "row": {
+        "ADEP/Entry": "EGVN",
+        "SID": "",
+        "Min": "255",
+        "Max": "660",
+        "Route": "DCT CONKO L18 UNZIB L607 ALHAD P72 IPRIL M197 BRAIN Q295 PAAVO M604 GIVPO <FRA> LARGA DCT",
+        "STAR": "",
+        "ADES/Exit": "SOPTO",
+        "Remarks": "Notes: 378"
+      }
+    },
+    {
+      "source_line_before_edit": 20522,
+      "reason": "EG2444 confirmed RAD authority: EGWU CPT MID Y803 SFD XIDIL row is not available.",
+      "row": {
+        "ADEP/Entry": "EGWU",
+        "SID": "CPT",
+        "Min": "MC",
+        "Max": "245",
+        "Route": "DCT MID Y803 SFD M605",
+        "STAR": "",
+        "ADES/Exit": "XIDIL",
+        "Remarks": ""
+      }
+    }
+  ],
+  "caps": [
+    {
+      "source_line_before_edit": 4320,
+      "reason": "EG2651 level scope: Midlands DET L6 DVR rows are unavailable above FL155.",
+      "old_max": "245",
+      "new_max": "155",
+      "row_before": {
+        "ADEP/Entry": "EGBB",
+        "SID": "",
+        "Min": "115",
+        "Max": "245",
+        "Route": "DCT DTY L10 BPK N601 DET L6 DVR L10",
+        "STAR": "",
+        "ADES/Exit": "RINTI",
+        "Remarks": "Notes: 390 - 480"
+      },
+      "row_after": {
+        "ADEP/Entry": "EGBB",
+        "SID": "",
+        "Min": "115",
+        "Max": "155",
+        "Route": "DCT DTY L10 BPK N601 DET L6 DVR L10",
+        "STAR": "",
+        "ADES/Exit": "RINTI",
+        "Remarks": "Notes: 390 - 480"
+      }
+    },
+    {
+      "source_line_before_edit": 4321,
+      "reason": "EG2651 level scope: Midlands DET L6 DVR rows are unavailable above FL155.",
+      "old_max": "245",
+      "new_max": "155",
+      "row_before": {
+        "ADEP/Entry": "EGBB",
+        "SID": "DTY",
+        "Min": "115",
+        "Max": "245",
+        "Route": "L10 BPK N601 DET L6 DVR L10",
+        "STAR": "",
+        "ADES/Exit": "RINTI",
+        "Remarks": "Notes: 389 - 480"
+      },
+      "row_after": {
+        "ADEP/Entry": "EGBB",
+        "SID": "DTY",
+        "Min": "115",
+        "Max": "155",
+        "Route": "L10 BPK N601 DET L6 DVR L10",
+        "STAR": "",
+        "ADES/Exit": "RINTI",
+        "Remarks": "Notes: 389 - 480"
+      }
+    },
+    {
+      "source_line_before_edit": 4322,
+      "reason": "EG2651 level scope: Midlands DET L6 DVR rows are unavailable above FL155.",
+      "old_max": "245",
+      "new_max": "155",
+      "row_before": {
+        "ADEP/Entry": "EGBB",
+        "SID": "UNGAP",
+        "Min": "115",
+        "Max": "245",
+        "Route": "L608 DTY L10 BPK N601 DET L6 DVR L10",
+        "STAR": "",
+        "ADES/Exit": "RINTI",
+        "Remarks": "Notes: 389 - 453 - 480"
+      },
+      "row_after": {
+        "ADEP/Entry": "EGBB",
+        "SID": "UNGAP",
+        "Min": "115",
+        "Max": "155",
+        "Route": "L608 DTY L10 BPK N601 DET L6 DVR L10",
+        "STAR": "",
+        "ADES/Exit": "RINTI",
+        "Remarks": "Notes: 389 - 453 - 480"
+      }
+    },
+    {
+      "source_line_before_edit": 14360,
+      "reason": "EG2651 level scope: Midlands DET L6 DVR rows are unavailable above FL155.",
+      "old_max": "245",
+      "new_max": "155",
+      "row_before": {
+        "ADEP/Entry": "EGNX",
+        "SID": "SAPCO",
+        "Min": "115",
+        "Max": "245",
+        "Route": "Y53 DTY L10 BPK N601 DET L6 DVR L10",
+        "STAR": "",
+        "ADES/Exit": "RINTI",
+        "Remarks": "Notes: 227 - 480"
+      },
+      "row_after": {
+        "ADEP/Entry": "EGNX",
+        "SID": "SAPCO",
+        "Min": "115",
+        "Max": "155",
+        "Route": "Y53 DTY L10 BPK N601 DET L6 DVR L10",
+        "STAR": "",
+        "ADES/Exit": "RINTI",
+        "Remarks": "Notes: 227 - 480"
+      }
+    },
+    {
+      "source_line_before_edit": 19157,
+      "reason": "EG4171 level cap: EGTK to Lille group is capped at FL195.",
+      "old_max": "245",
+      "new_max": "195",
+      "row_before": {
+        "ADEP/Entry": "EGTK",
+        "SID": "",
+        "Min": "195",
+        "Max": "245",
+        "Route": "DCT IXURA DCT NANUM DCT BUGUP DCT EVSEM DCT CPT L9 DVR L10",
+        "STAR": "",
+        "ADES/Exit": "RINTI",
+        "Remarks": "Notes: 480"
+      },
+      "row_after": {
+        "ADEP/Entry": "EGTK",
+        "SID": "",
+        "Min": "195",
+        "Max": "195",
+        "Route": "DCT IXURA DCT NANUM DCT BUGUP DCT EVSEM DCT CPT L9 DVR L10",
+        "STAR": "",
+        "ADES/Exit": "RINTI",
+        "Remarks": "Notes: 480"
+      }
+    },
+    {
+      "source_line_before_edit": 19158,
+      "reason": "EG4171 level cap: EGTK to Lille group is capped at FL195.",
+      "old_max": "245",
+      "new_max": "195",
+      "row_before": {
+        "ADEP/Entry": "EGTK",
+        "SID": "",
+        "Min": "115",
+        "Max": "245",
+        "Route": "DCT BUGUP DCT KENET DCT CPT L9 DVR L10",
+        "STAR": "",
+        "ADES/Exit": "RINTI",
+        "Remarks": "Notes: 480"
+      },
+      "row_after": {
+        "ADEP/Entry": "EGTK",
+        "SID": "",
+        "Min": "115",
+        "Max": "195",
+        "Route": "DCT BUGUP DCT KENET DCT CPT L9 DVR L10",
+        "STAR": "",
+        "ADES/Exit": "RINTI",
+        "Remarks": "Notes: 480"
+      }
+    }
+  ]
+}

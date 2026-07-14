@@ -1,0 +1,627 @@
+[
+  {
+    "identity": {
+      "cycle": "2607",
+      "family": "rad_annex3b_fra",
+      "rule_id": "EGPXFRA",
+      "unit_kind": "rule",
+      "section_index": null,
+      "branch_index": null,
+      "source_package_revision": null
+    },
+    "header": {
+      "operator_semantics": "fra_dct_limit",
+      "priority_class": "restriction",
+      "human_resolution_possible": true,
+      "external_fact_requirements": [
+        "fra_airspace_geometry"
+      ]
+    },
+    "scope_keys": {
+      "airspace_keys": [
+        "EGPXFRA"
+      ],
+      "airway_keys": [],
+      "point_keys": [],
+      "segment_keys": [],
+      "departure_keys": [],
+      "arrival_keys": [],
+      "fl_bands": [
+        {
+          "min_fl": 255
+        }
+      ],
+      "procedure_keys": [],
+      "time_scope_flags": [],
+      "state_scope_flags": []
+    },
+    "logic_payload": {
+      "fraMode": "FRA",
+      "intraDct": {
+        "allowed": true
+      },
+      "crossBorderDct": {
+        "allowed": false
+      },
+      "transitionRule": {
+        "type": "NONE"
+      },
+      "timeRaw": "H24",
+      "verticalLimitRaw": "above FL255"
+    },
+    "explanation_payload": {
+      "raw_rule_id": "EGPXFRA",
+      "airspace": "EGPXFRA",
+      "fra_mode": "FRA",
+      "lower_fl": 255,
+      "upper_fl": null,
+      "time_raw": "H24"
+    }
+  },
+  {
+    "identity": {
+      "cycle": "2607",
+      "family": "rad_annex3b_fra",
+      "rule_id": "EGPXNFRA",
+      "unit_kind": "rule",
+      "section_index": null,
+      "branch_index": null,
+      "source_package_revision": null
+    },
+    "header": {
+      "operator_semantics": "fra_dct_limit",
+      "priority_class": "restriction",
+      "human_resolution_possible": true,
+      "external_fact_requirements": [
+        "fra_airspace_geometry"
+      ]
+    },
+    "scope_keys": {
+      "airspace_keys": [
+        "EGPXNFRA"
+      ],
+      "airway_keys": [],
+      "point_keys": [],
+      "segment_keys": [],
+      "departure_keys": [],
+      "arrival_keys": [],
+      "fl_bands": [
+        {
+          "min_fl": 245,
+          "max_fl": 255
+        }
+      ],
+      "procedure_keys": [],
+      "time_scope_flags": [],
+      "state_scope_flags": []
+    },
+    "logic_payload": {
+      "fraMode": "NON_FRA",
+      "intraDct": {
+        "allowed": true,
+        "maxNm": 0
+      },
+      "crossBorderDct": {
+        "allowed": false
+      },
+      "transitionRule": {
+        "type": "FRA_BOUNDARY_ONLY",
+        "targetAirspace": "EGPXFRA"
+      },
+      "timeRaw": "H24",
+      "verticalLimitRaw": "Between FL245..FL255"
+    },
+    "explanation_payload": {
+      "raw_rule_id": "EGPXNFRA",
+      "airspace": "EGPXNFRA",
+      "fra_mode": "NON_FRA",
+      "lower_fl": 245,
+      "upper_fl": 255,
+      "time_raw": "H24"
+    }
+  },
+  {
+    "identity": {
+      "cycle": "2607",
+      "family": "rad_annex3b_fra",
+      "rule_id": "EGPXNFRA_3",
+      "unit_kind": "rule",
+      "section_index": null,
+      "branch_index": null,
+      "source_package_revision": null
+    },
+    "header": {
+      "operator_semantics": "fra_dct_limit",
+      "priority_class": "restriction",
+      "human_resolution_possible": true,
+      "external_fact_requirements": [
+        "fra_airspace_geometry"
+      ]
+    },
+    "scope_keys": {
+      "airspace_keys": [
+        "EGPXNFRA"
+      ],
+      "airway_keys": [],
+      "point_keys": [],
+      "segment_keys": [],
+      "departure_keys": [],
+      "arrival_keys": [],
+      "fl_bands": [
+        {
+          "max_fl": 105
+        }
+      ],
+      "procedure_keys": [],
+      "time_scope_flags": [],
+      "state_scope_flags": []
+    },
+    "logic_payload": {
+      "fraMode": "NON_FRA",
+      "intraDct": {
+        "allowed": true,
+        "maxNm": 100
+      },
+      "crossBorderDct": {
+        "allowed": true,
+        "exceptions": [
+          "EHAAACC",
+          "EHMCACC"
+        ]
+      },
+      "transitionRule": {
+        "type": "NONE"
+      },
+      "timeRaw": "H24",
+      "verticalLimitRaw": "below FL105"
+    },
+    "explanation_payload": {
+      "raw_rule_id": "EGPXNFRA_3",
+      "airspace": "EGPXNFRA",
+      "fra_mode": "NON_FRA",
+      "lower_fl": null,
+      "upper_fl": 105,
+      "time_raw": "H24"
+    }
+  },
+  {
+    "identity": {
+      "cycle": "2607",
+      "family": "rad_annex3b_fra",
+      "rule_id": "EGPXNFRA_2",
+      "unit_kind": "rule",
+      "section_index": null,
+      "branch_index": null,
+      "source_package_revision": null
+    },
+    "header": {
+      "operator_semantics": "fra_dct_limit",
+      "priority_class": "restriction",
+      "human_resolution_possible": true,
+      "external_fact_requirements": [
+        "fra_airspace_geometry"
+      ]
+    },
+    "scope_keys": {
+      "airspace_keys": [
+        "EGPXNFRA"
+      ],
+      "airway_keys": [],
+      "point_keys": [],
+      "segment_keys": [],
+      "departure_keys": [],
+      "arrival_keys": [],
+      "fl_bands": [
+        {
+          "min_fl": 105,
+          "max_fl": 245
+        }
+      ],
+      "procedure_keys": [],
+      "time_scope_flags": [],
+      "state_scope_flags": []
+    },
+    "logic_payload": {
+      "fraMode": "NON_FRA",
+      "intraDct": {
+        "allowed": true,
+        "maxNm": 50
+      },
+      "crossBorderDct": {
+        "allowed": true,
+        "exceptions": [
+          "EHAAACC",
+          "EHMCACC"
+        ]
+      },
+      "transitionRule": {
+        "type": "NONE"
+      },
+      "timeRaw": "H24",
+      "verticalLimitRaw": "Between FL105..FL245"
+    },
+    "explanation_payload": {
+      "raw_rule_id": "EGPXNFRA_2",
+      "airspace": "EGPXNFRA",
+      "fra_mode": "NON_FRA",
+      "lower_fl": 105,
+      "upper_fl": 245,
+      "time_raw": "H24"
+    }
+  },
+  {
+    "identity": {
+      "cycle": "2607",
+      "family": "rad_annex3b_fra",
+      "rule_id": "EGTTFRAW_FRA",
+      "unit_kind": "rule",
+      "section_index": null,
+      "branch_index": null,
+      "source_package_revision": null
+    },
+    "header": {
+      "operator_semantics": "fra_dct_limit",
+      "priority_class": "restriction",
+      "human_resolution_possible": true,
+      "external_fact_requirements": [
+        "fra_airspace_geometry"
+      ]
+    },
+    "scope_keys": {
+      "airspace_keys": [
+        "EGTTFRAW"
+      ],
+      "airway_keys": [],
+      "point_keys": [],
+      "segment_keys": [],
+      "departure_keys": [],
+      "arrival_keys": [],
+      "fl_bands": [
+        {
+          "min_fl": 245
+        }
+      ],
+      "procedure_keys": [],
+      "time_scope_flags": [],
+      "state_scope_flags": []
+    },
+    "logic_payload": {
+      "fraMode": "FRA",
+      "intraDct": {
+        "allowed": true
+      },
+      "crossBorderDct": {
+        "allowed": false
+      },
+      "transitionRule": {
+        "type": "NONE"
+      },
+      "timeRaw": "H24",
+      "verticalLimitRaw": "above FL245"
+    },
+    "explanation_payload": {
+      "raw_rule_id": "EGTTFRAW_FRA",
+      "airspace": "EGTTFRAW",
+      "fra_mode": "FRA",
+      "lower_fl": 245,
+      "upper_fl": null,
+      "time_raw": "H24"
+    }
+  },
+  {
+    "identity": {
+      "cycle": "2607",
+      "family": "rad_annex3b_fra",
+      "rule_id": "EGTTNFRA",
+      "unit_kind": "rule",
+      "section_index": null,
+      "branch_index": null,
+      "source_package_revision": null
+    },
+    "header": {
+      "operator_semantics": "fra_dct_limit",
+      "priority_class": "restriction",
+      "human_resolution_possible": true,
+      "external_fact_requirements": [
+        "fra_airspace_geometry"
+      ]
+    },
+    "scope_keys": {
+      "airspace_keys": [
+        "EGTTNFRA"
+      ],
+      "airway_keys": [],
+      "point_keys": [],
+      "segment_keys": [],
+      "departure_keys": [],
+      "arrival_keys": [],
+      "fl_bands": [
+        {
+          "min_fl": 245
+        }
+      ],
+      "procedure_keys": [],
+      "time_scope_flags": [],
+      "state_scope_flags": []
+    },
+    "logic_payload": {
+      "fraMode": "NON_FRA",
+      "intraDct": {
+        "allowed": false,
+        "maxNm": 0
+      },
+      "crossBorderDct": {
+        "allowed": false
+      },
+      "transitionRule": {
+        "type": "NONE"
+      },
+      "timeRaw": "H24",
+      "verticalLimitRaw": "above FL245"
+    },
+    "explanation_payload": {
+      "raw_rule_id": "EGTTNFRA",
+      "airspace": "EGTTNFRA",
+      "fra_mode": "NON_FRA",
+      "lower_fl": 245,
+      "upper_fl": null,
+      "time_raw": "H24"
+    }
+  },
+  {
+    "identity": {
+      "cycle": "2607",
+      "family": "rad_annex3b_fra",
+      "rule_id": "EGTTNFRA_4",
+      "unit_kind": "rule",
+      "section_index": null,
+      "branch_index": null,
+      "source_package_revision": null
+    },
+    "header": {
+      "operator_semantics": "fra_dct_limit",
+      "priority_class": "restriction",
+      "human_resolution_possible": true,
+      "external_fact_requirements": [
+        "fra_airspace_geometry"
+      ]
+    },
+    "scope_keys": {
+      "airspace_keys": [
+        "EGTTNFRA"
+      ],
+      "airway_keys": [],
+      "point_keys": [],
+      "segment_keys": [],
+      "departure_keys": [],
+      "arrival_keys": [],
+      "fl_bands": [
+        {
+          "min_fl": 105,
+          "max_fl": 245
+        }
+      ],
+      "procedure_keys": [],
+      "time_scope_flags": [],
+      "state_scope_flags": []
+    },
+    "logic_payload": {
+      "fraMode": "NON_FRA",
+      "intraDct": {
+        "allowed": false,
+        "maxNm": 0
+      },
+      "crossBorderDct": {
+        "allowed": true,
+        "exceptions": [
+          "EHAAACC",
+          "EHMCACC"
+        ],
+        "blockedIds": [
+          "EHEG400"
+        ]
+      },
+      "transitionRule": {
+        "type": "NONE"
+      },
+      "timeRaw": "H24",
+      "verticalLimitRaw": "Between FL105..FL245"
+    },
+    "explanation_payload": {
+      "raw_rule_id": "EGTTNFRA_4",
+      "airspace": "EGTTNFRA",
+      "fra_mode": "NON_FRA",
+      "lower_fl": 105,
+      "upper_fl": 245,
+      "time_raw": "H24"
+    }
+  },
+  {
+    "identity": {
+      "cycle": "2607",
+      "family": "rad_annex3b_fra",
+      "rule_id": "EGTTNFRA_2",
+      "unit_kind": "rule",
+      "section_index": null,
+      "branch_index": null,
+      "source_package_revision": null
+    },
+    "header": {
+      "operator_semantics": "fra_dct_limit",
+      "priority_class": "restriction",
+      "human_resolution_possible": true,
+      "external_fact_requirements": [
+        "fra_airspace_geometry"
+      ]
+    },
+    "scope_keys": {
+      "airspace_keys": [
+        "EGTTNFRA"
+      ],
+      "airway_keys": [],
+      "point_keys": [],
+      "segment_keys": [],
+      "departure_keys": [],
+      "arrival_keys": [],
+      "fl_bands": [
+        {
+          "max_fl": 105
+        }
+      ],
+      "procedure_keys": [],
+      "time_scope_flags": [],
+      "state_scope_flags": []
+    },
+    "logic_payload": {
+      "fraMode": "NON_FRA",
+      "intraDct": {
+        "allowed": true,
+        "maxNm": 100
+      },
+      "crossBorderDct": {
+        "allowed": true,
+        "exceptions": [
+          "EHAAACC",
+          "EHMCACC"
+        ],
+        "blockedIds": [
+          "EHEG400"
+        ]
+      },
+      "transitionRule": {
+        "type": "NONE"
+      },
+      "timeRaw": "H24",
+      "verticalLimitRaw": "below FL105"
+    },
+    "explanation_payload": {
+      "raw_rule_id": "EGTTNFRA_2",
+      "airspace": "EGTTNFRA",
+      "fra_mode": "NON_FRA",
+      "lower_fl": null,
+      "upper_fl": 105,
+      "time_raw": "H24"
+    }
+  },
+  {
+    "identity": {
+      "cycle": "2607",
+      "family": "rad_annex3b_fra",
+      "rule_id": "EGTTNFRAW",
+      "unit_kind": "rule",
+      "section_index": null,
+      "branch_index": null,
+      "source_package_revision": null
+    },
+    "header": {
+      "operator_semantics": "fra_dct_limit",
+      "priority_class": "restriction",
+      "human_resolution_possible": true,
+      "external_fact_requirements": [
+        "fra_airspace_geometry"
+      ]
+    },
+    "scope_keys": {
+      "airspace_keys": [
+        "EGTTNFRAW"
+      ],
+      "airway_keys": [],
+      "point_keys": [],
+      "segment_keys": [],
+      "departure_keys": [],
+      "arrival_keys": [],
+      "fl_bands": [
+        {
+          "min_fl": 105,
+          "max_fl": 245
+        }
+      ],
+      "procedure_keys": [],
+      "time_scope_flags": [],
+      "state_scope_flags": []
+    },
+    "logic_payload": {
+      "fraMode": "NON_FRA",
+      "intraDct": {
+        "allowed": false,
+        "maxNm": 0
+      },
+      "crossBorderDct": {
+        "allowed": true
+      },
+      "transitionRule": {
+        "type": "NONE"
+      },
+      "timeRaw": "H24",
+      "verticalLimitRaw": "Between FL105..FL245"
+    },
+    "explanation_payload": {
+      "raw_rule_id": "EGTTNFRAW",
+      "airspace": "EGTTNFRAW",
+      "fra_mode": "NON_FRA",
+      "lower_fl": 105,
+      "upper_fl": 245,
+      "time_raw": "H24"
+    }
+  },
+  {
+    "identity": {
+      "cycle": "2607",
+      "family": "rad_annex3b_fra",
+      "rule_id": "EGTTNFRAW_2",
+      "unit_kind": "rule",
+      "section_index": null,
+      "branch_index": null,
+      "source_package_revision": null
+    },
+    "header": {
+      "operator_semantics": "fra_dct_limit",
+      "priority_class": "restriction",
+      "human_resolution_possible": true,
+      "external_fact_requirements": [
+        "fra_airspace_geometry"
+      ]
+    },
+    "scope_keys": {
+      "airspace_keys": [
+        "EGTTNFRAW"
+      ],
+      "airway_keys": [],
+      "point_keys": [],
+      "segment_keys": [],
+      "departure_keys": [],
+      "arrival_keys": [],
+      "fl_bands": [
+        {
+          "max_fl": 105
+        }
+      ],
+      "procedure_keys": [],
+      "time_scope_flags": [],
+      "state_scope_flags": []
+    },
+    "logic_payload": {
+      "fraMode": "NON_FRA",
+      "intraDct": {
+        "allowed": true,
+        "maxNm": 100
+      },
+      "crossBorderDct": {
+        "allowed": true
+      },
+      "transitionRule": {
+        "type": "NONE"
+      },
+      "timeRaw": "H24",
+      "verticalLimitRaw": "below FL105"
+    },
+    "explanation_payload": {
+      "raw_rule_id": "EGTTNFRAW_2",
+      "airspace": "EGTTNFRAW",
+      "fra_mode": "NON_FRA",
+      "lower_fl": null,
+      "upper_fl": 105,
+      "time_raw": "H24"
+    }
+  }
+]

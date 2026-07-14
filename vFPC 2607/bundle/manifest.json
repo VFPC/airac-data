@@ -1,0 +1,46 @@
+{
+  "cycle": "2607",
+  "build_revision": "local-2607",
+  "route_contract_version": "srd-v1",
+  "runtime_rule_model_version": "runtime-rule-v1",
+  "manifest_version": "runtime-bundle-v1",
+  "source_revisions": {},
+  "components": {
+    "runtime_rules": {
+      "revision": "local-2607",
+      "format": "json",
+      "locator": "runtime_rules.json",
+      "metadata": {}
+    },
+    "selection_indexes": {
+      "revision": "local-2607",
+      "format": "json",
+      "locator": "selection_indexes.json",
+      "metadata": {}
+    },
+    "airspace_facts": {
+      "revision": "local-2607",
+      "format": "json",
+      "locator": "airspace_facts.json",
+      "metadata": {}
+    },
+    "route_network_facts": {
+      "revision": "local-2607",
+      "format": "json",
+      "locator": "route_network_facts.json",
+      "metadata": {}
+    },
+    "procedure_facts": {
+      "revision": "local-2607",
+      "format": "json",
+      "locator": "procedure_facts.json",
+      "metadata": {}
+    },
+    "restricted_area_facts": {
+      "revision": "local-2607",
+      "format": "json",
+      "locator": "restricted_area_facts.json",
+      "metadata": {}
+    }
+  }
+}

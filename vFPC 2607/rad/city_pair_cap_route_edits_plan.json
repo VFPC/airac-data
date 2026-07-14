@@ -1,0 +1,4908 @@
+{
+  "airac": "2607",
+  "created_by": "Codex read-only diagnostic; not applied",
+  "routes_csv": "C:\\Users\\jkino\\Desktop\\vFPC files\\Historical Files\\vFPC 2607\\Routes.csv",
+  "annex2a_runtime_rules": "C:\\Users\\jkino\\Documents\\GitHub\\vFPC-Hub\\data\\local\\2607\\rad\\annex2a_runtime_rules.json",
+  "annex1_groups": "C:\\Users\\jkino\\Documents\\GitHub\\vFPC-Hub\\data\\local\\2607\\rad\\annex1_groups.json",
+  "method": "Lower Routes.csv Max only for confirmed H24 RAD Annex 2A city-pair cap violations; excludes time-limited, airspace-uncertain, and capability-conditioned findings.",
+  "excluded_findings_by_verdict": {
+    "POSSIBLE_EXCEPTION": 69,
+    "UNCERTAIN_AIRSPACE": 243,
+    "UNCERTAIN_CAPABILITY": 17
+  },
+  "hard_findings": 324,
+  "edited_rows": 324,
+  "pairs": 144,
+  "rules": {
+    "EG4002": 11,
+    "EG4009": 1,
+    "EG4017": 18,
+    "EG4018": 2,
+    "EG4025": 1,
+    "EG4063": 61,
+    "EG4070": 8,
+    "EG4077": 1,
+    "EG4082": 29,
+    "EG4092": 77,
+    "EG4103": 2,
+    "EG4107": 1,
+    "EG4111": 2,
+    "EG4119": 4,
+    "EG4137": 2,
+    "EG4139": 22,
+    "EG4141": 1,
+    "EG4145": 4,
+    "EG4152": 7,
+    "EG4161": 1,
+    "EG4162": 4,
+    "EG4163": 6,
+    "EG4164": 1,
+    "EG4175": 9,
+    "EG4178": 3,
+    "EG4185": 1,
+    "EG4191": 10,
+    "EG4196": 35
+  },
+  "edits": [
+    {
+      "line": 3569,
+      "adep": "EGAE",
+      "ades": "EGTE",
+      "sid": "",
+      "star": "",
+      "min": "255",
+      "old_max": 660,
+      "new_max": 335,
+      "rules": [
+        "EG4077"
+      ],
+      "route": "DCT BELZU L10 DUFFY <FRA> MAKUX DCT SOSIM Q38 MALUD L15 RISLA N862 KARNO DCT ALHUP DCT WEVBE DCT ABWIV N862 PACSE N92 EXMOR DCT TIVER DCT",
+      "remarks": "Notes: 453 - 489"
+    },
+    {
+      "line": 3978,
+      "adep": "EGBB",
+      "ades": "EGNS",
+      "sid": "",
+      "star": "",
+      "min": "MC",
+      "old_max": 245,
+      "new_max": 195,
+      "rules": [
+        "EG4152"
+      ],
+      "route": "DCT LUVUM DCT NANTI Y53 WAL L10 KELLY DCT",
+      "remarks": "Notes: 452"
+    },
+    {
+      "line": 3979,
+      "adep": "EGBB",
+      "ades": "EGNS",
+      "sid": "",
+      "star": "",
+      "min": "MC",
+      "old_max": 245,
+      "new_max": 195,
+      "rules": [
+        "EG4152"
+      ],
+      "route": "DCT LUVUM DCT TNT Q4 WAL L10 KELLY DCT",
+      "remarks": "Notes: 452"
+    },
+    {
+      "line": 3980,
+      "adep": "EGBB",
+      "ades": "EGNS",
+      "sid": "LUVUM",
+      "star": "",
+      "min": "MC",
+      "old_max": 245,
+      "new_max": 195,
+      "rules": [
+        "EG4152"
+      ],
+      "route": "DCT NANTI Y53 WAL L10 KELLY DCT",
+      "remarks": "Notes: 389 - 452 - 453"
+    },
+    {
+      "line": 3981,
+      "adep": "EGBB",
+      "ades": "EGNS",
+      "sid": "LUVUM",
+      "star": "",
+      "min": "MC",
+      "old_max": 245,
+      "new_max": 195,
+      "rules": [
+        "EG4152"
+      ],
+      "route": "DCT NANTI Y53 WAL M146 LUSOD DCT IOM DCT",
+      "remarks": "Notes: 453"
+    },
+    {
+      "line": 3982,
+      "adep": "EGBB",
+      "ades": "EGNS",
+      "sid": "LUVUM",
+      "star": "",
+      "min": "MC",
+      "old_max": 245,
+      "new_max": 195,
+      "rules": [
+        "EG4152"
+      ],
+      "route": "DCT TNT Q4 WAL L10 KELLY DCT",
+      "remarks": "Notes: 452 - 453"
+    },
+    {
+      "line": 3990,
+      "adep": "EGBB",
+      "ades": "EGPD",
+      "sid": "",
+      "star": "",
+      "min": "255",
+      "old_max": 660,
+      "new_max": 355,
+      "rules": [
+        "EG4191"
+      ],
+      "route": "DCT LUVUM DCT TNT N57 POL UN601 RIBEL <FRA> GRICE DCT FINDO P600 NAXIL DCT",
+      "remarks": "Notes: 452"
+    },
+    {
+      "line": 3991,
+      "adep": "EGBB",
+      "ades": "EGPD",
+      "sid": "LUVUM",
+      "star": "",
+      "min": "255",
+      "old_max": 660,
+      "new_max": 355,
+      "rules": [
+        "EG4191"
+      ],
+      "route": "DCT TNT N57 POL DCT KEFTE <FRA> GRICE DCT FINDO P600 NAXIL DCT",
+      "remarks": "Notes: 453"
+    },
+    {
+      "line": 3992,
+      "adep": "EGBB",
+      "ades": "EGPD",
+      "sid": "LUVUM",
+      "star": "",
+      "min": "255",
+      "old_max": 660,
+      "new_max": 355,
+      "rules": [
+        "EG4191"
+      ],
+      "route": "DCT TNT N57 POL DCT KEFTE <FRA> MADAD DCT NEXUS P18 EPCAN",
+      "remarks": "Notes: 453"
+    },
+    {
+      "line": 3993,
+      "adep": "EGBB",
+      "ades": "EGPD",
+      "sid": "LUVUM",
+      "star": "",
+      "min": "255",
+      "old_max": 660,
+      "new_max": 355,
+      "rules": [
+        "EG4191"
+      ],
+      "route": "DCT TNT N57 POL UN601 RIBEL <FRA> GRICE DCT FINDO P600 NAXIL DCT",
+      "remarks": "Notes: 453"
+    },
+    {
+      "line": 4000,
+      "adep": "EGBB",
+      "ades": "EGPE",
+      "sid": "",
+      "star": "",
+      "min": "255",
+      "old_max": 660,
+      "new_max": 355,
+      "rules": [
+        "EG4191"
+      ],
+      "route": "DCT LUVUM DCT TNT N57 POL UN601 RIBEL <FRA> ERSON N560 NESDI DCT GUSSI DCT",
+      "remarks": "Notes: 452"
+    },
+    {
+      "line": 4001,
+      "adep": "EGBB",
+      "ades": "EGPE",
+      "sid": "LUVUM",
+      "star": "",
+      "min": "255",
+      "old_max": 660,
+      "new_max": 355,
+      "rules": [
+        "EG4191"
+      ],
+      "route": "DCT TNT N57 POL UN601 RIBEL <FRA> ERSON N560 NESDI DCT GUSSI DCT",
+      "remarks": "Notes: 295 - 453"
+    },
+    {
+      "line": 4006,
+      "adep": "EGBB",
+      "ades": "EGPF",
+      "sid": "",
+      "star": "ASLIB1G",
+      "min": "255",
+      "old_max": 660,
+      "new_max": 285,
+      "rules": [
+        "EG4017"
+      ],
+      "route": "DCT LUVUM DCT TNT N57 POL UN601 RIBEL <FRA> ASLIB",
+      "remarks": "Notes: 452"
+    },
+    {
+      "line": 4007,
+      "adep": "EGBB",
+      "ades": "EGPF",
+      "sid": "LUVUM",
+      "star": "ASLIB1G",
+      "min": "255",
+      "old_max": 660,
+      "new_max": 285,
+      "rules": [
+        "EG4017"
+      ],
+      "route": "DCT TNT N57 POL UN601 RIBEL <FRA> ASLIB",
+      "remarks": "Notes: 295 - 453"
+    },
+    {
+      "line": 4012,
+      "adep": "EGBB",
+      "ades": "EGPH",
+      "sid": "",
+      "star": "INPIP1E",
+      "min": "255",
+      "old_max": 660,
+      "new_max": 285,
+      "rules": [
+        "EG4017"
+      ],
+      "route": "DCT LUVUM DCT TNT N57 POL UN601 RIBEL <FRA> INPIP",
+      "remarks": "Notes: 452"
+    },
+    {
+      "line": 4013,
+      "adep": "EGBB",
+      "ades": "EGPH",
+      "sid": "LUVUM",
+      "star": "INPIP1E",
+      "min": "255",
+      "old_max": 660,
+      "new_max": 285,
+      "rules": [
+        "EG4017"
+      ],
+      "route": "DCT TNT N57 POL UN601 RIBEL <FRA> INPIP",
+      "remarks": "Notes: 295 - 453"
+    },
+    {
+      "line": 4018,
+      "adep": "EGBB",
+      "ades": "EGPK",
+      "sid": "",
+      "star": "ASLIB1P",
+      "min": "255",
+      "old_max": 660,
+      "new_max": 285,
+      "rules": [
+        "EG4017"
+      ],
+      "route": "DCT LUVUM DCT TNT N57 POL UN601 RIBEL <FRA> ASLIB",
+      "remarks": "Notes: 452"
+    },
+    {
+      "line": 4019,
+      "adep": "EGBB",
+      "ades": "EGPK",
+      "sid": "LUVUM",
+      "star": "ASLIB1P",
+      "min": "255",
+      "old_max": 660,
+      "new_max": 285,
+      "rules": [
+        "EG4017"
+      ],
+      "route": "DCT TNT N57 POL UN601 RIBEL <FRA> ASLIB",
+      "remarks": "Notes: 295 - 453"
+    },
+    {
+      "line": 4024,
+      "adep": "EGBB",
+      "ades": "EGPN",
+      "sid": "",
+      "star": "",
+      "min": "255",
+      "old_max": 660,
+      "new_max": 285,
+      "rules": [
+        "EG4017"
+      ],
+      "route": "DCT LUVUM DCT TNT N57 POL UN601 RIBEL <FRA> INREV DCT EDN DCT",
+      "remarks": "Notes: 452"
+    },
+    {
+      "line": 4025,
+      "adep": "EGBB",
+      "ades": "EGPN",
+      "sid": "LUVUM",
+      "star": "",
+      "min": "255",
+      "old_max": 660,
+      "new_max": 285,
+      "rules": [
+        "EG4017"
+      ],
+      "route": "DCT TNT N57 POL UN601 RIBEL <FRA> INREV DCT EDN DCT",
+      "remarks": "Notes: 295 - 453"
+    },
+    {
+      "line": 4036,
+      "adep": "EGBB",
+      "ades": "EGQL",
+      "sid": "",
+      "star": "",
+      "min": "255",
+      "old_max": 660,
+      "new_max": 285,
+      "rules": [
+        "EG4017"
+      ],
+      "route": "DCT LUVUM DCT TNT N57 POL UN601 RIBEL <FRA> INREV N601 TLA DCT EDN DCT",
+      "remarks": "Notes: 452"
+    },
+    {
+      "line": 4037,
+      "adep": "EGBB",
+      "ades": "EGQL",
+      "sid": "LUVUM",
+      "star": "",
+      "min": "255",
+      "old_max": 660,
+      "new_max": 285,
+      "rules": [
+        "EG4017"
+      ],
+      "route": "DCT TNT N57 POL UN601 RIBEL <FRA> INREV N601 TLA DCT EDN DCT",
+      "remarks": "Notes: 295 - 453"
+    },
+    {
+      "line": 4624,
+      "adep": "EGBJ",
+      "ades": "EGLF",
+      "sid": "",
+      "star": "CPT1P",
+      "min": "105",
+      "old_max": 245,
+      "new_max": 155,
+      "rules": [
+        "EG4119"
+      ],
+      "route": "DCT BADIM DCT BUCFA L607 NUCHU DCT CPT",
+      "remarks": "Notes: 476 - 452"
+    },
+    {
+      "line": 4625,
+      "adep": "EGBJ",
+      "ades": "EGLF",
+      "sid": "",
+      "star": "CPT1V",
+      "min": "105",
+      "old_max": 245,
+      "new_max": 155,
+      "rules": [
+        "EG4119"
+      ],
+      "route": "DCT BADIM DCT BUCFA L607 NUCHU P73 GOBNU",
+      "remarks": "Notes: 450"
+    },
+    {
+      "line": 4628,
+      "adep": "EGBJ",
+      "ades": "EGLK",
+      "sid": "",
+      "star": "CPT1P",
+      "min": "105",
+      "old_max": 245,
+      "new_max": 155,
+      "rules": [
+        "EG4119"
+      ],
+      "route": "DCT BADIM DCT BUCFA L607 NUCHU DCT CPT",
+      "remarks": "Notes: 476 - 452"
+    },
+    {
+      "line": 4629,
+      "adep": "EGBJ",
+      "ades": "EGLK",
+      "sid": "",
+      "star": "CPT1V",
+      "min": "105",
+      "old_max": 245,
+      "new_max": 155,
+      "rules": [
+        "EG4119"
+      ],
+      "route": "DCT BADIM DCT BUCFA L607 NUCHU P73 GOBNU",
+      "remarks": "Notes: 450"
+    },
+    {
+      "line": 4832,
+      "adep": "EGBP",
+      "ades": "EGGW",
+      "sid": "",
+      "star": "SILVA1N",
+      "min": "MC",
+      "old_max": 175,
+      "new_max": 155,
+      "rules": [
+        "EG4141"
+      ],
+      "route": "DCT CONKO L18 UNZIB L607 NUCHU DCT KENET DCT SILVA",
+      "remarks": ""
+    },
+    {
+      "line": 4976,
+      "adep": "EGCC",
+      "ades": "EGAC",
+      "sid": "ASMIM",
+      "star": "",
+      "min": "195",
+      "old_max": 255,
+      "new_max": 245,
+      "rules": [
+        "EG4070"
+      ],
+      "route": "L975 WAL M146 ERDUV Z198 MASOP M148 MAGEE DCT",
+      "remarks": "Notes: 453"
+    },
+    {
+      "line": 4977,
+      "adep": "EGCC",
+      "ades": "EGAC",
+      "sid": "EKLAD",
+      "star": "",
+      "min": "195",
+      "old_max": 255,
+      "new_max": 245,
+      "rules": [
+        "EG4070"
+      ],
+      "route": "Y53 WAL M146 ERDUV Z198 MASOP M148 MAGEE DCT",
+      "remarks": "Notes: 453"
+    },
+    {
+      "line": 5680,
+      "adep": "EGFF",
+      "ades": "EGCC",
+      "sid": "BCN",
+      "star": "AXCIS1M",
+      "min": "MC",
+      "old_max": 245,
+      "new_max": 205,
+      "rules": [
+        "EG4162"
+      ],
+      "route": "P69 DIZIM N864 MONTY",
+      "remarks": ""
+    },
+    {
+      "line": 5682,
+      "adep": "EGFF",
+      "ades": "EGGP",
+      "sid": "BCN",
+      "star": "PEPZE1L",
+      "min": "MC",
+      "old_max": 245,
+      "new_max": 185,
+      "rules": [
+        "EG4163"
+      ],
+      "route": "P69 DIZIM N864 MONTY",
+      "remarks": ""
+    },
+    {
+      "line": 5750,
+      "adep": "EGFF",
+      "ades": "EGNR",
+      "sid": "BCN",
+      "star": "PEPZE1L",
+      "min": "MC",
+      "old_max": 245,
+      "new_max": 185,
+      "rules": [
+        "EG4163"
+      ],
+      "route": "P69 DIZIM N864 MONTY",
+      "remarks": ""
+    },
+    {
+      "line": 6028,
+      "adep": "EGGD",
+      "ades": "EGCC",
+      "sid": "BCN",
+      "star": "AXCIS1M",
+      "min": "MC",
+      "old_max": 245,
+      "new_max": 205,
+      "rules": [
+        "EG4162"
+      ],
+      "route": "P69 DIZIM N864 MONTY",
+      "remarks": ""
+    },
+    {
+      "line": 6029,
+      "adep": "EGGD",
+      "ades": "EGGP",
+      "sid": "BCN",
+      "star": "PEPZE1L",
+      "min": "MC",
+      "old_max": 245,
+      "new_max": 185,
+      "rules": [
+        "EG4163"
+      ],
+      "route": "P69 DIZIM N864 MONTY",
+      "remarks": ""
+    },
+    {
+      "line": 6081,
+      "adep": "EGGD",
+      "ades": "EGNL",
+      "sid": "BCN",
+      "star": "",
+      "min": "245",
+      "old_max": 285,
+      "new_max": 245,
+      "rules": [
+        "EG4164"
+      ],
+      "route": "P69 DIZIM N864 KISWO DCT AVTIC DCT MONTY N864 WAL DCT",
+      "remarks": ""
+    },
+    {
+      "line": 6085,
+      "adep": "EGGD",
+      "ades": "EGNR",
+      "sid": "BCN",
+      "star": "PEPZE1L",
+      "min": "MC",
+      "old_max": 245,
+      "new_max": 185,
+      "rules": [
+        "EG4163"
+      ],
+      "route": "P69 DIZIM N864 MONTY",
+      "remarks": ""
+    },
+    {
+      "line": 6320,
+      "adep": "EGGP",
+      "ades": "EGAC",
+      "sid": "WAL",
+      "star": "",
+      "min": "195",
+      "old_max": 255,
+      "new_max": 245,
+      "rules": [
+        "EG4070"
+      ],
+      "route": "M146 ERDUV Z198 MASOP M148 MAGEE DCT",
+      "remarks": "Notes: 453"
+    },
+    {
+      "line": 6639,
+      "adep": "EGGW",
+      "ades": "EGAA",
+      "sid": "OLNEY",
+      "star": "",
+      "min": "255",
+      "old_max": 660,
+      "new_max": 355,
+      "rules": [
+        "EG4063"
+      ],
+      "route": "T420 TNT UL28 RODOL UM65 TENSO L603 BELOX DCT REMSI DCT MASOP DCT NELBO P6 BELZU DCT",
+      "remarks": "Notes: 452"
+    },
+    {
+      "line": 6640,
+      "adep": "EGGW",
+      "ades": "EGAA",
+      "sid": "OLNEY",
+      "star": "",
+      "min": "255",
+      "old_max": 660,
+      "new_max": 355,
+      "rules": [
+        "EG4063"
+      ],
+      "route": "T420 TNT UL28 RODOL UM65 TENSO L603 BELOX DCT REMSI DCT UVPOK M147 ROBOP M146 IPSET P6 BELZU DCT",
+      "remarks": "Notes: 453"
+    },
+    {
+      "line": 6648,
+      "adep": "EGGW",
+      "ades": "EGAC",
+      "sid": "OLNEY",
+      "star": "",
+      "min": "255",
+      "old_max": 660,
+      "new_max": 355,
+      "rules": [
+        "EG4063"
+      ],
+      "route": "T420 TNT UL28 RODOL UM65 TENSO L603 BELOX DCT REMSI DCT MASOP DCT NELBO DCT MAGEE DCT",
+      "remarks": "Notes: 452"
+    },
+    {
+      "line": 6649,
+      "adep": "EGGW",
+      "ades": "EGAC",
+      "sid": "OLNEY",
+      "star": "",
+      "min": "255",
+      "old_max": 660,
+      "new_max": 355,
+      "rules": [
+        "EG4063"
+      ],
+      "route": "T420 TNT UL28 RODOL UM65 TENSO L603 BELOX DCT REMSI DCT NINEB M148 MAGEE DCT",
+      "remarks": "Notes: 453"
+    },
+    {
+      "line": 6656,
+      "adep": "EGGW",
+      "ades": "EGAE",
+      "sid": "OLNEY",
+      "star": "",
+      "min": "255",
+      "old_max": 660,
+      "new_max": 355,
+      "rules": [
+        "EG4063"
+      ],
+      "route": "T420 TNT UL28 RODOL UM65 TENSO L603 BELOX DCT NELBO P6 BELZU DCT",
+      "remarks": "Notes: 454"
+    },
+    {
+      "line": 6975,
+      "adep": "EGHH",
+      "ades": "EGAA",
+      "sid": "",
+      "star": "",
+      "min": "255",
+      "old_max": 660,
+      "new_max": 355,
+      "rules": [
+        "EG4063"
+      ],
+      "route": "DCT SAM Q41 SILVA UM605 DTY UY53 SAPCO UN57 TNT UL28 RODOL UM65 TENSO L603 BELOX DCT REMSI DCT MASOP DCT NELBO P6 BELZU DCT",
+      "remarks": "Notes: 452"
+    },
+    {
+      "line": 6976,
+      "adep": "EGHH",
+      "ades": "EGAA",
+      "sid": "",
+      "star": "",
+      "min": "255",
+      "old_max": 660,
+      "new_max": 355,
+      "rules": [
+        "EG4063"
+      ],
+      "route": "DCT SAM Q41 SILVA UM605 DTY UY53 SAPCO UN57 TNT UL28 RODOL UM65 TENSO L603 BELOX DCT REMSI DCT UVPOK M147 ROBOP M146 IPSET P6 BELZU DCT",
+      "remarks": "Notes: 453"
+    },
+    {
+      "line": 6984,
+      "adep": "EGHH",
+      "ades": "EGAC",
+      "sid": "",
+      "star": "",
+      "min": "255",
+      "old_max": 660,
+      "new_max": 355,
+      "rules": [
+        "EG4063"
+      ],
+      "route": "DCT SAM Q41 SILVA UM605 DTY UY53 SAPCO UN57 TNT UL28 RODOL UM65 TENSO L603 BELOX DCT REMSI DCT MASOP DCT NELBO DCT MAGEE",
+      "remarks": "Notes: 452"
+    },
+    {
+      "line": 6985,
+      "adep": "EGHH",
+      "ades": "EGAC",
+      "sid": "",
+      "star": "",
+      "min": "255",
+      "old_max": 660,
+      "new_max": 355,
+      "rules": [
+        "EG4063"
+      ],
+      "route": "DCT SAM Q41 SILVA UM605 DTY UY53 SAPCO UN57 TNT UL28 RODOL UM65 TENSO L603 BELOX DCT REMSI DCT NINEB M148 MAGEE DCT",
+      "remarks": "Notes: 453"
+    },
+    {
+      "line": 7009,
+      "adep": "EGHH",
+      "ades": "EGJJ",
+      "sid": "",
+      "star": "LELNA1J",
+      "min": "135",
+      "old_max": 245,
+      "new_max": 185,
+      "rules": [
+        "EG4145"
+      ],
+      "route": "DCT THRED Z171 LELNA",
+      "remarks": ""
+    },
+    {
+      "line": 7010,
+      "adep": "EGHH",
+      "ades": "EGJJ",
+      "sid": "",
+      "star": "LELNA1K",
+      "min": "135",
+      "old_max": 245,
+      "new_max": 185,
+      "rules": [
+        "EG4145"
+      ],
+      "route": "DCT THRED Z171 LELNA",
+      "remarks": ""
+    },
+    {
+      "line": 7103,
+      "adep": "EGHH",
+      "ades": "EGSG",
+      "sid": "",
+      "star": "",
+      "min": "MC",
+      "old_max": 245,
+      "new_max": 95,
+      "rules": [
+        "EG4082"
+      ],
+      "route": "DCT SAM L620 MID DCT DET DCT LAM",
+      "remarks": ""
+    },
+    {
+      "line": 7279,
+      "adep": "EGHI",
+      "ades": "EGAA",
+      "sid": "",
+      "star": "",
+      "min": "255",
+      "old_max": 660,
+      "new_max": 355,
+      "rules": [
+        "EG4063"
+      ],
+      "route": "DCT NORRY Q41 SILVA UM605 DTY UY53 SAPCO UN57 TNT UL28 RODOL UM65 TENSO L603 BELOX DCT REMSI DCT MASOP DCT NELBO P6 BELZU DCT",
+      "remarks": "Notes: 452"
+    },
+    {
+      "line": 7280,
+      "adep": "EGHI",
+      "ades": "EGAA",
+      "sid": "",
+      "star": "",
+      "min": "255",
+      "old_max": 660,
+      "new_max": 355,
+      "rules": [
+        "EG4063"
+      ],
+      "route": "DCT NORRY Q41 SILVA UM605 DTY UY53 SAPCO UN57 TNT UL28 RODOL UM65 TENSO L603 BELOX DCT REMSI DCT UVPOK M147 ROBOP M146 IPSET P6 BELZU DCT",
+      "remarks": "Notes: 453"
+    },
+    {
+      "line": 7288,
+      "adep": "EGHI",
+      "ades": "EGAC",
+      "sid": "",
+      "star": "",
+      "min": "255",
+      "old_max": 660,
+      "new_max": 355,
+      "rules": [
+        "EG4063"
+      ],
+      "route": "DCT NORRY Q41 SILVA UM605 DTY UY53 SAPCO UN57 TNT UL28 RODOL UM65 TENSO L603 BELOX DCT REMSI DCT MASOP DCT NELBO DCT MAGEE DCT",
+      "remarks": "Notes: 452"
+    },
+    {
+      "line": 7289,
+      "adep": "EGHI",
+      "ades": "EGAC",
+      "sid": "",
+      "star": "",
+      "min": "255",
+      "old_max": 660,
+      "new_max": 355,
+      "rules": [
+        "EG4063"
+      ],
+      "route": "DCT NORRY Q41 SILVA UM605 DTY UY53 SAPCO UN57 TNT UL28 RODOL UM65 TENSO L603 BELOX DCT REMSI DCT NINEB M148 MAGEE DCT",
+      "remarks": "Notes: 453"
+    },
+    {
+      "line": 7315,
+      "adep": "EGHI",
+      "ades": "EGJJ",
+      "sid": "",
+      "star": "LELNA1J",
+      "min": "135",
+      "old_max": 245,
+      "new_max": 185,
+      "rules": [
+        "EG4145"
+      ],
+      "route": "DCT SAM Z171 LELNA",
+      "remarks": ""
+    },
+    {
+      "line": 7316,
+      "adep": "EGHI",
+      "ades": "EGJJ",
+      "sid": "",
+      "star": "LELNA1K",
+      "min": "135",
+      "old_max": 245,
+      "new_max": 185,
+      "rules": [
+        "EG4145"
+      ],
+      "route": "DCT SAM Z171 LELNA",
+      "remarks": ""
+    },
+    {
+      "line": 7407,
+      "adep": "EGHI",
+      "ades": "EGSG",
+      "sid": "",
+      "star": "",
+      "min": "MC",
+      "old_max": 245,
+      "new_max": 95,
+      "rules": [
+        "EG4082"
+      ],
+      "route": "DCT SAM L620 MID DCT DET DCT LAM",
+      "remarks": ""
+    },
+    {
+      "line": 8141,
+      "adep": "EGKA",
+      "ades": "EGGW",
+      "sid": "",
+      "star": "SILVA1N",
+      "min": "MC",
+      "old_max": 135,
+      "new_max": 95,
+      "rules": [
+        "EG4082"
+      ],
+      "route": "DCT GWC DCT PEPIS DCT NORRY DCT SILVA",
+      "remarks": ""
+    },
+    {
+      "line": 8142,
+      "adep": "EGKA",
+      "ades": "EGGW",
+      "sid": "",
+      "star": "DET2A",
+      "min": "MC",
+      "old_max": 135,
+      "new_max": 95,
+      "rules": [
+        "EG4082"
+      ],
+      "route": "DCT GWC Y8 SAM Q41 NORRY DCT BPK Q295 MATCH DCT LOFFO",
+      "remarks": "Notes: 452"
+    },
+    {
+      "line": 8166,
+      "adep": "EGKA",
+      "ades": "EGSG",
+      "sid": "",
+      "star": "",
+      "min": "MC",
+      "old_max": 245,
+      "new_max": 95,
+      "rules": [
+        "EG4082"
+      ],
+      "route": "DCT SFD Y803 LYD DCT DET DCT",
+      "remarks": ""
+    },
+    {
+      "line": 8244,
+      "adep": "EGKB",
+      "ades": "EGAA",
+      "sid": "",
+      "star": "",
+      "min": "255",
+      "old_max": 660,
+      "new_max": 355,
+      "rules": [
+        "EG4063"
+      ],
+      "route": "DCT DET N601 BPK UN601 LESTA UP6 RODOL UM65 TENSO L603 BELOX DCT REMSI DCT MASOP DCT NELBO P6 BELZU DCT",
+      "remarks": "Notes: 452"
+    },
+    {
+      "line": 8245,
+      "adep": "EGKB",
+      "ades": "EGAA",
+      "sid": "",
+      "star": "",
+      "min": "255",
+      "old_max": 660,
+      "new_max": 355,
+      "rules": [
+        "EG4063"
+      ],
+      "route": "DCT DET N601 BPK UN601 LESTA UP6 RODOL UM65 TENSO L603 BELOX DCT REMSI DCT UVPOK M147 ROBOP M146 IPSET P6 BELZU DCT",
+      "remarks": "Notes: 453"
+    },
+    {
+      "line": 8250,
+      "adep": "EGKB",
+      "ades": "EGAC",
+      "sid": "",
+      "star": "",
+      "min": "255",
+      "old_max": 660,
+      "new_max": 355,
+      "rules": [
+        "EG4063"
+      ],
+      "route": "DCT DET N601 BPK UN601 LESTA UP6 RODOL UM65 TENSO L603 BELOX DCT REMSI DCT MASOP DCT NELBO DCT MAGEE DCT",
+      "remarks": "Notes: 452"
+    },
+    {
+      "line": 8251,
+      "adep": "EGKB",
+      "ades": "EGAC",
+      "sid": "",
+      "star": "",
+      "min": "255",
+      "old_max": 660,
+      "new_max": 355,
+      "rules": [
+        "EG4063"
+      ],
+      "route": "DCT DET N601 BPK UN601 LESTA UP6 RODOL UM65 TENSO L603 BELOX DCT REMSI DCT NINEB M148 MAGEE DCT",
+      "remarks": "Notes: 453"
+    },
+    {
+      "line": 8276,
+      "adep": "EGKB",
+      "ades": "EGKA",
+      "sid": "",
+      "star": "",
+      "min": "MC",
+      "old_max": 245,
+      "new_max": 95,
+      "rules": [
+        "EG4082"
+      ],
+      "route": "DCT DET M604 LYD Y803 SFD DCT GWC",
+      "remarks": ""
+    },
+    {
+      "line": 8280,
+      "adep": "EGKB",
+      "ades": "EGLF",
+      "sid": "",
+      "star": "ELDAX1V",
+      "min": "75",
+      "old_max": 125,
+      "new_max": 95,
+      "rules": [
+        "EG4082"
+      ],
+      "route": "DCT DET M604 LYD M189 WAFFU DCT NOTGI",
+      "remarks": "Notes: 450"
+    },
+    {
+      "line": 8281,
+      "adep": "EGKB",
+      "ades": "EGLF",
+      "sid": "",
+      "star": "NOTGI1P",
+      "min": "75",
+      "old_max": 125,
+      "new_max": 95,
+      "rules": [
+        "EG4082"
+      ],
+      "route": "DCT DET M604 LYD M189 WAFFU DCT NOTGI",
+      "remarks": "Notes: 476 - 452"
+    },
+    {
+      "line": 8282,
+      "adep": "EGKB",
+      "ades": "EGLK",
+      "sid": "",
+      "star": "ELDAX1V",
+      "min": "75",
+      "old_max": 125,
+      "new_max": 95,
+      "rules": [
+        "EG4082"
+      ],
+      "route": "DCT DET M604 LYD M189 WAFFU DCT NOTGI",
+      "remarks": "Notes: 450"
+    },
+    {
+      "line": 8283,
+      "adep": "EGKB",
+      "ades": "EGLK",
+      "sid": "",
+      "star": "NOTGI1P",
+      "min": "75",
+      "old_max": 125,
+      "new_max": 95,
+      "rules": [
+        "EG4082"
+      ],
+      "route": "DCT DET M604 LYD M189 WAFFU DCT NOTGI",
+      "remarks": "Notes: 476 - 452"
+    },
+    {
+      "line": 8357,
+      "adep": "EGKB",
+      "ades": "EGSG",
+      "sid": "",
+      "star": "",
+      "min": "MC",
+      "old_max": 245,
+      "new_max": 95,
+      "rules": [
+        "EG4082"
+      ],
+      "route": "DCT DET DCT",
+      "remarks": ""
+    },
+    {
+      "line": 8660,
+      "adep": "EGKK",
+      "ades": "EGAA",
+      "sid": "LAM",
+      "star": "",
+      "min": "255",
+      "old_max": 660,
+      "new_max": 355,
+      "rules": [
+        "EG4063"
+      ],
+      "route": "L10 BPK UN601 LESTA UP6 RODOL UM65 TENSO L603 BELOX DCT REMSI DCT MASOP DCT NELBO P6 BELZU DCT",
+      "remarks": "Notes: 452"
+    },
+    {
+      "line": 8661,
+      "adep": "EGKK",
+      "ades": "EGAA",
+      "sid": "LAM",
+      "star": "",
+      "min": "255",
+      "old_max": 660,
+      "new_max": 355,
+      "rules": [
+        "EG4063"
+      ],
+      "route": "L10 BPK UN601 LESTA UP6 RODOL UM65 TENSO L603 BELOX DCT REMSI DCT UVPOK M147 ROBOP M146 IPSET P6 BELZU DCT",
+      "remarks": "Notes: 453"
+    },
+    {
+      "line": 8669,
+      "adep": "EGKK",
+      "ades": "EGAC",
+      "sid": "LAM",
+      "star": "",
+      "min": "255",
+      "old_max": 660,
+      "new_max": 355,
+      "rules": [
+        "EG4063"
+      ],
+      "route": "L10 BPK UN601 LESTA UP6 RODOL UM65 TENSO L603 BELOX DCT REMSI DCT MASOP DCT NELBO DCT MAGEE DCT",
+      "remarks": "Notes: 452"
+    },
+    {
+      "line": 8670,
+      "adep": "EGKK",
+      "ades": "EGAC",
+      "sid": "LAM",
+      "star": "",
+      "min": "255",
+      "old_max": 660,
+      "new_max": 355,
+      "rules": [
+        "EG4063"
+      ],
+      "route": "L10 BPK UN601 LESTA UP6 RODOL UM65 TENSO L603 BELOX DCT REMSI DCT NINEB M148 MAGEE DCT",
+      "remarks": "Notes: 453"
+    },
+    {
+      "line": 8675,
+      "adep": "EGKK",
+      "ades": "EGAE",
+      "sid": "LAM",
+      "star": "",
+      "min": "255",
+      "old_max": 660,
+      "new_max": 355,
+      "rules": [
+        "EG4063"
+      ],
+      "route": "L10 BPK UN601 LESTA UP6 RODOL UM65 TENSO L603 BELOX DCT NELBO P6 BELZU DCT",
+      "remarks": "Notes: 454"
+    },
+    {
+      "line": 8827,
+      "adep": "EGKK",
+      "ades": "EGTE",
+      "sid": "NOVMA",
+      "star": "",
+      "min": "MC",
+      "old_max": 245,
+      "new_max": 205,
+      "rules": [
+        "EG4178"
+      ],
+      "route": "L620 GIBSO",
+      "remarks": ""
+    },
+    {
+      "line": 8828,
+      "adep": "EGKK",
+      "ades": "EGTE",
+      "sid": "SAM",
+      "star": "",
+      "min": "MC",
+      "old_max": 245,
+      "new_max": 205,
+      "rules": [
+        "EG4178"
+      ],
+      "route": "L620 GIBSO",
+      "remarks": "Notes: 315"
+    },
+    {
+      "line": 8829,
+      "adep": "EGKK",
+      "ades": "EGTE",
+      "sid": "IMVUR",
+      "star": "",
+      "min": "MC",
+      "old_max": 245,
+      "new_max": 205,
+      "rules": [
+        "EG4178"
+      ],
+      "route": "N63 SAM L620 GIBSO",
+      "remarks": "Notes: 453"
+    },
+    {
+      "line": 9279,
+      "adep": "EGLC",
+      "ades": "EGAA",
+      "sid": "BPK",
+      "star": "",
+      "min": "255",
+      "old_max": 660,
+      "new_max": 355,
+      "rules": [
+        "EG4063"
+      ],
+      "route": "UN601 LESTA UP6 RODOL UM65 TENSO L603 BELOX DCT REMSI DCT UVPOK M147 ROBOP M146 IPSET P6 BELZU DCT",
+      "remarks": "Notes: 453"
+    },
+    {
+      "line": 9285,
+      "adep": "EGLC",
+      "ades": "EGAC",
+      "sid": "BPK",
+      "star": "",
+      "min": "255",
+      "old_max": 660,
+      "new_max": 355,
+      "rules": [
+        "EG4063"
+      ],
+      "route": "UN601 LESTA UP6 RODOL UM65 TENSO L603 BELOX DCT REMSI DCT NINEB M148 MAGEE DCT",
+      "remarks": "Notes: 453"
+    },
+    {
+      "line": 9310,
+      "adep": "EGLC",
+      "ades": "EGKA",
+      "sid": "SOQQA",
+      "star": "",
+      "min": "MC",
+      "old_max": 245,
+      "new_max": 95,
+      "rules": [
+        "EG4082"
+      ],
+      "route": "M87 EKNIV M91 LYD Y803 SFD DCT GWC DCT",
+      "remarks": "Notes: 453"
+    },
+    {
+      "line": 9314,
+      "adep": "EGLC",
+      "ades": "EGLF",
+      "sid": "SOQQA",
+      "star": "ELDAX1V",
+      "min": "75",
+      "old_max": 125,
+      "new_max": 95,
+      "rules": [
+        "EG4082"
+      ],
+      "route": "M87 EKNIV DCT LYD M189 WAFFU DCT NOTGI",
+      "remarks": "Notes: 450 - 453"
+    },
+    {
+      "line": 9315,
+      "adep": "EGLC",
+      "ades": "EGLK",
+      "sid": "SOQQA",
+      "star": "ELDAX1V",
+      "min": "75",
+      "old_max": 125,
+      "new_max": 95,
+      "rules": [
+        "EG4082"
+      ],
+      "route": "M87 EKNIV DCT LYD M189 WAFFU DCT NOTGI",
+      "remarks": "Notes: 450 - 453"
+    },
+    {
+      "line": 9589,
+      "adep": "EGLF",
+      "ades": "EGAA",
+      "sid": "",
+      "star": "",
+      "min": "255",
+      "old_max": 660,
+      "new_max": 355,
+      "rules": [
+        "EG4063"
+      ],
+      "route": "DCT HAZEL L620 SAM Q41 SILVA UM605 DTY UY53 SAPCO UN57 TNT UL28 RODOL UM65 TENSO L603 BELOX DCT REMSI DCT UVPOK M147 ROBOP M146 IPSET P6 BELZU DCT",
+      "remarks": "Notes: 493"
+    },
+    {
+      "line": 9590,
+      "adep": "EGLF",
+      "ades": "EGAA",
+      "sid": "HAZEL",
+      "star": "",
+      "min": "255",
+      "old_max": 660,
+      "new_max": 355,
+      "rules": [
+        "EG4063"
+      ],
+      "route": "L620 SAM Q41 SILVA UM605 DTY UY53 SAPCO UN57 TNT UL28 RODOL UM65 TENSO L603 BELOX DCT REMSI DCT UVPOK M147 ROBOP M146 IPSET P6 BELZU DCT",
+      "remarks": "Notes: 453 - 477"
+    },
+    {
+      "line": 9595,
+      "adep": "EGLF",
+      "ades": "EGAC",
+      "sid": "",
+      "star": "",
+      "min": "255",
+      "old_max": 660,
+      "new_max": 355,
+      "rules": [
+        "EG4063"
+      ],
+      "route": "DCT HAZEL L620 SAM Q41 SILVA UM605 DTY UY53 SAPCO UN57 TNT UL28 RODOL UM65 TENSO L603 BELOX DCT REMSI DCT NINEB M148 MAGEE DCT",
+      "remarks": "Notes: 493"
+    },
+    {
+      "line": 9596,
+      "adep": "EGLF",
+      "ades": "EGAC",
+      "sid": "HAZEL",
+      "star": "",
+      "min": "255",
+      "old_max": 660,
+      "new_max": 355,
+      "rules": [
+        "EG4063"
+      ],
+      "route": "L620 SAM Q41 SILVA UM605 DTY UY53 SAPCO UN57 TNT UL28 RODOL UM65 TENSO L603 BELOX DCT REMSI DCT NINEB M148 MAGEE DCT",
+      "remarks": "Notes: 453 - 477"
+    },
+    {
+      "line": 9608,
+      "adep": "EGLF",
+      "ades": "EGFF",
+      "sid": "HAZEL",
+      "star": "ICTAM2C",
+      "min": "MC",
+      "old_max": 245,
+      "new_max": 205,
+      "rules": [
+        "EG4175"
+      ],
+      "route": "L620 SAM Q41 PEPIS Y321 NUBRI N14 HEKXA Q63 SAWPE",
+      "remarks": "Notes:  477"
+    },
+    {
+      "line": 9610,
+      "adep": "EGLF",
+      "ades": "EGGD",
+      "sid": "HAZEL",
+      "star": "ICTAM1B",
+      "min": "MC",
+      "old_max": 245,
+      "new_max": 205,
+      "rules": [
+        "EG4175"
+      ],
+      "route": "L620 SAM Q41 PEPIS Y321 NUBRI N14 HEKXA Q63 SAWPE",
+      "remarks": "Notes:  477"
+    },
+    {
+      "line": 9793,
+      "adep": "EGLF",
+      "ades": "EGTE",
+      "sid": "",
+      "star": "",
+      "min": "MC",
+      "old_max": 245,
+      "new_max": 205,
+      "rules": [
+        "EG4175"
+      ],
+      "route": "DCT HAZEL L620 GIBSO DCT",
+      "remarks": "Notes: 493"
+    },
+    {
+      "line": 9794,
+      "adep": "EGLF",
+      "ades": "EGTE",
+      "sid": "HAZEL",
+      "star": "",
+      "min": "MC",
+      "old_max": 245,
+      "new_max": 205,
+      "rules": [
+        "EG4175"
+      ],
+      "route": "L620 GIBSO DCT",
+      "remarks": "Notes: 315  - 477"
+    },
+    {
+      "line": 10038,
+      "adep": "EGLK",
+      "ades": "EGAA",
+      "sid": "",
+      "star": "",
+      "min": "255",
+      "old_max": 660,
+      "new_max": 355,
+      "rules": [
+        "EG4063"
+      ],
+      "route": "DCT CPT M183 SILVA UM605 DTY UY53 SAPCO UN57 TNT UL28 RODOL UM65 TENSO L603 BELOX DCT REMSI DCT MASOP DCT NELBO P6 BELZU DCT",
+      "remarks": "Notes: 478 - 452"
+    },
+    {
+      "line": 10039,
+      "adep": "EGLK",
+      "ades": "EGAA",
+      "sid": "",
+      "star": "",
+      "min": "255",
+      "old_max": 660,
+      "new_max": 355,
+      "rules": [
+        "EG4063"
+      ],
+      "route": "DCT CPT M183 SILVA UM605 DTY UY53 SAPCO UN57 TNT UL28 RODOL UM65 TENSO L603 BELOX DCT REMSI DCT UVPOK M147 ROBOP M146 IPSET P6 BELZU DCT",
+      "remarks": "Notes: 478 - 453"
+    },
+    {
+      "line": 10044,
+      "adep": "EGLK",
+      "ades": "EGAC",
+      "sid": "",
+      "star": "",
+      "min": "255",
+      "old_max": 660,
+      "new_max": 355,
+      "rules": [
+        "EG4063"
+      ],
+      "route": "DCT CPT M183 SILVA UM605 DTY UY53 SAPCO UN57 TNT UL28 RODOL UM65 TENSO L603 BELOX DCT REMSI DCT MASOP DCT NELBO DCT MAGEE DCT",
+      "remarks": "Notes: 478 - 452"
+    },
+    {
+      "line": 10045,
+      "adep": "EGLK",
+      "ades": "EGAC",
+      "sid": "",
+      "star": "",
+      "min": "255",
+      "old_max": 660,
+      "new_max": 355,
+      "rules": [
+        "EG4063"
+      ],
+      "route": "DCT CPT M183 SILVA UM605 DTY UY53 SAPCO UN57 TNT UL28 RODOL UM65 TENSO L603 BELOX DCT REMSI DCT NINEB M148 MAGEE DCT",
+      "remarks": "Notes: 478 - 453"
+    },
+    {
+      "line": 10052,
+      "adep": "EGLK",
+      "ades": "EGFF",
+      "sid": "",
+      "star": "ICTAM2C",
+      "min": "MC",
+      "old_max": 245,
+      "new_max": 205,
+      "rules": [
+        "EG4175"
+      ],
+      "route": "DCT CPT Q63 SAWPE",
+      "remarks": "Notes: 478"
+    },
+    {
+      "line": 10053,
+      "adep": "EGLK",
+      "ades": "EGGD",
+      "sid": "",
+      "star": "ICTAM1B",
+      "min": "MC",
+      "old_max": 245,
+      "new_max": 205,
+      "rules": [
+        "EG4175"
+      ],
+      "route": "DCT CPT Q63 SAWPE",
+      "remarks": "Notes: 478"
+    },
+    {
+      "line": 10166,
+      "adep": "EGLK",
+      "ades": "EGSG",
+      "sid": "",
+      "star": "",
+      "min": "MC",
+      "old_max": 245,
+      "new_max": 95,
+      "rules": [
+        "EG4082"
+      ],
+      "route": "DCT CPT DCT WEZKO DCT",
+      "remarks": "Notes: 478"
+    },
+    {
+      "line": 10170,
+      "adep": "EGLK",
+      "ades": "EGTE",
+      "sid": "",
+      "star": "",
+      "min": "MC",
+      "old_max": 245,
+      "new_max": 205,
+      "rules": [
+        "EG4175"
+      ],
+      "route": "DCT HAZEL L620 GIBSO DCT",
+      "remarks": "Notes: 478 - 315"
+    },
+    {
+      "line": 10451,
+      "adep": "EGLL",
+      "ades": "EGAA",
+      "sid": "UMLAT",
+      "star": "",
+      "min": "255",
+      "old_max": 660,
+      "new_max": 355,
+      "rules": [
+        "EG4063"
+      ],
+      "route": "T418 WELIN T420 TNT UL28 RODOL UM65 TENSO L603 BELOX DCT REMSI DCT MASOP DCT NELBO P6 BELZU DCT",
+      "remarks": "Notes: 452"
+    },
+    {
+      "line": 10452,
+      "adep": "EGLL",
+      "ades": "EGAA",
+      "sid": "UMLAT",
+      "star": "",
+      "min": "255",
+      "old_max": 660,
+      "new_max": 355,
+      "rules": [
+        "EG4063"
+      ],
+      "route": "T418 WELIN T420 TNT UL28 RODOL UM65 TENSO L603 BELOX DCT REMSI DCT UVPOK M147 ROBOP M146 IPSET P6 BELZU DCT",
+      "remarks": "Notes: 453"
+    },
+    {
+      "line": 10453,
+      "adep": "EGLL",
+      "ades": "EGAA",
+      "sid": "ULTIB",
+      "star": "",
+      "min": "255",
+      "old_max": 660,
+      "new_max": 355,
+      "rules": [
+        "EG4063"
+      ],
+      "route": "T420 TNT UL28 RODOL UM65 TENSO L603 BELOX DCT REMSI DCT MASOP DCT NELBO P6 BELZU DCT",
+      "remarks": "Notes: 452"
+    },
+    {
+      "line": 10454,
+      "adep": "EGLL",
+      "ades": "EGAA",
+      "sid": "ULTIB",
+      "star": "",
+      "min": "255",
+      "old_max": 660,
+      "new_max": 355,
+      "rules": [
+        "EG4063"
+      ],
+      "route": "T420 TNT UL28 RODOL UM65 TENSO L603 BELOX DCT REMSI DCT UVPOK M147 ROBOP M146 IPSET P6 BELZU DCT",
+      "remarks": "Notes: 453"
+    },
+    {
+      "line": 10469,
+      "adep": "EGLL",
+      "ades": "EGAC",
+      "sid": "UMLAT",
+      "star": "",
+      "min": "255",
+      "old_max": 660,
+      "new_max": 355,
+      "rules": [
+        "EG4063"
+      ],
+      "route": "T418 WELIN T420 TNT UL28 RODOL UM65 TENSO L603 BELOX DCT REMSI DCT MASOP DCT NELBO DCT MAGEE DCT",
+      "remarks": "Notes: 452"
+    },
+    {
+      "line": 10470,
+      "adep": "EGLL",
+      "ades": "EGAC",
+      "sid": "UMLAT",
+      "star": "",
+      "min": "255",
+      "old_max": 660,
+      "new_max": 355,
+      "rules": [
+        "EG4063"
+      ],
+      "route": "T418 WELIN T420 TNT UL28 RODOL UM65 TENSO L603 BELOX DCT REMSI DCT NINEB M148 MAGEE DCT",
+      "remarks": "Notes: 453"
+    },
+    {
+      "line": 10471,
+      "adep": "EGLL",
+      "ades": "EGAC",
+      "sid": "ULTIB",
+      "star": "",
+      "min": "255",
+      "old_max": 660,
+      "new_max": 355,
+      "rules": [
+        "EG4063"
+      ],
+      "route": "T420 TNT UL28 RODOL UM65 TENSO L603 BELOX DCT REMSI DCT MASOP DCT NELBO DCT MAGEE DCT",
+      "remarks": "Notes: 452"
+    },
+    {
+      "line": 10472,
+      "adep": "EGLL",
+      "ades": "EGAC",
+      "sid": "ULTIB",
+      "star": "",
+      "min": "255",
+      "old_max": 660,
+      "new_max": 355,
+      "rules": [
+        "EG4063"
+      ],
+      "route": "T420 TNT UL28 RODOL UM65 TENSO L603 BELOX DCT REMSI DCT NINEB M148 MAGEE DCT",
+      "remarks": "Notes: 453"
+    },
+    {
+      "line": 11128,
+      "adep": "EGMC",
+      "ades": "EGAA",
+      "sid": "",
+      "star": "",
+      "min": "255",
+      "old_max": 660,
+      "new_max": 355,
+      "rules": [
+        "EG4063"
+      ],
+      "route": "DCT EVNAS DCT LAM L10 BPK N601 PIPIN UN601 LESTA UP6 RODOL UM65 TENSO L603 BELOX DCT REMSI DCT MASOP DCT NELBO P6 BELZU DCT",
+      "remarks": "Notes: 452"
+    },
+    {
+      "line": 11129,
+      "adep": "EGMC",
+      "ades": "EGAA",
+      "sid": "",
+      "star": "",
+      "min": "255",
+      "old_max": 660,
+      "new_max": 355,
+      "rules": [
+        "EG4063"
+      ],
+      "route": "DCT EVNAS DCT LAM L10 BPK N601 PIPIN UN601 LESTA UP6 RODOL UM65 TENSO L603 BELOX DCT REMSI DCT UVPOK M147 ROBOP M146 IPSET P6 BELZU DCT",
+      "remarks": "Notes: 453"
+    },
+    {
+      "line": 11130,
+      "adep": "EGMC",
+      "ades": "EGAA",
+      "sid": "",
+      "star": "",
+      "min": "255",
+      "old_max": 660,
+      "new_max": 355,
+      "rules": [
+        "EG4063"
+      ],
+      "route": "DCT EVNAS DCT LAM L10 BPK UN601 LESTA UP6 RODOL UM65 TENSO L603 BELOX DCT REMSI DCT MASOP DCT NELBO P6 BELZU DCT",
+      "remarks": "Notes: 452"
+    },
+    {
+      "line": 11131,
+      "adep": "EGMC",
+      "ades": "EGAA",
+      "sid": "",
+      "star": "",
+      "min": "255",
+      "old_max": 660,
+      "new_max": 355,
+      "rules": [
+        "EG4063"
+      ],
+      "route": "DCT EVNAS DCT LAM L10 BPK UN601 LESTA UP6 RODOL UM65 TENSO L603 BELOX DCT REMSI DCT UVPOK M147 ROBOP M146 IPSET P6 BELZU DCT",
+      "remarks": "Notes: 453"
+    },
+    {
+      "line": 11140,
+      "adep": "EGMC",
+      "ades": "EGAC",
+      "sid": "",
+      "star": "",
+      "min": "255",
+      "old_max": 660,
+      "new_max": 355,
+      "rules": [
+        "EG4063"
+      ],
+      "route": "DCT EVNAS DCT LAM L10 BPK UN601 LESTA UP6 RODOL UM65 TENSO L603 BELOX DCT REMSI DCT MASOP DCT NELBO DCT MAGEE",
+      "remarks": "Notes: 452"
+    },
+    {
+      "line": 11141,
+      "adep": "EGMC",
+      "ades": "EGAC",
+      "sid": "",
+      "star": "",
+      "min": "255",
+      "old_max": 660,
+      "new_max": 355,
+      "rules": [
+        "EG4063"
+      ],
+      "route": "DCT EVNAS DCT LAM L10 BPK UN601 LESTA UP6 RODOL UM65 TENSO L603 BELOX DCT REMSI DCT NINEB M148 MAGEE DCT",
+      "remarks": "Notes: 453"
+    },
+    {
+      "line": 11158,
+      "adep": "EGMC",
+      "ades": "EGGW",
+      "sid": "",
+      "star": "",
+      "min": "65",
+      "old_max": 105,
+      "new_max": 95,
+      "rules": [
+        "EG4082"
+      ],
+      "route": "DCT EVNAS DCT ABBOT DCT",
+      "remarks": ""
+    },
+    {
+      "line": 11169,
+      "adep": "EGMC",
+      "ades": "EGKA",
+      "sid": "",
+      "star": "",
+      "min": "MC",
+      "old_max": 245,
+      "new_max": 95,
+      "rules": [
+        "EG4082"
+      ],
+      "route": "DCT DET M604 LYD Y803 SFD",
+      "remarks": ""
+    },
+    {
+      "line": 11174,
+      "adep": "EGMC",
+      "ades": "EGLF",
+      "sid": "",
+      "star": "ELDAX1V",
+      "min": "75",
+      "old_max": 125,
+      "new_max": 95,
+      "rules": [
+        "EG4082"
+      ],
+      "route": "DCT DET M604 LYD M189 WAFFU DCT NOTGI",
+      "remarks": "Notes: 450"
+    },
+    {
+      "line": 11175,
+      "adep": "EGMC",
+      "ades": "EGLF",
+      "sid": "",
+      "star": "NOTGI1P",
+      "min": "75",
+      "old_max": 125,
+      "new_max": 95,
+      "rules": [
+        "EG4082"
+      ],
+      "route": "DCT DET M604 LYD M189 WAFFU DCT NOTGI",
+      "remarks": "Notes: 476 - 452"
+    },
+    {
+      "line": 11176,
+      "adep": "EGMC",
+      "ades": "EGLK",
+      "sid": "",
+      "star": "ELDAX1V",
+      "min": "75",
+      "old_max": 125,
+      "new_max": 95,
+      "rules": [
+        "EG4082"
+      ],
+      "route": "DCT DET M604 LYD M189 WAFFU DCT NOTGI",
+      "remarks": "Notes: 450"
+    },
+    {
+      "line": 11177,
+      "adep": "EGMC",
+      "ades": "EGLK",
+      "sid": "",
+      "star": "NOTGI1P",
+      "min": "75",
+      "old_max": 125,
+      "new_max": 95,
+      "rules": [
+        "EG4082"
+      ],
+      "route": "DCT DET M604 LYD M189 WAFFU DCT NOTGI",
+      "remarks": "Notes: 476 - 452"
+    },
+    {
+      "line": 11250,
+      "adep": "EGMC",
+      "ades": "EGSG",
+      "sid": "",
+      "star": "",
+      "min": "MC",
+      "old_max": 245,
+      "new_max": 95,
+      "rules": [
+        "EG4082"
+      ],
+      "route": "DCT DET DCT",
+      "remarks": ""
+    },
+    {
+      "line": 11462,
+      "adep": "EGMD",
+      "ades": "EGTE",
+      "sid": "",
+      "star": "",
+      "min": "245",
+      "old_max": 315,
+      "new_max": 295,
+      "rules": [
+        "EG4018"
+      ],
+      "route": "DCT LYD Y803 MID L620 GIBSO DCT",
+      "remarks": "Notes: 315"
+    },
+    {
+      "line": 11604,
+      "adep": "EGNE",
+      "ades": "EGKA",
+      "sid": "",
+      "star": "",
+      "min": "MC",
+      "old_max": 245,
+      "new_max": 195,
+      "rules": [
+        "EG4025"
+      ],
+      "route": "DCT SAPCO Y53 DTY M605 SILVA M183 CPT N859 GWC",
+      "remarks": ""
+    },
+    {
+      "line": 11708,
+      "adep": "EGNH",
+      "ades": "EGAC",
+      "sid": "",
+      "star": "",
+      "min": "195",
+      "old_max": 255,
+      "new_max": 245,
+      "rules": [
+        "EG4070"
+      ],
+      "route": "DCT DIGMA M146 ERDUV Z198 MASOP M148 MAGEE DCT",
+      "remarks": "Notes: 453"
+    },
+    {
+      "line": 11752,
+      "adep": "EGNH",
+      "ades": "EGJJ",
+      "sid": "",
+      "star": "LELNA1J",
+      "min": "245",
+      "old_max": 660,
+      "new_max": 295,
+      "rules": [
+        "EG4092"
+      ],
+      "route": "DCT ESTRY DCT WAL L151 KIDLI UN859 CPT Y321 PEPIS Q41 SAM M195 MARUK N621 LELNA",
+      "remarks": ""
+    },
+    {
+      "line": 11753,
+      "adep": "EGNH",
+      "ades": "EGJJ",
+      "sid": "",
+      "star": "LELNA1K",
+      "min": "245",
+      "old_max": 660,
+      "new_max": 295,
+      "rules": [
+        "EG4092"
+      ],
+      "route": "DCT ESTRY DCT WAL L151 KIDLI UN859 CPT Y321 PEPIS Q41 SAM M195 MARUK N621 LELNA",
+      "remarks": ""
+    },
+    {
+      "line": 11754,
+      "adep": "EGNH",
+      "ades": "EGJJ",
+      "sid": "",
+      "star": "LELNA1J",
+      "min": "245",
+      "old_max": 660,
+      "new_max": 295,
+      "rules": [
+        "EG4092"
+      ],
+      "route": "DCT ESTRY DCT WAL L151 KIDLI UN859 CPT Y321 PEPIS Q41 SAM N621 LELNA",
+      "remarks": ""
+    },
+    {
+      "line": 11755,
+      "adep": "EGNH",
+      "ades": "EGJJ",
+      "sid": "",
+      "star": "LELNA1K",
+      "min": "245",
+      "old_max": 660,
+      "new_max": 295,
+      "rules": [
+        "EG4092"
+      ],
+      "route": "DCT ESTRY DCT WAL L151 KIDLI UN859 CPT Y321 PEPIS Q41 SAM N621 LELNA",
+      "remarks": ""
+    },
+    {
+      "line": 11756,
+      "adep": "EGNH",
+      "ades": "EGJJ",
+      "sid": "",
+      "star": "LELNA1J",
+      "min": "245",
+      "old_max": 660,
+      "new_max": 295,
+      "rules": [
+        "EG4092"
+      ],
+      "route": "DCT ESTRY DCT WAL L151 KIDLI UN859 CPT Y321 PEPIS Q41 SAM N63 LELNA",
+      "remarks": "Notes: 453"
+    },
+    {
+      "line": 11757,
+      "adep": "EGNH",
+      "ades": "EGJJ",
+      "sid": "",
+      "star": "LELNA1K",
+      "min": "245",
+      "old_max": 660,
+      "new_max": 295,
+      "rules": [
+        "EG4092"
+      ],
+      "route": "DCT ESTRY DCT WAL L151 KIDLI UN859 CPT Y321 PEPIS Q41 SAM N63 LELNA",
+      "remarks": "Notes: 453"
+    },
+    {
+      "line": 11935,
+      "adep": "EGNJ",
+      "ades": "EGAC",
+      "sid": "",
+      "star": "",
+      "min": "195",
+      "old_max": 255,
+      "new_max": 245,
+      "rules": [
+        "EG4070"
+      ],
+      "route": "DCT GOLES L975 DESIG L70 GUNTU Z196 DIGMA M146 ERDUV Z198 MASOP M148 MAGEE DCT",
+      "remarks": "Notes: 453"
+    },
+    {
+      "line": 12061,
+      "adep": "EGNL",
+      "ades": "EGGD",
+      "sid": "",
+      "star": "WEVBE1B",
+      "min": "245",
+      "old_max": 295,
+      "new_max": 245,
+      "rules": [
+        "EG4161"
+      ],
+      "route": "DCT WAL N862 KARNO DCT ALHUP DCT LUCSA N862 WEVBE",
+      "remarks": ""
+    },
+    {
+      "line": 12202,
+      "adep": "EGNM",
+      "ades": "EGAC",
+      "sid": "NELSA",
+      "star": "",
+      "min": "195",
+      "old_max": 255,
+      "new_max": 245,
+      "rules": [
+        "EG4070"
+      ],
+      "route": "DCT CROFT Y70 KOLID L70 GUNTU Z196 DIGMA M146 ERDUV Z198 MASOP M148 MAGEE DCT",
+      "remarks": "Notes: 453"
+    },
+    {
+      "line": 12203,
+      "adep": "EGNM",
+      "ades": "EGAC",
+      "sid": "POL",
+      "star": "",
+      "min": "195",
+      "old_max": 255,
+      "new_max": 245,
+      "rules": [
+        "EG4070"
+      ],
+      "route": "Y70 KOLID L70 GUNTU Z196 DIGMA M146 ERDUV Z198 MASOP M148 MAGEE DCT",
+      "remarks": "Notes: 453"
+    },
+    {
+      "line": 12344,
+      "adep": "EGNM",
+      "ades": "EGLD",
+      "sid": "NELSA",
+      "star": "HON2H",
+      "min": "195",
+      "old_max": 235,
+      "new_max": 195,
+      "rules": [
+        "EG4111"
+      ],
+      "route": "DCT MCT DCT LISTO L612 HON",
+      "remarks": ""
+    },
+    {
+      "line": 12345,
+      "adep": "EGNM",
+      "ades": "EGLD",
+      "sid": "POL",
+      "star": "HON2H",
+      "min": "195",
+      "old_max": 235,
+      "new_max": 195,
+      "rules": [
+        "EG4111"
+      ],
+      "route": "DCT MCT DCT LISTO L612 HON",
+      "remarks": ""
+    },
+    {
+      "line": 12819,
+      "adep": "EGNR",
+      "ades": "EGAC",
+      "sid": "",
+      "star": "",
+      "min": "195",
+      "old_max": 255,
+      "new_max": 245,
+      "rules": [
+        "EG4070"
+      ],
+      "route": "DCT WAL M146 ERDUV Z198 MASOP M148 MAGEE DCT",
+      "remarks": "Notes: 453"
+    },
+    {
+      "line": 12860,
+      "adep": "EGNR",
+      "ades": "EGPF",
+      "sid": "",
+      "star": "ASLIB1G",
+      "min": "MC",
+      "old_max": 660,
+      "new_max": 245,
+      "rules": [
+        "EG4009"
+      ],
+      "route": "DCT WAL L975 BARTN P17 POL N601 ERGAB <FRA> ASLIB",
+      "remarks": ""
+    },
+    {
+      "line": 13359,
+      "adep": "EGNT",
+      "ades": "EGGW",
+      "sid": "",
+      "star": "DET2A",
+      "min": "245",
+      "old_max": 660,
+      "new_max": 285,
+      "rules": [
+        "EG4139"
+      ],
+      "route": "DCT NATEB P18 GASKO P16 RIBEL UP16 CROFT L612 HON L15 FINMA DCT BPK Q295 MATCH DCT LOFFO",
+      "remarks": "Notes: 452"
+    },
+    {
+      "line": 13360,
+      "adep": "EGNT",
+      "ades": "EGGW",
+      "sid": "",
+      "star": "LISTO1N",
+      "min": "245",
+      "old_max": 660,
+      "new_max": 285,
+      "rules": [
+        "EG4139"
+      ],
+      "route": "DCT NATEB P18 GASKO P16 RIBEL UP16 CROFT L612 LISTO",
+      "remarks": "Notes: 453"
+    },
+    {
+      "line": 13361,
+      "adep": "EGNT",
+      "ades": "EGGW",
+      "sid": "",
+      "star": "DET2A",
+      "min": "245",
+      "old_max": 660,
+      "new_max": 285,
+      "rules": [
+        "EG4139"
+      ],
+      "route": "DCT NATEB P18 GASKO P16 RIBEL UP16 CROFT UL612 HON L15 FINMA DCT BPK Q295 MATCH DCT LOFFO",
+      "remarks": "Notes: 463 - 452"
+    },
+    {
+      "line": 13362,
+      "adep": "EGNT",
+      "ades": "EGGW",
+      "sid": "GIRLI",
+      "star": "LISTO1N",
+      "min": "245",
+      "old_max": 660,
+      "new_max": 285,
+      "rules": [
+        "EG4139"
+      ],
+      "route": "P18 GASKO P16 RIBEL UP16 CROFT L612 LISTO",
+      "remarks": "Notes: 463 - 453"
+    },
+    {
+      "line": 13431,
+      "adep": "EGNT",
+      "ades": "EGJJ",
+      "sid": "",
+      "star": "LELNA1J",
+      "min": "245",
+      "old_max": 660,
+      "new_max": 295,
+      "rules": [
+        "EG4092"
+      ],
+      "route": "DCT NATEB P18 GASKO P16 RIBEL UP16 CROFT DCT KEPAD L151 KIDLI UN859 CPT Y321 PEPIS Q41 SAM M195 MARUK N621 LELNA",
+      "remarks": ""
+    },
+    {
+      "line": 13432,
+      "adep": "EGNT",
+      "ades": "EGJJ",
+      "sid": "",
+      "star": "LELNA1K",
+      "min": "245",
+      "old_max": 660,
+      "new_max": 295,
+      "rules": [
+        "EG4092"
+      ],
+      "route": "DCT NATEB P18 GASKO P16 RIBEL UP16 CROFT DCT KEPAD L151 KIDLI UN859 CPT Y321 PEPIS Q41 SAM M195 MARUK N621 LELNA",
+      "remarks": ""
+    },
+    {
+      "line": 13433,
+      "adep": "EGNT",
+      "ades": "EGJJ",
+      "sid": "",
+      "star": "LELNA1J",
+      "min": "245",
+      "old_max": 660,
+      "new_max": 295,
+      "rules": [
+        "EG4092"
+      ],
+      "route": "DCT NATEB P18 GASKO P16 RIBEL UP16 CROFT DCT KEPAD L151 KIDLI UN859 CPT Y321 PEPIS Q41 SAM N621 LELNA",
+      "remarks": ""
+    },
+    {
+      "line": 13434,
+      "adep": "EGNT",
+      "ades": "EGJJ",
+      "sid": "",
+      "star": "LELNA1K",
+      "min": "245",
+      "old_max": 660,
+      "new_max": 295,
+      "rules": [
+        "EG4092"
+      ],
+      "route": "DCT NATEB P18 GASKO P16 RIBEL UP16 CROFT DCT KEPAD L151 KIDLI UN859 CPT Y321 PEPIS Q41 SAM N621 LELNA",
+      "remarks": ""
+    },
+    {
+      "line": 13435,
+      "adep": "EGNT",
+      "ades": "EGJJ",
+      "sid": "",
+      "star": "LELNA1J",
+      "min": "245",
+      "old_max": 660,
+      "new_max": 295,
+      "rules": [
+        "EG4092"
+      ],
+      "route": "DCT NATEB P18 GASKO P16 RIBEL UP16 CROFT DCT KEPAD L151 KIDLI UN859 CPT Y321 PEPIS Q41 SAM N63 LELNA",
+      "remarks": "Notes: 453"
+    },
+    {
+      "line": 13436,
+      "adep": "EGNT",
+      "ades": "EGJJ",
+      "sid": "",
+      "star": "LELNA1K",
+      "min": "245",
+      "old_max": 660,
+      "new_max": 295,
+      "rules": [
+        "EG4092"
+      ],
+      "route": "DCT NATEB P18 GASKO P16 RIBEL UP16 CROFT DCT KEPAD L151 KIDLI UN859 CPT Y321 PEPIS Q41 SAM N63 LELNA",
+      "remarks": "Notes: 453"
+    },
+    {
+      "line": 13443,
+      "adep": "EGNT",
+      "ades": "EGJJ",
+      "sid": "GIRLI",
+      "star": "LELNA1J",
+      "min": "245",
+      "old_max": 660,
+      "new_max": 295,
+      "rules": [
+        "EG4092"
+      ],
+      "route": "P18 GASKO P16 RIBEL UP16 CROFT DCT KEPAD L151 KIDLI UN859 CPT Y321 PEPIS Q41 SAM M195 MARUK N621 LELNA",
+      "remarks": "Notes: 463"
+    },
+    {
+      "line": 13444,
+      "adep": "EGNT",
+      "ades": "EGJJ",
+      "sid": "GIRLI",
+      "star": "LELNA1K",
+      "min": "245",
+      "old_max": 660,
+      "new_max": 295,
+      "rules": [
+        "EG4092"
+      ],
+      "route": "P18 GASKO P16 RIBEL UP16 CROFT DCT KEPAD L151 KIDLI UN859 CPT Y321 PEPIS Q41 SAM M195 MARUK N621 LELNA",
+      "remarks": "Notes: 463"
+    },
+    {
+      "line": 13445,
+      "adep": "EGNT",
+      "ades": "EGJJ",
+      "sid": "GIRLI",
+      "star": "LELNA1J",
+      "min": "245",
+      "old_max": 660,
+      "new_max": 295,
+      "rules": [
+        "EG4092"
+      ],
+      "route": "P18 GASKO P16 RIBEL UP16 CROFT DCT KEPAD L151 KIDLI UN859 CPT Y321 PEPIS Q41 SAM N621 LELNA",
+      "remarks": "Notes: 463"
+    },
+    {
+      "line": 13446,
+      "adep": "EGNT",
+      "ades": "EGJJ",
+      "sid": "GIRLI",
+      "star": "LELNA1K",
+      "min": "245",
+      "old_max": 660,
+      "new_max": 295,
+      "rules": [
+        "EG4092"
+      ],
+      "route": "P18 GASKO P16 RIBEL UP16 CROFT DCT KEPAD L151 KIDLI UN859 CPT Y321 PEPIS Q41 SAM N621 LELNA",
+      "remarks": "Notes: 463"
+    },
+    {
+      "line": 13447,
+      "adep": "EGNT",
+      "ades": "EGJJ",
+      "sid": "GIRLI",
+      "star": "LELNA1J",
+      "min": "245",
+      "old_max": 660,
+      "new_max": 295,
+      "rules": [
+        "EG4092"
+      ],
+      "route": "P18 GASKO P16 RIBEL UP16 CROFT DCT KEPAD L151 KIDLI UN859 CPT Y321 PEPIS Q41 SAM N63 LELNA",
+      "remarks": "Notes: 453"
+    },
+    {
+      "line": 13448,
+      "adep": "EGNT",
+      "ades": "EGJJ",
+      "sid": "GIRLI",
+      "star": "LELNA1K",
+      "min": "245",
+      "old_max": 660,
+      "new_max": 295,
+      "rules": [
+        "EG4092"
+      ],
+      "route": "P18 GASKO P16 RIBEL UP16 CROFT DCT KEPAD L151 KIDLI UN859 CPT Y321 PEPIS Q41 SAM N63 LELNA",
+      "remarks": "Notes: 453"
+    },
+    {
+      "line": 13486,
+      "adep": "EGNT",
+      "ades": "EGKB",
+      "sid": "",
+      "star": "LISTO1C",
+      "min": "245",
+      "old_max": 660,
+      "new_max": 285,
+      "rules": [
+        "EG4139"
+      ],
+      "route": "DCT NATEB P18 GASKO P16 RIBEL UP16 CROFT UL612 LISTO",
+      "remarks": ""
+    },
+    {
+      "line": 13487,
+      "adep": "EGNT",
+      "ades": "EGKB",
+      "sid": "GIRLI",
+      "star": "LISTO1C",
+      "min": "245",
+      "old_max": 660,
+      "new_max": 285,
+      "rules": [
+        "EG4139"
+      ],
+      "route": "P18 GASKO P16 RIBEL UP16 CROFT UL612 LISTO",
+      "remarks": "Notes: 463"
+    },
+    {
+      "line": 13492,
+      "adep": "EGNT",
+      "ades": "EGKK",
+      "sid": "",
+      "star": "DISIT1G",
+      "min": "245",
+      "old_max": 660,
+      "new_max": 285,
+      "rules": [
+        "EG4139"
+      ],
+      "route": "DCT NATEB P18 GASKO P16 RIBEL UP16 CROFT DCT KEPAD L151 DISIT",
+      "remarks": ""
+    },
+    {
+      "line": 13493,
+      "adep": "EGNT",
+      "ades": "EGKK",
+      "sid": "GIRLI",
+      "star": "DISIT1G",
+      "min": "245",
+      "old_max": 660,
+      "new_max": 285,
+      "rules": [
+        "EG4139"
+      ],
+      "route": "P18 GASKO P16 RIBEL UP16 CROFT DCT KEPAD L151 DISIT",
+      "remarks": "Notes: 463"
+    },
+    {
+      "line": 13510,
+      "adep": "EGNT",
+      "ades": "EGLC",
+      "sid": "",
+      "star": "LISTO1C",
+      "min": "245",
+      "old_max": 660,
+      "new_max": 285,
+      "rules": [
+        "EG4139"
+      ],
+      "route": "DCT NATEB P18 GASKO P16 RIBEL UP16 CROFT UL612 LISTO",
+      "remarks": ""
+    },
+    {
+      "line": 13511,
+      "adep": "EGNT",
+      "ades": "EGLC",
+      "sid": "GIRLI",
+      "star": "LISTO1C",
+      "min": "245",
+      "old_max": 660,
+      "new_max": 285,
+      "rules": [
+        "EG4139"
+      ],
+      "route": "P18 GASKO P16 RIBEL UP16 CROFT UL612 LISTO",
+      "remarks": "Notes: 463"
+    },
+    {
+      "line": 13555,
+      "adep": "EGNT",
+      "ades": "EGLL",
+      "sid": "",
+      "star": "NUGRA2H",
+      "min": "245",
+      "old_max": 660,
+      "new_max": 285,
+      "rules": [
+        "EG4139"
+      ],
+      "route": "DCT NATEB P18 GASKO P16 RIBEL UP16 CROFT DCT NUGRA",
+      "remarks": ""
+    },
+    {
+      "line": 13556,
+      "adep": "EGNT",
+      "ades": "EGLL",
+      "sid": "GIRLI",
+      "star": "NUGRA2H",
+      "min": "245",
+      "old_max": 660,
+      "new_max": 285,
+      "rules": [
+        "EG4139"
+      ],
+      "route": "P18 GASKO P16 RIBEL UP16 CROFT DCT NUGRA",
+      "remarks": "Notes: 463"
+    },
+    {
+      "line": 13566,
+      "adep": "EGNT",
+      "ades": "EGMC",
+      "sid": "",
+      "star": "LISTO1S",
+      "min": "245",
+      "old_max": 660,
+      "new_max": 285,
+      "rules": [
+        "EG4139"
+      ],
+      "route": "DCT NATEB P18 GASKO P16 RIBEL UP16 CROFT UL612 LISTO",
+      "remarks": ""
+    },
+    {
+      "line": 13567,
+      "adep": "EGNT",
+      "ades": "EGMC",
+      "sid": "GIRLI",
+      "star": "LISTO1S",
+      "min": "245",
+      "old_max": 660,
+      "new_max": 285,
+      "rules": [
+        "EG4139"
+      ],
+      "route": "P18 GASKO P16 RIBEL UP16 CROFT UL612 LISTO",
+      "remarks": "Notes: 463"
+    },
+    {
+      "line": 13625,
+      "adep": "EGNT",
+      "ades": "EGSC",
+      "sid": "",
+      "star": "LISTO1L",
+      "min": "245",
+      "old_max": 660,
+      "new_max": 285,
+      "rules": [
+        "EG4139"
+      ],
+      "route": "DCT NATEB P18 GASKO P16 RIBEL UP16 CROFT L612 LISTO",
+      "remarks": ""
+    },
+    {
+      "line": 13626,
+      "adep": "EGNT",
+      "ades": "EGSC",
+      "sid": "GIRLI",
+      "star": "LISTO1L",
+      "min": "245",
+      "old_max": 660,
+      "new_max": 285,
+      "rules": [
+        "EG4139"
+      ],
+      "route": "P18 GASKO P16 RIBEL UP16 CROFT L612 LISTO",
+      "remarks": "Notes: 463"
+    },
+    {
+      "line": 13638,
+      "adep": "EGNT",
+      "ades": "EGSS",
+      "sid": "",
+      "star": "LISTO1L",
+      "min": "245",
+      "old_max": 660,
+      "new_max": 285,
+      "rules": [
+        "EG4139"
+      ],
+      "route": "DCT NATEB P18 GASKO P16 RIBEL UP16 CROFT L612 LISTO",
+      "remarks": ""
+    },
+    {
+      "line": 13639,
+      "adep": "EGNT",
+      "ades": "EGSS",
+      "sid": "GIRLI",
+      "star": "LISTO1L",
+      "min": "245",
+      "old_max": 660,
+      "new_max": 285,
+      "rules": [
+        "EG4139"
+      ],
+      "route": "P18 GASKO P16 RIBEL UP16 CROFT L612 LISTO",
+      "remarks": "Notes: 463"
+    },
+    {
+      "line": 13666,
+      "adep": "EGNT",
+      "ades": "EGTO",
+      "sid": "",
+      "star": "",
+      "min": "245",
+      "old_max": 660,
+      "new_max": 285,
+      "rules": [
+        "EG4139"
+      ],
+      "route": "DCT NATEB P18 GASKO P16 RIBEL UP16 CROFT UL612 HON L10 LAM DCT",
+      "remarks": ""
+    },
+    {
+      "line": 13667,
+      "adep": "EGNT",
+      "ades": "EGTO",
+      "sid": "GIRLI",
+      "star": "",
+      "min": "245",
+      "old_max": 660,
+      "new_max": 285,
+      "rules": [
+        "EG4139"
+      ],
+      "route": "P18 GASKO P16 RIBEL UP16 CROFT UL612 HON L10 LAM DCT",
+      "remarks": "Notes: 463"
+    },
+    {
+      "line": 13690,
+      "adep": "EGNT",
+      "ades": "EGWU",
+      "sid": "",
+      "star": "NUGRA2H",
+      "min": "245",
+      "old_max": 660,
+      "new_max": 285,
+      "rules": [
+        "EG4139"
+      ],
+      "route": "DCT NATEB P18 GASKO P16 RIBEL UP16 CROFT DCT NUGRA",
+      "remarks": ""
+    },
+    {
+      "line": 13691,
+      "adep": "EGNT",
+      "ades": "EGWU",
+      "sid": "GIRLI",
+      "star": "NUGRA2H",
+      "min": "245",
+      "old_max": 660,
+      "new_max": 285,
+      "rules": [
+        "EG4139"
+      ],
+      "route": "P18 GASKO P16 RIBEL UP16 CROFT DCT NUGRA",
+      "remarks": "Notes: 463"
+    },
+    {
+      "line": 14404,
+      "adep": "EGNX",
+      "ades": "EGNS",
+      "sid": "TNT",
+      "star": "",
+      "min": "MC",
+      "old_max": 245,
+      "new_max": 195,
+      "rules": [
+        "EG4152"
+      ],
+      "route": "Q4 WAL L10 KELLY DCT",
+      "remarks": "Notes: 452"
+    },
+    {
+      "line": 14405,
+      "adep": "EGNX",
+      "ades": "EGNS",
+      "sid": "TNT",
+      "star": "",
+      "min": "MC",
+      "old_max": 245,
+      "new_max": 195,
+      "rules": [
+        "EG4152"
+      ],
+      "route": "Q4 WAL M146 LUSOD DCT IOM DCT",
+      "remarks": "Notes: 453"
+    },
+    {
+      "line": 14422,
+      "adep": "EGNX",
+      "ades": "EGPD",
+      "sid": "TNT",
+      "star": "",
+      "min": "255",
+      "old_max": 660,
+      "new_max": 355,
+      "rules": [
+        "EG4191"
+      ],
+      "route": "N57 POL N601 RIBEL <FRA> GRICE DCT FINDO P600 NAXIL DCT",
+      "remarks": ""
+    },
+    {
+      "line": 14423,
+      "adep": "EGNX",
+      "ades": "EGPD",
+      "sid": "POL",
+      "star": "",
+      "min": "255",
+      "old_max": 660,
+      "new_max": 355,
+      "rules": [
+        "EG4191"
+      ],
+      "route": "N601 RIBEL <FRA> GRICE DCT FINDO P600 NAXIL DCT",
+      "remarks": ""
+    },
+    {
+      "line": 14430,
+      "adep": "EGNX",
+      "ades": "EGPE",
+      "sid": "TNT",
+      "star": "",
+      "min": "255",
+      "old_max": 660,
+      "new_max": 355,
+      "rules": [
+        "EG4191"
+      ],
+      "route": "N57 POL N601 RIBEL <FRA> ERSON N560 NESDI DCT GUSSI DCT",
+      "remarks": ""
+    },
+    {
+      "line": 14431,
+      "adep": "EGNX",
+      "ades": "EGPE",
+      "sid": "POL",
+      "star": "",
+      "min": "255",
+      "old_max": 660,
+      "new_max": 355,
+      "rules": [
+        "EG4191"
+      ],
+      "route": "N601 RIBEL <FRA> ERSON N560 NESDI DCT GUSSI DCT",
+      "remarks": ""
+    },
+    {
+      "line": 14436,
+      "adep": "EGNX",
+      "ades": "EGPF",
+      "sid": "TNT",
+      "star": "ASLIB1G",
+      "min": "255",
+      "old_max": 660,
+      "new_max": 285,
+      "rules": [
+        "EG4017"
+      ],
+      "route": "N57 POL N601 RIBEL <FRA> ASLIB",
+      "remarks": "Notes: 295"
+    },
+    {
+      "line": 14437,
+      "adep": "EGNX",
+      "ades": "EGPF",
+      "sid": "POL",
+      "star": "ASLIB1G",
+      "min": "255",
+      "old_max": 660,
+      "new_max": 285,
+      "rules": [
+        "EG4017"
+      ],
+      "route": "N601 RIBEL <FRA> ASLIB",
+      "remarks": ""
+    },
+    {
+      "line": 14442,
+      "adep": "EGNX",
+      "ades": "EGPH",
+      "sid": "TNT",
+      "star": "INPIP1E",
+      "min": "255",
+      "old_max": 660,
+      "new_max": 285,
+      "rules": [
+        "EG4017"
+      ],
+      "route": "N57 POL N601 RIBEL <FRA> INPIP",
+      "remarks": "Notes: 295"
+    },
+    {
+      "line": 14448,
+      "adep": "EGNX",
+      "ades": "EGPK",
+      "sid": "TNT",
+      "star": "ASLIB1P",
+      "min": "255",
+      "old_max": 660,
+      "new_max": 285,
+      "rules": [
+        "EG4017"
+      ],
+      "route": "N57 POL N601 RIBEL <FRA> ASLIB",
+      "remarks": "Notes: 295"
+    },
+    {
+      "line": 14453,
+      "adep": "EGNX",
+      "ades": "EGPN",
+      "sid": "TNT",
+      "star": "",
+      "min": "255",
+      "old_max": 660,
+      "new_max": 285,
+      "rules": [
+        "EG4017"
+      ],
+      "route": "N57 POL N601 RIBEL <FRA> INREV DCT EDN DCT",
+      "remarks": "Notes: 295"
+    },
+    {
+      "line": 14454,
+      "adep": "EGNX",
+      "ades": "EGPN",
+      "sid": "POL",
+      "star": "",
+      "min": "255",
+      "old_max": 660,
+      "new_max": 285,
+      "rules": [
+        "EG4017"
+      ],
+      "route": "N601 RIBEL <FRA> INREV DCT EDN DCT",
+      "remarks": "Notes: 295"
+    },
+    {
+      "line": 14465,
+      "adep": "EGNX",
+      "ades": "EGQL",
+      "sid": "TNT",
+      "star": "",
+      "min": "255",
+      "old_max": 660,
+      "new_max": 285,
+      "rules": [
+        "EG4017"
+      ],
+      "route": "N57 POL UN601 RIBEL <FRA> INREV N601 TLA DCT EDN DCT",
+      "remarks": "Notes: 295"
+    },
+    {
+      "line": 14466,
+      "adep": "EGNX",
+      "ades": "EGQL",
+      "sid": "POL",
+      "star": "",
+      "min": "255",
+      "old_max": 660,
+      "new_max": 285,
+      "rules": [
+        "EG4017"
+      ],
+      "route": "UN601 RIBEL <FRA> INREV N601 TLA DCT EDN DCT",
+      "remarks": "Notes: 295"
+    },
+    {
+      "line": 14950,
+      "adep": "EGPD",
+      "ades": "EGKB",
+      "sid": "",
+      "star": "LISTO1C",
+      "min": "255",
+      "old_max": 660,
+      "new_max": 355,
+      "rules": [
+        "EG4196"
+      ],
+      "route": "DCT NAXIL P600 PTH DCT ZOFAT <FRA> AKOMU DCT VAMEB UL612 LISTO",
+      "remarks": ""
+    },
+    {
+      "line": 14951,
+      "adep": "EGPD",
+      "ades": "EGKB",
+      "sid": "",
+      "star": "LISTO1C",
+      "min": "265",
+      "old_max": 660,
+      "new_max": 355,
+      "rules": [
+        "EG4196"
+      ],
+      "route": "DCT NAXIL P600 PTH DCT ZOFAT <FRA> AKOMU DCT VAMEB UL612 LISTO",
+      "remarks": ""
+    },
+    {
+      "line": 14952,
+      "adep": "EGPD",
+      "ades": "EGKB",
+      "sid": "",
+      "star": "LISTO1C",
+      "min": "345",
+      "old_max": 660,
+      "new_max": 355,
+      "rules": [
+        "EG4196"
+      ],
+      "route": "DCT EPCAN P18 NEXUS <FRA> KEFTE DCT MAMUL DCT MOGLI DCT ODVOD",
+      "remarks": "Notes: 516"
+    },
+    {
+      "line": 14967,
+      "adep": "EGPD",
+      "ades": "EGLC",
+      "sid": "",
+      "star": "LISTO1C",
+      "min": "255",
+      "old_max": 660,
+      "new_max": 355,
+      "rules": [
+        "EG4196"
+      ],
+      "route": "DCT NAXIL P600 PTH DCT ZOFAT <FRA> AKOMU DCT VAMEB UL612 LISTO",
+      "remarks": ""
+    },
+    {
+      "line": 14968,
+      "adep": "EGPD",
+      "ades": "EGLC",
+      "sid": "",
+      "star": "LISTO1C",
+      "min": "265",
+      "old_max": 660,
+      "new_max": 355,
+      "rules": [
+        "EG4196"
+      ],
+      "route": "DCT NAXIL P600 PTH DCT ZOFAT <FRA> AKOMU DCT VAMEB UL612 LISTO",
+      "remarks": "Notes: 490"
+    },
+    {
+      "line": 14969,
+      "adep": "EGPD",
+      "ades": "EGLC",
+      "sid": "",
+      "star": "LISTO1C",
+      "min": "345",
+      "old_max": 660,
+      "new_max": 355,
+      "rules": [
+        "EG4196"
+      ],
+      "route": "DCT EPCAN P18 NEXUS <FRA> KEFTE DCT MAMUL DCT MOGLI DCT ODVOD",
+      "remarks": "Notes: 516"
+    },
+    {
+      "line": 14970,
+      "adep": "EGPD",
+      "ades": "EGLC",
+      "sid": "",
+      "star": "LISTO1C",
+      "min": "345",
+      "old_max": 660,
+      "new_max": 355,
+      "rules": [
+        "EG4196"
+      ],
+      "route": "DCT NAXIL P600 PTH DCT ZOFAT <FRA> AKOMU DCT VAMEB DCT MAMUL DCT MOGLI DCT ODVOD",
+      "remarks": "Notes: 490 - 516"
+    },
+    {
+      "line": 14971,
+      "adep": "EGPD",
+      "ades": "EGLC",
+      "sid": "",
+      "star": "LISTO1C",
+      "min": "345",
+      "old_max": 660,
+      "new_max": 355,
+      "rules": [
+        "EG4196"
+      ],
+      "route": "DCT NAXIL P600 PTH DCT ZOFAT <FRA> AKOMU DCT VAMEB DCT MAMUL DCT MOGLI DCT ODVOD",
+      "remarks": "Notes: 516"
+    },
+    {
+      "line": 15348,
+      "adep": "EGPE",
+      "ades": "EGKB",
+      "sid": "",
+      "star": "LISTO1C",
+      "min": "255",
+      "old_max": 660,
+      "new_max": 355,
+      "rules": [
+        "EG4196"
+      ],
+      "route": "DCT GUSSI DCT NESDI N560 ERSON <FRA> AKOMU DCT VAMEB UL612 LISTO",
+      "remarks": ""
+    },
+    {
+      "line": 15349,
+      "adep": "EGPE",
+      "ades": "EGKB",
+      "sid": "",
+      "star": "LISTO1C",
+      "min": "345",
+      "old_max": 660,
+      "new_max": 355,
+      "rules": [
+        "EG4196"
+      ],
+      "route": "DCT GUSSI DCT NESDI N560 ERSON <FRA> KEFTE DCT MAMUL DCT MOGLI DCT ODVOD",
+      "remarks": "Notes: 516"
+    },
+    {
+      "line": 15359,
+      "adep": "EGPE",
+      "ades": "EGLC",
+      "sid": "",
+      "star": "LISTO1C",
+      "min": "255",
+      "old_max": 660,
+      "new_max": 355,
+      "rules": [
+        "EG4196"
+      ],
+      "route": "DCT GUSSI DCT NESDI N560 ERSON <FRA> AKOMU DCT VAMEB UL612 LISTO",
+      "remarks": ""
+    },
+    {
+      "line": 15360,
+      "adep": "EGPE",
+      "ades": "EGLC",
+      "sid": "",
+      "star": "LISTO1C",
+      "min": "345",
+      "old_max": 660,
+      "new_max": 355,
+      "rules": [
+        "EG4196"
+      ],
+      "route": "DCT GUSSI DCT NESDI N560 ERSON <FRA> KEFTE DCT MAMUL DCT MOGLI DCT ODVOD",
+      "remarks": "Notes: 516"
+    },
+    {
+      "line": 15701,
+      "adep": "EGPF",
+      "ades": "EGJJ",
+      "sid": "NORBO",
+      "star": "LELNA1J",
+      "min": "255",
+      "old_max": 660,
+      "new_max": 295,
+      "rules": [
+        "EG4092"
+      ],
+      "route": "T256 RIPNO <FRA> ADZOP DCT EGTOC DCT KEPAD L151 KIDLI UN859 CPT Y321 PEPIS Q41 SAM M195 MARUK N621 LELNA",
+      "remarks": ""
+    },
+    {
+      "line": 15702,
+      "adep": "EGPF",
+      "ades": "EGJJ",
+      "sid": "NORBO",
+      "star": "LELNA1K",
+      "min": "255",
+      "old_max": 660,
+      "new_max": 295,
+      "rules": [
+        "EG4092"
+      ],
+      "route": "T256 RIPNO <FRA> ADZOP DCT EGTOC DCT KEPAD L151 KIDLI UN859 CPT Y321 PEPIS Q41 SAM M195 MARUK N621 LELNA",
+      "remarks": ""
+    },
+    {
+      "line": 15703,
+      "adep": "EGPF",
+      "ades": "EGJJ",
+      "sid": "NORBO",
+      "star": "LELNA1J",
+      "min": "255",
+      "old_max": 660,
+      "new_max": 295,
+      "rules": [
+        "EG4092"
+      ],
+      "route": "T256 RIPNO <FRA> ADZOP DCT EGTOC DCT KEPAD L151 KIDLI UN859 CPT Y321 PEPIS Q41 SAM N621 LELNA",
+      "remarks": "Notes: 79 - 307"
+    },
+    {
+      "line": 15704,
+      "adep": "EGPF",
+      "ades": "EGJJ",
+      "sid": "NORBO",
+      "star": "LELNA1K",
+      "min": "255",
+      "old_max": 660,
+      "new_max": 295,
+      "rules": [
+        "EG4092"
+      ],
+      "route": "T256 RIPNO <FRA> ADZOP DCT EGTOC DCT KEPAD L151 KIDLI UN859 CPT Y321 PEPIS Q41 SAM N621 LELNA",
+      "remarks": "Notes: 79 - 307"
+    },
+    {
+      "line": 15705,
+      "adep": "EGPF",
+      "ades": "EGJJ",
+      "sid": "NORBO",
+      "star": "LELNA1J",
+      "min": "255",
+      "old_max": 660,
+      "new_max": 295,
+      "rules": [
+        "EG4092"
+      ],
+      "route": "T256 RIPNO <FRA> ADZOP DCT EGTOC DCT KEPAD L151 KIDLI UN859 CPT Y321 PEPIS Q41 SAM N63 LELNA",
+      "remarks": "Notes: 453"
+    },
+    {
+      "line": 15706,
+      "adep": "EGPF",
+      "ades": "EGJJ",
+      "sid": "NORBO",
+      "star": "LELNA1K",
+      "min": "255",
+      "old_max": 660,
+      "new_max": 295,
+      "rules": [
+        "EG4092"
+      ],
+      "route": "T256 RIPNO <FRA> ADZOP DCT EGTOC DCT KEPAD L151 KIDLI UN859 CPT Y321 PEPIS Q41 SAM N63 LELNA",
+      "remarks": "Notes: 453"
+    },
+    {
+      "line": 15713,
+      "adep": "EGPF",
+      "ades": "EGJJ",
+      "sid": "NORBO",
+      "star": "LELNA1J",
+      "min": "255",
+      "old_max": 660,
+      "new_max": 295,
+      "rules": [
+        "EG4092"
+      ],
+      "route": "T256 RIPNO <FRA> AKOMU DCT VAMEB UL612 HON UN859 CPT Y321 PEPIS Q41 SAM M195 MARUK N621 LELNA",
+      "remarks": ""
+    },
+    {
+      "line": 15714,
+      "adep": "EGPF",
+      "ades": "EGJJ",
+      "sid": "NORBO",
+      "star": "LELNA1K",
+      "min": "255",
+      "old_max": 660,
+      "new_max": 295,
+      "rules": [
+        "EG4092"
+      ],
+      "route": "T256 RIPNO <FRA> AKOMU VAMEB UL612 HON UN859 CPT Y321 PEPIS Q41 SAM M195 MARUK N621 LELNA",
+      "remarks": ""
+    },
+    {
+      "line": 15715,
+      "adep": "EGPF",
+      "ades": "EGJJ",
+      "sid": "NORBO",
+      "star": "LELNA1J",
+      "min": "255",
+      "old_max": 660,
+      "new_max": 295,
+      "rules": [
+        "EG4092"
+      ],
+      "route": "T256 RIPNO <FRA> AKOMU VAMEB UL612 HON UN859 CPT Y321 PEPIS Q41 SAM N621 LELNA",
+      "remarks": "Notes: 79 - 307"
+    },
+    {
+      "line": 15716,
+      "adep": "EGPF",
+      "ades": "EGJJ",
+      "sid": "NORBO",
+      "star": "LELNA1K",
+      "min": "255",
+      "old_max": 660,
+      "new_max": 295,
+      "rules": [
+        "EG4092"
+      ],
+      "route": "T256 RIPNO <FRA> AKOMU VAMEB UL612 HON UN859 CPT Y321 PEPIS Q41 SAM N621 LELNA",
+      "remarks": "Notes: 79 - 307"
+    },
+    {
+      "line": 15727,
+      "adep": "EGPF",
+      "ades": "EGKB",
+      "sid": "NORBO",
+      "star": "LISTO1C",
+      "min": "255",
+      "old_max": 660,
+      "new_max": 355,
+      "rules": [
+        "EG4196"
+      ],
+      "route": "T256 RIPNO <FRA> AKOMU DCT VAMEB UL612 LISTO",
+      "remarks": "Notes: 79"
+    },
+    {
+      "line": 15728,
+      "adep": "EGPF",
+      "ades": "EGKB",
+      "sid": "NORBO",
+      "star": "LISTO1C",
+      "min": "345",
+      "old_max": 660,
+      "new_max": 355,
+      "rules": [
+        "EG4196"
+      ],
+      "route": "T256 RIPNO <FRA> AKOMU DCT VAMEB DCT MAMUL DCT MOGLI DCT ODVOD",
+      "remarks": "Notes: 79 - 516"
+    },
+    {
+      "line": 15746,
+      "adep": "EGPF",
+      "ades": "EGLC",
+      "sid": "NORBO",
+      "star": "LISTO1C",
+      "min": "255",
+      "old_max": 660,
+      "new_max": 355,
+      "rules": [
+        "EG4196"
+      ],
+      "route": "T256 RIPNO <FRA> AKOMU DCT VAMEB UL612 LISTO",
+      "remarks": "Notes: 79"
+    },
+    {
+      "line": 16195,
+      "adep": "EGPH",
+      "ades": "EGFF",
+      "sid": "GOSAM",
+      "star": "WEVBE1C",
+      "min": "255",
+      "old_max": 660,
+      "new_max": 335,
+      "rules": [
+        "EG4103"
+      ],
+      "route": "P600 FENIK L612 NAVSO <FRA> ADZOP DCT EGTOC DCT NOKIN KARNO DCT ALHUP DCT LUCSA N862 WEVBE",
+      "remarks": "Notes: 21"
+    },
+    {
+      "line": 16204,
+      "adep": "EGPH",
+      "ades": "EGGD",
+      "sid": "GOSAM",
+      "star": "WEVBE1B",
+      "min": "255",
+      "old_max": 660,
+      "new_max": 335,
+      "rules": [
+        "EG4103"
+      ],
+      "route": "P600 FENIK L612 NAVSO <FRA> ADZOP DCT EGTOC DCT NOKIN KARNO DCT ALHUP DCT LUCSA N862 WEVBE",
+      "remarks": "Notes: 21"
+    },
+    {
+      "line": 16318,
+      "adep": "EGPH",
+      "ades": "EGJJ",
+      "sid": "TLA",
+      "star": "LELNA1J",
+      "min": "255",
+      "old_max": 660,
+      "new_max": 295,
+      "rules": [
+        "EG4092"
+      ],
+      "route": "N864 DCS <FRA> ADZOP DCT EGTOC DCT KEPAD L151 KIDLI UN859 CPT Y321 PEPIS Q41 SAM M195 MARUK N621 LELNA",
+      "remarks": ""
+    },
+    {
+      "line": 16319,
+      "adep": "EGPH",
+      "ades": "EGJJ",
+      "sid": "TLA",
+      "star": "LELNA1K",
+      "min": "255",
+      "old_max": 660,
+      "new_max": 295,
+      "rules": [
+        "EG4092"
+      ],
+      "route": "N864 DCS <FRA> ADZOP DCT EGTOC DCT KEPAD L151 KIDLI UN859 CPT Y321 PEPIS Q41 SAM M195 MARUK N621 LELNA",
+      "remarks": ""
+    },
+    {
+      "line": 16320,
+      "adep": "EGPH",
+      "ades": "EGJJ",
+      "sid": "TLA",
+      "star": "LELNA1J",
+      "min": "255",
+      "old_max": 660,
+      "new_max": 295,
+      "rules": [
+        "EG4092"
+      ],
+      "route": "N864 DCS <FRA> ADZOP DCT EGTOC DCT KEPAD L151 KIDLI UN859 CPT Y321 PEPIS Q41 SAM N621 LELNA",
+      "remarks": "Notes: 105"
+    },
+    {
+      "line": 16321,
+      "adep": "EGPH",
+      "ades": "EGJJ",
+      "sid": "TLA",
+      "star": "LELNA1K",
+      "min": "255",
+      "old_max": 660,
+      "new_max": 295,
+      "rules": [
+        "EG4092"
+      ],
+      "route": "N864 DCS <FRA> ADZOP DCT EGTOC DCT KEPAD L151 KIDLI UN859 CPT Y321 PEPIS Q41 SAM N621 LELNA",
+      "remarks": "Notes: 105"
+    },
+    {
+      "line": 16328,
+      "adep": "EGPH",
+      "ades": "EGJJ",
+      "sid": "TLA",
+      "star": "LELNA1J",
+      "min": "255",
+      "old_max": 660,
+      "new_max": 295,
+      "rules": [
+        "EG4092"
+      ],
+      "route": "N864 DCS <FRA> AKOMU DCT VAMEB UL612 HON UN859 CPT Y321 PEPIS Q41 SAM M195 MARUK N621 LELNA",
+      "remarks": ""
+    },
+    {
+      "line": 16329,
+      "adep": "EGPH",
+      "ades": "EGJJ",
+      "sid": "TLA",
+      "star": "LELNA1K",
+      "min": "255",
+      "old_max": 660,
+      "new_max": 295,
+      "rules": [
+        "EG4092"
+      ],
+      "route": "N864 DCS <FRA> AKOMU DCT VAMEB UL612 HON UN859 CPT Y321 PEPIS Q41 SAM M195 MARUK N621 LELNA",
+      "remarks": ""
+    },
+    {
+      "line": 16330,
+      "adep": "EGPH",
+      "ades": "EGJJ",
+      "sid": "TLA",
+      "star": "LELNA1J",
+      "min": "255",
+      "old_max": 660,
+      "new_max": 295,
+      "rules": [
+        "EG4092"
+      ],
+      "route": "N864 DCS <FRA> AKOMU DCT VAMEB UL612 HON UN859 CPT Y321 PEPIS Q41 SAM N621 LELNA",
+      "remarks": "Notes: 105"
+    },
+    {
+      "line": 16331,
+      "adep": "EGPH",
+      "ades": "EGJJ",
+      "sid": "TLA",
+      "star": "LELNA1K",
+      "min": "255",
+      "old_max": 660,
+      "new_max": 295,
+      "rules": [
+        "EG4092"
+      ],
+      "route": "N864 DCS <FRA> AKOMU DCT VAMEB UL612 HON UN859 CPT Y321 PEPIS Q41 SAM N621 LELNA",
+      "remarks": "Notes: 105"
+    },
+    {
+      "line": 16332,
+      "adep": "EGPH",
+      "ades": "EGJJ",
+      "sid": "TLA",
+      "star": "LELNA1J",
+      "min": "255",
+      "old_max": 660,
+      "new_max": 295,
+      "rules": [
+        "EG4092"
+      ],
+      "route": "N864 DCS <FRA> AKOMU DCT VAMEB UL612 HON UN859 CPT Y321 PEPIS Q41 SAM N63 LELNA",
+      "remarks": "Notes: 453"
+    },
+    {
+      "line": 16333,
+      "adep": "EGPH",
+      "ades": "EGJJ",
+      "sid": "TLA",
+      "star": "LELNA1K",
+      "min": "255",
+      "old_max": 660,
+      "new_max": 295,
+      "rules": [
+        "EG4092"
+      ],
+      "route": "N864 DCS <FRA> AKOMU DCT VAMEB UL612 HON UN859 CPT Y321 PEPIS Q41 SAM N63 LELNA",
+      "remarks": "Notes: 453"
+    },
+    {
+      "line": 16334,
+      "adep": "EGPH",
+      "ades": "EGJJ",
+      "sid": "GOSAM",
+      "star": "LELNA1J",
+      "min": "255",
+      "old_max": 660,
+      "new_max": 295,
+      "rules": [
+        "EG4092"
+      ],
+      "route": "P600 FENIK L612 NAVSO <FRA> ADZOP DCT EGTOC DCT KEPAD L151 KIDLI UN859 CPT Y321 PEPIS Q41 SAM M195 MARUK N621 LELNA",
+      "remarks": ""
+    },
+    {
+      "line": 16335,
+      "adep": "EGPH",
+      "ades": "EGJJ",
+      "sid": "GOSAM",
+      "star": "LELNA1K",
+      "min": "255",
+      "old_max": 660,
+      "new_max": 295,
+      "rules": [
+        "EG4092"
+      ],
+      "route": "P600 FENIK L612 NAVSO <FRA> ADZOP DCT EGTOC DCT KEPAD L151 KIDLI UN859 CPT Y321 PEPIS Q41 SAM M195 MARUK N621 LELNA",
+      "remarks": ""
+    },
+    {
+      "line": 16336,
+      "adep": "EGPH",
+      "ades": "EGJJ",
+      "sid": "GOSAM",
+      "star": "LELNA1J",
+      "min": "255",
+      "old_max": 660,
+      "new_max": 295,
+      "rules": [
+        "EG4092"
+      ],
+      "route": "P600 FENIK L612 NAVSO <FRA> ADZOP DCT EGTOC DCT KEPAD L151 KIDLI UN859 CPT Y321 PEPIS Q41 SAM N621 LELNA",
+      "remarks": "Notes: 21 - 307"
+    },
+    {
+      "line": 16337,
+      "adep": "EGPH",
+      "ades": "EGJJ",
+      "sid": "GOSAM",
+      "star": "LELNA1K",
+      "min": "255",
+      "old_max": 660,
+      "new_max": 295,
+      "rules": [
+        "EG4092"
+      ],
+      "route": "P600 FENIK L612 NAVSO <FRA> ADZOP DCT EGTOC DCT KEPAD L151 KIDLI UN859 CPT Y321 PEPIS Q41 SAM N621 LELNA",
+      "remarks": "Notes: 307 - 21"
+    },
+    {
+      "line": 16338,
+      "adep": "EGPH",
+      "ades": "EGJJ",
+      "sid": "GOSAM",
+      "star": "LELNA1J",
+      "min": "255",
+      "old_max": 660,
+      "new_max": 295,
+      "rules": [
+        "EG4092"
+      ],
+      "route": "P600 FENIK L612 NAVSO <FRA> ADZOP DCT EGTOC DCT KEPAD L151 KIDLI UN859 CPT Y321 PEPIS Q41 SAM N63 LELNA",
+      "remarks": "Notes: 453"
+    },
+    {
+      "line": 16339,
+      "adep": "EGPH",
+      "ades": "EGJJ",
+      "sid": "GOSAM",
+      "star": "LELNA1K",
+      "min": "255",
+      "old_max": 660,
+      "new_max": 295,
+      "rules": [
+        "EG4092"
+      ],
+      "route": "P600 FENIK L612 NAVSO <FRA> ADZOP DCT EGTOC DCT KEPAD L151 KIDLI UN859 CPT Y321 PEPIS Q41 SAM N63 LELNA",
+      "remarks": "Notes: 453"
+    },
+    {
+      "line": 16346,
+      "adep": "EGPH",
+      "ades": "EGJJ",
+      "sid": "GOSAM",
+      "star": "LELNA1J",
+      "min": "255",
+      "old_max": 660,
+      "new_max": 295,
+      "rules": [
+        "EG4092"
+      ],
+      "route": "P600 FENIK L612 NAVSO <FRA> AKOMU DCT VAMEB UL612 HON UN859 CPT Y321 PEPIS Q41 SAM M195 MARUK N621 LELNA",
+      "remarks": ""
+    },
+    {
+      "line": 16347,
+      "adep": "EGPH",
+      "ades": "EGJJ",
+      "sid": "GOSAM",
+      "star": "LELNA1K",
+      "min": "255",
+      "old_max": 660,
+      "new_max": 295,
+      "rules": [
+        "EG4092"
+      ],
+      "route": "P600 FENIK L612 NAVSO <FRA> AKOMU DCT VAMEB UL612 HON UN859 CPT Y321 PEPIS Q41 SAM M195 MARUK N621 LELNA",
+      "remarks": ""
+    },
+    {
+      "line": 16348,
+      "adep": "EGPH",
+      "ades": "EGJJ",
+      "sid": "GOSAM",
+      "star": "LELNA1J",
+      "min": "255",
+      "old_max": 660,
+      "new_max": 295,
+      "rules": [
+        "EG4092"
+      ],
+      "route": "P600 FENIK L612 NAVSO <FRA> AKOMU DCT VAMEB UL612 HON UN859 CPT Y321 PEPIS Q41 SAM N621 LELNA",
+      "remarks": "Notes: 21"
+    },
+    {
+      "line": 16349,
+      "adep": "EGPH",
+      "ades": "EGJJ",
+      "sid": "GOSAM",
+      "star": "LELNA1K",
+      "min": "255",
+      "old_max": 660,
+      "new_max": 295,
+      "rules": [
+        "EG4092"
+      ],
+      "route": "P600 FENIK L612 NAVSO <FRA> AKOMU DCT VAMEB UL612 HON UN859 CPT Y321 PEPIS Q41 SAM N621 LELNA",
+      "remarks": "Notes: 21"
+    },
+    {
+      "line": 16365,
+      "adep": "EGPH",
+      "ades": "EGKB",
+      "sid": "TLA",
+      "star": "LISTO1C",
+      "min": "255",
+      "old_max": 660,
+      "new_max": 355,
+      "rules": [
+        "EG4196"
+      ],
+      "route": "N864 DCS <FRA> AKOMU DCT VAMEB UL612 LISTO",
+      "remarks": "Notes: 105"
+    },
+    {
+      "line": 16366,
+      "adep": "EGPH",
+      "ades": "EGKB",
+      "sid": "GOSAM",
+      "star": "LISTO1C",
+      "min": "255",
+      "old_max": 660,
+      "new_max": 355,
+      "rules": [
+        "EG4196"
+      ],
+      "route": "P600 FENIK L612 NAVSO <FRA> AKOMU DCT VAMEB UL612 LISTO",
+      "remarks": "Notes: 21"
+    },
+    {
+      "line": 16367,
+      "adep": "EGPH",
+      "ades": "EGKB",
+      "sid": "TLA",
+      "star": "LISTO1C",
+      "min": "345",
+      "old_max": 660,
+      "new_max": 355,
+      "rules": [
+        "EG4196"
+      ],
+      "route": "Y96 OTBUN <FRA> KEFTE DCT MAMUL DCT MOGLI DCT ODVOD",
+      "remarks": "Notes: 516"
+    },
+    {
+      "line": 16384,
+      "adep": "EGPH",
+      "ades": "EGLC",
+      "sid": "TLA",
+      "star": "LISTO1C",
+      "min": "255",
+      "old_max": 660,
+      "new_max": 355,
+      "rules": [
+        "EG4196"
+      ],
+      "route": "N864 DCS <FRA> AKOMU DCT VAMEB UL612 LISTO",
+      "remarks": "Notes: 105"
+    },
+    {
+      "line": 16385,
+      "adep": "EGPH",
+      "ades": "EGLC",
+      "sid": "GOSAM",
+      "star": "LISTO1C",
+      "min": "255",
+      "old_max": 660,
+      "new_max": 355,
+      "rules": [
+        "EG4196"
+      ],
+      "route": "P600 FENIK L612 NAVSO <FRA> AKOMU DCT VAMEB UL612 LISTO",
+      "remarks": "Notes: 21"
+    },
+    {
+      "line": 16386,
+      "adep": "EGPH",
+      "ades": "EGLC",
+      "sid": "TLA",
+      "star": "LISTO1C",
+      "min": "345",
+      "old_max": 660,
+      "new_max": 355,
+      "rules": [
+        "EG4196"
+      ],
+      "route": "Y96 OTBUN <FRA> KEFTE DCT MAMUL DCT MOGLI DCT ODVOD",
+      "remarks": "Notes: 516"
+    },
+    {
+      "line": 16477,
+      "adep": "EGPH",
+      "ades": "EGPK",
+      "sid": "TLA",
+      "star": "",
+      "min": "MC",
+      "old_max": 245,
+      "new_max": 85,
+      "rules": [
+        "EG4137"
+      ],
+      "route": "DCT TRN DCT",
+      "remarks": ""
+    },
+    {
+      "line": 16478,
+      "adep": "EGPH",
+      "ades": "EGPK",
+      "sid": "GOSAM",
+      "star": "",
+      "min": "MC",
+      "old_max": 245,
+      "new_max": 85,
+      "rules": [
+        "EG4137"
+      ],
+      "route": "P600 TRN DCT",
+      "remarks": "Notes: 21"
+    },
+    {
+      "line": 17115,
+      "adep": "EGPK",
+      "ades": "EGJJ",
+      "sid": "",
+      "star": "LELNA1J",
+      "min": "255",
+      "old_max": 660,
+      "new_max": 295,
+      "rules": [
+        "EG4092"
+      ],
+      "route": "DCT OSMEG T256 DCS <FRA> ADZOP DCT EGTOC DCT KEPAD L151 KIDLI UN859 CPT Y321 PEPIS Q41 SAM M195 MARUK N621 LELNA",
+      "remarks": "Notes: 452"
+    },
+    {
+      "line": 17116,
+      "adep": "EGPK",
+      "ades": "EGJJ",
+      "sid": "",
+      "star": "LELNA1K",
+      "min": "255",
+      "old_max": 660,
+      "new_max": 295,
+      "rules": [
+        "EG4092"
+      ],
+      "route": "DCT OSMEG T256 DCS <FRA> ADZOP DCT EGTOC DCT KEPAD L151 KIDLI UN859 CPT Y321 PEPIS Q41 SAM M195 MARUK N621 LELNA",
+      "remarks": "Notes: 452"
+    },
+    {
+      "line": 17117,
+      "adep": "EGPK",
+      "ades": "EGJJ",
+      "sid": "",
+      "star": "LELNA1J",
+      "min": "255",
+      "old_max": 660,
+      "new_max": 295,
+      "rules": [
+        "EG4092"
+      ],
+      "route": "DCT OSMEG T256 DCS <FRA> ADZOP DCT EGTOC DCT KEPAD L151 KIDLI UN859 CPT Y321 PEPIS Q41 SAM N621 LELNA",
+      "remarks": "Notes: 452"
+    },
+    {
+      "line": 17118,
+      "adep": "EGPK",
+      "ades": "EGJJ",
+      "sid": "",
+      "star": "LELNA1J",
+      "min": "255",
+      "old_max": 660,
+      "new_max": 295,
+      "rules": [
+        "EG4092"
+      ],
+      "route": "DCT OSMEG T256 DCS <FRA> ADZOP DCT EGTOC DCT KEPAD L151 KIDLI UN859 CPT Y321 PEPIS Q41 SAM N63 LELNA",
+      "remarks": "Notes: 452"
+    },
+    {
+      "line": 17119,
+      "adep": "EGPK",
+      "ades": "EGJJ",
+      "sid": "",
+      "star": "LELNA1K",
+      "min": "255",
+      "old_max": 660,
+      "new_max": 295,
+      "rules": [
+        "EG4092"
+      ],
+      "route": "DCT OSMEG T256 DCS <FRA> ADZOP DCT EGTOC DCT KEPAD L151 KIDLI UN859 CPT Y321 PEPIS Q41 SAM N63 LELNA",
+      "remarks": "Notes: 452"
+    },
+    {
+      "line": 17120,
+      "adep": "EGPK",
+      "ades": "EGJJ",
+      "sid": "",
+      "star": "LELNA1J",
+      "min": "255",
+      "old_max": 660,
+      "new_max": 295,
+      "rules": [
+        "EG4092"
+      ],
+      "route": "DCT OSMEG T256 DCS <FRA> AKOMU DCT VAMEB UL612 HON UN859 CPT Y321 PEPIS Q41 SAM M195 MARUK N621 LELNA",
+      "remarks": "Notes: 452"
+    },
+    {
+      "line": 17121,
+      "adep": "EGPK",
+      "ades": "EGJJ",
+      "sid": "",
+      "star": "LELNA1K",
+      "min": "255",
+      "old_max": 660,
+      "new_max": 295,
+      "rules": [
+        "EG4092"
+      ],
+      "route": "DCT OSMEG T256 DCS <FRA> AKOMU DCT VAMEB UL612 HON UN859 CPT Y321 PEPIS Q41 SAM M195 MARUK N621 LELNA",
+      "remarks": "Notes: 452"
+    },
+    {
+      "line": 17122,
+      "adep": "EGPK",
+      "ades": "EGJJ",
+      "sid": "",
+      "star": "LELNA1J",
+      "min": "255",
+      "old_max": 660,
+      "new_max": 295,
+      "rules": [
+        "EG4092"
+      ],
+      "route": "DCT OSMEG T256 DCS <FRA> AKOMU DCT VAMEB UL612 HON UN859 CPT Y321 PEPIS Q41 SAM N621 LELNA",
+      "remarks": "Notes: 452"
+    },
+    {
+      "line": 17123,
+      "adep": "EGPK",
+      "ades": "EGJJ",
+      "sid": "",
+      "star": "LELNA1K",
+      "min": "255",
+      "old_max": 660,
+      "new_max": 295,
+      "rules": [
+        "EG4092"
+      ],
+      "route": "DCT OSMEG T256 DCS <FRA> AKOMU DCT VAMEB UL612 HON UN859 CPT Y321 PEPIS Q41 SAM N621 LELNA",
+      "remarks": "Notes: 452"
+    },
+    {
+      "line": 17124,
+      "adep": "EGPK",
+      "ades": "EGJJ",
+      "sid": "LUCCO",
+      "star": "LELNA1J",
+      "min": "255",
+      "old_max": 660,
+      "new_max": 295,
+      "rules": [
+        "EG4092"
+      ],
+      "route": "Z248 OSMEG T256 DCS <FRA> ADZOP DCT EGTOC DCT KEPAD L151 KIDLI UN859 CPT Y321 PEPIS Q41 SAM M195 MARUK N621 LELNA",
+      "remarks": "Notes: 453"
+    },
+    {
+      "line": 17125,
+      "adep": "EGPK",
+      "ades": "EGJJ",
+      "sid": "LUCCO",
+      "star": "LELNA1K",
+      "min": "255",
+      "old_max": 660,
+      "new_max": 295,
+      "rules": [
+        "EG4092"
+      ],
+      "route": "Z248 OSMEG T256 DCS <FRA> ADZOP DCT EGTOC DCT KEPAD L151 KIDLI UN859 CPT Y321 PEPIS Q41 SAM M195 MARUK N621 LELNA",
+      "remarks": "Notes: 453"
+    },
+    {
+      "line": 17126,
+      "adep": "EGPK",
+      "ades": "EGJJ",
+      "sid": "LUCCO",
+      "star": "LELNA1J",
+      "min": "255",
+      "old_max": 660,
+      "new_max": 295,
+      "rules": [
+        "EG4092"
+      ],
+      "route": "Z248 OSMEG T256 DCS <FRA> ADZOP DCT EGTOC DCT KEPAD L151 KIDLI UN859 CPT Y321 PEPIS Q41 SAM N621 LELNA",
+      "remarks": "Notes: 307 - 453"
+    },
+    {
+      "line": 17127,
+      "adep": "EGPK",
+      "ades": "EGJJ",
+      "sid": "LUCCO",
+      "star": "LELNA1K",
+      "min": "255",
+      "old_max": 660,
+      "new_max": 295,
+      "rules": [
+        "EG4092"
+      ],
+      "route": "Z248 OSMEG T256 DCS <FRA> ADZOP DCT EGTOC DCT KEPAD L151 KIDLI UN859 CPT Y321 PEPIS Q41 SAM N621 LELNA",
+      "remarks": "Notes: 307 - 453"
+    },
+    {
+      "line": 17128,
+      "adep": "EGPK",
+      "ades": "EGJJ",
+      "sid": "LUCCO",
+      "star": "LELNA1J",
+      "min": "255",
+      "old_max": 660,
+      "new_max": 295,
+      "rules": [
+        "EG4092"
+      ],
+      "route": "Z248 OSMEG T256 DCS <FRA> ADZOP DCT EGTOC DCT KEPAD L151 KIDLI UN859 CPT Y321 PEPIS Q41 SAM N63 LELNA",
+      "remarks": "Notes: 453"
+    },
+    {
+      "line": 17129,
+      "adep": "EGPK",
+      "ades": "EGJJ",
+      "sid": "LUCCO",
+      "star": "LELNA1K",
+      "min": "255",
+      "old_max": 660,
+      "new_max": 295,
+      "rules": [
+        "EG4092"
+      ],
+      "route": "Z248 OSMEG T256 DCS <FRA> ADZOP DCT EGTOC DCT KEPAD L151 KIDLI UN859 CPT Y321 PEPIS Q41 SAM N63 LELNA",
+      "remarks": "Notes: 453"
+    },
+    {
+      "line": 17136,
+      "adep": "EGPK",
+      "ades": "EGJJ",
+      "sid": "LUCCO",
+      "star": "LELNA1K",
+      "min": "255",
+      "old_max": 660,
+      "new_max": 295,
+      "rules": [
+        "EG4092"
+      ],
+      "route": "Z248 OSMEG T256 DCS <FRA> AKOMU DCT VAMEB UL612 HON UN859 CPT Y321 PEPIS Q41 SAM M195 MARUK N621 LELNA",
+      "remarks": "Notes: 453"
+    },
+    {
+      "line": 17137,
+      "adep": "EGPK",
+      "ades": "EGJJ",
+      "sid": "LUCCO",
+      "star": "LELNA1J",
+      "min": "255",
+      "old_max": 660,
+      "new_max": 295,
+      "rules": [
+        "EG4092"
+      ],
+      "route": "Z248 OSMEG T256 DCS <FRA> AKOMU DCT VAMEB UL612 HON UN859 CPT Y321 PEPIS Q41 SAM M195 MARUK N621 LELNA",
+      "remarks": "Notes: 453"
+    },
+    {
+      "line": 17138,
+      "adep": "EGPK",
+      "ades": "EGJJ",
+      "sid": "LUCCO",
+      "star": "LELNA1J",
+      "min": "255",
+      "old_max": 660,
+      "new_max": 295,
+      "rules": [
+        "EG4092"
+      ],
+      "route": "Z248 OSMEG T256 DCS <FRA> AKOMU DCT VAMEB UL612 HON UN859 CPT Y321 PEPIS Q41 SAM N621 LELNA",
+      "remarks": "Notes: 307 - 453"
+    },
+    {
+      "line": 17139,
+      "adep": "EGPK",
+      "ades": "EGJJ",
+      "sid": "LUCCO",
+      "star": "LELNA1K",
+      "min": "255",
+      "old_max": 660,
+      "new_max": 295,
+      "rules": [
+        "EG4092"
+      ],
+      "route": "Z248 OSMEG T256 DCS <FRA> AKOMU DCT VAMEB UL612 HON UN859 CPT Y321 PEPIS Q41 SAM N621 LELNA",
+      "remarks": "Notes: 307 - 453"
+    },
+    {
+      "line": 17140,
+      "adep": "EGPK",
+      "ades": "EGJJ",
+      "sid": "SUDBY",
+      "star": "LELNA1J",
+      "min": "255",
+      "old_max": 660,
+      "new_max": 295,
+      "rules": [
+        "EG4092"
+      ],
+      "route": "Z249 OSMEG T256 DCS <FRA> ADZOP DCT EGTOC DCT KEPAD L151 KIDLI UN859 CPT Y321 PEPIS Q41 SAM M195 MARUK N621 LELNA",
+      "remarks": "Notes: 453"
+    },
+    {
+      "line": 17141,
+      "adep": "EGPK",
+      "ades": "EGJJ",
+      "sid": "SUDBY",
+      "star": "LELNA1K",
+      "min": "255",
+      "old_max": 660,
+      "new_max": 295,
+      "rules": [
+        "EG4092"
+      ],
+      "route": "Z249 OSMEG T256 DCS <FRA> ADZOP DCT EGTOC DCT KEPAD L151 KIDLI UN859 CPT Y321 PEPIS Q41 SAM M195 MARUK N621 LELNA",
+      "remarks": "Notes: 453"
+    },
+    {
+      "line": 17142,
+      "adep": "EGPK",
+      "ades": "EGJJ",
+      "sid": "SUDBY",
+      "star": "LELNA1J",
+      "min": "255",
+      "old_max": 660,
+      "new_max": 295,
+      "rules": [
+        "EG4092"
+      ],
+      "route": "Z249 OSMEG T256 DCS <FRA> ADZOP DCT EGTOC DCT KEPAD L151 KIDLI UN859 CPT Y321 PEPIS Q41 SAM N621 LELNA",
+      "remarks": "Notes: 453"
+    },
+    {
+      "line": 17143,
+      "adep": "EGPK",
+      "ades": "EGJJ",
+      "sid": "SUDBY",
+      "star": "LELNA1K",
+      "min": "255",
+      "old_max": 660,
+      "new_max": 295,
+      "rules": [
+        "EG4092"
+      ],
+      "route": "Z249 OSMEG T256 DCS <FRA> ADZOP DCT EGTOC DCT KEPAD L151 KIDLI UN859 CPT Y321 PEPIS Q41 SAM N621 LELNA",
+      "remarks": "Notes: 453"
+    },
+    {
+      "line": 17144,
+      "adep": "EGPK",
+      "ades": "EGJJ",
+      "sid": "SUDBY",
+      "star": "LELNA1J",
+      "min": "255",
+      "old_max": 660,
+      "new_max": 295,
+      "rules": [
+        "EG4092"
+      ],
+      "route": "Z249 OSMEG T256 DCS <FRA> ADZOP DCT EGTOC DCT KEPAD L151 KIDLI UN859 CPT Y321 PEPIS Q41 SAM N63 LELNA",
+      "remarks": "Notes: 453"
+    },
+    {
+      "line": 17145,
+      "adep": "EGPK",
+      "ades": "EGJJ",
+      "sid": "SUDBY",
+      "star": "LELNA1K",
+      "min": "255",
+      "old_max": 660,
+      "new_max": 295,
+      "rules": [
+        "EG4092"
+      ],
+      "route": "Z249 OSMEG T256 DCS <FRA> ADZOP DCT EGTOC DCT KEPAD L151 KIDLI UN859 CPT Y321 PEPIS Q41 SAM N63 LELNA",
+      "remarks": "Notes: 453"
+    },
+    {
+      "line": 17152,
+      "adep": "EGPK",
+      "ades": "EGJJ",
+      "sid": "SUDBY",
+      "star": "LELNA1J",
+      "min": "255",
+      "old_max": 660,
+      "new_max": 295,
+      "rules": [
+        "EG4092"
+      ],
+      "route": "Z249 OSMEG T256 DCS <FRA> AKOMU DCT VAMEB UL612 HON UN859 CPT Y321 PEPIS Q41 SAM M195 MARUK N621 LELNA",
+      "remarks": "Notes: 453"
+    },
+    {
+      "line": 17153,
+      "adep": "EGPK",
+      "ades": "EGJJ",
+      "sid": "SUDBY",
+      "star": "LELNA1K",
+      "min": "255",
+      "old_max": 660,
+      "new_max": 295,
+      "rules": [
+        "EG4092"
+      ],
+      "route": "Z249 OSMEG T256 DCS <FRA> AKOMU DCT VAMEB UL612 HON UN859 CPT Y321 PEPIS Q41 SAM M195 MARUK N621 LELNA",
+      "remarks": "Notes: 453"
+    },
+    {
+      "line": 17154,
+      "adep": "EGPK",
+      "ades": "EGJJ",
+      "sid": "SUDBY",
+      "star": "LELNA1J",
+      "min": "255",
+      "old_max": 660,
+      "new_max": 295,
+      "rules": [
+        "EG4092"
+      ],
+      "route": "Z249 OSMEG T256 DCS <FRA> AKOMU DCT VAMEB UL612 HON UN859 CPT Y321 PEPIS Q41 SAM N621 LELNA",
+      "remarks": "Notes: 453"
+    },
+    {
+      "line": 17155,
+      "adep": "EGPK",
+      "ades": "EGJJ",
+      "sid": "SUDBY",
+      "star": "LELNA1K",
+      "min": "255",
+      "old_max": 660,
+      "new_max": 295,
+      "rules": [
+        "EG4092"
+      ],
+      "route": "Z249 OSMEG T256 DCS <FRA> AKOMU DCT VAMEB UL612 HON UN859 CPT Y321 PEPIS Q41 SAM N621 LELNA",
+      "remarks": "Notes: 453"
+    },
+    {
+      "line": 17165,
+      "adep": "EGPK",
+      "ades": "EGKB",
+      "sid": "",
+      "star": "LISTO1C",
+      "min": "255",
+      "old_max": 660,
+      "new_max": 355,
+      "rules": [
+        "EG4196"
+      ],
+      "route": "DCT OSMEG T256 DCS <FRA> AKOMU DCT VAMEB UL612 LISTO",
+      "remarks": "Notes: 452"
+    },
+    {
+      "line": 17166,
+      "adep": "EGPK",
+      "ades": "EGKB",
+      "sid": "LUCCO",
+      "star": "LISTO1C",
+      "min": "255",
+      "old_max": 660,
+      "new_max": 355,
+      "rules": [
+        "EG4196"
+      ],
+      "route": "Z248 OSMEG T256 DCS <FRA> AKOMU DCT VAMEB UL612 LISTO",
+      "remarks": "Notes: 453"
+    },
+    {
+      "line": 17167,
+      "adep": "EGPK",
+      "ades": "EGKB",
+      "sid": "SUDBY",
+      "star": "LISTO1C",
+      "min": "255",
+      "old_max": 660,
+      "new_max": 355,
+      "rules": [
+        "EG4196"
+      ],
+      "route": "Z249 OSMEG T256 DCS <FRA> AKOMU DCT VAMEB UL612 LISTO",
+      "remarks": "Notes: 453"
+    },
+    {
+      "line": 17168,
+      "adep": "EGPK",
+      "ades": "EGKB",
+      "sid": "",
+      "star": "LISTO1C",
+      "min": "345",
+      "old_max": 660,
+      "new_max": 355,
+      "rules": [
+        "EG4196"
+      ],
+      "route": "DCT OSMEG T256 DCS <FRA> AKOMU DCT VAMEB DCT MAMUL DCT MOGLI DCT ODVOD",
+      "remarks": "Notes: 452 - 516"
+    },
+    {
+      "line": 17169,
+      "adep": "EGPK",
+      "ades": "EGKB",
+      "sid": "LUCCO",
+      "star": "LISTO1C",
+      "min": "345",
+      "old_max": 660,
+      "new_max": 355,
+      "rules": [
+        "EG4196"
+      ],
+      "route": "Z248 OSMEG T256 DCS <FRA> AKOMU DCT VAMEB DCT MAMUL DCT MOGLI DCT ODVOD",
+      "remarks": "Notes: 453 - 516"
+    },
+    {
+      "line": 17170,
+      "adep": "EGPK",
+      "ades": "EGKB",
+      "sid": "SUDBY",
+      "star": "LISTO1C",
+      "min": "345",
+      "old_max": 660,
+      "new_max": 355,
+      "rules": [
+        "EG4196"
+      ],
+      "route": "Z249 OSMEG T256 DCS <FRA> AKOMU DCT VAMEB DCT MAMUL DCT MOGLI DCT ODVOD",
+      "remarks": "Notes: 453 - 516"
+    },
+    {
+      "line": 17198,
+      "adep": "EGPK",
+      "ades": "EGLC",
+      "sid": "",
+      "star": "LISTO1C",
+      "min": "255",
+      "old_max": 660,
+      "new_max": 355,
+      "rules": [
+        "EG4196"
+      ],
+      "route": "DCT OSMEG T256 DCS <FRA> AKOMU DCT VAMEB UL612 LISTO",
+      "remarks": "Notes: 452"
+    },
+    {
+      "line": 17199,
+      "adep": "EGPK",
+      "ades": "EGLC",
+      "sid": "LUCCO",
+      "star": "LISTO1C",
+      "min": "255",
+      "old_max": 660,
+      "new_max": 355,
+      "rules": [
+        "EG4196"
+      ],
+      "route": "Z248 OSMEG T256 DCS <FRA> AKOMU DCT VAMEB UL612 LISTO",
+      "remarks": "Notes: 453"
+    },
+    {
+      "line": 17200,
+      "adep": "EGPK",
+      "ades": "EGLC",
+      "sid": "SUDBY",
+      "star": "LISTO1C",
+      "min": "255",
+      "old_max": 660,
+      "new_max": 355,
+      "rules": [
+        "EG4196"
+      ],
+      "route": "Z249 OSMEG T256 DCS <FRA> AKOMU DCT VAMEB UL612 LISTO",
+      "remarks": "Notes: 453"
+    },
+    {
+      "line": 17201,
+      "adep": "EGPK",
+      "ades": "EGLC",
+      "sid": "",
+      "star": "LISTO1C",
+      "min": "345",
+      "old_max": 660,
+      "new_max": 355,
+      "rules": [
+        "EG4196"
+      ],
+      "route": "DCT OSMEG T256 DCS <FRA> AKOMU DCT VAMEB DCT MAMUL DCT MOGLI DCT ODVOD",
+      "remarks": "Notes: 452 - 516"
+    },
+    {
+      "line": 17202,
+      "adep": "EGPK",
+      "ades": "EGLC",
+      "sid": "LUCCO",
+      "star": "LISTO1C",
+      "min": "345",
+      "old_max": 660,
+      "new_max": 355,
+      "rules": [
+        "EG4196"
+      ],
+      "route": "Z248 OSMEG T256 DCS <FRA> AKOMU DCT VAMEB DCT MAMUL DCT MOGLI DCT ODVOD",
+      "remarks": "Notes: 453 - 516"
+    },
+    {
+      "line": 17203,
+      "adep": "EGPK",
+      "ades": "EGLC",
+      "sid": "SUDBY",
+      "star": "LISTO1C",
+      "min": "345",
+      "old_max": 660,
+      "new_max": 355,
+      "rules": [
+        "EG4196"
+      ],
+      "route": "Z249 OSMEG T256 DCS <FRA> AKOMU DCT VAMEB DCT MAMUL DCT MOGLI DCT ODVOD",
+      "remarks": "Notes: 453 - 516"
+    },
+    {
+      "line": 17927,
+      "adep": "EGPN",
+      "ades": "EGKB",
+      "sid": "",
+      "star": "LISTO1C",
+      "min": "255",
+      "old_max": 660,
+      "new_max": 355,
+      "rules": [
+        "EG4196"
+      ],
+      "route": "DCT PTH P600 FENIK <FRA> AKOMU DCT VAMEB UL612 CROFT UL612 LISTO",
+      "remarks": ""
+    },
+    {
+      "line": 17937,
+      "adep": "EGPN",
+      "ades": "EGLC",
+      "sid": "",
+      "star": "LISTO1C",
+      "min": "255",
+      "old_max": 660,
+      "new_max": 355,
+      "rules": [
+        "EG4196"
+      ],
+      "route": "DCT PTH P600 FENIK <FRA> AKOMU DCT VAMEB UL612 LISTO",
+      "remarks": ""
+    },
+    {
+      "line": 18211,
+      "adep": "EGSC",
+      "ades": "EGAA",
+      "sid": "",
+      "star": "",
+      "min": "255",
+      "old_max": 660,
+      "new_max": 355,
+      "rules": [
+        "EG4063"
+      ],
+      "route": "DCT EBOTO UN601 LESTA UP6 RODOL UM65 TENSO L603 BELOX DCT REMSI DCT MASOP DCT NELBO P6 BELZU DCT",
+      "remarks": "Notes: 452"
+    },
+    {
+      "line": 18212,
+      "adep": "EGSC",
+      "ades": "EGAA",
+      "sid": "",
+      "star": "",
+      "min": "255",
+      "old_max": 660,
+      "new_max": 355,
+      "rules": [
+        "EG4063"
+      ],
+      "route": "DCT EBOTO UN601 LESTA UP6 RODOL UM65 TENSO L603 BELOX DCT REMSI DCT UVPOK M147 ROBOP M146 IPSET P6 BELZU DCT",
+      "remarks": "Notes: 453"
+    },
+    {
+      "line": 18235,
+      "adep": "EGSC",
+      "ades": "EGKA",
+      "sid": "",
+      "star": "",
+      "min": "MC",
+      "old_max": 245,
+      "new_max": 95,
+      "rules": [
+        "EG4082"
+      ],
+      "route": "DCT EBOTO DCT DTY DCT SILVA Q41 COWLY T71 VAPID N859 GWC DCT",
+      "remarks": ""
+    },
+    {
+      "line": 18294,
+      "adep": "EGSC",
+      "ades": "EGTE",
+      "sid": "",
+      "star": "",
+      "min": "MC",
+      "old_max": 245,
+      "new_max": 205,
+      "rules": [
+        "EG4175"
+      ],
+      "route": "DCT EBOTO DCT DTY DCT SILVA Q41 SAM L620 GIBSO DCT",
+      "remarks": "Notes: 315"
+    },
+    {
+      "line": 18515,
+      "adep": "EGSH",
+      "ades": "EGTE",
+      "sid": "",
+      "star": "",
+      "min": "245",
+      "old_max": 660,
+      "new_max": 295,
+      "rules": [
+        "EG4018"
+      ],
+      "route": "DCT BKY DCT LAM L980 MID L620 GIBSO DCT",
+      "remarks": ""
+    },
+    {
+      "line": 18646,
+      "adep": "EGSS",
+      "ades": "EGAA",
+      "sid": "UTAVA",
+      "star": "",
+      "min": "255",
+      "old_max": 660,
+      "new_max": 355,
+      "rules": [
+        "EG4063"
+      ],
+      "route": "Q75 BUZAD T420 TNT UL28 RODOL UM65 TENSO L603 BELOX DCT REMSI DCT MASOP DCT NELBO P6 BELZU DCT",
+      "remarks": "Notes: 452"
+    },
+    {
+      "line": 18647,
+      "adep": "EGSS",
+      "ades": "EGAA",
+      "sid": "UTAVA",
+      "star": "",
+      "min": "255",
+      "old_max": 660,
+      "new_max": 355,
+      "rules": [
+        "EG4063"
+      ],
+      "route": "Q75 BUZAD T420 TNT UL28 RODOL UM65 TENSO L603 BELOX DCT REMSI DCT UVPOK M147 ROBOP M146 IPSET P6 BELZU DCT",
+      "remarks": "Notes: 453"
+    },
+    {
+      "line": 18655,
+      "adep": "EGSS",
+      "ades": "EGAC",
+      "sid": "UTAVA",
+      "star": "",
+      "min": "255",
+      "old_max": 660,
+      "new_max": 355,
+      "rules": [
+        "EG4063"
+      ],
+      "route": "Q75 BUZAD T420 TNT UL28 RODOL UM65 TENSO L603 BELOX DCT REMSI DCT MASOP DCT NELBO DCT MAGEE",
+      "remarks": "Notes: 452"
+    },
+    {
+      "line": 18656,
+      "adep": "EGSS",
+      "ades": "EGAC",
+      "sid": "UTAVA",
+      "star": "",
+      "min": "255",
+      "old_max": 660,
+      "new_max": 355,
+      "rules": [
+        "EG4063"
+      ],
+      "route": "Q75 BUZAD T420 TNT UL28 RODOL UM65 TENSO L603 BELOX DCT REMSI DCT NINEB M148 MAGEE DCT",
+      "remarks": "Notes: 453"
+    },
+    {
+      "line": 18661,
+      "adep": "EGSS",
+      "ades": "EGAE",
+      "sid": "UTAVA",
+      "star": "",
+      "min": "255",
+      "old_max": 660,
+      "new_max": 355,
+      "rules": [
+        "EG4063"
+      ],
+      "route": "Q75 BUZAD T420 TNT UL28 RODOL UM65 TENSO L603 BELOX DCT NELBO P6 BELZU DCT",
+      "remarks": "Notes: 454 - 489"
+    },
+    {
+      "line": 18687,
+      "adep": "EGSS",
+      "ades": "EGKA",
+      "sid": "NUGBO",
+      "star": "",
+      "min": "MC",
+      "old_max": 155,
+      "new_max": 95,
+      "rules": [
+        "EG4082"
+      ],
+      "route": "M183 SILVA Q41 COWLY T71 VAPID N859 GWC DCT",
+      "remarks": ""
+    },
+    {
+      "line": 18773,
+      "adep": "EGSS",
+      "ades": "EGTE",
+      "sid": "NUGBO",
+      "star": "",
+      "min": "MC",
+      "old_max": 245,
+      "new_max": 205,
+      "rules": [
+        "EG4175"
+      ],
+      "route": "M183 SILVA Q41 SAM L620 GIBSO DCT",
+      "remarks": "Notes: 315"
+    },
+    {
+      "line": 19197,
+      "adep": "EGTE",
+      "ades": "EGCC",
+      "sid": "",
+      "star": "AXCIS1M",
+      "min": "MC",
+      "old_max": 245,
+      "new_max": 205,
+      "rules": [
+        "EG4162"
+      ],
+      "route": "DCT EXMOR DCT CARWI N864 MONTY",
+      "remarks": ""
+    },
+    {
+      "line": 19198,
+      "adep": "EGTE",
+      "ades": "EGCC",
+      "sid": "",
+      "star": "",
+      "min": "MC",
+      "old_max": 245,
+      "new_max": 205,
+      "rules": [
+        "EG4162"
+      ],
+      "route": "DCT EXMOR DCT CARWI N864 WAL DCT MIRSI DCT",
+      "remarks": "Notes: 452"
+    },
+    {
+      "line": 19204,
+      "adep": "EGTE",
+      "ades": "EGGP",
+      "sid": "",
+      "star": "PEPZE1L",
+      "min": "MC",
+      "old_max": 245,
+      "new_max": 185,
+      "rules": [
+        "EG4163"
+      ],
+      "route": "DCT EXMOR DCT CARWI N864 MONTY",
+      "remarks": ""
+    },
+    {
+      "line": 19240,
+      "adep": "EGTE",
+      "ades": "EGNR",
+      "sid": "",
+      "star": "PEPZE1L",
+      "min": "MC",
+      "old_max": 245,
+      "new_max": 185,
+      "rules": [
+        "EG4163"
+      ],
+      "route": "DCT EXMOR DCT CARWI N864 MONTY",
+      "remarks": ""
+    },
+    {
+      "line": 19529,
+      "adep": "EGTO",
+      "ades": "EGAA",
+      "sid": "",
+      "star": "",
+      "min": "255",
+      "old_max": 660,
+      "new_max": 355,
+      "rules": [
+        "EG4063"
+      ],
+      "route": "DCT BPK N601 LESTA UP6 RODOL UM65 TENSO L603 BELOX DCT REMSI DCT MASOP DCT NELBO P6 BELZU DCT",
+      "remarks": "Notes: 452"
+    },
+    {
+      "line": 19530,
+      "adep": "EGTO",
+      "ades": "EGAA",
+      "sid": "",
+      "star": "",
+      "min": "255",
+      "old_max": 660,
+      "new_max": 355,
+      "rules": [
+        "EG4063"
+      ],
+      "route": "DCT BPK N601 LESTA UP6 RODOL UM65 TENSO L603 BELOX DCT REMSI DCT UVPOK M147 ROBOP M146 IPSET P6 BELZU DCT",
+      "remarks": "Notes: 453"
+    },
+    {
+      "line": 19535,
+      "adep": "EGTO",
+      "ades": "EGAC",
+      "sid": "",
+      "star": "",
+      "min": "255",
+      "old_max": 660,
+      "new_max": 355,
+      "rules": [
+        "EG4063"
+      ],
+      "route": "DCT BPK N601 LESTA UP6 RODOL UM65 TENSO L603 BELOX DCT REMSI DCT MASOP DCT NELBO DCT MAGEE DCT",
+      "remarks": "Notes: 452"
+    },
+    {
+      "line": 19536,
+      "adep": "EGTO",
+      "ades": "EGAC",
+      "sid": "",
+      "star": "",
+      "min": "255",
+      "old_max": 660,
+      "new_max": 355,
+      "rules": [
+        "EG4063"
+      ],
+      "route": "DCT BPK N601 LESTA UP6 RODOL UM65 TENSO L603 BELOX DCT REMSI DCT NINEB M148 MAGEE DCT",
+      "remarks": "Notes: 453"
+    },
+    {
+      "line": 19545,
+      "adep": "EGTO",
+      "ades": "EGCC",
+      "sid": "",
+      "star": "ELVOS1M",
+      "min": "MC",
+      "old_max": 245,
+      "new_max": 195,
+      "rules": [
+        "EG4002"
+      ],
+      "route": "DCT DET N57 WELIN T420 ELVOS",
+      "remarks": ""
+    },
+    {
+      "line": 19546,
+      "adep": "EGTO",
+      "ades": "EGCC",
+      "sid": "",
+      "star": "",
+      "min": "MC",
+      "old_max": 245,
+      "new_max": 195,
+      "rules": [
+        "EG4002"
+      ],
+      "route": "DCT DET N57 WELIN T420 TNT DCT QUSHI DCT DAYNE",
+      "remarks": "Notes: 452"
+    },
+    {
+      "line": 19549,
+      "adep": "EGTO",
+      "ades": "EGGP",
+      "sid": "",
+      "star": "ELVOS1L",
+      "min": "MC",
+      "old_max": 245,
+      "new_max": 195,
+      "rules": [
+        "EG4002"
+      ],
+      "route": "DCT DET N57 WELIN T420 ELVOS",
+      "remarks": ""
+    },
+    {
+      "line": 19550,
+      "adep": "EGTO",
+      "ades": "EGGP",
+      "sid": "",
+      "star": "",
+      "min": "MC",
+      "old_max": 245,
+      "new_max": 195,
+      "rules": [
+        "EG4002"
+      ],
+      "route": "DCT DET N57 WELIN T420 TNT DCT NANTI DCT KEGUN",
+      "remarks": "Notes: 452"
+    },
+    {
+      "line": 19559,
+      "adep": "EGTO",
+      "ades": "EGKA",
+      "sid": "",
+      "star": "",
+      "min": "MC",
+      "old_max": 245,
+      "new_max": 95,
+      "rules": [
+        "EG4082"
+      ],
+      "route": "DCT DET M604 LYD Y803 SFD",
+      "remarks": ""
+    },
+    {
+      "line": 19562,
+      "adep": "EGTO",
+      "ades": "EGLF",
+      "sid": "",
+      "star": "ELDAX1V",
+      "min": "75",
+      "old_max": 125,
+      "new_max": 95,
+      "rules": [
+        "EG4082"
+      ],
+      "route": "DCT DET M604 LYD M189 WAFFU DCT NOTGI",
+      "remarks": "Notes: 450"
+    },
+    {
+      "line": 19563,
+      "adep": "EGTO",
+      "ades": "EGLF",
+      "sid": "",
+      "star": "NOTGI1P",
+      "min": "75",
+      "old_max": 125,
+      "new_max": 95,
+      "rules": [
+        "EG4082"
+      ],
+      "route": "DCT DET M604 LYD M189 WAFFU DCT NOTGI",
+      "remarks": "Notes: 476 - 452"
+    },
+    {
+      "line": 19564,
+      "adep": "EGTO",
+      "ades": "EGLK",
+      "sid": "",
+      "star": "ELDAX1V",
+      "min": "75",
+      "old_max": 125,
+      "new_max": 95,
+      "rules": [
+        "EG4082"
+      ],
+      "route": "DCT DET M604 LYD M189 WAFFU DCT NOTGI",
+      "remarks": "Notes: 450"
+    },
+    {
+      "line": 19565,
+      "adep": "EGTO",
+      "ades": "EGLK",
+      "sid": "",
+      "star": "NOTGI1P",
+      "min": "75",
+      "old_max": 125,
+      "new_max": 95,
+      "rules": [
+        "EG4082"
+      ],
+      "route": "DCT DET M604 LYD M189 WAFFU DCT NOTGI",
+      "remarks": "Notes: 476 - 452"
+    },
+    {
+      "line": 19571,
+      "adep": "EGTO",
+      "ades": "EGNH",
+      "sid": "",
+      "star": "",
+      "min": "MC",
+      "old_max": 245,
+      "new_max": 195,
+      "rules": [
+        "EG4002"
+      ],
+      "route": "DCT BPK N601 POL DCT",
+      "remarks": ""
+    },
+    {
+      "line": 19572,
+      "adep": "EGTO",
+      "ades": "EGNJ",
+      "sid": "",
+      "star": "",
+      "min": "MC",
+      "old_max": 245,
+      "new_max": 195,
+      "rules": [
+        "EG4002"
+      ],
+      "route": "DCT BPK N601 EMBOR DCT EVSON M868 ADELU DCT UPTON L975 GOLES DCT",
+      "remarks": ""
+    },
+    {
+      "line": 19573,
+      "adep": "EGTO",
+      "ades": "EGNM",
+      "sid": "",
+      "star": "",
+      "min": "115",
+      "old_max": 245,
+      "new_max": 195,
+      "rules": [
+        "EG4002"
+      ],
+      "route": "DCT BPK N601 EMBOR Q4 TNT N57 DENBY DCT LBA",
+      "remarks": ""
+    },
+    {
+      "line": 19574,
+      "adep": "EGTO",
+      "ades": "EGNM",
+      "sid": "",
+      "star": "",
+      "min": "115",
+      "old_max": 245,
+      "new_max": 195,
+      "rules": [
+        "EG4002"
+      ],
+      "route": "DCT BPK N601 EMBOR Q4 TNT N57 TIPIL DCT LBA",
+      "remarks": "Notes: 472"
+    },
+    {
+      "line": 19577,
+      "adep": "EGTO",
+      "ades": "EGNO",
+      "sid": "",
+      "star": "",
+      "min": "MC",
+      "old_max": 245,
+      "new_max": 195,
+      "rules": [
+        "EG4002"
+      ],
+      "route": "DCT BPK N601 POL DCT",
+      "remarks": ""
+    },
+    {
+      "line": 19578,
+      "adep": "EGTO",
+      "ades": "EGNR",
+      "sid": "",
+      "star": "ELVOS1L",
+      "min": "MC",
+      "old_max": 245,
+      "new_max": 195,
+      "rules": [
+        "EG4002"
+      ],
+      "route": "DCT DET N57 WELIN T420 ELVOS",
+      "remarks": ""
+    },
+    {
+      "line": 19579,
+      "adep": "EGTO",
+      "ades": "EGNR",
+      "sid": "",
+      "star": "",
+      "min": "MC",
+      "old_max": 245,
+      "new_max": 195,
+      "rules": [
+        "EG4002"
+      ],
+      "route": "DCT DET N57 WELIN T420 TNT DCT NANTI DCT KEGUN",
+      "remarks": "Notes: 452"
+    },
+    {
+      "line": 20412,
+      "adep": "EGVN",
+      "ades": "EGNX",
+      "sid": "",
+      "star": "DTY1E",
+      "min": "MC",
+      "old_max": 245,
+      "new_max": 195,
+      "rules": [
+        "EG4107"
+      ],
+      "route": "DCT DTY",
+      "remarks": ""
+    },
+    {
+      "line": 20631,
+      "adep": "EGWU",
+      "ades": "EGAA",
+      "sid": "BUZAD",
+      "star": "",
+      "min": "255",
+      "old_max": 660,
+      "new_max": 355,
+      "rules": [
+        "EG4063"
+      ],
+      "route": "T420 TNT UL28 RODOL UM65 TENSO L603 BELOX DCT REMSI DCT MASOP DCT NELBO P6 BELZU DCT",
+      "remarks": "Notes: 452"
+    },
+    {
+      "line": 20632,
+      "adep": "EGWU",
+      "ades": "EGAA",
+      "sid": "BUZAD",
+      "star": "",
+      "min": "255",
+      "old_max": 660,
+      "new_max": 355,
+      "rules": [
+        "EG4063"
+      ],
+      "route": "T420 TNT UL28 RODOL UM65 TENSO L603 BELOX DCT REMSI DCT UVPOK M147 ROBOP M146 IPSET P6 BELZU DCT",
+      "remarks": "Notes: 453"
+    },
+    {
+      "line": 20637,
+      "adep": "EGWU",
+      "ades": "EGAC",
+      "sid": "BUZAD",
+      "star": "",
+      "min": "255",
+      "old_max": 660,
+      "new_max": 355,
+      "rules": [
+        "EG4063"
+      ],
+      "route": "T420 TNT UL28 RODOL UM65 TENSO L603 BELOX DCT REMSI DCT MASOP DCT NELBO DCT MAGEE DCT",
+      "remarks": "Notes: 452"
+    },
+    {
+      "line": 20638,
+      "adep": "EGWU",
+      "ades": "EGAC",
+      "sid": "BUZAD",
+      "star": "",
+      "min": "255",
+      "old_max": 660,
+      "new_max": 355,
+      "rules": [
+        "EG4063"
+      ],
+      "route": "T420 TNT UL28 RODOL UM65 TENSO L603 BELOX DCT REMSI DCT NINEB M148 MAGEE DCT",
+      "remarks": "Notes: 453"
+    },
+    {
+      "line": 20672,
+      "adep": "EGWU",
+      "ades": "EGNL",
+      "sid": "BUZAD",
+      "star": "",
+      "min": "245",
+      "old_max": 660,
+      "new_max": 285,
+      "rules": [
+        "EG4185"
+      ],
+      "route": "T420 TNT UN57 POL DCT",
+      "remarks": ""
+    }
+  ]
+}

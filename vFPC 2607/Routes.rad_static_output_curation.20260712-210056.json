@@ -1,0 +1,3895 @@
+{
+  "source": "C:\\Users\\jkino\\Desktop\\vFPC files\\Historical Files\\vFPC 2607\\Routes.csv",
+  "backup": "C:\\Users\\jkino\\Desktop\\vFPC files\\Historical Files\\vFPC 2607\\Routes.csv.pre-rad-static-output-curation.20260712-210056.bak",
+  "rows_before": 32321,
+  "rows_after": 32111,
+  "edits": 239,
+  "counts": {
+    "remove::EG3499 WEVBE above FL245 not available except EGTE arrival via ALHUP": 33,
+    "remove::EG2269 NIRIF requires active EGD201F/G or associated FBZ; unavailable in static vFPC output": 61,
+    "remove::EG2983 Q63 VATRY requires danger-area/M17 availability state; unavailable in static vFPC output": 82,
+    "remove::EG3619 EGPT via INREV unavailable unless routing via RIBEL or LEHOC": 5,
+    "remove::EG4121 caps EGHH/EGHI/EGLF-family LF DVR L10 RINTI flow at FL155": 6,
+    "cap_max::EG4121 caps EGHH/EGHI/EGLF-family LF DVR L10 RINTI flow at FL155": 7,
+    "remove::EG2640 EGJJ to EGPK via BLACA unavailable; use POL/RIBEL routing": 1,
+    "cap_max::EG3499 WEVBE above FL245 not available except EGTE arrival via ALHUP": 22,
+    "remove::EG3217 CARWI above FL245 unavailable outside published exception": 22
+  },
+  "entries": [
+    {
+      "line_number": 2418,
+      "action": "remove",
+      "reason": "EG3499 WEVBE above FL245 not available except EGTE arrival via ALHUP",
+      "row": {
+        "ADEP/Entry": "EGAA",
+        "SID": "",
+        "Min": "255",
+        "Max": "285",
+        "Route": "DCT LISBO L603 PEPOD Q38 MAKUX DCT SOSIM Q38 MALUD L15 RISLA N862 KARNO DCT ALHUP DCT LUCSA N862 WEVBE",
+        "STAR": "WEVBE1C",
+        "ADES/Exit": "EGFF",
+        "Remarks": "Notes: 453"
+      }
+    },
+    {
+      "line_number": 2419,
+      "action": "remove",
+      "reason": "EG3499 WEVBE above FL245 not available except EGTE arrival via ALHUP",
+      "row": {
+        "ADEP/Entry": "EGAA",
+        "SID": "",
+        "Min": "285",
+        "Max": "315",
+        "Route": "DCT LISBO DCT RINGA Q39 ETIGA DCT INKOB Q39 NOMSU UQ4 WAL N862 KARNO DCT ALHUP DCT LUCSA N862 WEVBE",
+        "STAR": "WEVBE1C",
+        "ADES/Exit": "EGFF",
+        "Remarks": "Notes: 453 - 503"
+      }
+    },
+    {
+      "line_number": 2422,
+      "action": "remove",
+      "reason": "EG3499 WEVBE above FL245 not available except EGTE arrival via ALHUP",
+      "row": {
+        "ADEP/Entry": "EGAA",
+        "SID": "",
+        "Min": "255",
+        "Max": "285",
+        "Route": "DCT LISBO L603 PEPOD Q38 MAKUX DCT SOSIM Q38 MALUD L15 RISLA N862 KARNO DCT ALHUP DCT LUCSA N862 WEVBE",
+        "STAR": "WEVBE1B",
+        "ADES/Exit": "EGGD",
+        "Remarks": "Notes: 453"
+      }
+    },
+    {
+      "line_number": 2423,
+      "action": "remove",
+      "reason": "EG3499 WEVBE above FL245 not available except EGTE arrival via ALHUP",
+      "row": {
+        "ADEP/Entry": "EGAA",
+        "SID": "",
+        "Min": "285",
+        "Max": "315",
+        "Route": "DCT LISBO DCT RINGA Q39 ETIGA DCT INKOB Q39 NOMSU UQ4 WAL N862 KARNO DCT ALHUP DCT LUCSA N862 WEVBE",
+        "STAR": "WEVBE1B",
+        "ADES/Exit": "EGGD",
+        "Remarks": "Notes: 453 - 503"
+      }
+    },
+    {
+      "line_number": 2937,
+      "action": "remove",
+      "reason": "EG3499 WEVBE above FL245 not available except EGTE arrival via ALHUP",
+      "row": {
+        "ADEP/Entry": "EGAC",
+        "SID": "",
+        "Min": "255",
+        "Max": "285",
+        "Route": "DCT DUFFY L15 PEPOD Q38 MAKUX DCT SOSIM Q38 MALUD L15 RISLA N862 KARNO DCT ALHUP DCT LUCSA N862 WEVBE",
+        "STAR": "WEVBE1C",
+        "ADES/Exit": "EGFF",
+        "Remarks": "Notes: 453"
+      }
+    },
+    {
+      "line_number": 2938,
+      "action": "remove",
+      "reason": "EG3499 WEVBE above FL245 not available except EGTE arrival via ALHUP",
+      "row": {
+        "ADEP/Entry": "EGAC",
+        "SID": "",
+        "Min": "285",
+        "Max": "315",
+        "Route": "DCT DUFFY L10 RINGA Q39 ETIGA DCT INKOB Q39 NOMSU UQ4 WAL N862 KARNO DCT ALHUP DCT LUCSA N862 WEVBE",
+        "STAR": "WEVBE1C",
+        "ADES/Exit": "EGFF",
+        "Remarks": "Notes: 453 - 503"
+      }
+    },
+    {
+      "line_number": 2941,
+      "action": "remove",
+      "reason": "EG3499 WEVBE above FL245 not available except EGTE arrival via ALHUP",
+      "row": {
+        "ADEP/Entry": "EGAC",
+        "SID": "",
+        "Min": "255",
+        "Max": "285",
+        "Route": "DCT DUFFY L15 PEPOD Q38 MAKUX DCT SOSIM Q38 MALUD L15 RISLA N862 KARNO DCT ALHUP DCT LUCSA N862 WEVBE",
+        "STAR": "WEVBE1B",
+        "ADES/Exit": "EGGD",
+        "Remarks": "Notes: 453"
+      }
+    },
+    {
+      "line_number": 2942,
+      "action": "remove",
+      "reason": "EG3499 WEVBE above FL245 not available except EGTE arrival via ALHUP",
+      "row": {
+        "ADEP/Entry": "EGAC",
+        "SID": "",
+        "Min": "285",
+        "Max": "315",
+        "Route": "DCT DUFFY L10 RINGA Q39 ETIGA DCT INKOB Q39 NOMSU UQ4 WAL N862 KARNO DCT ALHUP DCT LUCSA N862 WEVBE",
+        "STAR": "WEVBE1B",
+        "ADES/Exit": "EGGD",
+        "Remarks": "Notes: 453 - 503"
+      }
+    },
+    {
+      "line_number": 3387,
+      "action": "remove",
+      "reason": "EG3499 WEVBE above FL245 not available except EGTE arrival via ALHUP",
+      "row": {
+        "ADEP/Entry": "EGAE",
+        "SID": "",
+        "Min": "255",
+        "Max": "285",
+        "Route": "DCT BELZU L10 DUFFY <FRA> MAKUX DCT SOSIM Q38 MALUD L15 RISLA N862 KARNO DCT ALHUP DCT LUCSA N862 WEVBE",
+        "STAR": "WEVBE1C",
+        "ADES/Exit": "EGFF",
+        "Remarks": "Notes: 453 - 489"
+      }
+    },
+    {
+      "line_number": 3388,
+      "action": "remove",
+      "reason": "EG3499 WEVBE above FL245 not available except EGTE arrival via ALHUP",
+      "row": {
+        "ADEP/Entry": "EGAE",
+        "SID": "",
+        "Min": "285",
+        "Max": "315",
+        "Route": "DCT BELZU L10 DUFFY <FRA> INKOB Q39 NOMSU UQ4 WAL N862 KARNO DCT ALHUP DCT LUCSA N862 WEVBE",
+        "STAR": "WEVBE1C",
+        "ADES/Exit": "EGFF",
+        "Remarks": "Notes: 453 - 489"
+      }
+    },
+    {
+      "line_number": 3392,
+      "action": "remove",
+      "reason": "EG3499 WEVBE above FL245 not available except EGTE arrival via ALHUP",
+      "row": {
+        "ADEP/Entry": "EGAE",
+        "SID": "",
+        "Min": "255",
+        "Max": "285",
+        "Route": "DCT BELZU L10 DUFFY <FRA> MAKUX DCT SOSIM Q38 MALUD L15 RISLA N862 KARNO DCT ALHUP DCT LUCSA N862 WEVBE",
+        "STAR": "WEVBE1B",
+        "ADES/Exit": "EGGD",
+        "Remarks": "Notes: 453 - 489"
+      }
+    },
+    {
+      "line_number": 3393,
+      "action": "remove",
+      "reason": "EG3499 WEVBE above FL245 not available except EGTE arrival via ALHUP",
+      "row": {
+        "ADEP/Entry": "EGAE",
+        "SID": "",
+        "Min": "285",
+        "Max": "315",
+        "Route": "DCT BELZU L10 DUFFY <FRA> INKOB Q39 NOMSU UQ4 WAL N862 KARNO DCT ALHUP DCT LUCSA N862 WEVBE",
+        "STAR": "WEVBE1B",
+        "ADES/Exit": "EGGD",
+        "Remarks": "Notes: 453 - 489"
+      }
+    },
+    {
+      "line_number": 4686,
+      "action": "remove",
+      "reason": "EG2269 NIRIF requires active EGD201F/G or associated FBZ; unavailable in static vFPC output",
+      "row": {
+        "ADEP/Entry": "EGBJ",
+        "SID": "",
+        "Min": "245",
+        "Max": "660",
+        "Route": "DCT BCN P4 FELCA DCT NICXI DCT EVTOL N12 NIRIF",
+        "STAR": "NIRIF1L",
+        "ADES/Exit": "EIDW",
+        "Remarks": "Notes: 113  "
+      }
+    },
+    {
+      "line_number": 4687,
+      "action": "remove",
+      "reason": "EG2269 NIRIF requires active EGD201F/G or associated FBZ; unavailable in static vFPC output",
+      "row": {
+        "ADEP/Entry": "EGBJ",
+        "SID": "",
+        "Min": "245",
+        "Max": "660",
+        "Route": "DCT BCN P4 FELCA DCT NICXI DCT EVTOL N12 NIRIF",
+        "STAR": "NIRIF1L",
+        "ADES/Exit": "EIDW",
+        "Remarks": "Notes: 113  "
+      }
+    },
+    {
+      "line_number": 4688,
+      "action": "remove",
+      "reason": "EG2983 Q63 VATRY requires danger-area/M17 availability state; unavailable in static vFPC output",
+      "row": {
+        "ADEP/Entry": "EGBJ",
+        "SID": "",
+        "Min": "245",
+        "Max": "660",
+        "Route": "DCT BCN P4 FELCA DCT NICXI DCT LANPI DCT TIBGA Q63 VATRY",
+        "STAR": "VATRY4L",
+        "ADES/Exit": "EIDW",
+        "Remarks": "Notes: 439"
+      }
+    },
+    {
+      "line_number": 4694,
+      "action": "remove",
+      "reason": "EG2269 NIRIF requires active EGD201F/G or associated FBZ; unavailable in static vFPC output",
+      "row": {
+        "ADEP/Entry": "EGBJ",
+        "SID": "",
+        "Min": "MC",
+        "Max": "245",
+        "Route": "DCT BCN P4 FELCA L9 NICXI N546 EVTOL N12 NIRIF",
+        "STAR": "NIRIF1L",
+        "ADES/Exit": "EIDW",
+        "Remarks": "Notes: 113  "
+      }
+    },
+    {
+      "line_number": 4695,
+      "action": "remove",
+      "reason": "EG2269 NIRIF requires active EGD201F/G or associated FBZ; unavailable in static vFPC output",
+      "row": {
+        "ADEP/Entry": "EGBJ",
+        "SID": "",
+        "Min": "MC",
+        "Max": "245",
+        "Route": "DCT BCN P4 FELCA L9 NICXI N546 EVTOL N12 NIRIF",
+        "STAR": "NIRIF1L",
+        "ADES/Exit": "EIDW",
+        "Remarks": "Notes: 113  "
+      }
+    },
+    {
+      "line_number": 4696,
+      "action": "remove",
+      "reason": "EG2983 Q63 VATRY requires danger-area/M17 availability state; unavailable in static vFPC output",
+      "row": {
+        "ADEP/Entry": "EGBJ",
+        "SID": "",
+        "Min": "MC",
+        "Max": "245",
+        "Route": "DCT BCN P4 FELCA L9 NICXI Q63 VATRY",
+        "STAR": "VATRY4L",
+        "ADES/Exit": "EIDW",
+        "Remarks": "Notes: 439"
+      }
+    },
+    {
+      "line_number": 5219,
+      "action": "remove",
+      "reason": "EG3619 EGPT via INREV unavailable unless routing via RIBEL or LEHOC",
+      "row": {
+        "ADEP/Entry": "EGCC",
+        "SID": "POL",
+        "Min": "255",
+        "Max": "660",
+        "Route": "N601 ERGAB <FRA> INREV N601 TLA DCT EDN DCT",
+        "STAR": "",
+        "ADES/Exit": "EGPT",
+        "Remarks": ""
+      }
+    },
+    {
+      "line_number": 5839,
+      "action": "remove",
+      "reason": "EG2983 Q63 VATRY requires danger-area/M17 availability state; unavailable in static vFPC output",
+      "row": {
+        "ADEP/Entry": "EGFF",
+        "SID": "BCN",
+        "Min": "245",
+        "Max": "660",
+        "Route": "P4 FELCA DCT NICXI DCT LANPI DCT TIBGA Q63 VATRY",
+        "STAR": "VATRY4L",
+        "ADES/Exit": "EIDW",
+        "Remarks": "Notes: 439"
+      }
+    },
+    {
+      "line_number": 5845,
+      "action": "remove",
+      "reason": "EG2983 Q63 VATRY requires danger-area/M17 availability state; unavailable in static vFPC output",
+      "row": {
+        "ADEP/Entry": "EGFF",
+        "SID": "BCN",
+        "Min": "MC",
+        "Max": "245",
+        "Route": "P4 FELCA L9 NICXI Q63 VATRY",
+        "STAR": "VATRY4L",
+        "ADES/Exit": "EIDW",
+        "Remarks": "Notes: 439"
+      }
+    },
+    {
+      "line_number": 6129,
+      "action": "remove",
+      "reason": "EG3619 EGPT via INREV unavailable unless routing via RIBEL or LEHOC",
+      "row": {
+        "ADEP/Entry": "EGGD",
+        "SID": "BCN",
+        "Min": "255",
+        "Max": "285",
+        "Route": "P69 DIZIM N864 KISWO DCT AVTIC DCT ANJAK N38 NOKIN UP17 POL DCT KEFTE <FRA> INREV N601 TLA DCT EDN DCT",
+        "STAR": "",
+        "ADES/Exit": "EGPT",
+        "Remarks": "Notes: 447"
+      }
+    },
+    {
+      "line_number": 6153,
+      "action": "remove",
+      "reason": "EG2983 Q63 VATRY requires danger-area/M17 availability state; unavailable in static vFPC output",
+      "row": {
+        "ADEP/Entry": "EGGD",
+        "SID": "BCN",
+        "Min": "245",
+        "Max": "660",
+        "Route": "P4 FELCA DCT NICXI DCT LANPI DCT TIBGA Q63 VATRY",
+        "STAR": "VATRY4L",
+        "ADES/Exit": "EIDW",
+        "Remarks": "Notes: 439"
+      }
+    },
+    {
+      "line_number": 6158,
+      "action": "remove",
+      "reason": "EG2983 Q63 VATRY requires danger-area/M17 availability state; unavailable in static vFPC output",
+      "row": {
+        "ADEP/Entry": "EGGD",
+        "SID": "BCN",
+        "Min": "MC",
+        "Max": "245",
+        "Route": "P4 FELCA L9 NICXI Q63 VATRY",
+        "STAR": "VATRY4L",
+        "ADES/Exit": "EIDW",
+        "Remarks": ""
+      }
+    },
+    {
+      "line_number": 6418,
+      "action": "remove",
+      "reason": "EG3619 EGPT via INREV unavailable unless routing via RIBEL or LEHOC",
+      "row": {
+        "ADEP/Entry": "EGGP",
+        "SID": "POL",
+        "Min": "255",
+        "Max": "660",
+        "Route": "N601 ERGAB <FRA> INREV N601 TLA DCT EDN DCT",
+        "STAR": "",
+        "ADES/Exit": "EGPT",
+        "Remarks": ""
+      }
+    },
+    {
+      "line_number": 6762,
+      "action": "remove",
+      "reason": "EG2269 NIRIF requires active EGD201F/G or associated FBZ; unavailable in static vFPC output",
+      "row": {
+        "ADEP/Entry": "EGGW",
+        "SID": "RODNI",
+        "Min": "195",
+        "Max": "245",
+        "Route": "N27 ICTAM T421 DIDZA N14 BIBPE L9 NICXI N546 EVTOL N12 NIRIF",
+        "STAR": "NIRIF1L",
+        "ADES/Exit": "EIDW",
+        "Remarks": "Notes: 113  "
+      }
+    },
+    {
+      "line_number": 6763,
+      "action": "remove",
+      "reason": "EG2983 Q63 VATRY requires danger-area/M17 availability state; unavailable in static vFPC output",
+      "row": {
+        "ADEP/Entry": "EGGW",
+        "SID": "RODNI",
+        "Min": "195",
+        "Max": "245",
+        "Route": "N27 ICTAM T421 DIDZA N14 BIBPE L9 NICXI Q63 VATRY",
+        "STAR": "VATRY4L",
+        "ADES/Exit": "EIDW",
+        "Remarks": "Notes: 439"
+      }
+    },
+    {
+      "line_number": 6767,
+      "action": "remove",
+      "reason": "EG2983 Q63 VATRY requires danger-area/M17 availability state; unavailable in static vFPC output",
+      "row": {
+        "ADEP/Entry": "EGGW",
+        "SID": "RODNI",
+        "Min": "245",
+        "Max": "345",
+        "Route": "N27 ICTAM T421 DIDZA N14 BIBPE DCT OKTAD DCT MEDOG DCT KRAGY DCT PEMOB DCT LANPI Q63 VATRY",
+        "STAR": "VATRY4L",
+        "ADES/Exit": "EIDW",
+        "Remarks": "Notes: 439"
+      }
+    },
+    {
+      "line_number": 6770,
+      "action": "remove",
+      "reason": "EG2269 NIRIF requires active EGD201F/G or associated FBZ; unavailable in static vFPC output",
+      "row": {
+        "ADEP/Entry": "EGGW",
+        "SID": "RODNI",
+        "Min": "245",
+        "Max": "660",
+        "Route": "N27 ICTAM T421 DIDZA N14 BIBPE DCT OKTAD DCT MEDOG DCT FOXLA DCT NICXI DCT EVTOL N12 NIRIF",
+        "STAR": "NIRIF1L",
+        "ADES/Exit": "EIDW",
+        "Remarks": "Notes: 113   - 168"
+      }
+    },
+    {
+      "line_number": 6771,
+      "action": "remove",
+      "reason": "EG2983 Q63 VATRY requires danger-area/M17 availability state; unavailable in static vFPC output",
+      "row": {
+        "ADEP/Entry": "EGGW",
+        "SID": "RODNI",
+        "Min": "245",
+        "Max": "660",
+        "Route": "N27 ICTAM T421 DIDZA N14 BIBPE DCT OKTAD DCT MEDOG DCT FOXLA DCT NICXI DCT LANPI Q63 VATRY",
+        "STAR": "VATRY4L",
+        "ADES/Exit": "EIDW",
+        "Remarks": "Notes: 168 - 439"
+      }
+    },
+    {
+      "line_number": 6773,
+      "action": "remove",
+      "reason": "EG2269 NIRIF requires active EGD201F/G or associated FBZ; unavailable in static vFPC output",
+      "row": {
+        "ADEP/Entry": "EGGW",
+        "SID": "RODNI",
+        "Min": "245",
+        "Max": "660",
+        "Route": "N27 ICTAM T421 DIDZA N14 BIBPE DCT OKTAD DCT MEDOG DCT PEMOB DCT EVTOL N12 NIRIF",
+        "STAR": "NIRIF1L",
+        "ADES/Exit": "EIDW",
+        "Remarks": "Notes: 127  "
+      }
+    },
+    {
+      "line_number": 6778,
+      "action": "remove",
+      "reason": "EG2269 NIRIF requires active EGD201F/G or associated FBZ; unavailable in static vFPC output",
+      "row": {
+        "ADEP/Entry": "EGGW",
+        "SID": "RODNI",
+        "Min": "MC",
+        "Max": "195",
+        "Route": "N27 ICTAM L179 SAWPE Q63 OZZIL N80 ARPAK L9 NICXI N546 EVTOL N12 NIRIF",
+        "STAR": "NIRIF1L",
+        "ADES/Exit": "EIDW",
+        "Remarks": "Notes: 113  "
+      }
+    },
+    {
+      "line_number": 6779,
+      "action": "remove",
+      "reason": "EG2983 Q63 VATRY requires danger-area/M17 availability state; unavailable in static vFPC output",
+      "row": {
+        "ADEP/Entry": "EGGW",
+        "SID": "RODNI",
+        "Min": "MC",
+        "Max": "195",
+        "Route": "N27 ICTAM L179 SAWPE Q63 OZZIL N80 ARPAK L9 NICXI Q63 VATRY",
+        "STAR": "VATRY4L",
+        "ADES/Exit": "EIDW",
+        "Remarks": ""
+      }
+    },
+    {
+      "line_number": 7107,
+      "action": "remove",
+      "reason": "EG2269 NIRIF requires active EGD201F/G or associated FBZ; unavailable in static vFPC output",
+      "row": {
+        "ADEP/Entry": "EGHH",
+        "SID": "",
+        "Min": "245",
+        "Max": "345",
+        "Route": "DCT SAM Q41 PEPIS Y321 NUBRI N14 HEKXA Q63 OZZIL DCT ARPAK DCT FELCA DCT NICXI DCT EVTOL N12 NIRIF",
+        "STAR": "NIRIF1L",
+        "ADES/Exit": "EIDW",
+        "Remarks": "Notes: 113  "
+      }
+    },
+    {
+      "line_number": 7108,
+      "action": "remove",
+      "reason": "EG2983 Q63 VATRY requires danger-area/M17 availability state; unavailable in static vFPC output",
+      "row": {
+        "ADEP/Entry": "EGHH",
+        "SID": "",
+        "Min": "245",
+        "Max": "345",
+        "Route": "DCT SAM Q41 PEPIS Y321 NUBRI N14 HEKXA Q63 OZZIL DCT ARPAK DCT FELCA DCT NICXI DCT LANPI DCT TIBGA Q63 VATRY",
+        "STAR": "VATRY4L",
+        "ADES/Exit": "EIDW",
+        "Remarks": "Notes: 439"
+      }
+    },
+    {
+      "line_number": 7110,
+      "action": "remove",
+      "reason": "EG2269 NIRIF requires active EGD201F/G or associated FBZ; unavailable in static vFPC output",
+      "row": {
+        "ADEP/Entry": "EGHH",
+        "SID": "",
+        "Min": "245",
+        "Max": "345",
+        "Route": "DCT SAM Q41 PEPIS Y321 NUBRI N14 HEKXA Q63 OZZIL DCT ARPAK DCT MEDOG DCT KRAGY DCT PEMOB DCT EVTOL N12 NIRIF",
+        "STAR": "NIRIF1L",
+        "ADES/Exit": "EIDW",
+        "Remarks": "Notes: 127  "
+      }
+    },
+    {
+      "line_number": 7111,
+      "action": "remove",
+      "reason": "EG2983 Q63 VATRY requires danger-area/M17 availability state; unavailable in static vFPC output",
+      "row": {
+        "ADEP/Entry": "EGHH",
+        "SID": "",
+        "Min": "245",
+        "Max": "345",
+        "Route": "DCT SAM Q41 PEPIS Y321 NUBRI N14 HEKXA Q63 OZZIL DCT ARPAK DCT MEDOG DCT KRAGY DCT PEMOB DCT LANPI DCT TIBGA Q63 VATRY",
+        "STAR": "VATRY4L",
+        "ADES/Exit": "EIDW",
+        "Remarks": "Notes: 439"
+      }
+    },
+    {
+      "line_number": 7120,
+      "action": "remove",
+      "reason": "EG2269 NIRIF requires active EGD201F/G or associated FBZ; unavailable in static vFPC output",
+      "row": {
+        "ADEP/Entry": "EGHH",
+        "SID": "",
+        "Min": "MC",
+        "Max": "245",
+        "Route": "DCT BCN P4 FELCA L9 NICXI N546 EVTOL N12 NIRIF",
+        "STAR": "NIRIF1L",
+        "ADES/Exit": "EIDW",
+        "Remarks": "Notes: 113  "
+      }
+    },
+    {
+      "line_number": 7121,
+      "action": "remove",
+      "reason": "EG2983 Q63 VATRY requires danger-area/M17 availability state; unavailable in static vFPC output",
+      "row": {
+        "ADEP/Entry": "EGHH",
+        "SID": "",
+        "Min": "MC",
+        "Max": "245",
+        "Route": "DCT BCN P4 FELCA L9 NICXI Q63 VATRY",
+        "STAR": "VATRY4L",
+        "ADES/Exit": "EIDW",
+        "Remarks": "Notes: 439"
+      }
+    },
+    {
+      "line_number": 7123,
+      "action": "remove",
+      "reason": "EG2269 NIRIF requires active EGD201F/G or associated FBZ; unavailable in static vFPC output",
+      "row": {
+        "ADEP/Entry": "EGHH",
+        "SID": "",
+        "Min": "MC",
+        "Max": "245",
+        "Route": "DCT SAM Q41 PEPIS Y321 NUBRI N14 HEKXA Q63 OZZIL N80 ARPAK L9 NICXI N546 EVTOL N12 NIRIF",
+        "STAR": "NIRIF1L",
+        "ADES/Exit": "EIDW",
+        "Remarks": "Notes: 113  "
+      }
+    },
+    {
+      "line_number": 7124,
+      "action": "remove",
+      "reason": "EG2983 Q63 VATRY requires danger-area/M17 availability state; unavailable in static vFPC output",
+      "row": {
+        "ADEP/Entry": "EGHH",
+        "SID": "",
+        "Min": "MC",
+        "Max": "245",
+        "Route": "DCT SAM Q41 PEPIS Y321 NUBRI N14 HEKXA Q63 OZZIL N80 ARPAK L9 NICXI Q63 VATRY",
+        "STAR": "VATRY4L",
+        "ADES/Exit": "EIDW",
+        "Remarks": "Notes: 439"
+      }
+    },
+    {
+      "line_number": 7186,
+      "action": "remove",
+      "reason": "EG4121 caps EGHH/EGHI/EGLF-family LF DVR L10 RINTI flow at FL155",
+      "row": {
+        "ADEP/Entry": "EGHH",
+        "SID": "",
+        "Min": "165",
+        "Max": "245",
+        "Route": "DCT SAM Y8 GWC N16 BIG L9 DVR L10",
+        "STAR": "",
+        "ADES/Exit": "RINTI",
+        "Remarks": "Notes: 480"
+      }
+    },
+    {
+      "line_number": 7187,
+      "action": "cap_max",
+      "reason": "EG4121 caps EGHH/EGHI/EGLF-family LF DVR L10 RINTI flow at FL155",
+      "before": {
+        "ADEP/Entry": "EGHH",
+        "SID": "",
+        "Min": "115",
+        "Max": "245",
+        "Route": "DCT SAM Y8 GWC DCT SFD Y803 LYD M189 DVR L10",
+        "STAR": "",
+        "ADES/Exit": "RINTI",
+        "Remarks": "Notes: 480"
+      },
+      "after": {
+        "ADEP/Entry": "EGHH",
+        "SID": "",
+        "Min": "115",
+        "Max": "155",
+        "Route": "DCT SAM Y8 GWC DCT SFD Y803 LYD M189 DVR L10",
+        "STAR": "",
+        "ADES/Exit": "RINTI",
+        "Remarks": "Notes: 480"
+      }
+    },
+    {
+      "line_number": 7416,
+      "action": "remove",
+      "reason": "EG2269 NIRIF requires active EGD201F/G or associated FBZ; unavailable in static vFPC output",
+      "row": {
+        "ADEP/Entry": "EGHI",
+        "SID": "",
+        "Min": "245",
+        "Max": "660",
+        "Route": "DCT SAM Q41 PEPIS Y321 NUBRI N14 HEKXA Q63 OZZIL DCT ARPAK DCT FELCA DCT NICXI DCT EVTOL N12 NIRIF",
+        "STAR": "NIRIF1L",
+        "ADES/Exit": "EIDW",
+        "Remarks": "Notes: 113  "
+      }
+    },
+    {
+      "line_number": 7417,
+      "action": "remove",
+      "reason": "EG2983 Q63 VATRY requires danger-area/M17 availability state; unavailable in static vFPC output",
+      "row": {
+        "ADEP/Entry": "EGHI",
+        "SID": "",
+        "Min": "245",
+        "Max": "660",
+        "Route": "DCT SAM Q41 PEPIS Y321 NUBRI N14 HEKXA Q63 OZZIL DCT ARPAK DCT FELCA DCT NICXI DCT LANPI DCT TIBGA Q63 VATRY",
+        "STAR": "VATRY4L",
+        "ADES/Exit": "EIDW",
+        "Remarks": "Notes: 439"
+      }
+    },
+    {
+      "line_number": 7419,
+      "action": "remove",
+      "reason": "EG2269 NIRIF requires active EGD201F/G or associated FBZ; unavailable in static vFPC output",
+      "row": {
+        "ADEP/Entry": "EGHI",
+        "SID": "",
+        "Min": "245",
+        "Max": "660",
+        "Route": "DCT SAM Q41 PEPIS Y321 NUBRI N14 HEKXA Q63 OZZIL DCT ARPAK DCT MEDOG DCT KRAGY DCT PEMOB DCT EVTOL N12 NIRIF",
+        "STAR": "NIRIF1L",
+        "ADES/Exit": "EIDW",
+        "Remarks": "Notes: 127  "
+      }
+    },
+    {
+      "line_number": 7420,
+      "action": "remove",
+      "reason": "EG2983 Q63 VATRY requires danger-area/M17 availability state; unavailable in static vFPC output",
+      "row": {
+        "ADEP/Entry": "EGHI",
+        "SID": "",
+        "Min": "245",
+        "Max": "660",
+        "Route": "DCT SAM Q41 PEPIS Y321 NUBRI N14 HEKXA Q63 OZZIL DCT ARPAK DCT MEDOG DCT KRAGY DCT PEMOB DCT LANPI DCT TIBGA Q63 VATRY",
+        "STAR": "VATRY4L",
+        "ADES/Exit": "EIDW",
+        "Remarks": "Notes: 439"
+      }
+    },
+    {
+      "line_number": 7425,
+      "action": "remove",
+      "reason": "EG2269 NIRIF requires active EGD201F/G or associated FBZ; unavailable in static vFPC output",
+      "row": {
+        "ADEP/Entry": "EGHI",
+        "SID": "",
+        "Min": "MC",
+        "Max": "245",
+        "Route": "DCT SAM Q41 PEPIS Y321 NUBRI N14 HEKXA Q63 OZZIL N80 ARPAK L9 NICXI N546 EVTOL N12 NIRIF",
+        "STAR": "NIRIF1L",
+        "ADES/Exit": "EIDW",
+        "Remarks": "Notes: 113  "
+      }
+    },
+    {
+      "line_number": 7426,
+      "action": "remove",
+      "reason": "EG2983 Q63 VATRY requires danger-area/M17 availability state; unavailable in static vFPC output",
+      "row": {
+        "ADEP/Entry": "EGHI",
+        "SID": "",
+        "Min": "MC",
+        "Max": "245",
+        "Route": "DCT SAM Q41 PEPIS Y321 NUBRI N14 HEKXA Q63 OZZIL N80 ARPAK L9 NICXI Q63 VATRY",
+        "STAR": "VATRY4L",
+        "ADES/Exit": "EIDW",
+        "Remarks": "Notes: 439"
+      }
+    },
+    {
+      "line_number": 7481,
+      "action": "remove",
+      "reason": "EG4121 caps EGHH/EGHI/EGLF-family LF DVR L10 RINTI flow at FL155",
+      "row": {
+        "ADEP/Entry": "EGHI",
+        "SID": "",
+        "Min": "165",
+        "Max": "245",
+        "Route": "DCT GWC N16 BIG L9 DVR L10",
+        "STAR": "",
+        "ADES/Exit": "RINTI",
+        "Remarks": "Notes: 480"
+      }
+    },
+    {
+      "line_number": 7482,
+      "action": "cap_max",
+      "reason": "EG4121 caps EGHH/EGHI/EGLF-family LF DVR L10 RINTI flow at FL155",
+      "before": {
+        "ADEP/Entry": "EGHI",
+        "SID": "",
+        "Min": "115",
+        "Max": "245",
+        "Route": "DCT GWC DCT SFD Y803 LYD M189 DVR L10",
+        "STAR": "",
+        "ADES/Exit": "RINTI",
+        "Remarks": "Notes: 480"
+      },
+      "after": {
+        "ADEP/Entry": "EGHI",
+        "SID": "",
+        "Min": "115",
+        "Max": "155",
+        "Route": "DCT GWC DCT SFD Y803 LYD M189 DVR L10",
+        "STAR": "",
+        "ADES/Exit": "RINTI",
+        "Remarks": "Notes: 480"
+      }
+    },
+    {
+      "line_number": 7597,
+      "action": "remove",
+      "reason": "EG2983 Q63 VATRY requires danger-area/M17 availability state; unavailable in static vFPC output",
+      "row": {
+        "ADEP/Entry": "EGHO",
+        "SID": "",
+        "Min": "245",
+        "Max": "660",
+        "Route": "DCT CPT Q63 OZZIL DCT ARPAK DCT FELCA DCT NICXI DCT LANPI Q63 VATRY",
+        "STAR": "VATRY4L",
+        "ADES/Exit": "EIDW",
+        "Remarks": "Notes: 439"
+      }
+    },
+    {
+      "line_number": 7599,
+      "action": "remove",
+      "reason": "EG2983 Q63 VATRY requires danger-area/M17 availability state; unavailable in static vFPC output",
+      "row": {
+        "ADEP/Entry": "EGHO",
+        "SID": "",
+        "Min": "MC",
+        "Max": "245",
+        "Route": "DCT CPT Q63 OZZIL N80 ARPAK L9 NICXI Q63 VATRY",
+        "STAR": "VATRY4L",
+        "ADES/Exit": "EIDW",
+        "Remarks": "Notes: 439"
+      }
+    },
+    {
+      "line_number": 7626,
+      "action": "remove",
+      "reason": "EG4121 caps EGHH/EGHI/EGLF-family LF DVR L10 RINTI flow at FL155",
+      "row": {
+        "ADEP/Entry": "EGHO",
+        "SID": "",
+        "Min": "165",
+        "Max": "245",
+        "Route": "DCT GWC N16 BIG L9 DVR L10",
+        "STAR": "",
+        "ADES/Exit": "RINTI",
+        "Remarks": "Notes: 480"
+      }
+    },
+    {
+      "line_number": 7627,
+      "action": "cap_max",
+      "reason": "EG4121 caps EGHH/EGHI/EGLF-family LF DVR L10 RINTI flow at FL155",
+      "before": {
+        "ADEP/Entry": "EGHO",
+        "SID": "",
+        "Min": "115",
+        "Max": "245",
+        "Route": "DCT GWC DCT SFD Y803 LYD M189 DVR L10",
+        "STAR": "",
+        "ADES/Exit": "RINTI",
+        "Remarks": "Notes: 480"
+      },
+      "after": {
+        "ADEP/Entry": "EGHO",
+        "SID": "",
+        "Min": "115",
+        "Max": "155",
+        "Route": "DCT GWC DCT SFD Y803 LYD M189 DVR L10",
+        "STAR": "",
+        "ADES/Exit": "RINTI",
+        "Remarks": "Notes: 480"
+      }
+    },
+    {
+      "line_number": 7806,
+      "action": "cap_max",
+      "reason": "EG4121 caps EGHH/EGHI/EGLF-family LF DVR L10 RINTI flow at FL155",
+      "before": {
+        "ADEP/Entry": "EGHR",
+        "SID": "",
+        "Min": "115",
+        "Max": "245",
+        "Route": "DCT SFD Y803 LYD M189 DVR L10",
+        "STAR": "",
+        "ADES/Exit": "RINTI",
+        "Remarks": "Notes: 480"
+      },
+      "after": {
+        "ADEP/Entry": "EGHR",
+        "SID": "",
+        "Min": "115",
+        "Max": "155",
+        "Route": "DCT SFD Y803 LYD M189 DVR L10",
+        "STAR": "",
+        "ADES/Exit": "RINTI",
+        "Remarks": "Notes: 480"
+      }
+    },
+    {
+      "line_number": 8042,
+      "action": "remove",
+      "reason": "EG2640 EGJJ to EGPK via BLACA unavailable; use POL/RIBEL routing",
+      "row": {
+        "ADEP/Entry": "EGJJ",
+        "SID": "SKERY",
+        "Min": "MC",
+        "Max": "245",
+        "Route": "L22 EMWIP P16 FIMCA N22 BHD N864 WAL L10 IOM DCT BLACA",
+        "STAR": "BLACA1P",
+        "ADES/Exit": "EGPK",
+        "Remarks": ""
+      }
+    },
+    {
+      "line_number": 8069,
+      "action": "remove",
+      "reason": "EG2269 NIRIF requires active EGD201F/G or associated FBZ; unavailable in static vFPC output",
+      "row": {
+        "ADEP/Entry": "EGJJ",
+        "SID": "SKERY",
+        "Min": "245",
+        "Max": "660",
+        "Route": "L22 EMWIP P16 FIMCA DCT TOJAQ DCT UNFIT DCT PENWU DCT NICXI DCT EVTOL N12 NIRIF",
+        "STAR": "NIRIF1L",
+        "ADES/Exit": "EIDW",
+        "Remarks": "Notes: 113  "
+      }
+    },
+    {
+      "line_number": 8070,
+      "action": "remove",
+      "reason": "EG2983 Q63 VATRY requires danger-area/M17 availability state; unavailable in static vFPC output",
+      "row": {
+        "ADEP/Entry": "EGJJ",
+        "SID": "SKERY",
+        "Min": "245",
+        "Max": "660",
+        "Route": "L22 EMWIP P16 FIMCA DCT TOJAQ DCT UNFIT DCT PENWU DCT NICXI DCT LANPI Q63 VATRY",
+        "STAR": "VATRY4L",
+        "ADES/Exit": "EIDW",
+        "Remarks": "Notes: 439"
+      }
+    },
+    {
+      "line_number": 8073,
+      "action": "remove",
+      "reason": "EG2269 NIRIF requires active EGD201F/G or associated FBZ; unavailable in static vFPC output",
+      "row": {
+        "ADEP/Entry": "EGJJ",
+        "SID": "SKERY",
+        "Min": "MC",
+        "Max": "245",
+        "Route": "L22 EMWIP P16 FIMCA N22 BHD N864 TIGWE L9 NICXI N546 EVTOL N12 NIRIF",
+        "STAR": "NIRIF1L",
+        "ADES/Exit": "EIDW",
+        "Remarks": "Notes: 113  "
+      }
+    },
+    {
+      "line_number": 8074,
+      "action": "remove",
+      "reason": "EG2983 Q63 VATRY requires danger-area/M17 availability state; unavailable in static vFPC output",
+      "row": {
+        "ADEP/Entry": "EGJJ",
+        "SID": "SKERY",
+        "Min": "MC",
+        "Max": "245",
+        "Route": "L22 EMWIP P16 FIMCA N22 BHD N864 TIGWE L9 NICXI Q63 VATRY",
+        "STAR": "VATRY4L",
+        "ADES/Exit": "EIDW",
+        "Remarks": "Notes: 439"
+      }
+    },
+    {
+      "line_number": 8158,
+      "action": "remove",
+      "reason": "EG2983 Q63 VATRY requires danger-area/M17 availability state; unavailable in static vFPC output",
+      "row": {
+        "ADEP/Entry": "EGKA",
+        "SID": "",
+        "Min": "MC",
+        "Max": "245",
+        "Route": "DCT GWC DCT PEPIS Y321 NUBRI N14 HEKXA Q63 OZZIL N80 ARPAK L9 NICXI Q63 VATRY",
+        "STAR": "VATRY4L",
+        "ADES/Exit": "EIDW",
+        "Remarks": "Notes: 439"
+      }
+    },
+    {
+      "line_number": 8355,
+      "action": "remove",
+      "reason": "EG2269 NIRIF requires active EGD201F/G or associated FBZ; unavailable in static vFPC output",
+      "row": {
+        "ADEP/Entry": "EGKB",
+        "SID": "",
+        "Min": "195",
+        "Max": "245",
+        "Route": "DCT DET N601 BPK DCT SAXBI N27 ICTAM T421 DIDZA N14 BIBPE L9 NICXI N546 EVTOL N12 NIRIF",
+        "STAR": "NIRIF1L",
+        "ADES/Exit": "EIDW",
+        "Remarks": "Notes: 113  "
+      }
+    },
+    {
+      "line_number": 8356,
+      "action": "remove",
+      "reason": "EG2983 Q63 VATRY requires danger-area/M17 availability state; unavailable in static vFPC output",
+      "row": {
+        "ADEP/Entry": "EGKB",
+        "SID": "",
+        "Min": "195",
+        "Max": "245",
+        "Route": "DCT DET N601 BPK DCT SAXBI N27 ICTAM T421 DIDZA N14 BIBPE L9 NICXI Q63 VATRY",
+        "STAR": "VATRY4L",
+        "ADES/Exit": "EIDW",
+        "Remarks": "Notes: 439"
+      }
+    },
+    {
+      "line_number": 8361,
+      "action": "remove",
+      "reason": "EG2269 NIRIF requires active EGD201F/G or associated FBZ; unavailable in static vFPC output",
+      "row": {
+        "ADEP/Entry": "EGKB",
+        "SID": "",
+        "Min": "245",
+        "Max": "660",
+        "Route": "DCT DET N601 BPK DCT SAXBI N27 ICTAM T421 DIDZA N14 OKSAW DCT BIBPE DCT OKTAD DCT MEDOG DCT FOXLA DCT NICXI DCT EVTOL N12 NIRIF",
+        "STAR": "NIRIF1L",
+        "ADES/Exit": "EIDW",
+        "Remarks": "Notes: 113   - 168"
+      }
+    },
+    {
+      "line_number": 8362,
+      "action": "remove",
+      "reason": "EG2983 Q63 VATRY requires danger-area/M17 availability state; unavailable in static vFPC output",
+      "row": {
+        "ADEP/Entry": "EGKB",
+        "SID": "",
+        "Min": "245",
+        "Max": "660",
+        "Route": "DCT DET N601 BPK DCT SAXBI N27 ICTAM T421 DIDZA N14 OKSAW DCT BIBPE DCT OKTAD DCT MEDOG DCT FOXLA DCT NICXI DCT LANPI Q63 VATRY",
+        "STAR": "VATRY4L",
+        "ADES/Exit": "EIDW",
+        "Remarks": "Notes: 168 - 439"
+      }
+    },
+    {
+      "line_number": 8364,
+      "action": "remove",
+      "reason": "EG2983 Q63 VATRY requires danger-area/M17 availability state; unavailable in static vFPC output",
+      "row": {
+        "ADEP/Entry": "EGKB",
+        "SID": "",
+        "Min": "245",
+        "Max": "660",
+        "Route": "DCT DET N601 BPK DCT SAXBI N27 ICTAM T421 DIDZA N14 OKSAW DCT BIBPE DCT OKTAD DCT MEDOG DCT KRAGY DCT PEMOB DCT LANPI Q63 VATRY",
+        "STAR": "VATRY4L",
+        "ADES/Exit": "EIDW",
+        "Remarks": "Notes: 439"
+      }
+    },
+    {
+      "line_number": 8366,
+      "action": "remove",
+      "reason": "EG2269 NIRIF requires active EGD201F/G or associated FBZ; unavailable in static vFPC output",
+      "row": {
+        "ADEP/Entry": "EGKB",
+        "SID": "",
+        "Min": "245",
+        "Max": "660",
+        "Route": "DCT DET N601 BPK DCT SAXBI N27 ICTAM T421 DIDZA N14 OKSAW DCT BIBPE DCT OKTAD DCT MEDOG DCT PEMOB DCT EVTOL N12 NIRIF",
+        "STAR": "NIRIF1L",
+        "ADES/Exit": "EIDW",
+        "Remarks": "Notes: 127  "
+      }
+    },
+    {
+      "line_number": 8373,
+      "action": "remove",
+      "reason": "EG2269 NIRIF requires active EGD201F/G or associated FBZ; unavailable in static vFPC output",
+      "row": {
+        "ADEP/Entry": "EGKB",
+        "SID": "",
+        "Min": "MC",
+        "Max": "195",
+        "Route": "DCT DET N601 BPK DCT SAXBI N27 ICTAM L179 SAWPE Q63 OZZIL N80 ARPAK L9 NICXI N546 EVTOL N12 NIRIF",
+        "STAR": "NIRIF1L",
+        "ADES/Exit": "EIDW",
+        "Remarks": "Notes: 113  "
+      }
+    },
+    {
+      "line_number": 8374,
+      "action": "remove",
+      "reason": "EG2983 Q63 VATRY requires danger-area/M17 availability state; unavailable in static vFPC output",
+      "row": {
+        "ADEP/Entry": "EGKB",
+        "SID": "",
+        "Min": "MC",
+        "Max": "195",
+        "Route": "DCT DET N601 BPK DCT SAXBI N27 ICTAM L179 SAWPE Q63 OZZIL N80 ARPAK L9 NICXI Q63 VATRY",
+        "STAR": "VATRY4L",
+        "ADES/Exit": "EIDW",
+        "Remarks": ""
+      }
+    },
+    {
+      "line_number": 8826,
+      "action": "remove",
+      "reason": "EG2269 NIRIF requires active EGD201F/G or associated FBZ; unavailable in static vFPC output",
+      "row": {
+        "ADEP/Entry": "EGKK",
+        "SID": "KENET",
+        "Min": "195",
+        "Max": "245",
+        "Route": "DCT OKSAW L9 NICXI N546 EVTOL N12 NIRIF",
+        "STAR": "NIRIF1L",
+        "ADES/Exit": "EIDW",
+        "Remarks": "Notes: 113  "
+      }
+    },
+    {
+      "line_number": 8827,
+      "action": "remove",
+      "reason": "EG2983 Q63 VATRY requires danger-area/M17 availability state; unavailable in static vFPC output",
+      "row": {
+        "ADEP/Entry": "EGKK",
+        "SID": "KENET",
+        "Min": "195",
+        "Max": "245",
+        "Route": "DCT OKSAW L9 NICXI Q63 VATRY",
+        "STAR": "VATRY4L",
+        "ADES/Exit": "EIDW",
+        "Remarks": "Notes: 439"
+      }
+    },
+    {
+      "line_number": 8832,
+      "action": "remove",
+      "reason": "EG2269 NIRIF requires active EGD201F/G or associated FBZ; unavailable in static vFPC output",
+      "row": {
+        "ADEP/Entry": "EGKK",
+        "SID": "NOVMA",
+        "Min": "195",
+        "Max": "245",
+        "Route": "L620 NIBDA N14 BIBPE L9 NICXI N546 EVTOL N12 NIRIF",
+        "STAR": "NIRIF1L",
+        "ADES/Exit": "EIDW",
+        "Remarks": "Notes: 113  "
+      }
+    },
+    {
+      "line_number": 8833,
+      "action": "remove",
+      "reason": "EG2983 Q63 VATRY requires danger-area/M17 availability state; unavailable in static vFPC output",
+      "row": {
+        "ADEP/Entry": "EGKK",
+        "SID": "NOVMA",
+        "Min": "195",
+        "Max": "245",
+        "Route": "L620 NIBDA N14 BIBPE L9 NICXI Q63 VATRY",
+        "STAR": "VATRY4L",
+        "ADES/Exit": "EIDW",
+        "Remarks": ""
+      }
+    },
+    {
+      "line_number": 8835,
+      "action": "remove",
+      "reason": "EG2269 NIRIF requires active EGD201F/G or associated FBZ; unavailable in static vFPC output",
+      "row": {
+        "ADEP/Entry": "EGKK",
+        "SID": "IMVUR",
+        "Min": "195",
+        "Max": "245",
+        "Route": "N63 VOUGA N14 BIBPE L9 NICXI N546 EVTOL N12 NIRIF",
+        "STAR": "NIRIF1L",
+        "ADES/Exit": "EIDW",
+        "Remarks": "Notes: 113  "
+      }
+    },
+    {
+      "line_number": 8836,
+      "action": "remove",
+      "reason": "EG2983 Q63 VATRY requires danger-area/M17 availability state; unavailable in static vFPC output",
+      "row": {
+        "ADEP/Entry": "EGKK",
+        "SID": "IMVUR",
+        "Min": "195",
+        "Max": "245",
+        "Route": "N63 VOUGA N14 BIBPE L9 NICXI Q63 VATRY",
+        "STAR": "VATRY4L",
+        "ADES/Exit": "EIDW",
+        "Remarks": ""
+      }
+    },
+    {
+      "line_number": 8837,
+      "action": "remove",
+      "reason": "EG2269 NIRIF requires active EGD201F/G or associated FBZ; unavailable in static vFPC output",
+      "row": {
+        "ADEP/Entry": "EGKK",
+        "SID": "KENET",
+        "Min": "245",
+        "Max": "660",
+        "Route": "DCT OKSAW DCT BIBPE DCT OKTAD DCT MEDOG DCT FOXLA DCT NICXI DCT EVTOL N12 NIRIF",
+        "STAR": "NIRIF1L",
+        "ADES/Exit": "EIDW",
+        "Remarks": "Notes: 113   - 168"
+      }
+    },
+    {
+      "line_number": 8838,
+      "action": "remove",
+      "reason": "EG2983 Q63 VATRY requires danger-area/M17 availability state; unavailable in static vFPC output",
+      "row": {
+        "ADEP/Entry": "EGKK",
+        "SID": "KENET",
+        "Min": "245",
+        "Max": "660",
+        "Route": "DCT OKSAW DCT BIBPE DCT OKTAD DCT MEDOG DCT FOXLA DCT NICXI DCT LANPI Q63 VATRY",
+        "STAR": "VATRY4L",
+        "ADES/Exit": "EIDW",
+        "Remarks": "Notes: 168 - 439"
+      }
+    },
+    {
+      "line_number": 8840,
+      "action": "remove",
+      "reason": "EG2983 Q63 VATRY requires danger-area/M17 availability state; unavailable in static vFPC output",
+      "row": {
+        "ADEP/Entry": "EGKK",
+        "SID": "KENET",
+        "Min": "245",
+        "Max": "660",
+        "Route": "DCT OKSAW DCT BIBPE DCT OKTAD DCT MEDOG DCT KRAGY DCT PEMOB DCT LANPI Q63 VATRY",
+        "STAR": "VATRY4L",
+        "ADES/Exit": "EIDW",
+        "Remarks": "Notes: 439"
+      }
+    },
+    {
+      "line_number": 8843,
+      "action": "remove",
+      "reason": "EG2269 NIRIF requires active EGD201F/G or associated FBZ; unavailable in static vFPC output",
+      "row": {
+        "ADEP/Entry": "EGKK",
+        "SID": "KENET",
+        "Min": "245",
+        "Max": "660",
+        "Route": "DCT OKSAW DCT BIBPE DCT OKTAD DCT MEDOG DCT PEMOB DCT EVTOL N12 NIRIF",
+        "STAR": "NIRIF1L",
+        "ADES/Exit": "EIDW",
+        "Remarks": "Notes: 127  "
+      }
+    },
+    {
+      "line_number": 8848,
+      "action": "remove",
+      "reason": "EG2269 NIRIF requires active EGD201F/G or associated FBZ; unavailable in static vFPC output",
+      "row": {
+        "ADEP/Entry": "EGKK",
+        "SID": "NOVMA",
+        "Min": "245",
+        "Max": "660",
+        "Route": "L620 NIBDA N14 BIBPE DCT OKTAD DCT MEDOG DCT FOXLA DCT NICXI DCT EVTOL N12 NIRIF",
+        "STAR": "NIRIF1L",
+        "ADES/Exit": "EIDW",
+        "Remarks": "Notes: 113   - 168"
+      }
+    },
+    {
+      "line_number": 8849,
+      "action": "remove",
+      "reason": "EG2983 Q63 VATRY requires danger-area/M17 availability state; unavailable in static vFPC output",
+      "row": {
+        "ADEP/Entry": "EGKK",
+        "SID": "NOVMA",
+        "Min": "245",
+        "Max": "660",
+        "Route": "L620 NIBDA N14 BIBPE DCT OKTAD DCT MEDOG DCT FOXLA DCT NICXI DCT LANPI Q63 VATRY",
+        "STAR": "VATRY4L",
+        "ADES/Exit": "EIDW",
+        "Remarks": "Notes: 168 - 439"
+      }
+    },
+    {
+      "line_number": 8851,
+      "action": "remove",
+      "reason": "EG2983 Q63 VATRY requires danger-area/M17 availability state; unavailable in static vFPC output",
+      "row": {
+        "ADEP/Entry": "EGKK",
+        "SID": "NOVMA",
+        "Min": "245",
+        "Max": "660",
+        "Route": "L620 NIBDA N14 BIBPE DCT OKTAD DCT MEDOG DCT KRAGY DCT PEMOB DCT LANPI Q63 VATRY",
+        "STAR": "VATRY4L",
+        "ADES/Exit": "EIDW",
+        "Remarks": "Notes: 439"
+      }
+    },
+    {
+      "line_number": 8853,
+      "action": "remove",
+      "reason": "EG2269 NIRIF requires active EGD201F/G or associated FBZ; unavailable in static vFPC output",
+      "row": {
+        "ADEP/Entry": "EGKK",
+        "SID": "NOVMA",
+        "Min": "245",
+        "Max": "660",
+        "Route": "L620 NIBDA N14 BIBPE DCT OKTAD DCT MEDOG DCT PEMOB DCT EVTOL N12 NIRIF",
+        "STAR": "NIRIF1L",
+        "ADES/Exit": "EIDW",
+        "Remarks": "Notes: 127  "
+      }
+    },
+    {
+      "line_number": 8855,
+      "action": "remove",
+      "reason": "EG2269 NIRIF requires active EGD201F/G or associated FBZ; unavailable in static vFPC output",
+      "row": {
+        "ADEP/Entry": "EGKK",
+        "SID": "IMVUR",
+        "Min": "245",
+        "Max": "660",
+        "Route": "N63 VOUGA N14 BIBPE DCT OKTAD DCT MEDOG DCT FOXLA DCT NICXI DCT EVTOL N12 NIRIF",
+        "STAR": "NIRIF1L",
+        "ADES/Exit": "EIDW",
+        "Remarks": "Notes: 113   - 168"
+      }
+    },
+    {
+      "line_number": 8856,
+      "action": "remove",
+      "reason": "EG2983 Q63 VATRY requires danger-area/M17 availability state; unavailable in static vFPC output",
+      "row": {
+        "ADEP/Entry": "EGKK",
+        "SID": "IMVUR",
+        "Min": "245",
+        "Max": "660",
+        "Route": "N63 VOUGA N14 BIBPE DCT OKTAD DCT MEDOG DCT FOXLA DCT NICXI DCT LANPI Q63 VATRY",
+        "STAR": "VATRY4L",
+        "ADES/Exit": "EIDW",
+        "Remarks": "Notes: 168 - 439"
+      }
+    },
+    {
+      "line_number": 8858,
+      "action": "remove",
+      "reason": "EG2983 Q63 VATRY requires danger-area/M17 availability state; unavailable in static vFPC output",
+      "row": {
+        "ADEP/Entry": "EGKK",
+        "SID": "IMVUR",
+        "Min": "245",
+        "Max": "660",
+        "Route": "N63 VOUGA N14 BIBPE DCT OKTAD DCT MEDOG DCT KRAGY DCT PEMOB DCT LANPI Q63 VATRY",
+        "STAR": "VATRY4L",
+        "ADES/Exit": "EIDW",
+        "Remarks": "Notes: 453 - 439"
+      }
+    },
+    {
+      "line_number": 8860,
+      "action": "remove",
+      "reason": "EG2269 NIRIF requires active EGD201F/G or associated FBZ; unavailable in static vFPC output",
+      "row": {
+        "ADEP/Entry": "EGKK",
+        "SID": "IMVUR",
+        "Min": "245",
+        "Max": "660",
+        "Route": "N63 VOUGA N14 BIBPE DCT OKTAD DCT MEDOG DCT PEMOB DCT EVTOL N12 NIRIF",
+        "STAR": "NIRIF1L",
+        "ADES/Exit": "EIDW",
+        "Remarks": "Notes: 127  "
+      }
+    },
+    {
+      "line_number": 8865,
+      "action": "remove",
+      "reason": "EG2269 NIRIF requires active EGD201F/G or associated FBZ; unavailable in static vFPC output",
+      "row": {
+        "ADEP/Entry": "EGKK",
+        "SID": "NOVMA",
+        "Min": "MC",
+        "Max": "195",
+        "Route": "L620 NIBDA N14 HEKXA Q63 OZZIL N80 ARPAK L9 NICXI N546 EVTOL N12 NIRIF",
+        "STAR": "NIRIF1L",
+        "ADES/Exit": "EIDW",
+        "Remarks": "Notes: 113  "
+      }
+    },
+    {
+      "line_number": 8866,
+      "action": "remove",
+      "reason": "EG2983 Q63 VATRY requires danger-area/M17 availability state; unavailable in static vFPC output",
+      "row": {
+        "ADEP/Entry": "EGKK",
+        "SID": "NOVMA",
+        "Min": "MC",
+        "Max": "195",
+        "Route": "L620 NIBDA N14 HEKXA Q63 OZZIL N80 ARPAK L9 NICXI Q63 VATRY",
+        "STAR": "VATRY4L",
+        "ADES/Exit": "EIDW",
+        "Remarks": ""
+      }
+    },
+    {
+      "line_number": 8868,
+      "action": "remove",
+      "reason": "EG2269 NIRIF requires active EGD201F/G or associated FBZ; unavailable in static vFPC output",
+      "row": {
+        "ADEP/Entry": "EGKK",
+        "SID": "IMVUR",
+        "Min": "MC",
+        "Max": "195",
+        "Route": "N63 VOUGA N14 HEKXA Q63 OZZIL N80 ARPAK L9 NICXI N546 EVTOL N12 NIRIF",
+        "STAR": "NIRIF1L",
+        "ADES/Exit": "EIDW",
+        "Remarks": "Notes: 113  "
+      }
+    },
+    {
+      "line_number": 8869,
+      "action": "remove",
+      "reason": "EG2983 Q63 VATRY requires danger-area/M17 availability state; unavailable in static vFPC output",
+      "row": {
+        "ADEP/Entry": "EGKK",
+        "SID": "IMVUR",
+        "Min": "MC",
+        "Max": "195",
+        "Route": "N63 VOUGA N14 HEKXA Q63 OZZIL N80 ARPAK L9 NICXI Q63 VATRY",
+        "STAR": "VATRY4L",
+        "ADES/Exit": "EIDW",
+        "Remarks": "Notes: 453"
+      }
+    },
+    {
+      "line_number": 9364,
+      "action": "remove",
+      "reason": "EG2269 NIRIF requires active EGD201F/G or associated FBZ; unavailable in static vFPC output",
+      "row": {
+        "ADEP/Entry": "EGLC",
+        "SID": "SAXBI",
+        "Min": "195",
+        "Max": "245",
+        "Route": "N27 HEN N84 DIDZA L9 NICXI N546 EVTOL N12 NIRIF",
+        "STAR": "NIRIF1L",
+        "ADES/Exit": "EIDW",
+        "Remarks": "Notes: 113  "
+      }
+    },
+    {
+      "line_number": 9365,
+      "action": "remove",
+      "reason": "EG2983 Q63 VATRY requires danger-area/M17 availability state; unavailable in static vFPC output",
+      "row": {
+        "ADEP/Entry": "EGLC",
+        "SID": "SAXBI",
+        "Min": "195",
+        "Max": "245",
+        "Route": "N27 HEN N84 DIDZA L9 NICXI Q63 VATRY",
+        "STAR": "VATRY4L",
+        "ADES/Exit": "EIDW",
+        "Remarks": "Notes: 439"
+      }
+    },
+    {
+      "line_number": 9369,
+      "action": "remove",
+      "reason": "EG2269 NIRIF requires active EGD201F/G or associated FBZ; unavailable in static vFPC output",
+      "row": {
+        "ADEP/Entry": "EGLC",
+        "SID": "SAXBI",
+        "Min": "245",
+        "Max": "660",
+        "Route": "N27 HEN N84 DIDZA N14 OKSAW DCT BIBPE DCT OKTAD DCT MEDOG DCT FOXLA DCT NICXI DCT EVTOL N12 NIRIF",
+        "STAR": "NIRIF1L",
+        "ADES/Exit": "EIDW",
+        "Remarks": "Notes: 113   - 168"
+      }
+    },
+    {
+      "line_number": 9370,
+      "action": "remove",
+      "reason": "EG2983 Q63 VATRY requires danger-area/M17 availability state; unavailable in static vFPC output",
+      "row": {
+        "ADEP/Entry": "EGLC",
+        "SID": "SAXBI",
+        "Min": "245",
+        "Max": "660",
+        "Route": "N27 HEN N84 DIDZA N14 OKSAW DCT BIBPE DCT OKTAD DCT MEDOG DCT FOXLA DCT NICXI DCT LANPI Q63 VATRY",
+        "STAR": "VATRY4L",
+        "ADES/Exit": "EIDW",
+        "Remarks": "Notes: 168 - 439"
+      }
+    },
+    {
+      "line_number": 9372,
+      "action": "remove",
+      "reason": "EG2983 Q63 VATRY requires danger-area/M17 availability state; unavailable in static vFPC output",
+      "row": {
+        "ADEP/Entry": "EGLC",
+        "SID": "SAXBI",
+        "Min": "245",
+        "Max": "660",
+        "Route": "N27 HEN N84 DIDZA N14 OKSAW DCT BIBPE DCT OKTAD DCT MEDOG DCT KRAGY DCT PEMOB DCT LANPI Q63 VATRY",
+        "STAR": "VATRY4L",
+        "ADES/Exit": "EIDW",
+        "Remarks": "Notes: 439"
+      }
+    },
+    {
+      "line_number": 9374,
+      "action": "remove",
+      "reason": "EG2269 NIRIF requires active EGD201F/G or associated FBZ; unavailable in static vFPC output",
+      "row": {
+        "ADEP/Entry": "EGLC",
+        "SID": "SAXBI",
+        "Min": "245",
+        "Max": "660",
+        "Route": "N27 HEN N84 DIDZA N14 OKSAW DCT BIBPE DCT OKTAD DCT MEDOG DCT PEMOB DCT EVTOL N12 NIRIF",
+        "STAR": "NIRIF1L",
+        "ADES/Exit": "EIDW",
+        "Remarks": "Notes: 127  "
+      }
+    },
+    {
+      "line_number": 9380,
+      "action": "remove",
+      "reason": "EG2269 NIRIF requires active EGD201F/G or associated FBZ; unavailable in static vFPC output",
+      "row": {
+        "ADEP/Entry": "EGLC",
+        "SID": "SAXBI",
+        "Min": "MC",
+        "Max": "195",
+        "Route": "N27 HEN N84 DIDZA P86 SAWPE Q63 OZZIL N80 ARPAK L9 NICXI N546 EVTOL N12 NIRIF",
+        "STAR": "NIRIF1L",
+        "ADES/Exit": "EIDW",
+        "Remarks": "Notes: 113  "
+      }
+    },
+    {
+      "line_number": 9381,
+      "action": "remove",
+      "reason": "EG2983 Q63 VATRY requires danger-area/M17 availability state; unavailable in static vFPC output",
+      "row": {
+        "ADEP/Entry": "EGLC",
+        "SID": "SAXBI",
+        "Min": "MC",
+        "Max": "195",
+        "Route": "N27 HEN N84 DIDZA P86 SAWPE Q63 OZZIL N80 ARPAK L9 NICXI Q63 VATRY",
+        "STAR": "VATRY4L",
+        "ADES/Exit": "EIDW",
+        "Remarks": ""
+      }
+    },
+    {
+      "line_number": 9773,
+      "action": "remove",
+      "reason": "EG2983 Q63 VATRY requires danger-area/M17 availability state; unavailable in static vFPC output",
+      "row": {
+        "ADEP/Entry": "EGLF",
+        "SID": "HAZEL",
+        "Min": "245",
+        "Max": "660",
+        "Route": "L620 SAM Q41 PEPIS Y321 NUBRI N14 HEKXA Q63 OZZIL DCT ARPAK DCT FELCA DCT NICXI DCT LANPI Q63 VATRY",
+        "STAR": "VATRY4L",
+        "ADES/Exit": "EIDW",
+        "Remarks": "Notes: 439  - 477"
+      }
+    },
+    {
+      "line_number": 9781,
+      "action": "remove",
+      "reason": "EG2983 Q63 VATRY requires danger-area/M17 availability state; unavailable in static vFPC output",
+      "row": {
+        "ADEP/Entry": "EGLF",
+        "SID": "",
+        "Min": "MC",
+        "Max": "175",
+        "Route": "DCT HAZEL L620 SAM Q41 PEPIS Y321 NUBRI DCT KENET DCT OZZIL DCT BCN DCT FIFAH DCT NICXI Q63 VATRY",
+        "STAR": "VATRY4L",
+        "ADES/Exit": "EIDW",
+        "Remarks": "Notes: 493 - 452"
+      }
+    },
+    {
+      "line_number": 9783,
+      "action": "remove",
+      "reason": "EG2983 Q63 VATRY requires danger-area/M17 availability state; unavailable in static vFPC output",
+      "row": {
+        "ADEP/Entry": "EGLF",
+        "SID": "HAZEL",
+        "Min": "MC",
+        "Max": "245",
+        "Route": "L620 SAM Q41 PEPIS Y321 NUBRI N14 HEKXA Q63 OZZIL N80 ARPAK L9 NICXI Q63 VATRY",
+        "STAR": "VATRY4L",
+        "ADES/Exit": "EIDW",
+        "Remarks": "Notes: 439  - 477"
+      }
+    },
+    {
+      "line_number": 9887,
+      "action": "remove",
+      "reason": "EG4121 caps EGHH/EGHI/EGLF-family LF DVR L10 RINTI flow at FL155",
+      "row": {
+        "ADEP/Entry": "EGLF",
+        "SID": "",
+        "Min": "165",
+        "Max": "245",
+        "Route": "DCT GWC N16 BIG L9 DVR L10",
+        "STAR": "",
+        "ADES/Exit": "RINTI",
+        "Remarks": "Notes: 493 - 480"
+      }
+    },
+    {
+      "line_number": 9888,
+      "action": "remove",
+      "reason": "EG4121 caps EGHH/EGHI/EGLF-family LF DVR L10 RINTI flow at FL155",
+      "row": {
+        "ADEP/Entry": "EGLF",
+        "SID": "GWC",
+        "Min": "165",
+        "Max": "245",
+        "Route": "N16 BIG L9 DVR L10",
+        "STAR": "",
+        "ADES/Exit": "RINTI",
+        "Remarks": "Notes:  477 - 480"
+      }
+    },
+    {
+      "line_number": 9889,
+      "action": "cap_max",
+      "reason": "EG4121 caps EGHH/EGHI/EGLF-family LF DVR L10 RINTI flow at FL155",
+      "before": {
+        "ADEP/Entry": "EGLF",
+        "SID": "",
+        "Min": "115",
+        "Max": "245",
+        "Route": "DCT GWC DCT SFD Y803 LYD M189 DVR L10",
+        "STAR": "",
+        "ADES/Exit": "RINTI",
+        "Remarks": "Notes: 493 - 480"
+      },
+      "after": {
+        "ADEP/Entry": "EGLF",
+        "SID": "",
+        "Min": "115",
+        "Max": "155",
+        "Route": "DCT GWC DCT SFD Y803 LYD M189 DVR L10",
+        "STAR": "",
+        "ADES/Exit": "RINTI",
+        "Remarks": "Notes: 493 - 480"
+      }
+    },
+    {
+      "line_number": 9890,
+      "action": "cap_max",
+      "reason": "EG4121 caps EGHH/EGHI/EGLF-family LF DVR L10 RINTI flow at FL155",
+      "before": {
+        "ADEP/Entry": "EGLF",
+        "SID": "GWC",
+        "Min": "115",
+        "Max": "245",
+        "Route": "DCT SFD Y803 LYD M189 DVR L10",
+        "STAR": "",
+        "ADES/Exit": "RINTI",
+        "Remarks": "Notes:  477 - 480"
+      },
+      "after": {
+        "ADEP/Entry": "EGLF",
+        "SID": "GWC",
+        "Min": "115",
+        "Max": "155",
+        "Route": "DCT SFD Y803 LYD M189 DVR L10",
+        "STAR": "",
+        "ADES/Exit": "RINTI",
+        "Remarks": "Notes:  477 - 480"
+      }
+    },
+    {
+      "line_number": 10142,
+      "action": "remove",
+      "reason": "EG2983 Q63 VATRY requires danger-area/M17 availability state; unavailable in static vFPC output",
+      "row": {
+        "ADEP/Entry": "EGLK",
+        "SID": "",
+        "Min": "245",
+        "Max": "660",
+        "Route": "DCT CPT Q63 OZZIL DCT ARPAK DCT FELCA DCT NICXI DCT PEMOB DCT LANPI Q63 VATRY",
+        "STAR": "VATRY4L",
+        "ADES/Exit": "EIDW",
+        "Remarks": "Notes: 439 - 478"
+      }
+    },
+    {
+      "line_number": 10144,
+      "action": "remove",
+      "reason": "EG2983 Q63 VATRY requires danger-area/M17 availability state; unavailable in static vFPC output",
+      "row": {
+        "ADEP/Entry": "EGLK",
+        "SID": "",
+        "Min": "245",
+        "Max": "660",
+        "Route": "DCT CPT Q63 OZZIL DCT ARPAK DCT MEDOG DCT KRAGY DCT PEMOB DCT LANPI Q63 VATRY",
+        "STAR": "VATRY4L",
+        "ADES/Exit": "EIDW",
+        "Remarks": "Notes: 478 - 439"
+      }
+    },
+    {
+      "line_number": 10150,
+      "action": "remove",
+      "reason": "EG2983 Q63 VATRY requires danger-area/M17 availability state; unavailable in static vFPC output",
+      "row": {
+        "ADEP/Entry": "EGLK",
+        "SID": "",
+        "Min": "MC",
+        "Max": "245",
+        "Route": "DCT CPT Q63 OZZIL N80 ARPAK L9 NICXI Q63 VATRY",
+        "STAR": "VATRY4L",
+        "ADES/Exit": "EIDW",
+        "Remarks": "Notes: 478"
+      }
+    },
+    {
+      "line_number": 10223,
+      "action": "remove",
+      "reason": "EG4121 caps EGHH/EGHI/EGLF-family LF DVR L10 RINTI flow at FL155",
+      "row": {
+        "ADEP/Entry": "EGLK",
+        "SID": "",
+        "Min": "165",
+        "Max": "245",
+        "Route": "DCT HAZEL DCT GWC N16 BIG L9 DVR L10",
+        "STAR": "",
+        "ADES/Exit": "RINTI",
+        "Remarks": "Notes: 478 - 480"
+      }
+    },
+    {
+      "line_number": 10224,
+      "action": "cap_max",
+      "reason": "EG4121 caps EGHH/EGHI/EGLF-family LF DVR L10 RINTI flow at FL155",
+      "before": {
+        "ADEP/Entry": "EGLK",
+        "SID": "",
+        "Min": "115",
+        "Max": "245",
+        "Route": "DCT HAZEL DCT GWC DCT SFD Y803 LYD M189 DVR L10",
+        "STAR": "",
+        "ADES/Exit": "RINTI",
+        "Remarks": "Notes: 478 - 480"
+      },
+      "after": {
+        "ADEP/Entry": "EGLK",
+        "SID": "",
+        "Min": "115",
+        "Max": "155",
+        "Route": "DCT HAZEL DCT GWC DCT SFD Y803 LYD M189 DVR L10",
+        "STAR": "",
+        "ADES/Exit": "RINTI",
+        "Remarks": "Notes: 478 - 480"
+      }
+    },
+    {
+      "line_number": 10626,
+      "action": "remove",
+      "reason": "EG2269 NIRIF requires active EGD201F/G or associated FBZ; unavailable in static vFPC output",
+      "row": {
+        "ADEP/Entry": "EGLL",
+        "SID": "CPT",
+        "Min": "195",
+        "Max": "245",
+        "Route": "L9 NICXI N546 EVTOL N12 NIRIF",
+        "STAR": "NIRIF1L",
+        "ADES/Exit": "EIDW",
+        "Remarks": "Notes: 113  "
+      }
+    },
+    {
+      "line_number": 10627,
+      "action": "remove",
+      "reason": "EG2983 Q63 VATRY requires danger-area/M17 availability state; unavailable in static vFPC output",
+      "row": {
+        "ADEP/Entry": "EGLL",
+        "SID": "CPT",
+        "Min": "195",
+        "Max": "245",
+        "Route": "L9 NICXI Q63 VATRY",
+        "STAR": "VATRY4L",
+        "ADES/Exit": "EIDW",
+        "Remarks": ""
+      }
+    },
+    {
+      "line_number": 10634,
+      "action": "remove",
+      "reason": "EG2269 NIRIF requires active EGD201F/G or associated FBZ; unavailable in static vFPC output",
+      "row": {
+        "ADEP/Entry": "EGLL",
+        "SID": "CPT",
+        "Min": "245",
+        "Max": "660",
+        "Route": "DCT DIDZA N14 OKSAW DCT BIBPE DCT OKTAD DCT MEDOG DCT FOXLA DCT NICXI DCT EVTOL N12 NIRIF",
+        "STAR": "NIRIF1L",
+        "ADES/Exit": "EIDW",
+        "Remarks": "Notes: 113   - 168"
+      }
+    },
+    {
+      "line_number": 10635,
+      "action": "remove",
+      "reason": "EG2983 Q63 VATRY requires danger-area/M17 availability state; unavailable in static vFPC output",
+      "row": {
+        "ADEP/Entry": "EGLL",
+        "SID": "CPT",
+        "Min": "245",
+        "Max": "660",
+        "Route": "DCT DIDZA N14 OKSAW DCT BIBPE DCT OKTAD DCT MEDOG DCT FOXLA DCT NICXI DCT LANPI Q63 VATRY",
+        "STAR": "VATRY4L",
+        "ADES/Exit": "EIDW",
+        "Remarks": "Notes: 168 - 439"
+      }
+    },
+    {
+      "line_number": 10639,
+      "action": "remove",
+      "reason": "EG2269 NIRIF requires active EGD201F/G or associated FBZ; unavailable in static vFPC output",
+      "row": {
+        "ADEP/Entry": "EGLL",
+        "SID": "CPT",
+        "Min": "245",
+        "Max": "660",
+        "Route": "DCT DIDZA N14 OKSAW DCT BIBPE DCT OKTAD DCT MEDOG DCT PEMOB DCT EVTOL N12 NIRIF",
+        "STAR": "NIRIF1L",
+        "ADES/Exit": "EIDW",
+        "Remarks": "Notes: 127  "
+      }
+    },
+    {
+      "line_number": 10640,
+      "action": "remove",
+      "reason": "EG2269 NIRIF requires active EGD201F/G or associated FBZ; unavailable in static vFPC output",
+      "row": {
+        "ADEP/Entry": "EGLL",
+        "SID": "CPT",
+        "Min": "245",
+        "Max": "660",
+        "Route": "L9 DIDZA N14 OKTAD DCT MEDOG DCT FOXLA DCT NICXI DCT EVTOL N12 NIRIF",
+        "STAR": "NIRIF1L",
+        "ADES/Exit": "EIDW",
+        "Remarks": "Notes: 113   - 168"
+      }
+    },
+    {
+      "line_number": 10641,
+      "action": "remove",
+      "reason": "EG2983 Q63 VATRY requires danger-area/M17 availability state; unavailable in static vFPC output",
+      "row": {
+        "ADEP/Entry": "EGLL",
+        "SID": "CPT",
+        "Min": "245",
+        "Max": "660",
+        "Route": "L9 DIDZA N14 OKTAD DCT MEDOG DCT FOXLA DCT NICXI DCT LANPI Q63 VATRY",
+        "STAR": "VATRY4L",
+        "ADES/Exit": "EIDW",
+        "Remarks": "Notes: 168 - 439"
+      }
+    },
+    {
+      "line_number": 10643,
+      "action": "remove",
+      "reason": "EG2983 Q63 VATRY requires danger-area/M17 availability state; unavailable in static vFPC output",
+      "row": {
+        "ADEP/Entry": "EGLL",
+        "SID": "CPT",
+        "Min": "245",
+        "Max": "660",
+        "Route": "L9 DIDZA N14 OKTAD DCT MEDOG DCT KRAGY DCT PEMOB DCT LANPI Q63 VATRY",
+        "STAR": "VATRY4L",
+        "ADES/Exit": "EIDW",
+        "Remarks": "Notes: 439"
+      }
+    },
+    {
+      "line_number": 10646,
+      "action": "remove",
+      "reason": "EG2269 NIRIF requires active EGD201F/G or associated FBZ; unavailable in static vFPC output",
+      "row": {
+        "ADEP/Entry": "EGLL",
+        "SID": "CPT",
+        "Min": "245",
+        "Max": "660",
+        "Route": "L9 DIDZA N14 OKTAD DCT MEDOG DCT PEMOB DCT EVTOL N12 NIRIF",
+        "STAR": "NIRIF1L",
+        "ADES/Exit": "EIDW",
+        "Remarks": "Notes: 127  "
+      }
+    },
+    {
+      "line_number": 10659,
+      "action": "remove",
+      "reason": "EG2269 NIRIF requires active EGD201F/G or associated FBZ; unavailable in static vFPC output",
+      "row": {
+        "ADEP/Entry": "EGLL",
+        "SID": "CPT",
+        "Min": "MC",
+        "Max": "195",
+        "Route": "Q63 OZZIL N80 ARPAK L9 NICXI N546 EVTOL N12 NIRIF",
+        "STAR": "NIRIF1L",
+        "ADES/Exit": "EIDW",
+        "Remarks": "Notes: 113  "
+      }
+    },
+    {
+      "line_number": 10660,
+      "action": "remove",
+      "reason": "EG2983 Q63 VATRY requires danger-area/M17 availability state; unavailable in static vFPC output",
+      "row": {
+        "ADEP/Entry": "EGLL",
+        "SID": "CPT",
+        "Min": "MC",
+        "Max": "195",
+        "Route": "Q63 OZZIL N80 ARPAK L9 NICXI Q63 VATRY",
+        "STAR": "VATRY4L",
+        "ADES/Exit": "EIDW",
+        "Remarks": ""
+      }
+    },
+    {
+      "line_number": 11186,
+      "action": "remove",
+      "reason": "EG2269 NIRIF requires active EGD201F/G or associated FBZ; unavailable in static vFPC output",
+      "row": {
+        "ADEP/Entry": "EGMC",
+        "SID": "",
+        "Min": "195",
+        "Max": "245",
+        "Route": "DCT EVNAS DCT LAM L10 BPK DCT SAXBI N27 HEN N84 DIDZA L9 NICXI N546 EVTOL N12 NIRIF",
+        "STAR": "NIRIF1L",
+        "ADES/Exit": "EIDW",
+        "Remarks": "Notes: 113  "
+      }
+    },
+    {
+      "line_number": 11187,
+      "action": "remove",
+      "reason": "EG2983 Q63 VATRY requires danger-area/M17 availability state; unavailable in static vFPC output",
+      "row": {
+        "ADEP/Entry": "EGMC",
+        "SID": "",
+        "Min": "195",
+        "Max": "245",
+        "Route": "DCT EVNAS DCT LAM L10 BPK DCT SAXBI N27 HEN N84 DIDZA L9 NICXI Q63 VATRY",
+        "STAR": "VATRY4L",
+        "ADES/Exit": "EIDW",
+        "Remarks": "Notes: 439"
+      }
+    },
+    {
+      "line_number": 11191,
+      "action": "remove",
+      "reason": "EG2983 Q63 VATRY requires danger-area/M17 availability state; unavailable in static vFPC output",
+      "row": {
+        "ADEP/Entry": "EGMC",
+        "SID": "",
+        "Min": "245",
+        "Max": "345",
+        "Route": "DCT EVNAS DCT LAM L10 BPK DCT SAXBI N27 HEN N84 DIDZA N14 OKSAW DCT BIBPE DCT OKTAD DCT MEDOG DCT KRAGY DCT PEMOB DCT LANPI Q63 VATRY",
+        "STAR": "VATRY4L",
+        "ADES/Exit": "EIDW",
+        "Remarks": "Notes: 439"
+      }
+    },
+    {
+      "line_number": 11194,
+      "action": "remove",
+      "reason": "EG2269 NIRIF requires active EGD201F/G or associated FBZ; unavailable in static vFPC output",
+      "row": {
+        "ADEP/Entry": "EGMC",
+        "SID": "",
+        "Min": "245",
+        "Max": "660",
+        "Route": "DCT EVNAS DCT LAM L10 BPK DCT SAXBI N27 HEN N84 DIDZA N14 OKSAW DCT BIBPE DCT OKTAD DCT MEDOG DCT FOXLA DCT NICXI DCT EVTOL N12 NIRIF",
+        "STAR": "NIRIF1L",
+        "ADES/Exit": "EIDW",
+        "Remarks": "Notes: 113   - 168"
+      }
+    },
+    {
+      "line_number": 11195,
+      "action": "remove",
+      "reason": "EG2983 Q63 VATRY requires danger-area/M17 availability state; unavailable in static vFPC output",
+      "row": {
+        "ADEP/Entry": "EGMC",
+        "SID": "",
+        "Min": "245",
+        "Max": "660",
+        "Route": "DCT EVNAS DCT LAM L10 BPK DCT SAXBI N27 HEN N84 DIDZA N14 OKSAW DCT BIBPE DCT OKTAD DCT MEDOG DCT FOXLA DCT NICXI DCT LANPI Q63 VATRY",
+        "STAR": "VATRY4L",
+        "ADES/Exit": "EIDW",
+        "Remarks": "Notes: 168 - 439"
+      }
+    },
+    {
+      "line_number": 11197,
+      "action": "remove",
+      "reason": "EG2269 NIRIF requires active EGD201F/G or associated FBZ; unavailable in static vFPC output",
+      "row": {
+        "ADEP/Entry": "EGMC",
+        "SID": "",
+        "Min": "245",
+        "Max": "660",
+        "Route": "DCT EVNAS DCT LAM L10 BPK DCT SAXBI N27 HEN N84 DIDZA N14 OKSAW DCT BIBPE DCT OKTAD DCT MEDOG DCT PEMOB DCT EVTOL N12 NIRIF",
+        "STAR": "NIRIF1L",
+        "ADES/Exit": "EIDW",
+        "Remarks": "Notes: 127  "
+      }
+    },
+    {
+      "line_number": 11204,
+      "action": "remove",
+      "reason": "EG2269 NIRIF requires active EGD201F/G or associated FBZ; unavailable in static vFPC output",
+      "row": {
+        "ADEP/Entry": "EGMC",
+        "SID": "",
+        "Min": "MC",
+        "Max": "195",
+        "Route": "DCT EVNAS DCT LAM L10 BPK DCT SAXBI N27 HEN N84 DIDZA P86 SAWPE Q63 OZZIL N80 ARPAK L9 NICXI N546 EVTOL N12 NIRIF",
+        "STAR": "NIRIF1L",
+        "ADES/Exit": "EIDW",
+        "Remarks": "Notes: 113  "
+      }
+    },
+    {
+      "line_number": 11205,
+      "action": "remove",
+      "reason": "EG2983 Q63 VATRY requires danger-area/M17 availability state; unavailable in static vFPC output",
+      "row": {
+        "ADEP/Entry": "EGMC",
+        "SID": "",
+        "Min": "MC",
+        "Max": "195",
+        "Route": "DCT EVNAS DCT LAM L10 BPK DCT SAXBI N27 HEN N84 DIDZA P86 SAWPE Q63 OZZIL N80 ARPAK L9 NICXI Q63 VATRY",
+        "STAR": "VATRY4L",
+        "ADES/Exit": "EIDW",
+        "Remarks": ""
+      }
+    },
+    {
+      "line_number": 12335,
+      "action": "remove",
+      "reason": "EG3619 EGPT via INREV unavailable unless routing via RIBEL or LEHOC",
+      "row": {
+        "ADEP/Entry": "EGNM",
+        "SID": "NELSA",
+        "Min": "255",
+        "Max": "660",
+        "Route": "DCT IPSIR P17 MEJAC DCT TIPTA <FRA> INREV DCT EDN",
+        "STAR": "",
+        "ADES/Exit": "EGPT",
+        "Remarks": ""
+      }
+    },
+    {
+      "line_number": 12336,
+      "action": "remove",
+      "reason": "EG3619 EGPT via INREV unavailable unless routing via RIBEL or LEHOC",
+      "row": {
+        "ADEP/Entry": "EGNM",
+        "SID": "POL",
+        "Min": "255",
+        "Max": "660",
+        "Route": "N601 SHAPP <FRA> INREV DCT EDN",
+        "STAR": "",
+        "ADES/Exit": "EGPT",
+        "Remarks": ""
+      }
+    },
+    {
+      "line_number": 13226,
+      "action": "cap_max",
+      "reason": "EG3499 WEVBE above FL245 not available except EGTE arrival via ALHUP",
+      "before": {
+        "ADEP/Entry": "EGNT",
+        "SID": "",
+        "Min": "245",
+        "Max": "295",
+        "Route": "DCT NATEB P18 GASKO P16 RIBEL UP16 NOKIN N862 KARNO DCT ALHUP DCT LUCSA N862 WEVBE",
+        "STAR": "WEVBE1C",
+        "ADES/Exit": "EGFF",
+        "Remarks": "Notes: 25"
+      },
+      "after": {
+        "ADEP/Entry": "EGNT",
+        "SID": "",
+        "Min": "245",
+        "Max": "245",
+        "Route": "DCT NATEB P18 GASKO P16 RIBEL UP16 NOKIN N862 KARNO DCT ALHUP DCT LUCSA N862 WEVBE",
+        "STAR": "WEVBE1C",
+        "ADES/Exit": "EGFF",
+        "Remarks": "Notes: 25"
+      }
+    },
+    {
+      "line_number": 13227,
+      "action": "cap_max",
+      "reason": "EG3499 WEVBE above FL245 not available except EGTE arrival via ALHUP",
+      "before": {
+        "ADEP/Entry": "EGNT",
+        "SID": "GIRLI",
+        "Min": "245",
+        "Max": "295",
+        "Route": "P18 GASKO P16 RIBEL UP16 NOKIN N862 KARNO DCT ALHUP DCT LUCSA N862 WEVBE",
+        "STAR": "WEVBE1C",
+        "ADES/Exit": "EGFF",
+        "Remarks": "Notes: 25 - 463"
+      },
+      "after": {
+        "ADEP/Entry": "EGNT",
+        "SID": "GIRLI",
+        "Min": "245",
+        "Max": "245",
+        "Route": "P18 GASKO P16 RIBEL UP16 NOKIN N862 KARNO DCT ALHUP DCT LUCSA N862 WEVBE",
+        "STAR": "WEVBE1C",
+        "ADES/Exit": "EGFF",
+        "Remarks": "Notes: 25 - 463"
+      }
+    },
+    {
+      "line_number": 13232,
+      "action": "cap_max",
+      "reason": "EG3499 WEVBE above FL245 not available except EGTE arrival via ALHUP",
+      "before": {
+        "ADEP/Entry": "EGNT",
+        "SID": "",
+        "Min": "245",
+        "Max": "295",
+        "Route": "DCT NATEB P18 GASKO P16 RIBEL UP16 NOKIN N862 KARNO DCT ALHUP DCT LUCSA N862 WEVBE",
+        "STAR": "WEVBE1B",
+        "ADES/Exit": "EGGD",
+        "Remarks": "Notes: 25"
+      },
+      "after": {
+        "ADEP/Entry": "EGNT",
+        "SID": "",
+        "Min": "245",
+        "Max": "245",
+        "Route": "DCT NATEB P18 GASKO P16 RIBEL UP16 NOKIN N862 KARNO DCT ALHUP DCT LUCSA N862 WEVBE",
+        "STAR": "WEVBE1B",
+        "ADES/Exit": "EGGD",
+        "Remarks": "Notes: 25"
+      }
+    },
+    {
+      "line_number": 13233,
+      "action": "cap_max",
+      "reason": "EG3499 WEVBE above FL245 not available except EGTE arrival via ALHUP",
+      "before": {
+        "ADEP/Entry": "EGNT",
+        "SID": "GIRLI",
+        "Min": "245",
+        "Max": "295",
+        "Route": "P18 GASKO P16 RIBEL UP16 NOKIN N862 KARNO DCT ALHUP DCT LUCSA N862 WEVBE",
+        "STAR": "WEVBE1B",
+        "ADES/Exit": "EGGD",
+        "Remarks": "Notes: 25 - 463"
+      },
+      "after": {
+        "ADEP/Entry": "EGNT",
+        "SID": "GIRLI",
+        "Min": "245",
+        "Max": "245",
+        "Route": "P18 GASKO P16 RIBEL UP16 NOKIN N862 KARNO DCT ALHUP DCT LUCSA N862 WEVBE",
+        "STAR": "WEVBE1B",
+        "ADES/Exit": "EGGD",
+        "Remarks": "Notes: 25 - 463"
+      }
+    },
+    {
+      "line_number": 13871,
+      "action": "cap_max",
+      "reason": "EG3499 WEVBE above FL245 not available except EGTE arrival via ALHUP",
+      "before": {
+        "ADEP/Entry": "EGNV",
+        "SID": "",
+        "Min": "245",
+        "Max": "295",
+        "Route": "DCT GASKO P16 RIBEL UP16 NOKIN N862 KARNO DCT ALHUP DCT LUCSA N862 WEVBE",
+        "STAR": "WEVBE1C",
+        "ADES/Exit": "EGFF",
+        "Remarks": "Notes: 25"
+      },
+      "after": {
+        "ADEP/Entry": "EGNV",
+        "SID": "",
+        "Min": "245",
+        "Max": "245",
+        "Route": "DCT GASKO P16 RIBEL UP16 NOKIN N862 KARNO DCT ALHUP DCT LUCSA N862 WEVBE",
+        "STAR": "WEVBE1C",
+        "ADES/Exit": "EGFF",
+        "Remarks": "Notes: 25"
+      }
+    },
+    {
+      "line_number": 13874,
+      "action": "cap_max",
+      "reason": "EG3499 WEVBE above FL245 not available except EGTE arrival via ALHUP",
+      "before": {
+        "ADEP/Entry": "EGNV",
+        "SID": "",
+        "Min": "245",
+        "Max": "295",
+        "Route": "DCT GASKO P16 RIBEL UP16 NOKIN N862 KARNO DCT ALHUP DCT LUCSA N862 WEVBE",
+        "STAR": "WEVBE1B",
+        "ADES/Exit": "EGGD",
+        "Remarks": "Notes: 25"
+      },
+      "after": {
+        "ADEP/Entry": "EGNV",
+        "SID": "",
+        "Min": "245",
+        "Max": "245",
+        "Route": "DCT GASKO P16 RIBEL UP16 NOKIN N862 KARNO DCT ALHUP DCT LUCSA N862 WEVBE",
+        "STAR": "WEVBE1B",
+        "ADES/Exit": "EGGD",
+        "Remarks": "Notes: 25"
+      }
+    },
+    {
+      "line_number": 14783,
+      "action": "cap_max",
+      "reason": "EG3499 WEVBE above FL245 not available except EGTE arrival via ALHUP",
+      "before": {
+        "ADEP/Entry": "EGPD",
+        "SID": "",
+        "Min": "245",
+        "Max": "255",
+        "Route": "DCT GLESK P600 FENIK L612 DCS N864 EGTOC DCT NOKIN N862 KARNO DCT ALHUP DCT LUCSA N862 WEVBE",
+        "STAR": "WEVBE1C",
+        "ADES/Exit": "EGFF",
+        "Remarks": ""
+      },
+      "after": {
+        "ADEP/Entry": "EGPD",
+        "SID": "",
+        "Min": "245",
+        "Max": "245",
+        "Route": "DCT GLESK P600 FENIK L612 DCS N864 EGTOC DCT NOKIN N862 KARNO DCT ALHUP DCT LUCSA N862 WEVBE",
+        "STAR": "WEVBE1C",
+        "ADES/Exit": "EGFF",
+        "Remarks": ""
+      }
+    },
+    {
+      "line_number": 14784,
+      "action": "remove",
+      "reason": "EG3499 WEVBE above FL245 not available except EGTE arrival via ALHUP",
+      "row": {
+        "ADEP/Entry": "EGPD",
+        "SID": "",
+        "Min": "255",
+        "Max": "335",
+        "Route": "DCT NAXIL P600 PTH DCT ZOFAT <FRA> ADZOP DCT EGTOC DCT NOKIN N862 KARNO DCT ALHUP DCT LUCSA N862 WEVBE",
+        "STAR": "WEVBE1C",
+        "ADES/Exit": "EGFF",
+        "Remarks": ""
+      }
+    },
+    {
+      "line_number": 14788,
+      "action": "cap_max",
+      "reason": "EG3499 WEVBE above FL245 not available except EGTE arrival via ALHUP",
+      "before": {
+        "ADEP/Entry": "EGPD",
+        "SID": "",
+        "Min": "245",
+        "Max": "255",
+        "Route": "DCT GLESK P600 FENIK L612 DCS N864 EGTOC DCT NOKIN N862 KARNO DCT ALHUP DCT LUCSA N862 WEVBE",
+        "STAR": "WEVBE1B",
+        "ADES/Exit": "EGGD",
+        "Remarks": ""
+      },
+      "after": {
+        "ADEP/Entry": "EGPD",
+        "SID": "",
+        "Min": "245",
+        "Max": "245",
+        "Route": "DCT GLESK P600 FENIK L612 DCS N864 EGTOC DCT NOKIN N862 KARNO DCT ALHUP DCT LUCSA N862 WEVBE",
+        "STAR": "WEVBE1B",
+        "ADES/Exit": "EGGD",
+        "Remarks": ""
+      }
+    },
+    {
+      "line_number": 14789,
+      "action": "remove",
+      "reason": "EG3499 WEVBE above FL245 not available except EGTE arrival via ALHUP",
+      "row": {
+        "ADEP/Entry": "EGPD",
+        "SID": "",
+        "Min": "265",
+        "Max": "335",
+        "Route": "DCT NAXIL P600 PTH DCT ZOFAT <FRA> ADZOP DCT EGTOC DCT NOKIN N862 KARNO DCT ALHUP DCT LUCSA N862 WEVBE",
+        "STAR": "WEVBE1B",
+        "ADES/Exit": "EGGD",
+        "Remarks": ""
+      }
+    },
+    {
+      "line_number": 15207,
+      "action": "remove",
+      "reason": "EG3499 WEVBE above FL245 not available except EGTE arrival via ALHUP",
+      "row": {
+        "ADEP/Entry": "EGPE",
+        "SID": "",
+        "Min": "255",
+        "Max": "335",
+        "Route": "DCT GUSSI DCT NESDI N560 ERSON <FRA> ADZOP DCT EGTOC DCT NOKIN N862 KARNO DCT ALHUP DCT LUCSA N862 WEVBE",
+        "STAR": "WEVBE1C",
+        "ADES/Exit": "EGFF",
+        "Remarks": ""
+      }
+    },
+    {
+      "line_number": 15211,
+      "action": "remove",
+      "reason": "EG3499 WEVBE above FL245 not available except EGTE arrival via ALHUP",
+      "row": {
+        "ADEP/Entry": "EGPE",
+        "SID": "",
+        "Min": "255",
+        "Max": "335",
+        "Route": "DCT GUSSI DCT NESDI N560 ERSON <FRA> ADZOP DCT EGTOC DCT NOKIN N862 KARNO DCT ALHUP DCT LUCSA N862 WEVBE",
+        "STAR": "WEVBE1B",
+        "ADES/Exit": "EGGD",
+        "Remarks": ""
+      }
+    },
+    {
+      "line_number": 15495,
+      "action": "cap_max",
+      "reason": "EG3499 WEVBE above FL245 not available except EGTE arrival via ALHUP",
+      "before": {
+        "ADEP/Entry": "EGPF",
+        "SID": "LUSIV",
+        "Min": "245",
+        "Max": "255",
+        "Route": "L612 CROFT P16 NOKIN N862 KARNO DCT ALHUP DCT LUCSA N862 WEVBE",
+        "STAR": "WEVBE1C",
+        "ADES/Exit": "EGFF",
+        "Remarks": ""
+      },
+      "after": {
+        "ADEP/Entry": "EGPF",
+        "SID": "LUSIV",
+        "Min": "245",
+        "Max": "245",
+        "Route": "L612 CROFT P16 NOKIN N862 KARNO DCT ALHUP DCT LUCSA N862 WEVBE",
+        "STAR": "WEVBE1C",
+        "ADES/Exit": "EGFF",
+        "Remarks": ""
+      }
+    },
+    {
+      "line_number": 15496,
+      "action": "cap_max",
+      "reason": "EG3499 WEVBE above FL245 not available except EGTE arrival via ALHUP",
+      "before": {
+        "ADEP/Entry": "EGPF",
+        "SID": "NORBO",
+        "Min": "245",
+        "Max": "255",
+        "Route": "T256 DCS N864 EGTOC DCT NOKIN N862 KARNO DCT ALHUP DCT LUCSA N862 WEVBE",
+        "STAR": "WEVBE1C",
+        "ADES/Exit": "EGFF",
+        "Remarks": "Notes: 79"
+      },
+      "after": {
+        "ADEP/Entry": "EGPF",
+        "SID": "NORBO",
+        "Min": "245",
+        "Max": "245",
+        "Route": "T256 DCS N864 EGTOC DCT NOKIN N862 KARNO DCT ALHUP DCT LUCSA N862 WEVBE",
+        "STAR": "WEVBE1C",
+        "ADES/Exit": "EGFF",
+        "Remarks": "Notes: 79"
+      }
+    },
+    {
+      "line_number": 15497,
+      "action": "remove",
+      "reason": "EG3499 WEVBE above FL245 not available except EGTE arrival via ALHUP",
+      "row": {
+        "ADEP/Entry": "EGPF",
+        "SID": "NORBO",
+        "Min": "255",
+        "Max": "335",
+        "Route": "T256 RIPNO <FRA> ADZOP DCT EGTOC DCT NOKIN N862 KARNO DCT ALHUP DCT LUCSA N862 WEVBE",
+        "STAR": "WEVBE1C",
+        "ADES/Exit": "EGFF",
+        "Remarks": "Notes: 79"
+      }
+    },
+    {
+      "line_number": 15504,
+      "action": "cap_max",
+      "reason": "EG3499 WEVBE above FL245 not available except EGTE arrival via ALHUP",
+      "before": {
+        "ADEP/Entry": "EGPF",
+        "SID": "LUSIV",
+        "Min": "245",
+        "Max": "255",
+        "Route": "L612 CROFT P16 NOKIN N862 KARNO DCT ALHUP DCT LUCSA N862 WEVBE",
+        "STAR": "WEVBE1B",
+        "ADES/Exit": "EGGD",
+        "Remarks": ""
+      },
+      "after": {
+        "ADEP/Entry": "EGPF",
+        "SID": "LUSIV",
+        "Min": "245",
+        "Max": "245",
+        "Route": "L612 CROFT P16 NOKIN N862 KARNO DCT ALHUP DCT LUCSA N862 WEVBE",
+        "STAR": "WEVBE1B",
+        "ADES/Exit": "EGGD",
+        "Remarks": ""
+      }
+    },
+    {
+      "line_number": 15505,
+      "action": "cap_max",
+      "reason": "EG3499 WEVBE above FL245 not available except EGTE arrival via ALHUP",
+      "before": {
+        "ADEP/Entry": "EGPF",
+        "SID": "NORBO",
+        "Min": "245",
+        "Max": "255",
+        "Route": "T256 DCS N864 EGTOC DCT NOKIN N862 KARNO DCT ALHUP DCT LUCSA N862 WEVBE",
+        "STAR": "WEVBE1B",
+        "ADES/Exit": "EGGD",
+        "Remarks": ""
+      },
+      "after": {
+        "ADEP/Entry": "EGPF",
+        "SID": "NORBO",
+        "Min": "245",
+        "Max": "245",
+        "Route": "T256 DCS N864 EGTOC DCT NOKIN N862 KARNO DCT ALHUP DCT LUCSA N862 WEVBE",
+        "STAR": "WEVBE1B",
+        "ADES/Exit": "EGGD",
+        "Remarks": ""
+      }
+    },
+    {
+      "line_number": 15506,
+      "action": "remove",
+      "reason": "EG3499 WEVBE above FL245 not available except EGTE arrival via ALHUP",
+      "row": {
+        "ADEP/Entry": "EGPF",
+        "SID": "NORBO",
+        "Min": "255",
+        "Max": "335",
+        "Route": "T256 RIPNO <FRA> ADZOP DCT EGTOC DCT NOKIN N862 KARNO DCT ALHUP DCT LUCSA N862 WEVBE",
+        "STAR": "WEVBE1B",
+        "ADES/Exit": "EGGD",
+        "Remarks": "Notes: 79"
+      }
+    },
+    {
+      "line_number": 16089,
+      "action": "cap_max",
+      "reason": "EG3499 WEVBE above FL245 not available except EGTE arrival via ALHUP",
+      "before": {
+        "ADEP/Entry": "EGPH",
+        "SID": "TLA",
+        "Min": "245",
+        "Max": "255",
+        "Route": "N864 EGTOC DCT NOKIN N862 KARNO DCT ALHUP DCT LUCSA N862 WEVBE",
+        "STAR": "WEVBE1C",
+        "ADES/Exit": "EGFF",
+        "Remarks": "Notes: 105"
+      },
+      "after": {
+        "ADEP/Entry": "EGPH",
+        "SID": "TLA",
+        "Min": "245",
+        "Max": "245",
+        "Route": "N864 EGTOC DCT NOKIN N862 KARNO DCT ALHUP DCT LUCSA N862 WEVBE",
+        "STAR": "WEVBE1C",
+        "ADES/Exit": "EGFF",
+        "Remarks": "Notes: 105"
+      }
+    },
+    {
+      "line_number": 16090,
+      "action": "remove",
+      "reason": "EG3499 WEVBE above FL245 not available except EGTE arrival via ALHUP",
+      "row": {
+        "ADEP/Entry": "EGPH",
+        "SID": "TLA",
+        "Min": "255",
+        "Max": "335",
+        "Route": "N864 DCS <FRA> ADZOP DCT EGTOC DCT NOKIN N862 KARNO DCT ALHUP DCT LUCSA N862 WEVBE",
+        "STAR": "WEVBE1C",
+        "ADES/Exit": "EGFF",
+        "Remarks": "Notes: 105"
+      }
+    },
+    {
+      "line_number": 16091,
+      "action": "remove",
+      "reason": "EG3499 WEVBE above FL245 not available except EGTE arrival via ALHUP",
+      "row": {
+        "ADEP/Entry": "EGPH",
+        "SID": "GOSAM",
+        "Min": "255",
+        "Max": "335",
+        "Route": "P600 FENIK L612 NAVSO <FRA> ADZOP DCT EGTOC DCT NOKIN N862 KARNO DCT ALHUP DCT LUCSA N862 WEVBE",
+        "STAR": "WEVBE1C",
+        "ADES/Exit": "EGFF",
+        "Remarks": "Notes: 21"
+      }
+    },
+    {
+      "line_number": 16092,
+      "action": "remove",
+      "reason": "EG3499 WEVBE above FL245 not available except EGTE arrival via ALHUP",
+      "row": {
+        "ADEP/Entry": "EGPH",
+        "SID": "GOSAM",
+        "Min": "255",
+        "Max": "335",
+        "Route": "P600 FENIK L612 NAVSO <FRA> ADZOP DCT EGTOC DCT NOKIN KARNO DCT ALHUP DCT LUCSA N862 WEVBE",
+        "STAR": "WEVBE1C",
+        "ADES/Exit": "EGFF",
+        "Remarks": "Notes: 21"
+      }
+    },
+    {
+      "line_number": 16098,
+      "action": "cap_max",
+      "reason": "EG3499 WEVBE above FL245 not available except EGTE arrival via ALHUP",
+      "before": {
+        "ADEP/Entry": "EGPH",
+        "SID": "TLA",
+        "Min": "245",
+        "Max": "255",
+        "Route": "N864 EGTOC DCT NOKIN N862 KARNO DCT ALHUP DCT LUCSA N862 WEVBE",
+        "STAR": "WEVBE1B",
+        "ADES/Exit": "EGGD",
+        "Remarks": "Notes: 105"
+      },
+      "after": {
+        "ADEP/Entry": "EGPH",
+        "SID": "TLA",
+        "Min": "245",
+        "Max": "245",
+        "Route": "N864 EGTOC DCT NOKIN N862 KARNO DCT ALHUP DCT LUCSA N862 WEVBE",
+        "STAR": "WEVBE1B",
+        "ADES/Exit": "EGGD",
+        "Remarks": "Notes: 105"
+      }
+    },
+    {
+      "line_number": 16099,
+      "action": "remove",
+      "reason": "EG3499 WEVBE above FL245 not available except EGTE arrival via ALHUP",
+      "row": {
+        "ADEP/Entry": "EGPH",
+        "SID": "TLA",
+        "Min": "255",
+        "Max": "335",
+        "Route": "N864 DCS <FRA> ADZOP DCT EGTOC DCT NOKIN N862 KARNO DCT ALHUP DCT LUCSA N862 WEVBE",
+        "STAR": "WEVBE1B",
+        "ADES/Exit": "EGGD",
+        "Remarks": "Notes: 105"
+      }
+    },
+    {
+      "line_number": 16100,
+      "action": "remove",
+      "reason": "EG3499 WEVBE above FL245 not available except EGTE arrival via ALHUP",
+      "row": {
+        "ADEP/Entry": "EGPH",
+        "SID": "GOSAM",
+        "Min": "255",
+        "Max": "335",
+        "Route": "P600 FENIK L612 NAVSO <FRA> ADZOP DCT EGTOC DCT NOKIN N862 KARNO DCT ALHUP DCT LUCSA N862 WEVBE",
+        "STAR": "WEVBE1B",
+        "ADES/Exit": "EGGD",
+        "Remarks": "Notes: 21"
+      }
+    },
+    {
+      "line_number": 16101,
+      "action": "remove",
+      "reason": "EG3499 WEVBE above FL245 not available except EGTE arrival via ALHUP",
+      "row": {
+        "ADEP/Entry": "EGPH",
+        "SID": "GOSAM",
+        "Min": "255",
+        "Max": "335",
+        "Route": "P600 FENIK L612 NAVSO <FRA> ADZOP DCT EGTOC DCT NOKIN KARNO DCT ALHUP DCT LUCSA N862 WEVBE",
+        "STAR": "WEVBE1B",
+        "ADES/Exit": "EGGD",
+        "Remarks": "Notes: 21"
+      }
+    },
+    {
+      "line_number": 16859,
+      "action": "cap_max",
+      "reason": "EG3499 WEVBE above FL245 not available except EGTE arrival via ALHUP",
+      "before": {
+        "ADEP/Entry": "EGPK",
+        "SID": "LUCCO",
+        "Min": "245",
+        "Max": "255",
+        "Route": "Z248 OSMEG T256 DCS N864 EGTOC DCT NOKIN N862 KARNO DCT ALHUP DCT LUCSA N862 WEVBE",
+        "STAR": "WEVBE1C",
+        "ADES/Exit": "EGFF",
+        "Remarks": "Notes: 453"
+      },
+      "after": {
+        "ADEP/Entry": "EGPK",
+        "SID": "LUCCO",
+        "Min": "245",
+        "Max": "245",
+        "Route": "Z248 OSMEG T256 DCS N864 EGTOC DCT NOKIN N862 KARNO DCT ALHUP DCT LUCSA N862 WEVBE",
+        "STAR": "WEVBE1C",
+        "ADES/Exit": "EGFF",
+        "Remarks": "Notes: 453"
+      }
+    },
+    {
+      "line_number": 16860,
+      "action": "cap_max",
+      "reason": "EG3499 WEVBE above FL245 not available except EGTE arrival via ALHUP",
+      "before": {
+        "ADEP/Entry": "EGPK",
+        "SID": "SUDBY",
+        "Min": "245",
+        "Max": "255",
+        "Route": "Z249 OSMEG T256 DCS N864 EGTOC DCT NOKIN N862 KARNO DCT ALHUP DCT LUCSA N862 WEVBE",
+        "STAR": "WEVBE1C",
+        "ADES/Exit": "EGFF",
+        "Remarks": "Notes: 453"
+      },
+      "after": {
+        "ADEP/Entry": "EGPK",
+        "SID": "SUDBY",
+        "Min": "245",
+        "Max": "245",
+        "Route": "Z249 OSMEG T256 DCS N864 EGTOC DCT NOKIN N862 KARNO DCT ALHUP DCT LUCSA N862 WEVBE",
+        "STAR": "WEVBE1C",
+        "ADES/Exit": "EGFF",
+        "Remarks": "Notes: 453"
+      }
+    },
+    {
+      "line_number": 16861,
+      "action": "remove",
+      "reason": "EG3499 WEVBE above FL245 not available except EGTE arrival via ALHUP",
+      "row": {
+        "ADEP/Entry": "EGPK",
+        "SID": "LUCCO",
+        "Min": "255",
+        "Max": "335",
+        "Route": "Z248 OSMEG T256 DCS <FRA> ADZOP DCT EGTOC DCT NOKIN N862 KARNO DCT ALHUP DCT LUCSA N862 WEVBE",
+        "STAR": "WEVBE1C",
+        "ADES/Exit": "EGFF",
+        "Remarks": "Notes: 453"
+      }
+    },
+    {
+      "line_number": 16862,
+      "action": "remove",
+      "reason": "EG3499 WEVBE above FL245 not available except EGTE arrival via ALHUP",
+      "row": {
+        "ADEP/Entry": "EGPK",
+        "SID": "SUDBY",
+        "Min": "255",
+        "Max": "335",
+        "Route": "Z249 OSMEG T256 DCS <FRA> ADZOP DCT EGTOC DCT NOKIN N862 KARNO DCT ALHUP DCT LUCSA N862 WEVBE",
+        "STAR": "WEVBE1C",
+        "ADES/Exit": "EGFF",
+        "Remarks": "Notes: 453"
+      }
+    },
+    {
+      "line_number": 16870,
+      "action": "cap_max",
+      "reason": "EG3499 WEVBE above FL245 not available except EGTE arrival via ALHUP",
+      "before": {
+        "ADEP/Entry": "EGPK",
+        "SID": "LUCCO",
+        "Min": "245",
+        "Max": "255",
+        "Route": "Z248 OSMEG T256 DCS N864 EGTOC DCT NOKIN N862 KARNO DCT ALHUP DCT LUCSA N862 WEVBE",
+        "STAR": "WEVBE1B",
+        "ADES/Exit": "EGGD",
+        "Remarks": "Notes: 453"
+      },
+      "after": {
+        "ADEP/Entry": "EGPK",
+        "SID": "LUCCO",
+        "Min": "245",
+        "Max": "245",
+        "Route": "Z248 OSMEG T256 DCS N864 EGTOC DCT NOKIN N862 KARNO DCT ALHUP DCT LUCSA N862 WEVBE",
+        "STAR": "WEVBE1B",
+        "ADES/Exit": "EGGD",
+        "Remarks": "Notes: 453"
+      }
+    },
+    {
+      "line_number": 16871,
+      "action": "cap_max",
+      "reason": "EG3499 WEVBE above FL245 not available except EGTE arrival via ALHUP",
+      "before": {
+        "ADEP/Entry": "EGPK",
+        "SID": "SUDBY",
+        "Min": "245",
+        "Max": "255",
+        "Route": "Z249 OSMEG T256 DCS N864 EGTOC DCT NOKIN N862 KARNO DCT ALHUP DCT LUCSA N862 WEVBE",
+        "STAR": "WEVBE1B",
+        "ADES/Exit": "EGGD",
+        "Remarks": "Notes: 453"
+      },
+      "after": {
+        "ADEP/Entry": "EGPK",
+        "SID": "SUDBY",
+        "Min": "245",
+        "Max": "245",
+        "Route": "Z249 OSMEG T256 DCS N864 EGTOC DCT NOKIN N862 KARNO DCT ALHUP DCT LUCSA N862 WEVBE",
+        "STAR": "WEVBE1B",
+        "ADES/Exit": "EGGD",
+        "Remarks": "Notes: 453"
+      }
+    },
+    {
+      "line_number": 16872,
+      "action": "remove",
+      "reason": "EG3499 WEVBE above FL245 not available except EGTE arrival via ALHUP",
+      "row": {
+        "ADEP/Entry": "EGPK",
+        "SID": "LUCCO",
+        "Min": "255",
+        "Max": "335",
+        "Route": "Z248 OSMEG T256 DCS <FRA> ADZOP DCT EGTOC DCT NOKIN N862 KARNO DCT ALHUP DCT LUCSA N862 WEVBE",
+        "STAR": "WEVBE1B",
+        "ADES/Exit": "EGGD",
+        "Remarks": "Notes: 453"
+      }
+    },
+    {
+      "line_number": 16873,
+      "action": "remove",
+      "reason": "EG3499 WEVBE above FL245 not available except EGTE arrival via ALHUP",
+      "row": {
+        "ADEP/Entry": "EGPK",
+        "SID": "SUDBY",
+        "Min": "255",
+        "Max": "335",
+        "Route": "Z249 OSMEG T256 DCS <FRA> ADZOP DCT EGTOC DCT NOKIN N862 KARNO DCT ALHUP DCT LUCSA N862 WEVBE",
+        "STAR": "WEVBE1B",
+        "ADES/Exit": "EGGD",
+        "Remarks": "Notes: 453"
+      }
+    },
+    {
+      "line_number": 17791,
+      "action": "cap_max",
+      "reason": "EG3499 WEVBE above FL245 not available except EGTE arrival via ALHUP",
+      "before": {
+        "ADEP/Entry": "EGPN",
+        "SID": "",
+        "Min": "245",
+        "Max": "255",
+        "Route": "DCT PTH P600 FENIK L612 DCS N864 EGTOC DCT NOKIN N862 KARNO DCT ALHUP DCT LUCSA N862 WEVBE",
+        "STAR": "WEVBE1C",
+        "ADES/Exit": "EGFF",
+        "Remarks": ""
+      },
+      "after": {
+        "ADEP/Entry": "EGPN",
+        "SID": "",
+        "Min": "245",
+        "Max": "245",
+        "Route": "DCT PTH P600 FENIK L612 DCS N864 EGTOC DCT NOKIN N862 KARNO DCT ALHUP DCT LUCSA N862 WEVBE",
+        "STAR": "WEVBE1C",
+        "ADES/Exit": "EGFF",
+        "Remarks": ""
+      }
+    },
+    {
+      "line_number": 17792,
+      "action": "remove",
+      "reason": "EG3499 WEVBE above FL245 not available except EGTE arrival via ALHUP",
+      "row": {
+        "ADEP/Entry": "EGPN",
+        "SID": "",
+        "Min": "255",
+        "Max": "335",
+        "Route": "DCT PTH P600 FENIK <FRA> ADZOP DCT EGTOC DCT NOKIN N862 KARNO DCT ALHUP DCT LUCSA N862 WEVBE",
+        "STAR": "WEVBE1C",
+        "ADES/Exit": "EGFF",
+        "Remarks": ""
+      }
+    },
+    {
+      "line_number": 17795,
+      "action": "cap_max",
+      "reason": "EG3499 WEVBE above FL245 not available except EGTE arrival via ALHUP",
+      "before": {
+        "ADEP/Entry": "EGPN",
+        "SID": "",
+        "Min": "245",
+        "Max": "255",
+        "Route": "DCT PTH P600 FENIK L612 DCS N864 EGTOC DCT NOKIN N862 KARNO DCT ALHUP DCT LUCSA N862 WEVBE",
+        "STAR": "WEVBE1B",
+        "ADES/Exit": "EGGD",
+        "Remarks": ""
+      },
+      "after": {
+        "ADEP/Entry": "EGPN",
+        "SID": "",
+        "Min": "245",
+        "Max": "245",
+        "Route": "DCT PTH P600 FENIK L612 DCS N864 EGTOC DCT NOKIN N862 KARNO DCT ALHUP DCT LUCSA N862 WEVBE",
+        "STAR": "WEVBE1B",
+        "ADES/Exit": "EGGD",
+        "Remarks": ""
+      }
+    },
+    {
+      "line_number": 17796,
+      "action": "remove",
+      "reason": "EG3499 WEVBE above FL245 not available except EGTE arrival via ALHUP",
+      "row": {
+        "ADEP/Entry": "EGPN",
+        "SID": "",
+        "Min": "255",
+        "Max": "335",
+        "Route": "DCT PTH P600 FENIK <FRA> ADZOP DCT EGTOC DCT NOKIN N862 KARNO DCT ALHUP DCT LUCSA N862 WEVBE",
+        "STAR": "WEVBE1B",
+        "ADES/Exit": "EGGD",
+        "Remarks": ""
+      }
+    },
+    {
+      "line_number": 17986,
+      "action": "cap_max",
+      "reason": "EG3499 WEVBE above FL245 not available except EGTE arrival via ALHUP",
+      "before": {
+        "ADEP/Entry": "EGPT",
+        "SID": "",
+        "Min": "245",
+        "Max": "255",
+        "Route": "PTH P600 FENIK L612 DCS N864 EGTOC DCT NOKIN N862 KARNO DCT ALHUP DCT LUCSA N862 WEVBE",
+        "STAR": "WEVBE1C",
+        "ADES/Exit": "EGFF",
+        "Remarks": ""
+      },
+      "after": {
+        "ADEP/Entry": "EGPT",
+        "SID": "",
+        "Min": "245",
+        "Max": "245",
+        "Route": "PTH P600 FENIK L612 DCS N864 EGTOC DCT NOKIN N862 KARNO DCT ALHUP DCT LUCSA N862 WEVBE",
+        "STAR": "WEVBE1C",
+        "ADES/Exit": "EGFF",
+        "Remarks": ""
+      }
+    },
+    {
+      "line_number": 17987,
+      "action": "remove",
+      "reason": "EG3499 WEVBE above FL245 not available except EGTE arrival via ALHUP",
+      "row": {
+        "ADEP/Entry": "EGPT",
+        "SID": "",
+        "Min": "255",
+        "Max": "335",
+        "Route": "PTH P600 FENIK <FRA> ADZOP DCT EGTOC DCT NOKIN N862 KARNO DCT ALHUP DCT LUCSA N862 WEVBE",
+        "STAR": "WEVBE1C",
+        "ADES/Exit": "EGFF",
+        "Remarks": ""
+      }
+    },
+    {
+      "line_number": 17991,
+      "action": "cap_max",
+      "reason": "EG3499 WEVBE above FL245 not available except EGTE arrival via ALHUP",
+      "before": {
+        "ADEP/Entry": "EGPT",
+        "SID": "",
+        "Min": "245",
+        "Max": "255",
+        "Route": "PTH P600 FENIK L612 DCS N864 EGTOC DCT NOKIN N862 KARNO DCT ALHUP DCT LUCSA N862 WEVBE",
+        "STAR": "WEVBE1B",
+        "ADES/Exit": "EGGD",
+        "Remarks": ""
+      },
+      "after": {
+        "ADEP/Entry": "EGPT",
+        "SID": "",
+        "Min": "245",
+        "Max": "245",
+        "Route": "PTH P600 FENIK L612 DCS N864 EGTOC DCT NOKIN N862 KARNO DCT ALHUP DCT LUCSA N862 WEVBE",
+        "STAR": "WEVBE1B",
+        "ADES/Exit": "EGGD",
+        "Remarks": ""
+      }
+    },
+    {
+      "line_number": 17992,
+      "action": "remove",
+      "reason": "EG3499 WEVBE above FL245 not available except EGTE arrival via ALHUP",
+      "row": {
+        "ADEP/Entry": "EGPT",
+        "SID": "",
+        "Min": "255",
+        "Max": "335",
+        "Route": "PTH P600 FENIK <FRA> ADZOP DCT EGTOC DCT NOKIN N862 KARNO DCT ALHUP DCT LUCSA N862 WEVBE",
+        "STAR": "WEVBE1B",
+        "ADES/Exit": "EGGD",
+        "Remarks": ""
+      }
+    },
+    {
+      "line_number": 18069,
+      "action": "remove",
+      "reason": "EG3499 WEVBE above FL245 not available except EGTE arrival via ALHUP",
+      "row": {
+        "ADEP/Entry": "EGQS",
+        "SID": "",
+        "Min": "255",
+        "Max": "335",
+        "Route": "DCT FINDO <FRA> ADZOP DCT EGTOC DCT NOKIN N862 WEVBE",
+        "STAR": "WEVBE1C",
+        "ADES/Exit": "EGSY",
+        "Remarks": "Notes: 489"
+      }
+    },
+    {
+      "line_number": 18197,
+      "action": "remove",
+      "reason": "EG2983 Q63 VATRY requires danger-area/M17 availability state; unavailable in static vFPC output",
+      "row": {
+        "ADEP/Entry": "EGSC",
+        "SID": "",
+        "Min": "195",
+        "Max": "245",
+        "Route": "DCT EBOTO DCT DTY DCT SILVA P86 DIDZA L9 NICXI Q63 VATRY",
+        "STAR": "VATRY4L",
+        "ADES/Exit": "EIDW",
+        "Remarks": "Notes: 439"
+      }
+    },
+    {
+      "line_number": 18201,
+      "action": "remove",
+      "reason": "EG2983 Q63 VATRY requires danger-area/M17 availability state; unavailable in static vFPC output",
+      "row": {
+        "ADEP/Entry": "EGSC",
+        "SID": "",
+        "Min": "245",
+        "Max": "660",
+        "Route": "DCT EBOTO DCT DTY DCT SILVA P86 DIDZA N14 OKSAW DCT BIBPE DCT OKTAD DCT MEDOG DCT KRAGY DCT PEMOB DCT LANPI Q63 VATRY",
+        "STAR": "VATRY4L",
+        "ADES/Exit": "EIDW",
+        "Remarks": "Notes: 439"
+      }
+    },
+    {
+      "line_number": 18209,
+      "action": "remove",
+      "reason": "EG2983 Q63 VATRY requires danger-area/M17 availability state; unavailable in static vFPC output",
+      "row": {
+        "ADEP/Entry": "EGSC",
+        "SID": "",
+        "Min": "MC",
+        "Max": "195",
+        "Route": "DCT EBOTO DCT DTY DCT SILVA P86 SAWPE Q63 OZZIL N80 ARPAK L9 NICXI Q63 VATRY",
+        "STAR": "VATRY4L",
+        "ADES/Exit": "EIDW",
+        "Remarks": ""
+      }
+    },
+    {
+      "line_number": 18664,
+      "action": "remove",
+      "reason": "EG2269 NIRIF requires active EGD201F/G or associated FBZ; unavailable in static vFPC output",
+      "row": {
+        "ADEP/Entry": "EGSS",
+        "SID": "NUGBO",
+        "Min": "195",
+        "Max": "245",
+        "Route": "M183 SILVA P86 DIDZA L9 NICXI N546 EVTOL N12 NIRIF",
+        "STAR": "NIRIF1L",
+        "ADES/Exit": "EIDW",
+        "Remarks": "Notes: 113  "
+      }
+    },
+    {
+      "line_number": 18665,
+      "action": "remove",
+      "reason": "EG2983 Q63 VATRY requires danger-area/M17 availability state; unavailable in static vFPC output",
+      "row": {
+        "ADEP/Entry": "EGSS",
+        "SID": "NUGBO",
+        "Min": "195",
+        "Max": "245",
+        "Route": "M183 SILVA P86 DIDZA L9 NICXI Q63 VATRY",
+        "STAR": "VATRY4L",
+        "ADES/Exit": "EIDW",
+        "Remarks": "Notes: 439"
+      }
+    },
+    {
+      "line_number": 18669,
+      "action": "remove",
+      "reason": "EG2983 Q63 VATRY requires danger-area/M17 availability state; unavailable in static vFPC output",
+      "row": {
+        "ADEP/Entry": "EGSS",
+        "SID": "NUGBO",
+        "Min": "245",
+        "Max": "345",
+        "Route": "M183 SILVA P86 DIDZA N14 OKSAW DCT BIBPE DCT OKTAD DCT MEDOG DCT KRAGY DCT PEMOB DCT LANPI Q63 VATRY",
+        "STAR": "VATRY4L",
+        "ADES/Exit": "EIDW",
+        "Remarks": "Notes: 439"
+      }
+    },
+    {
+      "line_number": 18672,
+      "action": "remove",
+      "reason": "EG2269 NIRIF requires active EGD201F/G or associated FBZ; unavailable in static vFPC output",
+      "row": {
+        "ADEP/Entry": "EGSS",
+        "SID": "NUGBO",
+        "Min": "245",
+        "Max": "660",
+        "Route": "M183 SILVA P86 DIDZA N14 OKSAW DCT BIBPE DCT OKTAD DCT MEDOG DCT FOXLA DCT NICXI DCT EVTOL N12 NIRIF",
+        "STAR": "NIRIF1L",
+        "ADES/Exit": "EIDW",
+        "Remarks": "Notes: 113   - 168"
+      }
+    },
+    {
+      "line_number": 18673,
+      "action": "remove",
+      "reason": "EG2983 Q63 VATRY requires danger-area/M17 availability state; unavailable in static vFPC output",
+      "row": {
+        "ADEP/Entry": "EGSS",
+        "SID": "NUGBO",
+        "Min": "245",
+        "Max": "660",
+        "Route": "M183 SILVA P86 DIDZA N14 OKSAW DCT BIBPE DCT OKTAD DCT MEDOG DCT FOXLA DCT NICXI DCT LANPI Q63 VATRY",
+        "STAR": "VATRY4L",
+        "ADES/Exit": "EIDW",
+        "Remarks": "Notes: 168 - 439"
+      }
+    },
+    {
+      "line_number": 18675,
+      "action": "remove",
+      "reason": "EG2269 NIRIF requires active EGD201F/G or associated FBZ; unavailable in static vFPC output",
+      "row": {
+        "ADEP/Entry": "EGSS",
+        "SID": "NUGBO",
+        "Min": "245",
+        "Max": "660",
+        "Route": "M183 SILVA P86 DIDZA N14 OKSAW DCT BIBPE DCT OKTAD DCT MEDOG DCT PEMOB DCT EVTOL N12 NIRIF",
+        "STAR": "NIRIF1L",
+        "ADES/Exit": "EIDW",
+        "Remarks": "Notes: 127  "
+      }
+    },
+    {
+      "line_number": 18682,
+      "action": "remove",
+      "reason": "EG2269 NIRIF requires active EGD201F/G or associated FBZ; unavailable in static vFPC output",
+      "row": {
+        "ADEP/Entry": "EGSS",
+        "SID": "NUGBO",
+        "Min": "MC",
+        "Max": "195",
+        "Route": "M183 SILVA P86 SAWPE Q63 OZZIL N80 ARPAK L9 NICXI N546 EVTOL N12 NIRIF",
+        "STAR": "NIRIF1L",
+        "ADES/Exit": "EIDW",
+        "Remarks": "Notes: 113  "
+      }
+    },
+    {
+      "line_number": 18683,
+      "action": "remove",
+      "reason": "EG2983 Q63 VATRY requires danger-area/M17 availability state; unavailable in static vFPC output",
+      "row": {
+        "ADEP/Entry": "EGSS",
+        "SID": "NUGBO",
+        "Min": "MC",
+        "Max": "195",
+        "Route": "M183 SILVA P86 SAWPE Q63 OZZIL N80 ARPAK L9 NICXI Q63 VATRY",
+        "STAR": "VATRY4L",
+        "ADES/Exit": "EIDW",
+        "Remarks": ""
+      }
+    },
+    {
+      "line_number": 19050,
+      "action": "remove",
+      "reason": "EG3217 CARWI above FL245 unavailable outside published exception",
+      "row": {
+        "ADEP/Entry": "EGTE",
+        "SID": "",
+        "Min": "255",
+        "Max": "285",
+        "Route": "DCT EXMOR DCT CARWI N864 ETNAH DCT AZCAL DCT DIZIM DCT AVTIC DCT ANJAK N38 NOKIN UP17 POL DCT KEFTE <FRA>",
+        "STAR": "",
+        "ADES/Exit": "ALOTI",
+        "Remarks": ""
+      }
+    },
+    {
+      "line_number": 19051,
+      "action": "remove",
+      "reason": "EG3217 CARWI above FL245 unavailable outside published exception",
+      "row": {
+        "ADEP/Entry": "EGTE",
+        "SID": "",
+        "Min": "285",
+        "Max": "660",
+        "Route": "DCT EXMOR DCT CARWI N864 ETNAH DCT AZCAL DCT DIZIM DCT AVTIC DCT ANJAK N38 NOKIN UP17 POL UP18 LEHOC <FRA>",
+        "STAR": "",
+        "ADES/Exit": "ALOTI",
+        "Remarks": ""
+      }
+    },
+    {
+      "line_number": 19057,
+      "action": "remove",
+      "reason": "EG3217 CARWI above FL245 unavailable outside published exception",
+      "row": {
+        "ADEP/Entry": "EGTE",
+        "SID": "",
+        "Min": "255",
+        "Max": "285",
+        "Route": "DCT EXMOR DCT CARWI N864 ETNAH DCT AZCAL DCT DIZIM DCT AVTIC DCT MONTY UN864 BILVO UP6 TUPEM DCT REMSI DCT UVPOK M147 ROBOP M146 IPSET P6 BELZU DCT",
+        "STAR": "",
+        "ADES/Exit": "EGAA",
+        "Remarks": "Notes: 453"
+      }
+    },
+    {
+      "line_number": 19060,
+      "action": "remove",
+      "reason": "EG3217 CARWI above FL245 unavailable outside published exception",
+      "row": {
+        "ADEP/Entry": "EGTE",
+        "SID": "",
+        "Min": "255",
+        "Max": "285",
+        "Route": "DCT EXMOR DCT CARWI N864 ETNAH DCT AZCAL DCT DIZIM DCT AVTIC DCT MONTY UN864 BILVO UP6 TUPEM DCT REMSI DCT NINEB M148 MAGEE DCT",
+        "STAR": "",
+        "ADES/Exit": "EGAC",
+        "Remarks": "Notes: 453"
+      }
+    },
+    {
+      "line_number": 19121,
+      "action": "remove",
+      "reason": "EG3217 CARWI above FL245 unavailable outside published exception",
+      "row": {
+        "ADEP/Entry": "EGTE",
+        "SID": "",
+        "Min": "255",
+        "Max": "285",
+        "Route": "DCT EXMOR DCT CARWI N864 ETNAH DCT AZCAL DCT DIZIM DCT AVTIC DCT ANJAK N38 NOKIN UP17 POL DCT KEFTE <FRA> GRICE DCT FINDO P600 NAXIL DCT",
+        "STAR": "",
+        "ADES/Exit": "EGPD",
+        "Remarks": ""
+      }
+    },
+    {
+      "line_number": 19122,
+      "action": "remove",
+      "reason": "EG3217 CARWI above FL245 unavailable outside published exception",
+      "row": {
+        "ADEP/Entry": "EGTE",
+        "SID": "",
+        "Min": "255",
+        "Max": "285",
+        "Route": "DCT EXMOR DCT CARWI N864 ETNAH DCT AZCAL DCT DIZIM DCT AVTIC DCT ANJAK N38 NOKIN UP17 POL DCT KEFTE <FRA> MADAD DCT NEXUS P18 EPCAN DCT",
+        "STAR": "",
+        "ADES/Exit": "EGPD",
+        "Remarks": "Notes: 225"
+      }
+    },
+    {
+      "line_number": 19123,
+      "action": "remove",
+      "reason": "EG3217 CARWI above FL245 unavailable outside published exception",
+      "row": {
+        "ADEP/Entry": "EGTE",
+        "SID": "",
+        "Min": "285",
+        "Max": "660",
+        "Route": "DCT EXMOR DCT CARWI N864 ETNAH DCT AZCAL DCT DIZIM DCT AVTIC DCT ANJAK N38 NOKIN UP16 RIBEL <FRA> GRICE DCT FINDO P600 NAXIL DCT",
+        "STAR": "",
+        "ADES/Exit": "EGPD",
+        "Remarks": ""
+      }
+    },
+    {
+      "line_number": 19124,
+      "action": "remove",
+      "reason": "EG3217 CARWI above FL245 unavailable outside published exception",
+      "row": {
+        "ADEP/Entry": "EGTE",
+        "SID": "",
+        "Min": "285",
+        "Max": "660",
+        "Route": "DCT EXMOR DCT CARWI N864 ETNAH DCT AZCAL DCT DIZIM DCT AVTIC DCT ANJAK N38 NOKIN UP16 RIBEL <FRA> GRICE DCT FINDO P600 NAXIL DCT",
+        "STAR": "",
+        "ADES/Exit": "EGPD",
+        "Remarks": ""
+      }
+    },
+    {
+      "line_number": 19125,
+      "action": "remove",
+      "reason": "EG3217 CARWI above FL245 unavailable outside published exception",
+      "row": {
+        "ADEP/Entry": "EGTE",
+        "SID": "",
+        "Min": "285",
+        "Max": "660",
+        "Route": "DCT EXMOR DCT CARWI N864 ETNAH DCT AZCAL DCT DIZIM DCT AVTIC DCT ANJAK N38 NOKIN UP17 POL UP18 LEHOC <FRA> MADAD DCT NEXUS P18 EPCAN DCT",
+        "STAR": "",
+        "ADES/Exit": "EGPD",
+        "Remarks": "Notes: 225"
+      }
+    },
+    {
+      "line_number": 19129,
+      "action": "remove",
+      "reason": "EG3217 CARWI above FL245 unavailable outside published exception",
+      "row": {
+        "ADEP/Entry": "EGTE",
+        "SID": "",
+        "Min": "285",
+        "Max": "660",
+        "Route": "DCT EXMOR DCT CARWI N864 ETNAH DCT AZCAL DCT DIZIM DCT AVTIC DCT ANJAK N38 NOKIN UP16 RIBEL <FRA> ERSON N560 NESDI DCT GUSSI DCT",
+        "STAR": "",
+        "ADES/Exit": "EGPE",
+        "Remarks": ""
+      }
+    },
+    {
+      "line_number": 19132,
+      "action": "remove",
+      "reason": "EG3217 CARWI above FL245 unavailable outside published exception",
+      "row": {
+        "ADEP/Entry": "EGTE",
+        "SID": "",
+        "Min": "255",
+        "Max": "285",
+        "Route": "DCT EXMOR DCT CARWI N864 ETNAH DCT AZCAL DCT DIZIM DCT AVTIC DCT ANJAK N38 NOKIN UP17 POL DCT KEFTE <FRA> ASLIB",
+        "STAR": "ASLIB1G",
+        "ADES/Exit": "EGPF",
+        "Remarks": ""
+      }
+    },
+    {
+      "line_number": 19133,
+      "action": "remove",
+      "reason": "EG3217 CARWI above FL245 unavailable outside published exception",
+      "row": {
+        "ADEP/Entry": "EGTE",
+        "SID": "",
+        "Min": "285",
+        "Max": "660",
+        "Route": "DCT EXMOR DCT CARWI N864 ETNAH DCT AZCAL DCT DIZIM DCT AVTIC DCT ANJAK N38 NOKIN UP16 RIBEL <FRA> ASLIB",
+        "STAR": "ASLIB1G",
+        "ADES/Exit": "EGPF",
+        "Remarks": ""
+      }
+    },
+    {
+      "line_number": 19134,
+      "action": "remove",
+      "reason": "EG3217 CARWI above FL245 unavailable outside published exception",
+      "row": {
+        "ADEP/Entry": "EGTE",
+        "SID": "",
+        "Min": "285",
+        "Max": "660",
+        "Route": "DCT EXMOR DCT CARWI N864 ETNAH DCT AZCAL DCT DIZIM DCT AVTIC DCT ANJAK N38 NOKIN UP16 RIBEL <FRA> ASLIB",
+        "STAR": "ASLIB1G",
+        "ADES/Exit": "EGPF",
+        "Remarks": ""
+      }
+    },
+    {
+      "line_number": 19137,
+      "action": "remove",
+      "reason": "EG3217 CARWI above FL245 unavailable outside published exception",
+      "row": {
+        "ADEP/Entry": "EGTE",
+        "SID": "",
+        "Min": "255",
+        "Max": "285",
+        "Route": "DCT EXMOR DCT CARWI N864 ETNAH DCT AZCAL DCT DIZIM DCT AVTIC DCT ANJAK N38 NOKIN UP17 POL DCT KEFTE <FRA> INPIP",
+        "STAR": "INPIP1E",
+        "ADES/Exit": "EGPH",
+        "Remarks": ""
+      }
+    },
+    {
+      "line_number": 19138,
+      "action": "remove",
+      "reason": "EG3217 CARWI above FL245 unavailable outside published exception",
+      "row": {
+        "ADEP/Entry": "EGTE",
+        "SID": "",
+        "Min": "285",
+        "Max": "660",
+        "Route": "DCT EXMOR DCT CARWI N864 ETNAH DCT AZCAL DCT DIZIM DCT AVTIC DCT ANJAK N38 NOKIN UP16 RIBEL <FRA> INPIP",
+        "STAR": "INPIP1E",
+        "ADES/Exit": "EGPH",
+        "Remarks": ""
+      }
+    },
+    {
+      "line_number": 19139,
+      "action": "remove",
+      "reason": "EG3217 CARWI above FL245 unavailable outside published exception",
+      "row": {
+        "ADEP/Entry": "EGTE",
+        "SID": "",
+        "Min": "285",
+        "Max": "660",
+        "Route": "DCT EXMOR DCT CARWI N864 ETNAH DCT AZCAL DCT DIZIM DCT AVTIC DCT ANJAK N38 NOKIN UP16 RIBEL <FRA> INPIP",
+        "STAR": "INPIP1E",
+        "ADES/Exit": "EGPH",
+        "Remarks": ""
+      }
+    },
+    {
+      "line_number": 19142,
+      "action": "remove",
+      "reason": "EG3217 CARWI above FL245 unavailable outside published exception",
+      "row": {
+        "ADEP/Entry": "EGTE",
+        "SID": "",
+        "Min": "255",
+        "Max": "285",
+        "Route": "DCT EXMOR DCT CARWI N864 ETNAH DCT AZCAL DCT DIZIM DCT AVTIC DCT ANJAK N38 NOKIN UP17 POL DCT KEFTE <FRA> ASLIB",
+        "STAR": "ASLIB1P",
+        "ADES/Exit": "EGPK",
+        "Remarks": ""
+      }
+    },
+    {
+      "line_number": 19143,
+      "action": "remove",
+      "reason": "EG3217 CARWI above FL245 unavailable outside published exception",
+      "row": {
+        "ADEP/Entry": "EGTE",
+        "SID": "",
+        "Min": "255",
+        "Max": "285",
+        "Route": "DCT EXMOR DCT CARWI N864 ETNAH DCT AZCAL DCT DIZIM DCT AVTIC DCT ANJAK N38 NOKIN UP17 POL UN601 RIBEL DCT ASLIB",
+        "STAR": "ASLIB1P",
+        "ADES/Exit": "EGPK",
+        "Remarks": ""
+      }
+    },
+    {
+      "line_number": 19144,
+      "action": "remove",
+      "reason": "EG3217 CARWI above FL245 unavailable outside published exception",
+      "row": {
+        "ADEP/Entry": "EGTE",
+        "SID": "",
+        "Min": "285",
+        "Max": "660",
+        "Route": "DCT EXMOR DCT CARWI N864 ETNAH DCT AZCAL DCT DIZIM DCT AVTIC DCT ANJAK N38 NOKIN UP16 RIBEL <FRA> ASLIB",
+        "STAR": "ASLIB1P",
+        "ADES/Exit": "EGPK",
+        "Remarks": ""
+      }
+    },
+    {
+      "line_number": 19145,
+      "action": "remove",
+      "reason": "EG3217 CARWI above FL245 unavailable outside published exception",
+      "row": {
+        "ADEP/Entry": "EGTE",
+        "SID": "",
+        "Min": "285",
+        "Max": "660",
+        "Route": "DCT EXMOR DCT CARWI N864 ETNAH DCT AZCAL DCT DIZIM DCT AVTIC DCT ANJAK N38 NOKIN UP16 RIBEL <FRA> ASLIB",
+        "STAR": "ASLIB1P",
+        "ADES/Exit": "EGPK",
+        "Remarks": ""
+      }
+    },
+    {
+      "line_number": 19158,
+      "action": "remove",
+      "reason": "EG2269 NIRIF requires active EGD201F/G or associated FBZ; unavailable in static vFPC output",
+      "row": {
+        "ADEP/Entry": "EGTE",
+        "SID": "",
+        "Min": "MC",
+        "Max": "245",
+        "Route": "DCT EXMOR DCT BCN P4 FELCA L9 NICXI N546 EVTOL N12 NIRIF",
+        "STAR": "NIRIF1L",
+        "ADES/Exit": "EIDW",
+        "Remarks": "Notes: 113  "
+      }
+    },
+    {
+      "line_number": 19159,
+      "action": "remove",
+      "reason": "EG2983 Q63 VATRY requires danger-area/M17 availability state; unavailable in static vFPC output",
+      "row": {
+        "ADEP/Entry": "EGTE",
+        "SID": "",
+        "Min": "MC",
+        "Max": "245",
+        "Route": "DCT EXMOR DCT BCN P4 FELCA L9 NICXI Q63 VATRY",
+        "STAR": "VATRY4L",
+        "ADES/Exit": "EIDW",
+        "Remarks": "Notes: 439"
+      }
+    },
+    {
+      "line_number": 19169,
+      "action": "remove",
+      "reason": "EG3217 CARWI above FL245 unavailable outside published exception",
+      "row": {
+        "ADEP/Entry": "EGTE",
+        "SID": "",
+        "Min": "255",
+        "Max": "285",
+        "Route": "DCT EXMOR DCT CARWI N864 ETNAH DCT AZCAL DCT DIZIM DCT AVTIC DCT ANJAK N38 NOKIN UP17 POL DCT KEFTE <FRA> LAMRO DCT",
+        "STAR": "",
+        "ADES/Exit": "NIVUN",
+        "Remarks": ""
+      }
+    },
+    {
+      "line_number": 19170,
+      "action": "remove",
+      "reason": "EG3217 CARWI above FL245 unavailable outside published exception",
+      "row": {
+        "ADEP/Entry": "EGTE",
+        "SID": "",
+        "Min": "285",
+        "Max": "660",
+        "Route": "DCT EXMOR DCT CARWI N864 ETNAH DCT AZCAL DCT DIZIM DCT AVTIC DCT ANJAK N38 NOKIN UP17 POL UP18 LEHOC <FRA> LAMRO DCT",
+        "STAR": "",
+        "ADES/Exit": "NIVUN",
+        "Remarks": ""
+      }
+    },
+    {
+      "line_number": 19314,
+      "action": "remove",
+      "reason": "EG2983 Q63 VATRY requires danger-area/M17 availability state; unavailable in static vFPC output",
+      "row": {
+        "ADEP/Entry": "EGTK",
+        "SID": "",
+        "Min": "245",
+        "Max": "660",
+        "Route": "DCT CONKO Q63 OZZIL DCT ARPAK DCT FELCA DCT NICXI Q63 VATRY",
+        "STAR": "VATRY4L",
+        "ADES/Exit": "EIDW",
+        "Remarks": "Notes: 439 - 506"
+      }
+    },
+    {
+      "line_number": 19315,
+      "action": "remove",
+      "reason": "EG2983 Q63 VATRY requires danger-area/M17 availability state; unavailable in static vFPC output",
+      "row": {
+        "ADEP/Entry": "EGTK",
+        "SID": "",
+        "Min": "245",
+        "Max": "660",
+        "Route": "DCT CONKO Q63 OZZIL DCT ARPAK DCT MEDOG DCT KRAGY DCT PEMOB DCT LANPI Q63 VATRY",
+        "STAR": "VATRY4L",
+        "ADES/Exit": "EIDW",
+        "Remarks": "Notes: 439 - 506"
+      }
+    },
+    {
+      "line_number": 19323,
+      "action": "remove",
+      "reason": "EG2269 NIRIF requires active EGD201F/G or associated FBZ; unavailable in static vFPC output",
+      "row": {
+        "ADEP/Entry": "EGTK",
+        "SID": "",
+        "Min": "MC",
+        "Max": "245",
+        "Route": "DCT CONKO Q63 OZZIL N80 ARPAK L9 NICXI N546 EVTOL N12 NIRIF",
+        "STAR": "NIRIF1L",
+        "ADES/Exit": "EIDW",
+        "Remarks": "Notes: 113   - 506"
+      }
+    },
+    {
+      "line_number": 19324,
+      "action": "remove",
+      "reason": "EG2983 Q63 VATRY requires danger-area/M17 availability state; unavailable in static vFPC output",
+      "row": {
+        "ADEP/Entry": "EGTK",
+        "SID": "",
+        "Min": "MC",
+        "Max": "245",
+        "Route": "DCT CONKO Q63 OZZIL N80 ARPAK L9 NICXI Q63 VATRY",
+        "STAR": "VATRY4L",
+        "ADES/Exit": "EIDW",
+        "Remarks": "Notes: 439 - 506"
+      }
+    },
+    {
+      "line_number": 19517,
+      "action": "remove",
+      "reason": "EG2983 Q63 VATRY requires danger-area/M17 availability state; unavailable in static vFPC output",
+      "row": {
+        "ADEP/Entry": "EGTO",
+        "SID": "",
+        "Min": "195",
+        "Max": "245",
+        "Route": "DCT BPK DCT SAXBI N27 ICTAM T421 DIDZA N14 BIBPE L9 NICXI Q63 VATRY",
+        "STAR": "VATRY4L",
+        "ADES/Exit": "EIDW",
+        "Remarks": "Notes: 439"
+      }
+    },
+    {
+      "line_number": 19521,
+      "action": "remove",
+      "reason": "EG2983 Q63 VATRY requires danger-area/M17 availability state; unavailable in static vFPC output",
+      "row": {
+        "ADEP/Entry": "EGTO",
+        "SID": "",
+        "Min": "245",
+        "Max": "345",
+        "Route": "DCT BPK DCT SAXBI N27 ICTAM T421 DIDZA N14 OKSAW DCT BIBPE DCT OKTAD DCT MEDOG DCT PEMOB DCT LANPI Q63 VATRY",
+        "STAR": "VATRY4L",
+        "ADES/Exit": "EIDW",
+        "Remarks": "Notes: 439"
+      }
+    },
+    {
+      "line_number": 19530,
+      "action": "remove",
+      "reason": "EG2983 Q63 VATRY requires danger-area/M17 availability state; unavailable in static vFPC output",
+      "row": {
+        "ADEP/Entry": "EGTO",
+        "SID": "",
+        "Min": "MC",
+        "Max": "195",
+        "Route": "DCT BPK DCT SAXBI N27 ICTAM L179 SAWPE Q63 OZZIL N80 ARPAK L9 NICXI Q63 VATRY",
+        "STAR": "VATRY4L",
+        "ADES/Exit": "EIDW",
+        "Remarks": ""
+      }
+    },
+    {
+      "line_number": 19619,
+      "action": "remove",
+      "reason": "EG2983 Q63 VATRY requires danger-area/M17 availability state; unavailable in static vFPC output",
+      "row": {
+        "ADEP/Entry": "EGTR",
+        "SID": "",
+        "Min": "245",
+        "Max": "660",
+        "Route": "DCT HEN N27 ICTAM L179 SAWPE DCT OZZIL DCT ARPAK DCT MEDOG DCT KRAGY DCT PEMOB DCT LANPI Q63 VATRY",
+        "STAR": "VATRY4L",
+        "ADES/Exit": "EIDW",
+        "Remarks": "Notes: 439"
+      }
+    },
+    {
+      "line_number": 19622,
+      "action": "remove",
+      "reason": "EG2983 Q63 VATRY requires danger-area/M17 availability state; unavailable in static vFPC output",
+      "row": {
+        "ADEP/Entry": "EGTR",
+        "SID": "",
+        "Min": "MC",
+        "Max": "245",
+        "Route": "DCT HEN N27 ICTAM L179 SAWPE Q63 OZZIL N80 ARPAK L9 NICXI Q63 VATRY",
+        "STAR": "VATRY4L",
+        "ADES/Exit": "EIDW",
+        "Remarks": "Notes: 439"
+      }
+    },
+    {
+      "line_number": 20072,
+      "action": "remove",
+      "reason": "EG2269 NIRIF requires active EGD201F/G or associated FBZ; unavailable in static vFPC output",
+      "row": {
+        "ADEP/Entry": "EGVA",
+        "SID": "",
+        "Min": "245",
+        "Max": "660",
+        "Route": "DCT CONKO Q63 OZZIL N80 ARPAK DCT FELCA DCT NICXI DCT EVTOL N12 NIRIF",
+        "STAR": "NIRIF1L",
+        "ADES/Exit": "EIDW",
+        "Remarks": "Notes: 113  "
+      }
+    },
+    {
+      "line_number": 20073,
+      "action": "remove",
+      "reason": "EG2983 Q63 VATRY requires danger-area/M17 availability state; unavailable in static vFPC output",
+      "row": {
+        "ADEP/Entry": "EGVA",
+        "SID": "",
+        "Min": "245",
+        "Max": "660",
+        "Route": "DCT CONKO Q63 OZZIL N80 ARPAK DCT FELCA DCT NICXI DCT LANPI Q63 VATRY",
+        "STAR": "VATRY4L",
+        "ADES/Exit": "EIDW",
+        "Remarks": "Notes: 439"
+      }
+    },
+    {
+      "line_number": 20075,
+      "action": "remove",
+      "reason": "EG2983 Q63 VATRY requires danger-area/M17 availability state; unavailable in static vFPC output",
+      "row": {
+        "ADEP/Entry": "EGVA",
+        "SID": "",
+        "Min": "245",
+        "Max": "660",
+        "Route": "DCT CONKO Q63 OZZIL N80 ARPAK DCT MEDOG DCT KRAGY DCT PEMOB DCT LANPI Q63 VATRY",
+        "STAR": "VATRY4L",
+        "ADES/Exit": "EIDW",
+        "Remarks": "Notes: 439"
+      }
+    },
+    {
+      "line_number": 20081,
+      "action": "remove",
+      "reason": "EG2269 NIRIF requires active EGD201F/G or associated FBZ; unavailable in static vFPC output",
+      "row": {
+        "ADEP/Entry": "EGVA",
+        "SID": "",
+        "Min": "MC",
+        "Max": "245",
+        "Route": "DCT CONKO Q63 OZZIL N80 ARPAK L9 NICXI N546 EVTOL N12 NIRIF",
+        "STAR": "NIRIF1L",
+        "ADES/Exit": "EIDW",
+        "Remarks": "Notes: 113  "
+      }
+    },
+    {
+      "line_number": 20082,
+      "action": "remove",
+      "reason": "EG2983 Q63 VATRY requires danger-area/M17 availability state; unavailable in static vFPC output",
+      "row": {
+        "ADEP/Entry": "EGVA",
+        "SID": "",
+        "Min": "MC",
+        "Max": "245",
+        "Route": "DCT CONKO Q63 OZZIL N80 ARPAK L9 NICXI Q63 VATRY",
+        "STAR": "VATRY4L",
+        "ADES/Exit": "EIDW",
+        "Remarks": "Notes: 439"
+      }
+    },
+    {
+      "line_number": 20324,
+      "action": "remove",
+      "reason": "EG2269 NIRIF requires active EGD201F/G or associated FBZ; unavailable in static vFPC output",
+      "row": {
+        "ADEP/Entry": "EGVN",
+        "SID": "",
+        "Min": "245",
+        "Max": "660",
+        "Route": "DCT CONKO Q63 OZZIL N80 ARPAK DCT FELCA DCT NICXI DCT EVTOL N12 NIRIF",
+        "STAR": "NIRIF1L",
+        "ADES/Exit": "EIDW",
+        "Remarks": "Notes: 113  "
+      }
+    },
+    {
+      "line_number": 20325,
+      "action": "remove",
+      "reason": "EG2983 Q63 VATRY requires danger-area/M17 availability state; unavailable in static vFPC output",
+      "row": {
+        "ADEP/Entry": "EGVN",
+        "SID": "",
+        "Min": "245",
+        "Max": "660",
+        "Route": "DCT CONKO Q63 OZZIL N80 ARPAK DCT FELCA DCT NICXI DCT LANPI Q63 VATRY",
+        "STAR": "VATRY4L",
+        "ADES/Exit": "EIDW",
+        "Remarks": "Notes: 439"
+      }
+    },
+    {
+      "line_number": 20327,
+      "action": "remove",
+      "reason": "EG2983 Q63 VATRY requires danger-area/M17 availability state; unavailable in static vFPC output",
+      "row": {
+        "ADEP/Entry": "EGVN",
+        "SID": "",
+        "Min": "245",
+        "Max": "660",
+        "Route": "DCT CONKO Q63 OZZIL N80 ARPAK DCT MEDOG DCT KRAGY DCT PEMOB DCT LANPI Q63 VATRY",
+        "STAR": "VATRY4L",
+        "ADES/Exit": "EIDW",
+        "Remarks": "Notes: 439"
+      }
+    },
+    {
+      "line_number": 20338,
+      "action": "remove",
+      "reason": "EG2269 NIRIF requires active EGD201F/G or associated FBZ; unavailable in static vFPC output",
+      "row": {
+        "ADEP/Entry": "EGVN",
+        "SID": "",
+        "Min": "MC",
+        "Max": "245",
+        "Route": "DCT CONKO Q63 OZZIL N80 ARPAK L9 NICXI N546 EVTOL N12 NIRIF",
+        "STAR": "NIRIF1L",
+        "ADES/Exit": "EIDW",
+        "Remarks": "Notes: 113  "
+      }
+    },
+    {
+      "line_number": 20339,
+      "action": "remove",
+      "reason": "EG2269 NIRIF requires active EGD201F/G or associated FBZ; unavailable in static vFPC output",
+      "row": {
+        "ADEP/Entry": "EGVN",
+        "SID": "",
+        "Min": "MC",
+        "Max": "245",
+        "Route": "DCT CONKO Q63 OZZIL N80 ARPAK L9 NICXI N546 EVTOL N12 NIRIF",
+        "STAR": "NIRIF1L",
+        "ADES/Exit": "EIDW",
+        "Remarks": "Notes: 113  "
+      }
+    },
+    {
+      "line_number": 20340,
+      "action": "remove",
+      "reason": "EG2983 Q63 VATRY requires danger-area/M17 availability state; unavailable in static vFPC output",
+      "row": {
+        "ADEP/Entry": "EGVN",
+        "SID": "",
+        "Min": "MC",
+        "Max": "245",
+        "Route": "DCT CONKO Q63 OZZIL N80 ARPAK L9 NICXI Q63 VATRY",
+        "STAR": "VATRY4L",
+        "ADES/Exit": "EIDW",
+        "Remarks": "Notes: 439"
+      }
+    },
+    {
+      "line_number": 20601,
+      "action": "remove",
+      "reason": "EG2269 NIRIF requires active EGD201F/G or associated FBZ; unavailable in static vFPC output",
+      "row": {
+        "ADEP/Entry": "EGWU",
+        "SID": "CPT",
+        "Min": "195",
+        "Max": "245",
+        "Route": "L9 NICXI N546 EVTOL N12 NIRIF",
+        "STAR": "NIRIF1L",
+        "ADES/Exit": "EIDW",
+        "Remarks": "Notes: 113  "
+      }
+    },
+    {
+      "line_number": 20602,
+      "action": "remove",
+      "reason": "EG2983 Q63 VATRY requires danger-area/M17 availability state; unavailable in static vFPC output",
+      "row": {
+        "ADEP/Entry": "EGWU",
+        "SID": "CPT",
+        "Min": "195",
+        "Max": "245",
+        "Route": "L9 NICXI Q63 VATRY",
+        "STAR": "VATRY4L",
+        "ADES/Exit": "EIDW",
+        "Remarks": "Notes: 439"
+      }
+    },
+    {
+      "line_number": 20606,
+      "action": "remove",
+      "reason": "EG2269 NIRIF requires active EGD201F/G or associated FBZ; unavailable in static vFPC output",
+      "row": {
+        "ADEP/Entry": "EGWU",
+        "SID": "CPT",
+        "Min": "245",
+        "Max": "660",
+        "Route": "L9 DIDZA N14 OKTAD DCT MEDOG DCT FOXLA DCT NICXI DCT EVTOL N12 NIRIF",
+        "STAR": "NIRIF1L",
+        "ADES/Exit": "EIDW",
+        "Remarks": "Notes: 113   - 168"
+      }
+    },
+    {
+      "line_number": 20607,
+      "action": "remove",
+      "reason": "EG2983 Q63 VATRY requires danger-area/M17 availability state; unavailable in static vFPC output",
+      "row": {
+        "ADEP/Entry": "EGWU",
+        "SID": "CPT",
+        "Min": "245",
+        "Max": "660",
+        "Route": "L9 DIDZA N14 OKTAD DCT MEDOG DCT FOXLA DCT NICXI DCT LANPI Q63 VATRY",
+        "STAR": "VATRY4L",
+        "ADES/Exit": "EIDW",
+        "Remarks": "Notes: 168 - 439"
+      }
+    },
+    {
+      "line_number": 20609,
+      "action": "remove",
+      "reason": "EG2983 Q63 VATRY requires danger-area/M17 availability state; unavailable in static vFPC output",
+      "row": {
+        "ADEP/Entry": "EGWU",
+        "SID": "CPT",
+        "Min": "245",
+        "Max": "660",
+        "Route": "L9 DIDZA N14 OKTAD DCT MEDOG DCT KRAGY DCT PEMOB DCT LANPI Q63 VATRY",
+        "STAR": "VATRY4L",
+        "ADES/Exit": "EIDW",
+        "Remarks": "Notes: 439"
+      }
+    },
+    {
+      "line_number": 20612,
+      "action": "remove",
+      "reason": "EG2269 NIRIF requires active EGD201F/G or associated FBZ; unavailable in static vFPC output",
+      "row": {
+        "ADEP/Entry": "EGWU",
+        "SID": "CPT",
+        "Min": "245",
+        "Max": "660",
+        "Route": "L9 DIDZA N14 OKTAD DCT MEDOG DCT PEMOB DCT EVTOL N12 NIRIF",
+        "STAR": "NIRIF1L",
+        "ADES/Exit": "EIDW",
+        "Remarks": "Notes: 127  "
+      }
+    },
+    {
+      "line_number": 20621,
+      "action": "remove",
+      "reason": "EG2269 NIRIF requires active EGD201F/G or associated FBZ; unavailable in static vFPC output",
+      "row": {
+        "ADEP/Entry": "EGWU",
+        "SID": "CPT",
+        "Min": "MC",
+        "Max": "195",
+        "Route": "Q63 OZZIL N80 ARPAK L9 NICXI N546 EVTOL N12 NIRIF",
+        "STAR": "NIRIF1L",
+        "ADES/Exit": "EIDW",
+        "Remarks": "Notes: 113  "
+      }
+    },
+    {
+      "line_number": 20622,
+      "action": "remove",
+      "reason": "EG2983 Q63 VATRY requires danger-area/M17 availability state; unavailable in static vFPC output",
+      "row": {
+        "ADEP/Entry": "EGWU",
+        "SID": "CPT",
+        "Min": "MC",
+        "Max": "195",
+        "Route": "Q63 OZZIL N80 ARPAK L9 NICXI Q63 VATRY",
+        "STAR": "VATRY4L",
+        "ADES/Exit": "EIDW",
+        "Remarks": ""
+      }
+    }
+  ]
+}

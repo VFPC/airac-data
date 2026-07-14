@@ -1,0 +1,1882 @@
+{
+  "Airac": "2607",
+  "Definitions": [
+    {
+      "Name": "MIDLANDS_GROUP",
+      "Owner": "EG",
+      "Airports": [
+        "EGBB",
+        "EGNX"
+      ]
+    },
+    {
+      "Name": "OFFSHORE NORTH_GROUP",
+      "Owner": "EN",
+      "Airports": [
+        "ENUG",
+        "ENUJ"
+      ]
+    },
+    {
+      "Name": "AJACCIO_GROUP",
+      "Owner": "LF",
+      "Airports": [
+        "LFKF",
+        "LFKG",
+        "LFKJ",
+        "LFKO"
+      ]
+    },
+    {
+      "Name": "AMSTERDAM_GROUP",
+      "Owner": "EH",
+      "Airports": [
+        "EHAM",
+        "EHHV",
+        "EHKD",
+        "EHLE",
+        "EHRD",
+        "EHTX"
+      ]
+    },
+    {
+      "Name": "AZORES_GROUP",
+      "Owner": "LP",
+      "Airports": [
+        "LPAZ",
+        "LPCR",
+        "LPES",
+        "LPFL",
+        "LPGR",
+        "LPHR",
+        "LPLA",
+        "LPPD",
+        "LPPI",
+        "LPSJ"
+      ]
+    },
+    {
+      "Name": "BALEARES_GROUP",
+      "Owner": "LE",
+      "Airports": [
+        "LEIB",
+        "LEMH",
+        "LEPA",
+        "LESB",
+        "LESJ",
+        "LESL"
+      ]
+    },
+    {
+      "Name": "BARCELONA_GROUP",
+      "Owner": "LE",
+      "Airports": [
+        "LEBL",
+        "LEDA",
+        "LEGE",
+        "LERS",
+        "LELL"
+      ]
+    },
+    {
+      "Name": "BASEL_GROUP",
+      "Owner": "LF",
+      "Airports": [
+        "LFGA",
+        "LFGB",
+        "LFSB",
+        "LFSM"
+      ]
+    },
+    {
+      "Name": "BASTIA_GROUP",
+      "Owner": "LF",
+      "Airports": [
+        "LFKB",
+        "LFKC",
+        "LFKS"
+      ]
+    },
+    {
+      "Name": "BEAUVAIS_GROUP",
+      "Owner": "LF",
+      "Airports": [
+        "LFOB",
+        "LFOE",
+        "LFOH",
+        "LFOK",
+        "LFOP",
+        "LFRC",
+        "LFRG",
+        "LFRK"
+      ]
+    },
+    {
+      "Name": "BELFAST_GROUP",
+      "Owner": "EG",
+      "Airports": [
+        "EGAA",
+        "EGAC",
+        "EGAD",
+        "EGAE",
+        "EGAL"
+      ]
+    },
+    {
+      "Name": "BERLIN_YZ_GROUP",
+      "Owner": "ED",
+      "Airports": [
+        "EDAE",
+        "EDAV",
+        "EDBW",
+        "EDON"
+      ]
+    },
+    {
+      "Name": "BERN_GROUP",
+      "Owner": "LS",
+      "Airports": [
+        "LSMA",
+        "LSME",
+        "LSZB",
+        "LSZG",
+        "LSZC"
+      ]
+    },
+    {
+      "Name": "BIARRITZ_GROUP",
+      "Owner": "LF",
+      "Airports": [
+        "LFBY",
+        "LFBZ",
+        "LFCZ",
+        "LESO"
+      ]
+    },
+    {
+      "Name": "BORDEAUX_AREA",
+      "Owner": "LF",
+      "Airports": [
+        "LFBA",
+        "LFBC",
+        "LFBD",
+        "LFBE",
+        "LFBF",
+        "LFBG",
+        "LFBH",
+        "LFBI",
+        "LFBK",
+        "LFBL",
+        "LFBM",
+        "LFBN",
+        "LFBO",
+        "LFBP",
+        "LFBR",
+        "LFBS",
+        "LFBT",
+        "LFBU",
+        "LFBX",
+        "LFBY",
+        "LFBZ",
+        "LFCC",
+        "LFCD",
+        "LFCG",
+        "LFCH",
+        "LFCI",
+        "LFCJ",
+        "LFCK",
+        "LFCL",
+        "LFCN",
+        "LFCP",
+        "LFCQ",
+        "LFCR",
+        "LFCS",
+        "LFCU",
+        "LFCW",
+        "LFCX",
+        "LFCY",
+        "LFCZ",
+        "LFDA",
+        "LFDB",
+        "LFDC",
+        "LFDH",
+        "LFDI",
+        "LFDJ",
+        "LFDK",
+        "LFDM",
+        "LFDN",
+        "LFDP",
+        "LFDR",
+        "LFDS",
+        "LFDU",
+        "LFDX",
+        "LFIT",
+        "LFIV",
+        "LFLT",
+        "LFLW",
+        "LFLX",
+        "LFMK",
+        "LFMW",
+        "LFSL",
+        "LFXB"
+      ]
+    },
+    {
+      "Name": "BORDEAUX_GROUP",
+      "Owner": "LF",
+      "Airports": [
+        "LFBC",
+        "LFBD",
+        "LFBE",
+        "LFBG",
+        "LFBS",
+        "LFBX",
+        "LFCH",
+        "LFCY",
+        "LFDI"
+      ]
+    },
+    {
+      "Name": "BREST_GROUP",
+      "Owner": "LF",
+      "Airports": [
+        "LFRB",
+        "LFRU",
+        "LFRO",
+        "LFRJ"
+      ]
+    },
+    {
+      "Name": "BRIZE_GROUP",
+      "Owner": "EG",
+      "Airports": [
+        "EGBJ",
+        "EGDL",
+        "EGVA",
+        "EGVN"
+      ]
+    },
+    {
+      "Name": "BRNO_GROUP",
+      "Owner": "LK",
+      "Airports": [
+        "LKTB",
+        "LKKU",
+        "LKNA"
+      ]
+    },
+    {
+      "Name": "BRUSSELS_GROUP",
+      "Owner": "EB",
+      "Airports": [
+        "EBAW",
+        "EBBR",
+        "EBCI",
+        "EBCV",
+        "EBMB"
+      ]
+    },
+    {
+      "Name": "BUCHAREST_GROUP",
+      "Owner": "LR",
+      "Airports": [
+        "LROP",
+        "LRBS"
+      ]
+    },
+    {
+      "Name": "BUDAPEST_GROUP",
+      "Owner": "LH",
+      "Airports": [
+        "LHBP",
+        "LHBS",
+        "LHDK",
+        "LHEM",
+        "LHFH",
+        "LHGD",
+        "LHHH",
+        "LHTL"
+      ]
+    },
+    {
+      "Name": "CAIRO_GROUP",
+      "Owner": "LG",
+      "Airports": [
+        "HECA",
+        "HEAZ",
+        "HECP",
+        "HESX"
+      ]
+    },
+    {
+      "Name": "CANARY_GROUP",
+      "Owner": "LE",
+      "Airports": [
+        "GCRR",
+        "GCFV",
+        "GCXO",
+        "GCTS",
+        "GCHI",
+        "GCLP",
+        "GCLA",
+        "GCGM"
+      ]
+    },
+    {
+      "Name": "CANTABRICO_GROUP",
+      "Owner": "LE",
+      "Airports": [
+        "LEBB",
+        "LEBG",
+        "LEPP",
+        "LERJ",
+        "LESO",
+        "LEVT",
+        "LEXJ"
+      ]
+    },
+    {
+      "Name": "CENTRO_GROUP",
+      "Owner": "LE",
+      "Airports": [
+        "LEVD",
+        "LESA",
+        "LELN"
+      ]
+    },
+    {
+      "Name": "CHAMBERY_GROUP",
+      "Owner": "LF",
+      "Airports": [
+        "LFHM",
+        "LFHU",
+        "LFKA",
+        "LFKX",
+        "LFLB",
+        "LFLE",
+        "LFLJ",
+        "LFLP"
+      ]
+    },
+    {
+      "Name": "CLERMONT_FERRAND_GROUP",
+      "Owner": "LF",
+      "Airports": [
+        "LFHA",
+        "LFHQ",
+        "LFKM",
+        "LFLC",
+        "LFLV",
+        "LFLZ"
+      ]
+    },
+    {
+      "Name": "COLOGNE_YZ_GROUP",
+      "Owner": "ED",
+      "Airports": [
+        "EDKN",
+        "EDKZ",
+        "EDKF",
+        "EDKL",
+        "EDKH",
+        "EDKI",
+        "EDKB",
+        "EDRA",
+        "EDRW",
+        "EDRV",
+        "EDRE",
+        "EDKV"
+      ]
+    },
+    {
+      "Name": "COPENHAGEN_GROUP",
+      "Owner": "EK",
+      "Airports": [
+        "EKCH",
+        "EKFR",
+        "EKGH",
+        "EKGL",
+        "EKHE",
+        "EKHK",
+        "EKHO",
+        "EKRH",
+        "EKRK",
+        "EKRS"
+      ]
+    },
+    {
+      "Name": "CYCLADES_GROUP",
+      "Owner": "LG",
+      "Airports": [
+        "LGMK",
+        "LGNX",
+        "LGPA",
+        "LGSO"
+      ]
+    },
+    {
+      "Name": "DEAUVILLE_GROUP",
+      "Owner": "LF",
+      "Airports": [
+        "LFRC",
+        "LFRG",
+        "LFRK",
+        "LFOH"
+      ]
+    },
+    {
+      "Name": "DUBLIN_GROUP",
+      "Owner": "EI",
+      "Airports": [
+        "EIDG",
+        "EIDW",
+        "EIME",
+        "EIMH",
+        "EINC",
+        "EIWT"
+      ]
+    },
+    {
+      "Name": "DUESSELDORF_GROUP",
+      "Owner": "ED",
+      "Airports": [
+        "EDDG",
+        "EDDK",
+        "EDDL",
+        "EDGS",
+        "EDKB",
+        "EDKL",
+        "EDLA",
+        "EDLE",
+        "EDLM",
+        "EDLN",
+        "EDLP",
+        "EDLV",
+        "EDLW",
+        "ETNG",
+        "ETNN"
+      ]
+    },
+    {
+      "Name": "DUESSELDORF_YZ_GROUP",
+      "Owner": "ED",
+      "Airports": [
+        "EDLE",
+        "EDLM",
+        "EDLD",
+        "EDLF",
+        "EDLK",
+        "EDKN"
+      ]
+    },
+    {
+      "Name": "EAST_ANGLIAN_GROUP",
+      "Owner": "EG",
+      "Airports": [
+        "EGSH",
+        "EGUL",
+        "EGUN",
+        "EGYM"
+      ]
+    },
+    {
+      "Name": "ERFURT_YZ_GROUP",
+      "Owner": "ED",
+      "Airports": [
+        "EDOF",
+        "EDCO",
+        "EDEQ",
+        "EDBS",
+        "EDEB",
+        "EDGE",
+        "EDEG",
+        "EDBA",
+        "EDOB",
+        "EDOU",
+        "EDBJ",
+        "EDOK",
+        "EDOS",
+        "EDQS"
+      ]
+    },
+    {
+      "Name": "FARNBOROUGH_GROUP",
+      "Owner": "EG",
+      "Airports": [
+        "EGHL",
+        "EGLF",
+        "EGLK",
+        "EGTD",
+        "EGTF",
+        "EGVO"
+      ]
+    },
+    {
+      "Name": "FARRIS_GROUP",
+      "Owner": "EN",
+      "Airports": [
+        "ENJB",
+        "ENLU",
+        "ENRK",
+        "ENRY",
+        "ENSN",
+        "ENTO",
+        "ENNO"
+      ]
+    },
+    {
+      "Name": "FRANKFURT_GROUP",
+      "Owner": "ED",
+      "Airports": [
+        "EDDF",
+        "EDFE",
+        "ETOU"
+      ]
+    },
+    {
+      "Name": "FRANKFURT_YZ_GROUP",
+      "Owner": "ED",
+      "Airports": [
+        "EDEL",
+        "EDFA",
+        "EDFB",
+        "EDFC",
+        "EDFD",
+        "EDFG",
+        "EDFO",
+        "EDFP",
+        "EDFU",
+        "EDFY",
+        "EDFZ",
+        "EDGP"
+      ]
+    },
+    {
+      "Name": "FRIESLAND_GROUP",
+      "Owner": "ED",
+      "Airports": [
+        "EDVH",
+        "EDWE",
+        "EDWF",
+        "EDWG",
+        "EDWH",
+        "EDWI",
+        "EDWJ",
+        "EDWK",
+        "EDWL",
+        "EDWM",
+        "EDWQ",
+        "EDWR",
+        "EDWS",
+        "EDWU",
+        "EDWX",
+        "EDWY",
+        "EDWZ",
+        "EDXI",
+        "EDXL",
+        "EDXP",
+        "EDXQ",
+        "EDXS",
+        "EDXU",
+        "EDXZ"
+      ]
+    },
+    {
+      "Name": "GALICIA_GROUP",
+      "Owner": "LE",
+      "Airports": [
+        "LECO",
+        "LEST",
+        "LEVX"
+      ]
+    },
+    {
+      "Name": "GENEVA_AREA",
+      "Owner": "LS",
+      "Airports": [
+        "LSEA",
+        "LSEC",
+        "LSEG",
+        "LSER",
+        "LSEZ",
+        "LSGB",
+        "LSGC",
+        "LSGE",
+        "LSGK",
+        "LSGN",
+        "LSGR",
+        "LSGS",
+        "LSGT",
+        "LSGY",
+        "LSMP",
+        "LSTB",
+        "LSTO",
+        "LSTR",
+        "LSTS",
+        "LSTZ"
+      ]
+    },
+    {
+      "Name": "GENEVA_GROUP",
+      "Owner": "LS",
+      "Airports": [
+        "LSGG",
+        "LSGL",
+        "LSGP",
+        "LFLI",
+        "LFHN"
+      ]
+    },
+    {
+      "Name": "GOTHENBURG_AREA",
+      "Owner": "DS",
+      "Airports": [
+        "ESFA",
+        "ESGF",
+        "ESGN",
+        "ESGR",
+        "ESIA",
+        "ESMF",
+        "ESMH",
+        "ESMT",
+        "ESMU",
+        "ESTA",
+        "ESTL"
+      ]
+    },
+    {
+      "Name": "GOTHENBURG_GROUP",
+      "Owner": "ES",
+      "Airports": [
+        "ESFR",
+        "ESGA",
+        "ESGC",
+        "ESGD",
+        "ESGE",
+        "ESGG",
+        "ESGH",
+        "ESGI",
+        "ESGJ",
+        "ESGK",
+        "ESGL",
+        "ESGM",
+        "ESGP",
+        "ESGT",
+        "ESGU",
+        "ESGV",
+        "ESIB",
+        "ESMG",
+        "ESMV",
+        "ESMY",
+        "ESSI"
+      ]
+    },
+    {
+      "Name": "GRONINGEN_GROUP",
+      "Owner": "EH",
+      "Airports": [
+        "EHGG",
+        "EHHO",
+        "EHLW",
+        "EHTE"
+      ]
+    },
+    {
+      "Name": "HAAMSTEDE_GROUP",
+      "Owner": "EH",
+      "Airports": [
+        "EHBD",
+        "EHEH",
+        "EHGR",
+        "EHMZ",
+        "EHRD",
+        "EHSE",
+        "EHVK",
+        "EHWO"
+      ]
+    },
+    {
+      "Name": "HAMBURG_GROUP",
+      "Owner": "ED",
+      "Airports": [
+        "EDDH",
+        "EDHI",
+        "EDHL"
+      ]
+    },
+    {
+      "Name": "HAVEL_GROUP",
+      "Owner": "ED",
+      "Airports": [
+        "EDAD",
+        "EDAE",
+        "EDAI",
+        "EDAP",
+        "EDAS",
+        "EDAV",
+        "EDAY",
+        "EDBE",
+        "EDBF",
+        "EDBG",
+        "EDBK",
+        "EDBO",
+        "EDBQ",
+        "EDBW",
+        "EDCE",
+        "EDCF",
+        "EDCL",
+        "EDCQ",
+        "EDCS",
+        "EDHC",
+        "EDOC",
+        "EDOD",
+        "EDOG",
+        "EDOI",
+        "EDOJ",
+        "EDOL",
+        "EDOM",
+        "EDON",
+        "EDOR",
+        "EDOV",
+        "EDOY",
+        "EDOZ",
+        "EDUA",
+        "EDUF",
+        "EDUG",
+        "EDUS",
+        "EDUZ"
+      ]
+    },
+    {
+      "Name": "IONIAN_GROUP",
+      "Owner": "LG",
+      "Airports": [
+        "LGAD",
+        "LGKC",
+        "LGKF",
+        "LGKL",
+        "LGKR",
+        "LGPZ",
+        "LGRX",
+        "LGZA"
+      ]
+    },
+    {
+      "Name": "ISTANBUL_GROUP",
+      "Owner": "LT",
+      "Airports": [
+        "LTBA",
+        "LTBR",
+        "LTBW",
+        "LTFJ"
+      ]
+    },
+    {
+      "Name": "JERSEY_GROUP",
+      "Owner": "EG",
+      "Airports": [
+        "EGJA",
+        "EGJB",
+        "EGJJ"
+      ]
+    },
+    {
+      "Name": "KARLSTAD_GROUP",
+      "Owner": "ES",
+      "Airports": [
+        "ESEU",
+        "ESGA",
+        "ESGN",
+        "ESGS",
+        "ESGU",
+        "ESGY",
+        "ESHV",
+        "ESKH",
+        "ESKO",
+        "ESKU",
+        "ESKV",
+        "ESOH",
+        "ESOK",
+        "ESSM",
+        "ESST",
+        "ESTF"
+      ]
+    },
+    {
+      "Name": "KJEVIK_GROUP",
+      "Owner": "EN",
+      "Airports": [
+        "ENAR",
+        "ENCN",
+        "ENGK"
+      ]
+    },
+    {
+      "Name": "LILLE_GROUP",
+      "Owner": "LF",
+      "Airports": [
+        "LFAC",
+        "LFAQ",
+        "LFAT",
+        "LFAV",
+        "LFAY",
+        "LFQQ",
+        "LFQO",
+        "LFQT"
+      ]
+    },
+    {
+      "Name": "LIMOGES_GROUP",
+      "Owner": "LF",
+      "Airports": [
+        "LFBL",
+        "LFBK",
+        "LFBU",
+        "LFLD",
+        "LFOA",
+        "LFSL"
+      ]
+    },
+    {
+      "Name": "LISBON_GROUP",
+      "Owner": "LP",
+      "Airports": [
+        "LPAR",
+        "LPCS",
+        "LPMT",
+        "LPPT"
+      ]
+    },
+    {
+      "Name": "LKVFR_GROUP",
+      "Owner": "LK",
+      "Airports": [
+        "LKBA",
+        "LKBE",
+        "LKBO",
+        "LKBR",
+        "LKBU",
+        "LKCB",
+        "LKCE",
+        "LKCM",
+        "LKCR",
+        "LKCT",
+        "LKDK",
+        "LKER",
+        "LKFR",
+        "LKHB",
+        "LKHC",
+        "LKHD",
+        "LKHK",
+        "LKHN",
+        "LKHS",
+        "LKHV",
+        "LKCH",
+        "LKJA",
+        "LKJC",
+        "LKJH",
+        "LKJI",
+        "LKKA",
+        "LKKL",
+        "LKKM",
+        "LKKO",
+        "LKKR",
+        "LKKT",
+        "LKKY",
+        "LKLB",
+        "LKLN",
+        "LKLT",
+        "LKMB",
+        "LKMH",
+        "LKMI",
+        "LKMK",
+        "LKMO",
+        "LKMR",
+        "LKNM",
+        "LKOL",
+        "LKPA",
+        "LKPC",
+        "LKPI",
+        "LKPJ",
+        "LKPO",
+        "LKPL",
+        "LKPM",
+        "LKPN",
+        "LKPS",
+        "LKRA",
+        "LKRK",
+        "LKRO",
+        "LKRY",
+        "LKSA",
+        "LKSB",
+        "LKSK",
+        "LKSN",
+        "LKSO",
+        "LKSR",
+        "LKST",
+        "LKSU",
+        "LKSZ",
+        "LKTA",
+        "LKTC",
+        "LKTD",
+        "LKTO",
+        "LKUL",
+        "LKUO",
+        "LKVL",
+        "LKVM",
+        "LKVP",
+        "LKVR",
+        "LKVY",
+        "LKZA",
+        "LKZB",
+        "LKZD",
+        "LKZL",
+        "LKZM",
+        "LKZN"
+      ]
+    },
+    {
+      "Name": "LONDON_GROUP",
+      "Owner": "EG",
+      "Airports": [
+        "EGGW",
+        "EGKB",
+        "EGKK",
+        "EGLC",
+        "EGLL",
+        "EGMC",
+        "EGSC",
+        "EGSS",
+        "EGTO",
+        "EGWU"
+      ]
+    },
+    {
+      "Name": "LONDON_SOUTH_GROUP",
+      "Owner": "EG",
+      "Airports": [
+        "EGGW",
+        "EGKB",
+        "EGKK",
+        "EGLC",
+        "EGLL",
+        "EGMC",
+        "EGTO",
+        "EGWU",
+        "EGHL",
+        "EGLF",
+        "EGLK",
+        "EGTD",
+        "EGTF",
+        "EGVO"
+      ]
+    },
+    {
+      "Name": "LYON_GROUP",
+      "Owner": "LF",
+      "Airports": [
+        "LFHJ",
+        "LFHS",
+        "LFHV",
+        "LFHW",
+        "LFKL",
+        "LFKY",
+        "LFLG",
+        "LFLL",
+        "LFLM",
+        "LFLS",
+        "LFLU",
+        "LFLY",
+        "LFMH",
+        "LFXA"
+      ]
+    },
+    {
+      "Name": "MADRID_GROUP",
+      "Owner": "LE",
+      "Airports": [
+        "LECU",
+        "LEGT",
+        "LEMD",
+        "LETO",
+        "LEVS"
+      ]
+    },
+    {
+      "Name": "MALAGA_GROUP",
+      "Owner": "LE",
+      "Airports": [
+        "LEAM",
+        "LEGR",
+        "LEMG",
+        "GEML"
+      ]
+    },
+    {
+      "Name": "MALMO_AREA",
+      "Owner": "DS",
+      "Airports": [
+        "ESGF",
+        "ESGM",
+        "ESGV",
+        "ESMG",
+        "ESMU",
+        "ESMV",
+        "ESMX",
+        "ESMY"
+      ]
+    },
+    {
+      "Name": "MALMO_GROUP",
+      "Owner": "ES",
+      "Airports": [
+        "ESFA",
+        "ESME",
+        "ESMF",
+        "ESMH",
+        "ESMI",
+        "ESMJ",
+        "ESMK",
+        "ESML",
+        "ESMS",
+        "ESMT",
+        "ESTA",
+        "ESTL",
+        "ESTT"
+      ]
+    },
+    {
+      "Name": "MANCHESTER_GROUP",
+      "Owner": "EG",
+      "Airports": [
+        "EGCC",
+        "EGGP",
+        "EGNR"
+      ]
+    },
+    {
+      "Name": "METZ_GROUP",
+      "Owner": "LF",
+      "Airports": [
+        "LFJL",
+        "LFOK",
+        "LFQA",
+        "LFQB",
+        "LFSN"
+      ]
+    },
+    {
+      "Name": "MILANO_GROUP",
+      "Owner": "LI",
+      "Airports": [
+        "LIMA",
+        "LIMB",
+        "LIMC",
+        "LIME",
+        "LIMF",
+        "LIMG",
+        "LIMJ",
+        "LIML",
+        "LIMN",
+        "LIMP",
+        "LIMS",
+        "LIMW",
+        "LIMZ",
+        "LSZA",
+        "LSZL",
+        "LSZS"
+      ]
+    },
+    {
+      "Name": "MONTPELLIER_GROUP",
+      "Owner": "LF",
+      "Airports": [
+        "LFMT",
+        "LFMU",
+        "LFNG"
+      ]
+    },
+    {
+      "Name": "MUERITZ_YZ_GROUP",
+      "Owner": "ED",
+      "Airports": [
+        "EDAN",
+        "EDAX",
+        "EDBN",
+        "EDBP",
+        "EDBU",
+        "EDBV",
+        "EDBY",
+        "EDCA",
+        "EDCP",
+        "EDCR",
+        "EDCU",
+        "EDCV",
+        "EDCW",
+        "EDCX",
+        "EDOW",
+        "EDUW"
+      ]
+    },
+    {
+      "Name": "MUNICH_GROUP",
+      "Owner": "ED",
+      "Airports": [
+        "EDDM",
+        "EDDN",
+        "EDMA",
+        "EDMO"
+      ]
+    },
+    {
+      "Name": "MUNICH_YZ_GROUP",
+      "Owner": "ED",
+      "Airports": [
+        "EDPD",
+        "EDML",
+        "EDPI",
+        "EDMP",
+        "EDME",
+        "EDNA",
+        "EDMY",
+        "EDMD",
+        "EDMJ",
+        "EDNV",
+        "ETSN"
+      ]
+    },
+    {
+      "Name": "NANTES_GROUP",
+      "Owner": "LF",
+      "Airports": [
+        "LFRE",
+        "LFRI",
+        "LFRS",
+        "LFRZ",
+        "LFFI",
+        "LFOU",
+        "LFEY"
+      ]
+    },
+    {
+      "Name": "NAPOC_GROUP",
+      "Owner": "LR",
+      "Airports": [
+        "LRCL",
+        "LRTM",
+        "LRSB"
+      ]
+    },
+    {
+      "Name": "NAT_GROUP",
+      "Owner": "NM",
+      "Airports": [
+        "BG**",
+        "C***",
+        "K***",
+        "M***",
+        "P***",
+        "S***",
+        "T***",
+        "LFVP",
+        "LFVM",
+        "EGYP"
+      ]
+    },
+    {
+      "Name": "NICE_GROUP",
+      "Owner": "LF",
+      "Airports": [
+        "LFMD",
+        "LFMF",
+        "LFMN",
+        "LFTZ"
+      ]
+    },
+    {
+      "Name": "NURNBERG_AREA",
+      "Owner": "ED",
+      "Airports": [
+        "EDDN",
+        "EDQA",
+        "EDQC",
+        "EDQD",
+        "EDQE",
+        "EDQF",
+        "EDQH",
+        "EDQI",
+        "EDQK",
+        "EDQM",
+        "EDQN",
+        "EDQO",
+        "EDQP",
+        "EDQR",
+        "EDQS",
+        "EDQT",
+        "EDQW",
+        "EDQX",
+        "EDQZ",
+        "ETEB",
+        "ETIC"
+      ]
+    },
+    {
+      "Name": "OFFSHORE AREA 2 _GROUP",
+      "Owner": "EN",
+      "Airports": [
+        "ENWG",
+        "ENWK",
+        "ENXZ",
+        "ENSL",
+        "ENDP",
+        "ENLA",
+        "ENXR",
+        "ENXK",
+        "ENLE",
+        "ENXB",
+        "ENWS",
+        "ENXM",
+        "ENXI",
+        "ENWV",
+        "ENWF",
+        "ENXJ",
+        "ENWH"
+      ]
+    },
+    {
+      "Name": "OFFSHORE MID_GROUP",
+      "Owner": "EN",
+      "Airports": [
+        "ENUN",
+        "ENNE",
+        "ENUS",
+        "ENHE",
+        "ENUR",
+        "ENUA",
+        "ENUB",
+        "ENUC",
+        "ENUD",
+        "ENUE",
+        "ENUK",
+        "ENDR"
+      ]
+    },
+    {
+      "Name": "OFFSHORE WEST_GROUP",
+      "Owner": "EN",
+      "Airports": [
+        "ENQR",
+        "ENSE",
+        "ENQV",
+        "ENFB",
+        "ENSF",
+        "ENQS",
+        "ENGA",
+        "ENQG",
+        "ENGC",
+        "ENQW",
+        "ENQK",
+        "ENQJ",
+        "ENQC",
+        "ENQB",
+        "ENQA",
+        "ENOA",
+        "ENQO",
+        "ENOC",
+        "ENQD",
+        "ENQE",
+        "ENQM",
+        "ENQL",
+        "ENWA",
+        "ENXO",
+        "ENXN",
+        "ENBE",
+        "ENXW",
+        "ENWI",
+        "ENWE",
+        "ENJS",
+        "ENWY"
+      ]
+    },
+    {
+      "Name": "ORLY_GROUP",
+      "Owner": "LF",
+      "Airports": [
+        "LFAI",
+        "LFPM",
+        "LFPN",
+        "LFPO",
+        "LFPV"
+      ]
+    },
+    {
+      "Name": "OSLO_GROUP",
+      "Owner": "EN",
+      "Airports": [
+        "ENDH",
+        "ENEG",
+        "ENGM",
+        "ENHA",
+        "ENHS",
+        "ENKJ",
+        "ENLX",
+        "ENRH",
+        "ENRV",
+        "ENRX",
+        "ENSI",
+        "ENUH",
+        "ENTX"
+      ]
+    },
+    {
+      "Name": "OSTGOTA_GROUP",
+      "Owner": "DS",
+      "Airports": [
+        "ESCF",
+        "ESKK",
+        "ESKN",
+        "ESOE",
+        "ESSL",
+        "ESSP",
+        "ESVK"
+      ]
+    },
+    {
+      "Name": "OUTSIDE_GROUP",
+      "Owner": "NM",
+      "Airports": [
+        "BG**",
+        "C***",
+        "K***",
+        "M***",
+        "P***",
+        "R***",
+        "V***",
+        "Z***",
+        "D***",
+        "F***",
+        "H***",
+        "O***",
+        "W***",
+        "Y***",
+        "A***",
+        "N***",
+        "S***",
+        "T***",
+        "UA***",
+        "UE**",
+        "UH**",
+        "UI**",
+        "UL**",
+        "UO**",
+        "UR**",
+        "US**",
+        "UT**",
+        "UU**",
+        "UW**",
+        "GA**",
+        "GB**",
+        "GF**",
+        "GG**",
+        "GL**",
+        "GO**",
+        "GQ**",
+        "GS**",
+        "GU**",
+        "GV**",
+        "UN**"
+      ]
+    },
+    {
+      "Name": "PALMA_GROUP",
+      "Owner": "LE",
+      "Airports": [
+        "LEPA",
+        "LESB",
+        "LESJ"
+      ]
+    },
+    {
+      "Name": "PARDUBICE_GROUP",
+      "Owner": "LK",
+      "Airports": [
+        "LKPD",
+        "LKCV",
+        "LKHK"
+      ]
+    },
+    {
+      "Name": "PARIS_GROUP",
+      "Owner": "LF",
+      "Airports": [
+        "LFPB",
+        "LFPG",
+        "LFPN",
+        "LFPO",
+        "LFPT",
+        "LFPV"
+      ]
+    },
+    {
+      "Name": "PARISTMA23_VFR_GROUP",
+      "Owner": "LF",
+      "Airports": [
+        "LFPL",
+        "LFPP",
+        "LFPH",
+        "LFFE",
+        "LFPE",
+        "LFFQ",
+        "LFPZ",
+        "LFPX",
+        "LFPK",
+        "LFPQ",
+        "LFAD",
+        "LFPA",
+        "LFXU",
+        "LFPF"
+      ]
+    },
+    {
+      "Name": "POITIERS_GROUP",
+      "Owner": "LF",
+      "Airports": [
+        "LFBI",
+        "LFBN",
+        "LFLX"
+      ]
+    },
+    {
+      "Name": "PRAGUE_GROUP",
+      "Owner": "LK",
+      "Airports": [
+        "LKKB",
+        "LKPR",
+        "LKVO"
+      ]
+    },
+    {
+      "Name": "PROVENCE_GROUP",
+      "Owner": "LF",
+      "Airports": [
+        "LFMA",
+        "LFML",
+        "LFMO",
+        "LFMQ",
+        "LFMV",
+        "LFMY",
+        "LFNE",
+        "LFNF",
+        "LFNT"
+      ]
+    },
+    {
+      "Name": "PYRENEES_GROUP",
+      "Owner": "LF",
+      "Airports": [
+        "LFBA",
+        "LFBP",
+        "LFBT",
+        "LFCN",
+        "LFDH"
+      ]
+    },
+    {
+      "Name": "RENNES_GROUP",
+      "Owner": "LF",
+      "Airports": [
+        "LFRN",
+        "LFRD",
+        "LFRT"
+      ]
+    },
+    {
+      "Name": "RHONE_GROUP",
+      "Owner": "LF",
+      "Airports": [
+        "LFHO",
+        "LFME",
+        "LFMI",
+        "LFMS",
+        "LFTW"
+      ]
+    },
+    {
+      "Name": "ROISSY_GROUP",
+      "Owner": "LF",
+      "Airports": [
+        "LFPB",
+        "LFPG",
+        "LFPT"
+      ]
+    },
+    {
+      "Name": "ROME_GROUP",
+      "Owner": "LI",
+      "Airports": [
+        "LIRA",
+        "LIRE",
+        "LIRF",
+        "LIRU"
+      ]
+    },
+    {
+      "Name": "SAINT_YAN_GROUP",
+      "Owner": "LF",
+      "Airports": [
+        "LFGM",
+        "LFGN",
+        "LFHY",
+        "LFLN",
+        "LFLO",
+        "LFQF"
+      ]
+    },
+    {
+      "Name": "SATENAS_GROUP",
+      "Owner": "DS",
+      "Airports": [
+        "ESEN",
+        "ESFR",
+        "ESGL",
+        "ESGO",
+        "ESGT",
+        "ESIB"
+      ]
+    },
+    {
+      "Name": "SCOTTISH_GROUP",
+      "Owner": "EG",
+      "Airports": [
+        "EGPF",
+        "EGPG",
+        "EGPH",
+        "EGPK",
+        "EGPN",
+        "EGQL"
+      ]
+    },
+    {
+      "Name": "SEINE_GROUP",
+      "Owner": "LF",
+      "Airports": [
+        "LFQA",
+        "LFOK",
+        "LFQB",
+        "LFLA",
+        "LFSI",
+        "LFGE",
+        "LFFR",
+        "LFFN",
+        "LFQK",
+        "LFQH",
+        "LFJA",
+        "LFSW",
+        "LFQX",
+        "LFGK",
+        "LFGP",
+        "LFGQ",
+        "LFFZ",
+        "LFSK",
+        "LFPM",
+        "LFOZ",
+        "LFOJ",
+        "LFOX",
+        "LFPU",
+        "LFAI",
+        "LFFP",
+        "LFGO",
+        "LFEM",
+        "LFEI",
+        "LFOQ",
+        "LFOT",
+        "LFEF",
+        "LFOR",
+        "LFEN"
+      ]
+    },
+    {
+      "Name": "SEVERN_GROUP",
+      "Owner": "EG",
+      "Airports": [
+        "EGFF",
+        "EGFH",
+        "EGGD",
+        "EGSY"
+      ]
+    },
+    {
+      "Name": "SEVILLE_GROUP",
+      "Owner": "LE",
+      "Airports": [
+        "LEJR",
+        "LEMO",
+        "LERT",
+        "LEZL"
+      ]
+    },
+    {
+      "Name": "SHANNON_GROUP",
+      "Owner": "EI",
+      "Airports": [
+        "EICK",
+        "EIDL",
+        "EIKN",
+        "EIKY",
+        "EINN",
+        "EISG",
+        "EIWF"
+      ]
+    },
+    {
+      "Name": "STOCKHOLM_AREA",
+      "Owner": "DS",
+      "Airports": [
+        "ESCF",
+        "ESGJ",
+        "ESIA",
+        "ESKG",
+        "ESKK",
+        "ESKN",
+        "ESKT",
+        "ESOE",
+        "ESOL",
+        "ESQO",
+        "ESSC",
+        "ESSD",
+        "ESSG",
+        "ESSI",
+        "ESSK",
+        "ESSL",
+        "ESSP",
+        "ESSW",
+        "ESVA",
+        "ESVB",
+        "ESVK",
+        "ESVQ",
+        "EFMA"
+      ]
+    },
+    {
+      "Name": "STOCKHOLM_GROUP",
+      "Owner": "ES",
+      "Airports": [
+        "ESCM",
+        "ESKC",
+        "ESOW",
+        "ESSA",
+        "ESSB",
+        "ESSE",
+        "ESSN",
+        "ESSU",
+        "ESSX",
+        "ESSZ"
+      ]
+    },
+    {
+      "Name": "STRASBOURG_GROUP",
+      "Owner": "LF",
+      "Airports": [
+        "LFGC",
+        "LFQP",
+        "LFST",
+        "EDSB",
+        "EDSK",
+        "EDSW",
+        "EDTB",
+        "EDTL",
+        "EDTO"
+      ]
+    },
+    {
+      "Name": "STUTTGART_YZ_GROUP",
+      "Owner": "ED",
+      "Airports": [
+        "EDFV",
+        "EDGO",
+        "EDMB",
+        "EDMC",
+        "EDMG",
+        "EDMH",
+        "EDMT",
+        "EDND",
+        "EDNE",
+        "EDNG",
+        "EDNL",
+        "EDNT",
+        "EDNO",
+        "EDNQ",
+        "EDNW",
+        "EDPA",
+        "EDPB",
+        "EDPJ",
+        "EDPM",
+        "EDPT",
+        "EDPU",
+        "EDPY",
+        "EDRY",
+        "EDSA",
+        "EDSH",
+        "EDSW",
+        "EDTB",
+        "EDTF",
+        "EDTH",
+        "EDTN",
+        "EDTO",
+        "EDTW",
+        "EDTX",
+        "EDTY"
+      ]
+    },
+    {
+      "Name": "SUEBIA_YZ_GROUP",
+      "Owner": "ED",
+      "Airports": [
+        "EDEW",
+        "EDGU",
+        "EDQB",
+        "EDFR",
+        "EDGM",
+        "EDGI",
+        "EDTX",
+        "EDSH",
+        "EDTQ",
+        "EDSE",
+        "EDND",
+        "EDPY",
+        "EDNQ",
+        "EDTH",
+        "EDPA",
+        "EDPU",
+        "EDPM"
+      ]
+    },
+    {
+      "Name": "TMAPRVFR_GROUP",
+      "Owner": "LK",
+      "Airports": [
+        "LKPS",
+        "LKRY",
+        "LKPL",
+        "LKHV",
+        "LKPM",
+        "LKBE",
+        "LKVL",
+        "LKTC",
+        "LKBU",
+        "LKLT",
+        "LKKL",
+        "LKSN",
+        "LKRK",
+        "LKSZ",
+        "LKPC",
+        "LKRO",
+        "LKRA",
+        "LKMB",
+        "LKLN",
+        "LKMO",
+        "LKZD"
+      ]
+    },
+    {
+      "Name": "TOULON_GROUP",
+      "Owner": "LF",
+      "Airports": [
+        "LFMC",
+        "LFTF",
+        "LFTH"
+      ]
+    },
+    {
+      "Name": "TOULOUSE_GROUP",
+      "Owner": "LF",
+      "Airports": [
+        "LFBF",
+        "LFBO",
+        "LFBR",
+        "LFCI",
+        "LFCK",
+        "LFCL",
+        "LFCQ",
+        "LFCX",
+        "LFDB",
+        "LFDG",
+        "LFDJ",
+        "LFIR",
+        "LFIT",
+        "LFMG",
+        "LFMK",
+        "LFMW"
+      ]
+    },
+    {
+      "Name": "TRONDHEIM_GROUP",
+      "Owner": "EN",
+      "Airports": [
+        "ENRT",
+        "ENTR",
+        "ENVA"
+      ]
+    },
+    {
+      "Name": "VALENCIA_GROUP",
+      "Owner": "LE",
+      "Airports": [
+        "LEAL",
+        "LECH",
+        "LELC",
+        "LEVC",
+        "LEMI"
+      ]
+    },
+    {
+      "Name": "WESSEX_GROUP",
+      "Owner": "EG",
+      "Airports": [
+        "EGHL",
+        "EGLK",
+        "EGTD",
+        "EGTF",
+        "EGVO"
+      ]
+    },
+    {
+      "Name": "ZURICH_AREA",
+      "Owner": "LS",
+      "Airports": [
+        "LSMA",
+        "LSMD",
+        "LSME",
+        "LSMM",
+        "LSPR",
+        "LSZA",
+        "LSZB",
+        "LSZC",
+        "LSZG",
+        "LSZH",
+        "LSZL",
+        "LSZM",
+        "LSZR",
+        "LSZS",
+        "EDNY",
+        "EDTD",
+        "EDTM"
+      ]
+    },
+    {
+      "Name": "ZURICH_APP_GROUP",
+      "Owner": "LS",
+      "Airports": [
+        "EDTD",
+        "LSMD",
+        "LSZH",
+        "LSZM",
+        "LSZF",
+        "LSPV",
+        "LSZK",
+        "LSPN",
+        "LSZN"
+      ]
+    }
+  ]
+}

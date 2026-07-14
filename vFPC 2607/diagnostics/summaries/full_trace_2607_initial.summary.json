@@ -1,0 +1,187 @@
+{
+  "ablation": {
+    "accepted": 15044,
+    "compatibility_guards_enabled": true,
+    "evidence_enabled": true,
+    "pass_by_engine": 15044,
+    "rescued_by_evidence": 0,
+    "rescued_by_guard": 0
+  },
+  "airac": "2607",
+  "comparison_context": {
+    "ablation": {
+      "compatibility_guards_enabled": true,
+      "evidence_enabled": true
+    },
+    "airac": "2607",
+    "current_utc": null,
+    "families": [
+      "rad_annex2a_level_cap",
+      "rad_annex2b_route_logic",
+      "rad_annex2c_fua_flow",
+      "rad_annex3a_arr",
+      "rad_annex3a_dep",
+      "rad_annex3b_dct"
+    ],
+    "policies": {
+      "assume_notams_inactive": true,
+      "restricted_area_policy": "vfpc-current",
+      "srd_point_evidence": true
+    },
+    "profile": {
+      "aircraft_category": null,
+      "capability_codes": [],
+      "capability_codes_known": false,
+      "current_utc": null,
+      "declared_sid": null,
+      "declared_star": null,
+      "engine_type": null,
+      "flight_type": null,
+      "icao_aircraft_type": null,
+      "name": "unprofiled",
+      "procedure_keys": []
+    },
+    "profile_name": "unprofiled",
+    "route_view": {
+      "dep": null,
+      "route_subset": null,
+      "selected_population_total": 16349,
+      "subset_slice": "all"
+    },
+    "schema_version": 1,
+    "srd_input": {
+      "kind": "out-json",
+      "path": "data/local/2607/routes/out.json"
+    }
+  },
+  "eval_errors": 0,
+  "passed": 15044,
+  "profile_eligibility": {
+    "ambiguous_profile": null,
+    "applied": false,
+    "eligible": null,
+    "evaluated_population_total": 16349,
+    "full_population_total": 16349,
+    "ineligible": null,
+    "mode": "not_available",
+    "profile": "unprofiled",
+    "reason": "production_out_json_has_no_note_ids",
+    "selected_population_total": 16349,
+    "skipped_population_total": 0
+  },
+  "profile_eligibility_outcomes": null,
+  "raw_unexpected": 230,
+  "referred": 211,
+  "run_provenance": {
+    "code_revision": {
+      "dirty": true,
+      "dirty_path_count": 2,
+      "dirty_paths": [
+        "scripts/_linear_snapshot.json",
+        "comparison_2606_to_2607.json"
+      ],
+      "git_branch": "airac/2607-rad-rollover",
+      "git_sha": "5cf769dfb371a91bcf3e8856930b70913c8215e7",
+      "git_short_sha": "5cf769d",
+      "repo_path": "."
+    },
+    "runtime_bundle": {
+      "components": {
+        "airspace_facts": {
+          "file": {
+            "exists": true,
+            "path": "data/local/2607/bundle/airspace_facts.json",
+            "sha256": "3bb52fe22d6ba0a5ec1654caee5e06edd36e4c397b0cdb5b8ce3bbab640753f7",
+            "size_bytes": 444185
+          },
+          "format": "json",
+          "locator": "airspace_facts.json",
+          "revision": "local-2607"
+        },
+        "procedure_facts": {
+          "file": {
+            "exists": true,
+            "path": "data/local/2607/bundle/procedure_facts.json",
+            "sha256": "5bafc99b58c48e4225eaf5644acd63c6b56a57803583b610cab018f017f5da63",
+            "size_bytes": 2029
+          },
+          "format": "json",
+          "locator": "procedure_facts.json",
+          "revision": "local-2607"
+        },
+        "restricted_area_facts": {
+          "file": {
+            "exists": true,
+            "path": "data/local/2607/bundle/restricted_area_facts.json",
+            "sha256": "b75e050e186fd9874ea305983d2b37e0de2034b6451c3d841602ab4fa6f86c1e",
+            "size_bytes": 46
+          },
+          "format": "json",
+          "locator": "restricted_area_facts.json",
+          "revision": "local-2607"
+        },
+        "route_network_facts": {
+          "file": {
+            "exists": true,
+            "path": "data/local/2607/bundle/route_network_facts.json",
+            "sha256": "a833a928e10f2332438eaf4eee781f5933951e94030d4a65520ce145da301ba5",
+            "size_bytes": 386157
+          },
+          "format": "json",
+          "locator": "route_network_facts.json",
+          "revision": "local-2607"
+        },
+        "runtime_rules": {
+          "file": {
+            "exists": true,
+            "path": "data/local/2607/bundle/runtime_rules.json",
+            "sha256": "791c3caec63c1832f55c7be23f1fb8236e4e81bf35ab242c04e36e5ea9d7f1fd",
+            "size_bytes": 8089352
+          },
+          "format": "json",
+          "locator": "runtime_rules.json",
+          "revision": "local-2607"
+        },
+        "selection_indexes": {
+          "file": {
+            "exists": true,
+            "path": "data/local/2607/bundle/selection_indexes.json",
+            "sha256": "9f9a23390f4624f8b662015317eaa43580d67e694cec2c3bb45a4b009c79c72d",
+            "size_bytes": 2368646
+          },
+          "format": "json",
+          "locator": "selection_indexes.json",
+          "revision": "local-2607"
+        }
+      },
+      "fingerprint": "8eaedf492251e69f8c946cd9650e51db9be143001764ff88ac64c524f852b59a",
+      "manifest": {
+        "build_revision": "local-2607",
+        "component_revisions": {
+          "airspace_facts": "local-2607",
+          "procedure_facts": "local-2607",
+          "restricted_area_facts": "local-2607",
+          "route_network_facts": "local-2607",
+          "runtime_rules": "local-2607",
+          "selection_indexes": "local-2607"
+        },
+        "cycle": "2607",
+        "file": {
+          "exists": true,
+          "path": "data/local/2607/bundle/manifest.json",
+          "sha256": "3339c452ef78481bbd874768db4f8031a130a4994d2e4b7721a99b869a5ec079",
+          "size_bytes": 1200
+        },
+        "manifest_version": "runtime-bundle-v1",
+        "route_contract_version": "srd-v1",
+        "runtime_rule_model_version": "runtime-rule-v1",
+        "source_revisions": {}
+      },
+      "path": "data/local/2607/bundle",
+      "rule_count": 2744
+    },
+    "schema_version": 1
+  },
+  "total": 16349,
+  "unreviewed_unexpected": 230
+}

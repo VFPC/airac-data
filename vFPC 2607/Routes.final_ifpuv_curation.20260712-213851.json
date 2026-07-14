@@ -1,0 +1,63 @@
+{
+  "timestamp": "20260712-213851",
+  "source": "C:\\Users\\jkino\\Desktop\\vFPC files\\Historical Files\\vFPC 2607\\Routes.csv",
+  "backup": "C:\\Users\\jkino\\Desktop\\vFPC files\\Historical Files\\vFPC 2607\\Routes.csv.pre-final-ifpuv-curation.20260712-213851.bak",
+  "rows_before": 32098,
+  "rows_after": 32097,
+  "capped_count": 1,
+  "removed_count": 1,
+  "ifpuv_evidence": {
+    "EG2838": {
+      "P2838A": "PROF195 SOSIM Q38 GIGTO does not exist in F285..F999; PROF204 REF EG2838C SOSIM Q38 GIGTO NOT AVBL.",
+      "P2838B": "No errors below FL285.",
+      "P2838C": "No errors on high-level alternate via INKOB Q39 NOMSU."
+    },
+    "EG3502": {
+      "P3502A": "PROF204 REF EG3502A RAD ANN2B HEMEL T420 WELIN."
+    }
+  },
+  "capped": [
+    {
+      "source_line_before_edit": 3557,
+      "reason": "IFPUV P2838A cited EG2838C and PROF195 for SOSIM Q38 at F285..F999; P2838B/P2838C controls passed.",
+      "old_max": "335",
+      "new_max": "275",
+      "row_before": {
+        "ADEP/Entry": "EGAE",
+        "SID": "",
+        "Min": "255",
+        "Max": "335",
+        "Route": "DCT BELZU L10 DUFFY <FRA> MAKUX DCT SOSIM Q38 MALUD L15 RISLA N862 KARNO DCT ALHUP DCT WEVBE DCT ABWIV N862 PACSE N92 EXMOR DCT TIVER DCT",
+        "STAR": "",
+        "ADES/Exit": "EGTE",
+        "Remarks": "Notes: 453 - 489"
+      },
+      "row_after": {
+        "ADEP/Entry": "EGAE",
+        "SID": "",
+        "Min": "255",
+        "Max": "275",
+        "Route": "DCT BELZU L10 DUFFY <FRA> MAKUX DCT SOSIM Q38 MALUD L15 RISLA N862 KARNO DCT ALHUP DCT WEVBE DCT ABWIV N862 PACSE N92 EXMOR DCT TIVER DCT",
+        "STAR": "",
+        "ADES/Exit": "EGTE",
+        "Remarks": "Notes: 453 - 489"
+      }
+    }
+  ],
+  "removed": [
+    {
+      "source_line_before_edit": 10433,
+      "reason": "IFPUV P3502A cited EG3502A for EGLL ULTIB -> EGNX via HEMEL/T420/WELIN; suppress static SRD availability.",
+      "row": {
+        "ADEP/Entry": "EGLL",
+        "SID": "ULTIB",
+        "Min": "MC",
+        "Max": "195",
+        "Route": "T420 WELIN",
+        "STAR": "HEMEL1E",
+        "ADES/Exit": "EGNX",
+        "Remarks": ""
+      }
+    }
+  ]
+}

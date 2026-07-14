@@ -1,0 +1,1154 @@
+[
+  {
+    "identity": {
+      "cycle": "2607",
+      "family": "rad_annex3a_conditions",
+      "rule_id": "EG_TP",
+      "unit_kind": "rule",
+      "section_index": null,
+      "branch_index": null,
+      "source_package_revision": null
+    },
+    "header": {
+      "operator_semantics": "sid_star_requirement",
+      "priority_class": "prohibition",
+      "human_resolution_possible": true,
+      "external_fact_requirements": [
+        "aip_sid_star_data"
+      ]
+    },
+    "scope_keys": {
+      "airspace_keys": [
+        "EG"
+      ],
+      "airway_keys": [],
+      "point_keys": [],
+      "segment_keys": [],
+      "departure_keys": [],
+      "arrival_keys": [],
+      "fl_bands": [],
+      "procedure_keys": [],
+      "time_scope_flags": [],
+      "state_scope_flags": []
+    },
+    "logic_payload": {
+      "conditionKind": "sid_star_requirements",
+      "nasFab": "EG",
+      "ruleDetail": {
+        "ruleId": "EG_TP",
+        "airac": "2607",
+        "nasFab": "EG",
+        "militaryExempt": true,
+        "conditionalOnDepHasSids": true,
+        "conditionalOnArrHasStars": true,
+        "nightTimeDctIntermediateJoinExempt": true,
+        "validFrom": {
+          "raw": "2607 [09 JUL 2026]",
+          "isUfn": false,
+          "airacCycle": "2607",
+          "date": "2026-07-09"
+        },
+        "validUntil": {
+          "raw": "UFN",
+          "isUfn": true
+        },
+        "starJoinExceptions": [
+          {
+            "arrAd": [
+              "EGLD",
+              "EGLL",
+              "EGWU"
+            ],
+            "starId": "ALESO1H",
+            "joinPoint": "BIG",
+            "depAd": [
+              "EGKK"
+            ]
+          },
+          {
+            "arrAd": [
+              "EGLD",
+              "EGLL",
+              "EGWU"
+            ],
+            "starId": "HON1H",
+            "joinPoint": "TOBID",
+            "depAd": [
+              "EGNM"
+            ]
+          },
+          {
+            "arrAd": [
+              "EGLD",
+              "EGLL",
+              "EGWU"
+            ],
+            "starId": "HON1H",
+            "joinPoint": "WEZKO",
+            "depAd": [
+              "EGBB",
+              "EGBE",
+              "EGNX"
+            ]
+          },
+          {
+            "arrAd": [
+              "EGLD",
+              "EGLL",
+              "EGWU"
+            ],
+            "starId": "SIRIC1H",
+            "joinPoint": "NIGIT",
+            "depAd": [
+              "EGBP",
+              "EGDM",
+              "EGVA",
+              "EGVN"
+            ],
+            "equipment": "RNAV1"
+          },
+          {
+            "arrAd": [
+              "EGKK"
+            ],
+            "starId": "SIRIC1G",
+            "joinPoint": "MID",
+            "via": [
+              "SITET"
+            ]
+          },
+          {
+            "arrAd": [
+              "EGKK"
+            ],
+            "starId": "SIRIC1G",
+            "joinPoint": "NIGIT",
+            "depAd": [
+              "EGBP",
+              "EGVA",
+              "EGVN"
+            ],
+            "equipment": "RNAV1"
+          },
+          {
+            "arrAd": [
+              "EGKK"
+            ],
+            "starId": "KIDLI1G",
+            "joinPoint": "MID",
+            "depAd": [
+              "MIDLANDS_GROUP",
+              "EGBG",
+              "EGBK"
+            ]
+          },
+          {
+            "arrAd": [
+              "EGKK"
+            ],
+            "starId": "KONAN2G",
+            "joinPoint": "LARCK",
+            "depAd": [
+              "EGKB",
+              "EGMC",
+              "EGLC",
+              "EGTO"
+            ]
+          },
+          {
+            "arrAd": [
+              "EGSC",
+              "EGSS"
+            ],
+            "starId": "SILVA1L",
+            "joinPoint": "BOMBO",
+            "depAd": [
+              "EGBW"
+            ],
+            "via": [
+              "WEZKO"
+            ]
+          },
+          {
+            "arrAd": [
+              "EGSC",
+              "EGSS"
+            ],
+            "starId": "DET2A",
+            "joinPoint": "LOFFO",
+            "depAd": [
+              "EGLC"
+            ]
+          },
+          {
+            "arrAd": [
+              "EGGW"
+            ],
+            "starId": "DET2A",
+            "joinPoint": "LOFFO"
+          },
+          {
+            "arrAd": [
+              "EGBB",
+              "EGBE"
+            ],
+            "starId": "WAL1B",
+            "joinPoint": "CREWE",
+            "depAd": [
+              "EGGP",
+              "EGNR"
+            ]
+          },
+          {
+            "arrAd": [
+              "EGBB",
+              "EGBE"
+            ],
+            "starId": "WAL1B",
+            "joinPoint": "CREWE",
+            "via": [
+              "WAL"
+            ],
+            "flCondition": "not above FL085 in EG"
+          },
+          {
+            "arrAd": [
+              "EGBB",
+              "EGBE"
+            ],
+            "starId": "HEMEL1B",
+            "joinPoint": "BUZAD",
+            "depAd": [
+              "EGSH",
+              "EGSS",
+              "EGWU"
+            ],
+            "flCondition": "above FL155"
+          },
+          {
+            "arrAd": [
+              "EGBB",
+              "EGBE"
+            ],
+            "starId": "HEMEL1B",
+            "joinPoint": "HON",
+            "depAd": [
+              "EGBG",
+              "EGBJ",
+              "EGBK",
+              "EGBP",
+              "EGNE",
+              "EGNX",
+              "EGSH",
+              "EGTC",
+              "EGTK",
+              "EGVN"
+            ],
+            "via": [
+              "AVANT",
+              "CPT"
+            ],
+            "flCondition": "BLW FL155"
+          },
+          {
+            "arrAd": [
+              "EGBB",
+              "EGBE"
+            ],
+            "starId": "HEMEL1B",
+            "joinPoint": "WELIN",
+            "depAd": [
+              "EGGW",
+              "EGLC",
+              "EGLL",
+              "EGSC"
+            ]
+          },
+          {
+            "arrAd": [
+              "EGBB",
+              "EGBE"
+            ],
+            "starId": "HEMEL1B",
+            "joinPoint": "WELIN",
+            "via": [
+              "RAPIX",
+              "GALSO",
+              "WELIN"
+            ]
+          },
+          {
+            "arrAd": [
+              "EGKB",
+              "EGLC"
+            ],
+            "starId": "SUMUM1C",
+            "joinPoint": "LOGAN",
+            "depAd": [
+              "EGGW",
+              "EGMC",
+              "EGSC",
+              "EGSH",
+              "EGSS",
+              "EGWU"
+            ]
+          },
+          {
+            "arrAd": [
+              "EGKB",
+              "EGLC"
+            ],
+            "starId": "NEVIL1C",
+            "joinPoint": "NETVU",
+            "via": [
+              "SITET"
+            ]
+          },
+          {
+            "arrAd": [
+              "EGKB",
+              "EGLC"
+            ],
+            "starId": "SILVA1C",
+            "joinPoint": "BOMBO",
+            "depAd": [
+              "EGBW"
+            ]
+          },
+          {
+            "arrAd": [
+              "EGKB",
+              "EGLC"
+            ],
+            "starId": "HON1C",
+            "joinPoint": "TIXEX",
+            "depAd": [
+              "EGBG",
+              "EGBK",
+              "EGNX"
+            ],
+            "flCondition": "BLW FL075"
+          },
+          {
+            "arrAd": [
+              "EGKB",
+              "EGLC"
+            ],
+            "starId": "SAM1C",
+            "joinPoint": "EVEXU",
+            "depAd": [
+              "FARNBOROUGH_GROUP",
+              "EGHO",
+              "EGHR"
+            ]
+          },
+          {
+            "arrAd": [
+              "EGKB",
+              "EGLC"
+            ],
+            "starId": "SAM1C",
+            "joinPoint": "SOXUX",
+            "depAd": [
+              "EGKA"
+            ]
+          },
+          {
+            "arrAd": [
+              "EGKB",
+              "EGLC"
+            ],
+            "starId": "AVANT1C",
+            "joinPoint": "GODLU",
+            "depAd": [
+              "EGKK",
+              "EGLL",
+              "EGLC",
+              "EGKB",
+              "EGMC"
+            ]
+          },
+          {
+            "arrAd": [
+              "EGKB",
+              "EGLC"
+            ],
+            "starId": "LISTO",
+            "joinPoint": "ODVOD",
+            "via": [
+              "LAKEY",
+              "MAMUL",
+              "MOGLI",
+              "ODVOD"
+            ]
+          },
+          {
+            "arrAd": [
+              "EGHH",
+              "EGHI"
+            ],
+            "starId": "ELDAX1S",
+            "joinPoint": "NOTGI",
+            "depAd": [
+              "EGKB",
+              "EGLC",
+              "EGMC",
+              "EGTO"
+            ],
+            "via": [
+              "KONAN",
+              "RINTI"
+            ]
+          },
+          {
+            "arrAd": [
+              "EGPH"
+            ],
+            "starId": "TUNSO1E",
+            "joinPoint": "TLA",
+            "via": [
+              "TRN"
+            ]
+          },
+          {
+            "arrAd": [
+              "EGPF"
+            ],
+            "starId": "AGPED1G",
+            "joinPoint": "TLA",
+            "via": [
+              "SAB",
+              "TLA"
+            ]
+          },
+          {
+            "arrAd": [
+              "EGMC"
+            ],
+            "starId": "SUMUM1S",
+            "joinPoint": "LOGAN",
+            "depAd": [
+              "EGGW",
+              "EGSC",
+              "EGSH",
+              "EGSS",
+              "EGTB",
+              "EGWU"
+            ]
+          },
+          {
+            "arrAd": [
+              "EGMC"
+            ],
+            "starId": "SOVAT1S",
+            "joinPoint": "ATSAP",
+            "via": [
+              "RINTI"
+            ]
+          },
+          {
+            "arrAd": [
+              "EGMC"
+            ],
+            "starId": "NEVIL1S",
+            "joinPoint": "NETVU",
+            "via": [
+              "SITET"
+            ]
+          },
+          {
+            "arrAd": [
+              "EGMC"
+            ],
+            "starId": "SAM1S",
+            "joinPoint": "EVEXU",
+            "depAd": [
+              "EGHO",
+              "EGHR",
+              "FARNBOROUGH_GROUP"
+            ]
+          },
+          {
+            "arrAd": [
+              "EGMC"
+            ],
+            "starId": "SAM1S",
+            "joinPoint": "SOXUX",
+            "depAd": [
+              "EGKA"
+            ]
+          },
+          {
+            "arrAd": [
+              "EGMC"
+            ],
+            "starId": "SILVA1S",
+            "joinPoint": "BOMBO",
+            "depAd": [
+              "EGBW"
+            ]
+          },
+          {
+            "arrAd": [
+              "EGNX"
+            ],
+            "starId": "HEMEL1E",
+            "joinPoint": "VELAG",
+            "via": [
+              "AVANT",
+              "VELAG"
+            ]
+          },
+          {
+            "arrAd": [
+              "EGNX"
+            ],
+            "starId": "HEMEL1E",
+            "joinPoint": "WELIN",
+            "depAd": [
+              "EGGW",
+              "EGKB",
+              "EGKK",
+              "EGLC",
+              "EGLL",
+              "EGMC",
+              "EGMD",
+              "EGSC",
+              "EGSS",
+              "EGTO",
+              "EGWU"
+            ]
+          },
+          {
+            "arrAd": [
+              "EGNX"
+            ],
+            "starId": "HEMEL1E",
+            "joinPoint": "WELIN",
+            "via": [
+              "GALSO",
+              "RAPIX",
+              "WELIN"
+            ]
+          },
+          {
+            "arrAd": [
+              "EGNX"
+            ],
+            "starId": "HEMEL1E",
+            "joinPoint": "WELIN",
+            "via": [
+              "SUMUM"
+            ],
+            "flCondition": "below FL155"
+          },
+          {
+            "arrAd": [
+              "EGNX"
+            ],
+            "starId": "WAL2E",
+            "joinPoint": "NUGRA",
+            "depAd": [
+              "EGNR"
+            ],
+            "via": [
+              "ROKUP",
+              "EGNX",
+              "RNAV5"
+            ],
+            "equipment": "RNAV1"
+          },
+          {
+            "arrAd": [
+              "EGNX"
+            ],
+            "starId": "LIBSO1E",
+            "joinPoint": "DESIG",
+            "depAd": [
+              "EGCN"
+            ],
+            "via": [
+              "ROKUP",
+              "EGNX",
+              "RNAV5"
+            ],
+            "equipment": "RNAV1"
+          },
+          {
+            "arrAd": [
+              "EGNX"
+            ],
+            "starId": "KIDLI1G",
+            "joinPoint": "MID",
+            "depAd": [
+              "EGLL"
+            ]
+          },
+          {
+            "arrAd": [
+              "EGCC"
+            ],
+            "starId": "OTBED1M",
+            "joinPoint": "BURNI",
+            "depAd": [
+              "EGNM."
+            ]
+          },
+          {
+            "arrAd": [
+              "EGCC"
+            ],
+            "starId": "AXCIS1M",
+            "joinPoint": "MONTY",
+            "via": [
+              "MONTY"
+            ]
+          },
+          {
+            "arrAd": [
+              "EGCC"
+            ],
+            "starId": "ELVOS1M",
+            "joinPoint": "TNT",
+            "depAd": [
+              "LONDON_GROUP",
+              "EGBB",
+              "EGBG",
+              "EGBJ",
+              "EGNX",
+              "EGSH"
+            ],
+            "via": [
+              "DTY",
+              "SAPCO"
+            ],
+            "flCondition": "below FL195"
+          },
+          {
+            "arrAd": [
+              "EGCC"
+            ],
+            "starId": "ELVOS1M",
+            "joinPoint": "TNT",
+            "depAd": [
+              "EGKK",
+              "EGTR"
+            ],
+            "via": [
+              "RINTI",
+              "SUMUM"
+            ],
+            "flCondition": "BLW FL105"
+          },
+          {
+            "arrAd": [
+              "EGCC"
+            ],
+            "starId": "OTBED1M",
+            "joinPoint": "GOLES",
+            "depAd": [
+              "EGNJ"
+            ]
+          },
+          {
+            "arrAd": [
+              "EGGP",
+              "EGNR"
+            ],
+            "starId": "PEPZE1L",
+            "joinPoint": "MONTY",
+            "via": [
+              "MONTY"
+            ]
+          },
+          {
+            "arrAd": [
+              "EGGP",
+              "EGNR"
+            ],
+            "starId": "ELVOS1L",
+            "joinPoint": "TNT",
+            "depAd": [
+              "LONDON_GROUP"
+            ],
+            "flCondition": "below FL195"
+          },
+          {
+            "arrAd": [
+              "EGGP",
+              "EGNR"
+            ],
+            "starId": "ELVOS1L",
+            "joinPoint": "TNT",
+            "depAd": [
+              "LONDON_GROUP"
+            ],
+            "flCondition": "below FL195"
+          },
+          {
+            "arrAd": [
+              "EGBB"
+            ],
+            "starId": "HEMEL1B",
+            "joinPoint": "HON",
+            "depAd": [
+              "EGBG",
+              "EGBJ",
+              "EGBK",
+              "EGNE",
+              "EGNX",
+              "EGSH",
+              "EGTC",
+              "EGTK",
+              "EGVN"
+            ],
+            "via": [
+              "BOLRO",
+              "GARMI",
+              "KOTEM",
+              "ORIST"
+            ]
+          },
+          {
+            "arrAd": [
+              "EGNT"
+            ],
+            "starId": "POL1N",
+            "joinPoint": "GOKOV",
+            "via": [
+              "DONAX",
+              "ALAVA",
+              "ROLEX",
+              "NELSA",
+              "GOKOV"
+            ]
+          }
+        ],
+        "advisoryTexts": [
+          {
+            "kind": "optional_route_advice",
+            "value": "SAM DCT EGHI or BIA DCT EGHH",
+            "raw": "DEP HO/HQ/KK/LL/SH/TE/TK/WU/FARNBOROUGH_GROUP or traffic via GIBSO which may file SAM DCT EGHI or BIA DCT EGHH",
+            "sourceField": "explanation"
+          }
+        ]
+      }
+    },
+    "explanation_payload": {
+      "raw_rule_id": "EG_TP",
+      "condition_kind": "sid_star_requirements",
+      "nas_fab": "EG",
+      "valid_until_raw": "UFN"
+    }
+  },
+  {
+    "identity": {
+      "cycle": "2607",
+      "family": "rad_annex3a_conditions",
+      "rule_id": "EG_LIM_AD",
+      "unit_kind": "rule",
+      "section_index": null,
+      "branch_index": null,
+      "source_package_revision": null
+    },
+    "header": {
+      "operator_semantics": "dct_distance_limit",
+      "priority_class": "prohibition",
+      "human_resolution_possible": true,
+      "external_fact_requirements": [
+        "route_dct_geometry"
+      ]
+    },
+    "scope_keys": {
+      "airspace_keys": [
+        "EG"
+      ],
+      "airway_keys": [],
+      "point_keys": [],
+      "segment_keys": [],
+      "departure_keys": [],
+      "arrival_keys": [],
+      "fl_bands": [],
+      "procedure_keys": [],
+      "time_scope_flags": [],
+      "state_scope_flags": []
+    },
+    "logic_payload": {
+      "conditionKind": "dct_limits",
+      "nasFab": "EG",
+      "ruleDetail": {
+        "ruleId": "EG_LIM_AD",
+        "airac": "2607",
+        "nasFab": "EG",
+        "militaryExempt": false,
+        "validFrom": {
+          "raw": "2303 [23 MAR 2023]",
+          "isUfn": false,
+          "airacCycle": "2303",
+          "date": "2023-03-23"
+        },
+        "validUntil": {
+          "raw": "UFN",
+          "isUfn": true
+        },
+        "defaultDepNm": 50,
+        "defaultArrNm": 50,
+        "limits": [
+          {
+            "icao": "EGAA",
+            "depNm": 0,
+            "arrNm": 0
+          },
+          {
+            "icao": "EGBB",
+            "depNm": 0,
+            "arrNm": 0
+          },
+          {
+            "icao": "EGBJ",
+            "depNm": 0,
+            "arrNm": 0,
+            "flQualifier": {
+              "direction": "below",
+              "fl": 105
+            }
+          },
+          {
+            "icao": "EGCC",
+            "depNm": 0,
+            "arrNm": 0
+          },
+          {
+            "icao": "EGCN",
+            "depNm": 0,
+            "arrNm": 0
+          },
+          {
+            "icao": "EGFF",
+            "depNm": 0,
+            "arrNm": 0,
+            "flQualifier": {
+              "direction": "below",
+              "fl": 105
+            }
+          },
+          {
+            "icao": "EGGD",
+            "depNm": 0,
+            "arrNm": 0,
+            "flQualifier": {
+              "direction": "below",
+              "fl": 105
+            }
+          },
+          {
+            "icao": "EGGW",
+            "depNm": 0,
+            "arrNm": 0
+          },
+          {
+            "icao": "EGHL",
+            "depNm": 0,
+            "arrNm": 0
+          },
+          {
+            "icao": "EGJA",
+            "depNm": 0,
+            "arrNm": 0
+          },
+          {
+            "icao": "EGJB",
+            "depNm": 0,
+            "arrNm": 0
+          },
+          {
+            "icao": "EGJJ",
+            "depNm": 0,
+            "arrNm": 0
+          },
+          {
+            "icao": "EGKB",
+            "depNm": 0,
+            "arrNm": 0
+          },
+          {
+            "icao": "EGKK",
+            "depNm": 0,
+            "arrNm": 0
+          },
+          {
+            "icao": "EGLC",
+            "depNm": 0,
+            "arrNm": 0
+          },
+          {
+            "icao": "EGLF",
+            "depNm": 0,
+            "arrNm": 0
+          },
+          {
+            "icao": "EGLK",
+            "depNm": 0,
+            "arrNm": 0
+          },
+          {
+            "icao": "EGLL",
+            "depNm": 0,
+            "arrNm": 0
+          },
+          {
+            "icao": "EGMC",
+            "depNm": 0,
+            "arrNm": 0
+          },
+          {
+            "icao": "EGNH",
+            "depNm": 0,
+            "arrNm": 0
+          },
+          {
+            "icao": "EGNT",
+            "depNm": 0,
+            "arrNm": 0
+          },
+          {
+            "icao": "EGNX",
+            "depNm": 0,
+            "arrNm": 0
+          },
+          {
+            "icao": "EGPF",
+            "depNm": 0,
+            "arrNm": 0
+          },
+          {
+            "icao": "EGPH",
+            "depNm": 0,
+            "arrNm": 0
+          },
+          {
+            "icao": "EGPK",
+            "depNm": 0,
+            "arrNm": 0
+          },
+          {
+            "icao": "EGSC",
+            "depNm": 0,
+            "arrNm": 0
+          },
+          {
+            "icao": "EGSS",
+            "depNm": 0,
+            "arrNm": 0
+          },
+          {
+            "icao": "EGTD",
+            "depNm": 0,
+            "arrNm": 0
+          },
+          {
+            "icao": "EGTE",
+            "depNm": 0,
+            "arrNm": 0,
+            "flQualifier": {
+              "direction": "below",
+              "fl": 105
+            }
+          },
+          {
+            "icao": "EGTF",
+            "depNm": 0,
+            "arrNm": 0
+          },
+          {
+            "icao": "EGVO",
+            "depNm": 0,
+            "arrNm": 0
+          },
+          {
+            "icao": "EGWU",
+            "depNm": 0,
+            "arrNm": 0
+          },
+          {
+            "icao": "EGNM",
+            "depNm": 0,
+            "arrNm": 50
+          },
+          {
+            "icao": "EGNS",
+            "depNm": 0,
+            "arrNm": 50
+          },
+          {
+            "icao": "EGSU",
+            "depNm": 0,
+            "arrNm": 50
+          },
+          {
+            "icao": "EGTC",
+            "depNm": 0,
+            "arrNm": 50
+          },
+          {
+            "icao": "EGTK",
+            "depNm": 0,
+            "arrNm": 50
+          },
+          {
+            "icao": "EGGP",
+            "depNm": 30,
+            "arrNm": 0
+          },
+          {
+            "icao": "EGLD",
+            "depNm": 50,
+            "arrNm": 0
+          },
+          {
+            "icao": "EGHH",
+            "depNm": 50,
+            "arrNm": 0
+          },
+          {
+            "icao": "EGHI",
+            "depNm": 50,
+            "arrNm": 0
+          },
+          {
+            "icao": "EGSY",
+            "depNm": 50,
+            "arrNm": 0
+          }
+        ]
+      }
+    },
+    "explanation_payload": {
+      "raw_rule_id": "EG_LIM_AD",
+      "condition_kind": "dct_limits",
+      "nas_fab": "EG",
+      "valid_until_raw": "UFN"
+    }
+  },
+  {
+    "identity": {
+      "cycle": "2607",
+      "family": "rad_annex3a_conditions",
+      "rule_id": "UK_LIM_AD",
+      "unit_kind": "rule",
+      "section_index": null,
+      "branch_index": null,
+      "source_package_revision": null
+    },
+    "header": {
+      "operator_semantics": "dct_distance_limit",
+      "priority_class": "prohibition",
+      "human_resolution_possible": true,
+      "external_fact_requirements": [
+        "route_dct_geometry"
+      ]
+    },
+    "scope_keys": {
+      "airspace_keys": [
+        "UK"
+      ],
+      "airway_keys": [],
+      "point_keys": [],
+      "segment_keys": [],
+      "departure_keys": [],
+      "arrival_keys": [],
+      "fl_bands": [],
+      "procedure_keys": [],
+      "time_scope_flags": [],
+      "state_scope_flags": []
+    },
+    "logic_payload": {
+      "conditionKind": "dct_limits",
+      "nasFab": "UK",
+      "ruleDetail": {
+        "ruleId": "UK_LIM_AD",
+        "airac": "2607",
+        "nasFab": "UK",
+        "militaryExempt": true,
+        "validFrom": {
+          "raw": "BOT",
+          "isUfn": false,
+          "isBot": true
+        },
+        "validUntil": {
+          "raw": "UFN",
+          "isUfn": true
+        },
+        "defaultDepNm": 0,
+        "defaultArrNm": 0
+      }
+    },
+    "explanation_payload": {
+      "raw_rule_id": "UK_LIM_AD",
+      "condition_kind": "dct_limits",
+      "nas_fab": "UK",
+      "valid_until_raw": "UFN"
+    }
+  },
+  {
+    "identity": {
+      "cycle": "2607",
+      "family": "rad_annex3a_conditions",
+      "rule_id": "UK_TP",
+      "unit_kind": "rule",
+      "section_index": null,
+      "branch_index": null,
+      "source_package_revision": null
+    },
+    "header": {
+      "operator_semantics": "sid_star_requirement",
+      "priority_class": "prohibition",
+      "human_resolution_possible": true,
+      "external_fact_requirements": [
+        "aip_sid_star_data"
+      ]
+    },
+    "scope_keys": {
+      "airspace_keys": [
+        "UK"
+      ],
+      "airway_keys": [],
+      "point_keys": [],
+      "segment_keys": [],
+      "departure_keys": [],
+      "arrival_keys": [],
+      "fl_bands": [],
+      "procedure_keys": [],
+      "time_scope_flags": [],
+      "state_scope_flags": []
+    },
+    "logic_payload": {
+      "conditionKind": "sid_star_requirements",
+      "nasFab": "UK",
+      "ruleDetail": {
+        "ruleId": "UK_TP",
+        "airac": "2607",
+        "nasFab": "UK",
+        "militaryExempt": true,
+        "conditionalOnDepHasSids": true,
+        "conditionalOnArrHasStars": true,
+        "nightTimeDctIntermediateJoinExempt": false,
+        "validFrom": {
+          "raw": "BOT",
+          "isUfn": false,
+          "isBot": true
+        },
+        "validUntil": {
+          "raw": "UFN",
+          "isUfn": true
+        }
+      }
+    },
+    "explanation_payload": {
+      "raw_rule_id": "UK_TP",
+      "condition_kind": "sid_star_requirements",
+      "nas_fab": "UK",
+      "valid_until_raw": "UFN"
+    }
+  }
+]

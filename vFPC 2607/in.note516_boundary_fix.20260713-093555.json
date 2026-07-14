@@ -1,0 +1,107 @@
+{
+  "airac": "2607",
+  "source": "C:\\Users\\jkino\\Desktop\\vFPC files\\Historical Files\\vFPC 2607\\in.json",
+  "backup": "C:\\Users\\jkino\\Desktop\\vFPC files\\Historical Files\\vFPC 2607\\in.json.pre-note516-boundary-fix.20260713-093555.bak",
+  "issue": "VFP-426",
+  "reason": "Match RAD-style boundary convention: represented window starts one minute past and finishes on the hour. Note 516 bans the complement of available 1700-0800 Summer UTC, so the daytime ban is 0801-1700, not 0801-1659.",
+  "changes": [
+    {
+      "before": {
+        "note": 516,
+        "date": 0,
+        "start": "0801",
+        "end": "1659"
+      },
+      "after": {
+        "note": 516,
+        "date": 0,
+        "start": "0801",
+        "end": "1700"
+      }
+    },
+    {
+      "before": {
+        "note": 516,
+        "date": 1,
+        "start": "0801",
+        "end": "1659"
+      },
+      "after": {
+        "note": 516,
+        "date": 1,
+        "start": "0801",
+        "end": "1700"
+      }
+    },
+    {
+      "before": {
+        "note": 516,
+        "date": 2,
+        "start": "0801",
+        "end": "1659"
+      },
+      "after": {
+        "note": 516,
+        "date": 2,
+        "start": "0801",
+        "end": "1700"
+      }
+    },
+    {
+      "before": {
+        "note": 516,
+        "date": 3,
+        "start": "0801",
+        "end": "1659"
+      },
+      "after": {
+        "note": 516,
+        "date": 3,
+        "start": "0801",
+        "end": "1700"
+      }
+    },
+    {
+      "before": {
+        "note": 516,
+        "date": 4,
+        "start": "0801",
+        "end": "1659"
+      },
+      "after": {
+        "note": 516,
+        "date": 4,
+        "start": "0801",
+        "end": "1700"
+      }
+    },
+    {
+      "before": {
+        "note": 516,
+        "date": 5,
+        "start": "0801",
+        "end": "1659"
+      },
+      "after": {
+        "note": 516,
+        "date": 5,
+        "start": "0801",
+        "end": "1700"
+      }
+    },
+    {
+      "before": {
+        "note": 516,
+        "date": 6,
+        "start": "0801",
+        "end": "1659"
+      },
+      "after": {
+        "note": 516,
+        "date": 6,
+        "start": "0801",
+        "end": "1700"
+      }
+    }
+  ]
+}
