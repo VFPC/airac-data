@@ -307,3 +307,32 @@ cycle, after all curation classes above).
 
   `/version` reports `last_updated_date: 07/09/2026`, `last_updated_time: 11:51:14`.
 - **Production promotion checklist item 5 (upload) complete.** Item 6 (archive) next.
+
+## AIRAC 2609 airac-archiver run + Routes.csv.pre-*.bak investigation (20260907-1252)
+
+- Ran `python -m src archive --cycle 2609` from `airac-archiver` (`config.local.yaml`
+  `hub_data_root` confirmed pointed at `vFPC-Hub\data\local`). Result: 175 files + manifest
+  staged in `airac-data\vFPC 2609`.
+- Verified against the runbook's archive gate targets: no missing-expected-file warnings;
+  `out.2609.json` archived SHA-256 matches the promoted candidate exactly
+  (`77D5DF6F8D6B035690A0E54DDDDE42C75A1840A6969EB9E803140730C9D14D6F`); raw SRD/RAD workbooks,
+  current `.sct`, source CSV/JSON, AD2/eAIP inputs, Hub `bundle/`/`rad/`, `diagnostics/summaries/`,
+  and `repro_manifest.json` all present.
+- **Investigated an apparent gap**: the manifest contains zero `.bak` files, meaning the four
+  `Routes.csv.pre-*.bak` snapshots generated during this cycle's curation are not archived.
+  Traced to `airac-archiver/src/archiver.py` `_is_allowed()` / `_SOURCE_PROVENANCE_RE`: only
+  `in.json.pre-*.bak` is allowlisted, no equivalent pattern exists for `Routes.csv.pre-*.bak`.
+  Confirmed this is **pre-existing and deliberate**, not a 2609-specific regression: the exact
+  same gap exists in the already-published AIRAC 2607 archive (its four `Routes.csv.pre-*.bak`
+  files, documented in 2607's own `curation_notes.md`, were never archived and no longer exist
+  locally either — a permanent, already-accepted gap for that cycle). A dedicated test
+  (`test_route_backup_not_allowed`, added in the same PR #7 that allowlisted the small JSON/MD
+  curation-evidence files) locks in this exclusion. Drafted a fix to add the pattern, then
+  reverted it after finding this evidence — the exclusion is an intentional storage-size policy
+  (small diff-evidence files archived; large multi-MB near-duplicate raw snapshots are not),
+  confirmed with the user rather than silently reversed. Reworded
+  `Documentation/airac_rollover_run_rules.md` and `Documentation/out_json_release_runbook.md` in
+  `vFPC-Hub` (commit `9bc259a`) so this isn't re-litigated next cycle.
+- Archive committed and pushed: `airac-data` commit `6f118ea`, "Archive vFPC 2609 production
+  artifacts", 176 files changed.
+- **Production promotion checklist complete: staged, uploaded, verified, archived.**

@@ -2,8 +2,8 @@
 
 **Cycle:** 2609  
 **Effective:** 2026-09-03  
-**Expires:** 2026-09-30  
-**Archived:** 2026-09-07 10:52:58 UTC  
+**Expires:** 2026-10-01  
+**Archived:** 2026-09-07 11:18:12 UTC  
 **Archived by:** jkino  
 
 ## Files
@@ -157,7 +157,7 @@
 | `bundle/route_network_facts.json` | `0aef49ade7ae6ad9898297915ce67d5b96c1ed51a0d5b67617a6c1d781eb91a5` |
 | `bundle/runtime_rules.json` | `a7388887dc06b9e4f89b6dd66db20c95a3a0bc650cbbc280d076e7d99dbb681c` |
 | `bundle/selection_indexes.json` | `76fc15a4e302e5911f77db03496cb88034b00ae0069db3d4a92e990c69d6ed1e` |
-| `curation_notes.md` | `26ce7ac0299b2c9b1923fcef5283c9ac3f421f20d42215d3ee470d1d4eb011d7` |
+| `curation_notes.md` | `d6c9f270caa0278996126950d79fc04a465079dedf36c2b209fcfa8ab73015ef` |
 | `diagnostics/summaries/full_trace_2609_final.summary.json` | `79f7b49821da7d831feded39075d37b6bd210c4164689a63bf5cc2623176db45` |
 | `diagnostics/summaries/full_trace_2609_initial.summary.json` | `c4958a6465713779fe5e93e762e18f11459bd3ecc1a8ddcbc32a6d25402d3e84` |
 | `diagnostics/summaries/full_trace_2609_round2.summary.json` | `eb214b75c500ff059e503809574df4e06571cb506d741254db55497ca6a8a8ed` |
