@@ -1,0 +1,10 @@
+{
+  "airac": "2609",
+  "family": "rad_annex2b_route_logic",
+  "total_rows": 1167,
+  "compiled": 1166,
+  "skipped": 1,
+  "skipped_rule_ids": [
+    "LG2214"
+  ]
+}

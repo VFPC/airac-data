@@ -1,0 +1,201 @@
+{
+  "schema": "vfpc-airac-repro-bundle.v1",
+  "airac": "2609",
+  "generatedAtUtc": "2026-09-06T17:36:44+00:00",
+  "hub": {
+    "path": "C:\\Users\\jkino\\Documents\\GitHub\\vFPC-Hub",
+    "gitSha": "ab37cbe",
+    "gitRef": "airac/2609-rad-rollover",
+    "dirty": true
+  },
+  "dataRoot": "C:\\Users\\jkino\\Documents\\GitHub\\vFPC-Hub\\data\\local",
+  "sourceRoot": "C:\\Users\\jkino\\Desktop\\vFPC files\\Historical Files\\vFPC 2609",
+  "files": [
+    {
+      "label": "Authoritative AIRAC in.json source for live data work",
+      "role": "source-input",
+      "path": "C:\\Users\\jkino\\Desktop\\vFPC files\\Historical Files\\vFPC 2609\\in.json",
+      "required": true,
+      "exists": true,
+      "sizeBytes": 102686,
+      "sha256": "EADE5C57EBF596713430F42E6E0917C48FB1EB8A1C43A3276DD1D134D90F405F"
+    },
+    {
+      "label": "Authoritative AIRAC Routes.csv source",
+      "role": "source-input",
+      "path": "C:\\Users\\jkino\\Desktop\\vFPC files\\Historical Files\\vFPC 2609\\Routes.csv",
+      "required": true,
+      "exists": true,
+      "sizeBytes": 2658460,
+      "sha256": "782F0E97BE7A457716F8E2378C3A8ABA1D5AB3E7BE349D75CB9BFEDC54DD12D5"
+    },
+    {
+      "label": "Authoritative AIRAC Notes.csv source",
+      "role": "source-input",
+      "path": "C:\\Users\\jkino\\Desktop\\vFPC files\\Historical Files\\vFPC 2609\\Notes.csv",
+      "required": true,
+      "exists": true,
+      "sizeBytes": 42637,
+      "sha256": "6514BDA166192E2093401CD4D4172AE2D75E73D1CDF54FA56AD17BC954194841"
+    },
+    {
+      "label": "Promoted out.json candidate for API upload",
+      "role": "promoted-production-output",
+      "path": "C:\\Users\\jkino\\Desktop\\vFPC files\\Historical Files\\vFPC 2609\\out.json",
+      "required": false,
+      "exists": true,
+      "sizeBytes": 5739349,
+      "sha256": "77D5DF6F8D6B035690A0E54DDDDE42C75A1840A6969EB9E803140730C9D14D6F"
+    },
+    {
+      "label": "Authoritative AIRAC sector-file source",
+      "role": "source-input",
+      "path": "C:\\Users\\jkino\\Desktop\\vFPC files\\Historical Files\\vFPC 2609\\UK_2026_09.sct",
+      "required": false,
+      "exists": true,
+      "sizeBytes": 11473400,
+      "sha256": "9817A278621582DA02A4AA6B34C38170D986DEE8E30E54A8B6789805A5FA5270"
+    },
+    {
+      "label": "SRD out.json used by Hub route-check diagnostics",
+      "role": "diagnostic-srd-output",
+      "path": "C:\\Users\\jkino\\Documents\\GitHub\\vFPC-Hub\\data\\local\\2609\\routes\\out.json",
+      "required": true,
+      "exists": true,
+      "sizeBytes": 5739349,
+      "sha256": "77D5DF6F8D6B035690A0E54DDDDE42C75A1840A6969EB9E803140730C9D14D6F"
+    },
+    {
+      "label": "Assembled runtime bundle manifest",
+      "role": "diagnostic-runtime-bundle",
+      "path": "C:\\Users\\jkino\\Documents\\GitHub\\vFPC-Hub\\data\\local\\2609\\bundle\\manifest.json",
+      "required": true,
+      "exists": true,
+      "sizeBytes": 1200,
+      "sha256": "3F6EEA7BF7A27555672B1D2C2CFDE8B641339394D1C701BBB10A29629A502781"
+    },
+    {
+      "label": "Assembled RAD runtime rules",
+      "role": "diagnostic-runtime-bundle",
+      "path": "C:\\Users\\jkino\\Documents\\GitHub\\vFPC-Hub\\data\\local\\2609\\bundle\\runtime_rules.json",
+      "required": false,
+      "exists": true,
+      "sizeBytes": 8088583,
+      "sha256": "A7388887DC06B9E4F89B6DD66DB20C95A3A0BC650CBBC280D076E7D99DBB681C"
+    },
+    {
+      "label": "Assembled selection indexes",
+      "role": "diagnostic-runtime-bundle",
+      "path": "C:\\Users\\jkino\\Documents\\GitHub\\vFPC-Hub\\data\\local\\2609\\bundle\\selection_indexes.json",
+      "required": false,
+      "exists": true,
+      "sizeBytes": 2370499,
+      "sha256": "76FC15A4E302E5911F77DB03496CB88034B00AE0069DB3D4A92E990C69D6ED1E"
+    },
+    {
+      "label": "Assembled route-network facts",
+      "role": "diagnostic-runtime-bundle",
+      "path": "C:\\Users\\jkino\\Documents\\GitHub\\vFPC-Hub\\data\\local\\2609\\bundle\\route_network_facts.json",
+      "required": false,
+      "exists": true,
+      "sizeBytes": 955120,
+      "sha256": "0AEF49ADE7AE6AD9898297915CE67D5B96C1ED51A0D5B67617A6C1D781EB91A5"
+    },
+    {
+      "label": "Assembled airspace facts",
+      "role": "diagnostic-runtime-bundle",
+      "path": "C:\\Users\\jkino\\Documents\\GitHub\\vFPC-Hub\\data\\local\\2609\\bundle\\airspace_facts.json",
+      "required": false,
+      "exists": true,
+      "sizeBytes": 444185,
+      "sha256": "3BB52FE22D6BA0A5EC1654CAEE5E06EDD36E4C397B0CDB5B8CE3BBAB640753F7"
+    },
+    {
+      "label": "Tracked human-reviewed IFPUV evidence ledger",
+      "role": "review-ledger",
+      "path": "C:\\Users\\jkino\\Documents\\GitHub\\vFPC-Hub\\evidence\\airac\\2609\\srd_ifpuv_evidence.json",
+      "required": false,
+      "exists": false,
+      "sizeBytes": null,
+      "sha256": null
+    },
+    {
+      "label": "Legacy data/local IFPUV evidence ledger fallback",
+      "role": "legacy-review-ledger",
+      "path": "C:\\Users\\jkino\\Documents\\GitHub\\vFPC-Hub\\data\\local\\2609\\srd_ifpuv_evidence.json",
+      "required": false,
+      "exists": false,
+      "sizeBytes": null,
+      "sha256": null
+    },
+    {
+      "label": "RAD runtime export manifest",
+      "role": "rad-export",
+      "path": "C:\\Users\\jkino\\Documents\\GitHub\\vFPC-Hub\\data\\local\\2609\\rad\\rad_runtime_manifest.json",
+      "required": false,
+      "exists": true,
+      "sizeBytes": 2367,
+      "sha256": "56A9D38B0424D53978CAABDCDF22E1A4B343A3C2A6CBF128DAF4853844C4C572"
+    },
+    {
+      "label": "AIP diagnostic artifact aip/aip_airspaces.json",
+      "role": "aip-output",
+      "path": "C:\\Users\\jkino\\Documents\\GitHub\\vFPC-Hub\\data\\local\\2609\\aip\\aip_airspaces.json",
+      "required": false,
+      "exists": true,
+      "sizeBytes": 396490,
+      "sha256": "EF62A81EE249BA4FEA52BD65EE866B9E8B9713F2BC015B83E18DB6332761614B"
+    },
+    {
+      "label": "AIP diagnostic artifact aip/aip_airports.json",
+      "role": "aip-output",
+      "path": "C:\\Users\\jkino\\Documents\\GitHub\\vFPC-Hub\\data\\local\\2609\\aip\\aip_airports.json",
+      "required": false,
+      "exists": true,
+      "sizeBytes": 22871,
+      "sha256": "A39C47ECEBDECC30A1C11DD2CD6E3D782C9A1F17A0C8ADAE0E0A4234A4EB5065"
+    },
+    {
+      "label": "AIP diagnostic artifact aip/aip_navaids.json",
+      "role": "aip-output",
+      "path": "C:\\Users\\jkino\\Documents\\GitHub\\vFPC-Hub\\data\\local\\2609\\aip\\aip_navaids.json",
+      "required": false,
+      "exists": true,
+      "sizeBytes": 12213,
+      "sha256": "249E9F083E235ACF9F4EF7F0646B9F32CA48077468A1ADEF66175297EB3897F6"
+    },
+    {
+      "label": "AIP diagnostic artifact aip/aip_restricted_areas.json",
+      "role": "aip-output",
+      "path": "C:\\Users\\jkino\\Documents\\GitHub\\vFPC-Hub\\data\\local\\2609\\aip\\aip_restricted_areas.json",
+      "required": false,
+      "exists": true,
+      "sizeBytes": 930992,
+      "sha256": "29D71A1329FFD6A19E2904F941D02D2EE630AD14919DB840220BD38820713202"
+    },
+    {
+      "label": "AIP diagnostic artifact aip/aip_segments.json",
+      "role": "aip-output",
+      "path": "C:\\Users\\jkino\\Documents\\GitHub\\vFPC-Hub\\data\\local\\2609\\aip\\aip_segments.json",
+      "required": false,
+      "exists": true,
+      "sizeBytes": 932635,
+      "sha256": "896A5ADFAEB32393BCF8283B689371E227B3D8084685D97D20D482403FCBC7C3"
+    },
+    {
+      "label": "AIP diagnostic artifact aip/enr44_points.json",
+      "role": "aip-output",
+      "path": "C:\\Users\\jkino\\Documents\\GitHub\\vFPC-Hub\\data\\local\\2609\\aip\\enr44_points.json",
+      "required": false,
+      "exists": true,
+      "sizeBytes": 884477,
+      "sha256": "40B67BFE58D597A1D1FDEA3E5707443E3E8EBE9F1083F2CC52531463D62CBDD6"
+    }
+  ],
+  "summary": {
+    "fileCount": 20,
+    "existingCount": 18,
+    "requiredMissingCount": 0,
+    "requiredMissing": []
+  }
+}

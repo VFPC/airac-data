@@ -1,0 +1,129 @@
+{
+  "schema": "vfpc-airac-cycle-manifest.v1",
+  "airac": "2609",
+  "generatedAtUtc": "2026-09-06T17:35:49+00:00",
+  "sourceRoot": "C:\\Users\\jkino\\Desktop\\vFPC files\\Historical Files\\vFPC 2609",
+  "purpose": "Human-auditable receipt for the current AIRAC production folder. It records co-presence, not causal provenance; the output/input association is meaningful only when this manifest is written immediately after generating or promoting out.json.",
+  "inputs": [
+    {
+      "name": "in.json",
+      "role": "production-input",
+      "path": "C:\\Users\\jkino\\Desktop\\vFPC files\\Historical Files\\vFPC 2609\\in.json",
+      "required": true,
+      "exists": true,
+      "sizeBytes": 102686,
+      "modifiedLocal": "2026-09-06T19:04:43+02:00",
+      "sha256": "EADE5C57EBF596713430F42E6E0917C48FB1EB8A1C43A3276DD1D134D90F405F"
+    },
+    {
+      "name": "Routes.csv",
+      "role": "production-input",
+      "path": "C:\\Users\\jkino\\Desktop\\vFPC files\\Historical Files\\vFPC 2609\\Routes.csv",
+      "required": true,
+      "exists": true,
+      "sizeBytes": 2658460,
+      "modifiedLocal": "2026-09-06T19:30:39+02:00",
+      "sha256": "782F0E97BE7A457716F8E2378C3A8ABA1D5AB3E7BE349D75CB9BFEDC54DD12D5"
+    },
+    {
+      "name": "Notes.csv",
+      "role": "production-input",
+      "path": "C:\\Users\\jkino\\Desktop\\vFPC files\\Historical Files\\vFPC 2609\\Notes.csv",
+      "required": true,
+      "exists": true,
+      "sizeBytes": 42637,
+      "modifiedLocal": "2026-09-06T18:49:40+02:00",
+      "sha256": "6514BDA166192E2093401CD4D4172AE2D75E73D1CDF54FA56AD17BC954194841"
+    },
+    {
+      "name": "UK_2026_09.sct",
+      "role": "production-input",
+      "path": "C:\\Users\\jkino\\Desktop\\vFPC files\\Historical Files\\vFPC 2609\\UK_2026_09.sct",
+      "required": true,
+      "exists": true,
+      "sizeBytes": 11473400,
+      "modifiedLocal": "2026-09-06T18:44:05+02:00",
+      "sha256": "9817A278621582DA02A4AA6B34C38170D986DEE8E30E54A8B6789805A5FA5270"
+    }
+  ],
+  "sidecars": [
+    {
+      "name": "aip_airports.json",
+      "role": "supporting-sidecar",
+      "path": "C:\\Users\\jkino\\Desktop\\vFPC files\\Historical Files\\vFPC 2609\\aip_airports.json",
+      "required": false,
+      "exists": true,
+      "sizeBytes": 22871,
+      "modifiedLocal": "2026-09-06T18:57:53+02:00",
+      "sha256": "A39C47ECEBDECC30A1C11DD2CD6E3D782C9A1F17A0C8ADAE0E0A4234A4EB5065"
+    },
+    {
+      "name": "aip_airspaces.json",
+      "role": "supporting-sidecar",
+      "path": "C:\\Users\\jkino\\Desktop\\vFPC files\\Historical Files\\vFPC 2609\\aip_airspaces.json",
+      "required": false,
+      "exists": true,
+      "sizeBytes": 396490,
+      "modifiedLocal": "2026-09-06T18:57:52+02:00",
+      "sha256": "EF62A81EE249BA4FEA52BD65EE866B9E8B9713F2BC015B83E18DB6332761614B"
+    },
+    {
+      "name": "aip_navaids.json",
+      "role": "supporting-sidecar",
+      "path": "C:\\Users\\jkino\\Desktop\\vFPC files\\Historical Files\\vFPC 2609\\aip_navaids.json",
+      "required": false,
+      "exists": true,
+      "sizeBytes": 12213,
+      "modifiedLocal": "2026-09-06T18:57:52+02:00",
+      "sha256": "249E9F083E235ACF9F4EF7F0646B9F32CA48077468A1ADEF66175297EB3897F6"
+    },
+    {
+      "name": "aip_restricted_areas.json",
+      "role": "supporting-sidecar",
+      "path": "C:\\Users\\jkino\\Desktop\\vFPC files\\Historical Files\\vFPC 2609\\aip_restricted_areas.json",
+      "required": false,
+      "exists": true,
+      "sizeBytes": 930992,
+      "modifiedLocal": "2026-09-06T18:57:53+02:00",
+      "sha256": "29D71A1329FFD6A19E2904F941D02D2EE630AD14919DB840220BD38820713202"
+    },
+    {
+      "name": "aip_segments.json",
+      "role": "supporting-sidecar",
+      "path": "C:\\Users\\jkino\\Desktop\\vFPC files\\Historical Files\\vFPC 2609\\aip_segments.json",
+      "required": false,
+      "exists": true,
+      "sizeBytes": 932635,
+      "modifiedLocal": "2026-09-06T18:57:52+02:00",
+      "sha256": "896A5ADFAEB32393BCF8283B689371E227B3D8084685D97D20D482403FCBC7C3"
+    }
+  ],
+  "outputs": [
+    {
+      "name": "out.json",
+      "role": "production-output",
+      "path": "C:\\Users\\jkino\\Desktop\\vFPC files\\Historical Files\\vFPC 2609\\out.json",
+      "required": false,
+      "exists": true,
+      "sizeBytes": 5739349,
+      "modifiedLocal": "2026-09-06T19:30:54+02:00",
+      "sha256": "77D5DF6F8D6B035690A0E54DDDDE42C75A1840A6969EB9E803140730C9D14D6F"
+    }
+  ],
+  "outputInputCoSnapshot": {
+    "note": "These input hashes coexisted with out.json when the manifest was written. Treat them as the generating inputs only if the manifest was written immediately after producing or promoting out.json.",
+    "out.json": {
+      "in.json": "EADE5C57EBF596713430F42E6E0917C48FB1EB8A1C43A3276DD1D134D90F405F",
+      "Routes.csv": "782F0E97BE7A457716F8E2378C3A8ABA1D5AB3E7BE349D75CB9BFEDC54DD12D5",
+      "Notes.csv": "6514BDA166192E2093401CD4D4172AE2D75E73D1CDF54FA56AD17BC954194841",
+      "UK_2026_09.sct": "9817A278621582DA02A4AA6B34C38170D986DEE8E30E54A8B6789805A5FA5270"
+    }
+  },
+  "summary": {
+    "requiredMissingCount": 0,
+    "requiredMissing": [],
+    "inputCount": 4,
+    "sidecarCount": 5,
+    "outputCount": 1
+  }
+}

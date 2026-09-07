@@ -1,0 +1,76 @@
+{
+  "airac": "2609",
+  "created_at_local": "2026-09-06T19:30:39.204872",
+  "routes_csv": "C:\\Users\\jkino\\Desktop\\vFPC files\\Historical Files\\vFPC 2609\\Routes.csv",
+  "backup": "C:\\Users\\jkino\\Desktop\\vFPC files\\Historical Files\\vFPC 2609\\Routes.csv.pre-final-round2-curation.20260906-193039.bak",
+  "rows_before": 32005,
+  "rows_after": 32000,
+  "removed_count": 5,
+  "removed": [
+    {
+      "reason": "EGLF1034 EGJJ BENIX->EGKK via G27 NEVIL: RAD NOT AVBL FOR TFC arr EGKK (new rule for 2609, not a 2607 carry-forward)",
+      "row": {
+        "ADEP/Entry": "EGJJ",
+        "SID": "BENIX",
+        "Min": "105",
+        "Max": "195",
+        "Route": "G27 NEVIL",
+        "STAR": "NEVIL1G",
+        "ADES/Exit": "EGKK",
+        "Remarks": ""
+      }
+    },
+    {
+      "reason": "EG3217 CARWI above FL245 unavailable outside published exception (round-2 residual duplicate)",
+      "row": {
+        "ADEP/Entry": "EGTE",
+        "SID": "",
+        "Min": "255",
+        "Max": "285",
+        "Route": "DCT EXMOR DCT CARWI N864 ETNAH DCT AZCAL DCT DIZIM DCT AVTIC DCT ANJAK N38 NOKIN UP17 POL UN601 RIBEL <FRA> GRICE DCT FINDO P600 NAXIL DCT",
+        "STAR": "",
+        "ADES/Exit": "EGPD",
+        "Remarks": ""
+      }
+    },
+    {
+      "reason": "EG3217 CARWI above FL245 unavailable outside published exception (round-2 residual duplicate)",
+      "row": {
+        "ADEP/Entry": "EGTE",
+        "SID": "",
+        "Min": "255",
+        "Max": "285",
+        "Route": "DCT EXMOR DCT CARWI N864 ETNAH DCT AZCAL DCT DIZIM DCT AVTIC DCT ANJAK N38 NOKIN UP17 POL UN601 RIBEL <FRA> ASLIB",
+        "STAR": "ASLIB1G",
+        "ADES/Exit": "EGPF",
+        "Remarks": ""
+      }
+    },
+    {
+      "reason": "EG3217 CARWI above FL245 unavailable outside published exception (round-2 residual duplicate)",
+      "row": {
+        "ADEP/Entry": "EGTE",
+        "SID": "",
+        "Min": "255",
+        "Max": "285",
+        "Route": "DCT EXMOR DCT CARWI N864 ETNAH DCT AZCAL DCT DIZIM DCT AVTIC DCT ANJAK N38 NOKIN UP17 POL UN601 RIBEL <FRA> INPIP",
+        "STAR": "INPIP1E",
+        "ADES/Exit": "EGPH",
+        "Remarks": ""
+      }
+    },
+    {
+      "reason": "EG3217 CARWI above FL245 unavailable outside published exception (round-2 residual duplicate)",
+      "row": {
+        "ADEP/Entry": "EGTE",
+        "SID": "",
+        "Min": "255",
+        "Max": "285",
+        "Route": "DCT EXMOR DCT CARWI N864 ETNAH DCT AZCAL DCT DIZIM DCT AVTIC DCT ANJAK N38 NOKIN UP17 POL UN601 RIBEL <FRA> ASLIB",
+        "STAR": "ASLIB1P",
+        "ADES/Exit": "EGPK",
+        "Remarks": ""
+      }
+    }
+  ]
+}
