@@ -1222,17 +1222,17 @@
       "comment": "Not encoded: FL250 unavailability is a cruising-level advisory east of REDFA / on UL620, at/beyond the FIR-side route context. Broad vFPC alerts would be noisy on note-tagged rows where FL250 is not fileable; NATS placement follow-up VFP-365."
     },
     {
-      "note": 94,
-      "alert": {
-        "warn": true,
-        "note": "SEAFORD SIDs from EGKK RWY 26L are available 2300-0600 local only under local VATSIM ATC instructions. Outside this window HARDY 5M/5V should be issued as appropriate."
-      },
-      "start": {
-        "time": "0600"
-      },
-      "end": {
-        "time": "2300"
-      }
+  "note": 94,
+  "alert": {
+    "warn": true,
+    "note": "SEAFORD SIDs from EGKK RWY 26L are available 2300-0600 local only under local VATSIM ATC instructions. Outside this window HARDY 5M/5V should be issued as appropriate."
+  },
+  "start": {
+    "time": "2300"
+  },
+  "end": {
+    "time": "0600"
+  }
     },
     {
       "note": 105,

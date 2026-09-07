@@ -1,7 +1,7 @@
 {
   "schema": "vfpc-airac-cycle-manifest.v1",
   "airac": "2609",
-  "generatedAtUtc": "2026-09-06T17:35:49+00:00",
+  "generatedAtUtc": "2026-09-07T13:11:34+00:00",
   "sourceRoot": "C:\\Users\\jkino\\Desktop\\vFPC files\\Historical Files\\vFPC 2609",
   "purpose": "Human-auditable receipt for the current AIRAC production folder. It records co-presence, not causal provenance; the output/input association is meaningful only when this manifest is written immediately after generating or promoting out.json.",
   "inputs": [
@@ -11,9 +11,9 @@
       "path": "C:\\Users\\jkino\\Desktop\\vFPC files\\Historical Files\\vFPC 2609\\in.json",
       "required": true,
       "exists": true,
-      "sizeBytes": 102686,
-      "modifiedLocal": "2026-09-06T19:04:43+02:00",
-      "sha256": "EADE5C57EBF596713430F42E6E0917C48FB1EB8A1C43A3276DD1D134D90F405F"
+      "sizeBytes": 102642,
+      "modifiedLocal": "2026-09-07T15:01:55+02:00",
+      "sha256": "B1F1EF56D97D538E08F3FB619608A7B67D2E010DD0C2D7AB8C3F55AF42416BC1"
     },
     {
       "name": "Routes.csv",
@@ -105,15 +105,15 @@
       "path": "C:\\Users\\jkino\\Desktop\\vFPC files\\Historical Files\\vFPC 2609\\out.json",
       "required": false,
       "exists": true,
-      "sizeBytes": 5739349,
-      "modifiedLocal": "2026-09-06T19:30:54+02:00",
-      "sha256": "77D5DF6F8D6B035690A0E54DDDDE42C75A1840A6969EB9E803140730C9D14D6F"
+      "sizeBytes": 5739351,
+      "modifiedLocal": "2026-09-07T15:11:08+02:00",
+      "sha256": "EB0EC278BA5144DAE0A26FCD127773E3443755EC64BF339AF1F856DB4256CAFA"
     }
   ],
   "outputInputCoSnapshot": {
     "note": "These input hashes coexisted with out.json when the manifest was written. Treat them as the generating inputs only if the manifest was written immediately after producing or promoting out.json.",
     "out.json": {
-      "in.json": "EADE5C57EBF596713430F42E6E0917C48FB1EB8A1C43A3276DD1D134D90F405F",
+      "in.json": "B1F1EF56D97D538E08F3FB619608A7B67D2E010DD0C2D7AB8C3F55AF42416BC1",
       "Routes.csv": "782F0E97BE7A457716F8E2378C3A8ABA1D5AB3E7BE349D75CB9BFEDC54DD12D5",
       "Notes.csv": "6514BDA166192E2093401CD4D4172AE2D75E73D1CDF54FA56AD17BC954194841",
       "UK_2026_09.sct": "9817A278621582DA02A4AA6B34C38170D986DEE8E30E54A8B6789805A5FA5270"

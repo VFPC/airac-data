@@ -1,6 +1,6 @@
 # AIRAC 2609 Manifest
 
-Generated UTC: `2026-09-06T17:35:49+00:00`
+Generated UTC: `2026-09-07T13:11:34+00:00`
 Source folder: `C:\Users\jkino\Desktop\vFPC files\Historical Files\vFPC 2609`
 
 This file is a receipt for the current folder state at the time it was written. The output/input association is valid only when the manifest is written immediately after producing or promoting `out.json`; it records co-presence, not causal provenance.
@@ -9,7 +9,7 @@ This file is a receipt for the current folder state at the time it was written. 
 
 | File | Role | Size | Modified | SHA-256 |
 |---|---|---:|---|---|
-| `in.json` | `production-input` | 102686 | `2026-09-06T19:04:43+02:00` | `EADE5C57EBF596713430F42E6E0917C48FB1EB8A1C43A3276DD1D134D90F405F` |
+| `in.json` | `production-input` | 102642 | `2026-09-07T15:01:55+02:00` | `B1F1EF56D97D538E08F3FB619608A7B67D2E010DD0C2D7AB8C3F55AF42416BC1` |
 | `Routes.csv` | `production-input` | 2658460 | `2026-09-06T19:30:39+02:00` | `782F0E97BE7A457716F8E2378C3A8ABA1D5AB3E7BE349D75CB9BFEDC54DD12D5` |
 | `Notes.csv` | `production-input` | 42637 | `2026-09-06T18:49:40+02:00` | `6514BDA166192E2093401CD4D4172AE2D75E73D1CDF54FA56AD17BC954194841` |
 | `UK_2026_09.sct` | `production-input` | 11473400 | `2026-09-06T18:44:05+02:00` | `9817A278621582DA02A4AA6B34C38170D986DEE8E30E54A8B6789805A5FA5270` |
@@ -28,7 +28,7 @@ This file is a receipt for the current folder state at the time it was written. 
 
 | File | Role | Size | Modified | SHA-256 |
 |---|---|---:|---|---|
-| `out.json` | `production-output` | 5739349 | `2026-09-06T19:30:54+02:00` | `77D5DF6F8D6B035690A0E54DDDDE42C75A1840A6969EB9E803140730C9D14D6F` |
+| `out.json` | `production-output` | 5739351 | `2026-09-07T15:11:08+02:00` | `EB0EC278BA5144DAE0A26FCD127773E3443755EC64BF339AF1F856DB4256CAFA` |
 
 ## out.json Input Snapshot
 
@@ -36,7 +36,7 @@ These input hashes coexisted with `out.json` when the manifest was written. Trea
 
 | Input | SHA-256 |
 |---|---|
-| `in.json` | `EADE5C57EBF596713430F42E6E0917C48FB1EB8A1C43A3276DD1D134D90F405F` |
+| `in.json` | `B1F1EF56D97D538E08F3FB619608A7B67D2E010DD0C2D7AB8C3F55AF42416BC1` |
 | `Routes.csv` | `782F0E97BE7A457716F8E2378C3A8ABA1D5AB3E7BE349D75CB9BFEDC54DD12D5` |
 | `Notes.csv` | `6514BDA166192E2093401CD4D4172AE2D75E73D1CDF54FA56AD17BC954194841` |
 | `UK_2026_09.sct` | `9817A278621582DA02A4AA6B34C38170D986DEE8E30E54A8B6789805A5FA5270` |

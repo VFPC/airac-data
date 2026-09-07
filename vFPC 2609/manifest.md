@@ -3,7 +3,7 @@
 **Cycle:** 2609  
 **Effective:** 2026-09-03  
 **Expires:** 2026-10-01  
-**Archived:** 2026-09-07 11:18:12 UTC  
+**Archived:** 2026-09-07 13:12:30 UTC  
 **Archived by:** jkino  
 
 ## Files
@@ -148,8 +148,8 @@
 | `aip_navaids.json` | `249e9f083e235acf9f4ef7f0646b9f32ca48077468a1adef66175297eb3897f6` |
 | `aip_restricted_areas.json` | `29d71a1329ffd6a19e2904f941d02d2ee630ad14919db840220bd38820713202` |
 | `aip_segments.json` | `896a5adfaeb32393bcf8283b689371e227b3d8084685d97d20d482403fcbc7c3` |
-| `airac_manifest.json` | `4529d97700cfbca75b8e562fc68279d5e28a823974d31ae7d6d78bc7ffcfb27d` |
-| `airac_manifest.md` | `15e5de65e9b17f0a841eb865509e40dee5c52fff6bdf30a1cb8e43d0200a54aa` |
+| `airac_manifest.json` | `3bca87f0d8e69fb9e35e53b0f4b9814be5f9ec6f6bbd9bb7bdcc70b7263c36ed` |
+| `airac_manifest.md` | `3aa3ff2d34f0536945a4564f7df00e6cce7270e32a6ddaf79519454cab7e8391` |
 | `bundle/airspace_facts.json` | `3bb52fe22d6ba0a5ec1654caee5e06edd36e4c397b0cdb5b8ce3bbab640753f7` |
 | `bundle/manifest.json` | `3f6eea7bf7a27555672b1d2c2cfde8b641339394d1c701bbb10a29629a502781` |
 | `bundle/procedure_facts.json` | `b769d6deafdf1f351e207ec66dd0d6635dde8de9681c427df43e5036271a8600` |
@@ -157,12 +157,13 @@
 | `bundle/route_network_facts.json` | `0aef49ade7ae6ad9898297915ce67d5b96c1ed51a0d5b67617a6c1d781eb91a5` |
 | `bundle/runtime_rules.json` | `a7388887dc06b9e4f89b6dd66db20c95a3a0bc650cbbc280d076e7d99dbb681c` |
 | `bundle/selection_indexes.json` | `76fc15a4e302e5911f77db03496cb88034b00ae0069db3d4a92e990c69d6ed1e` |
-| `curation_notes.md` | `d6c9f270caa0278996126950d79fc04a465079dedf36c2b209fcfa8ab73015ef` |
+| `curation_notes.md` | `4130eea0b5bf9053f159b5fbe2703d33656abb94534d6716e53ed2a31e1ebe14` |
 | `diagnostics/summaries/full_trace_2609_final.summary.json` | `79f7b49821da7d831feded39075d37b6bd210c4164689a63bf5cc2623176db45` |
 | `diagnostics/summaries/full_trace_2609_initial.summary.json` | `c4958a6465713779fe5e93e762e18f11459bd3ecc1a8ddcbc32a6d25402d3e84` |
 | `diagnostics/summaries/full_trace_2609_round2.summary.json` | `eb214b75c500ff059e503809574df4e06571cb506d741254db55497ca6a8a8ed` |
 | `fetcher_log_20260906_183658.txt` | `4769398ea0e7a8424864f2e51974f7331265a27edc11b4db9c49bf4b3f104aa5` |
-| `in.json` | `eade5c57ebf596713430f42e6e0917c48fb1eb8a1c43a3276dd1d134d90f405f` |
+| `in.json` | `b1f1ef56d97d538e08f3fb619608a7b67d2e010dd0c2d7ab8c3f55af42416bc1` |
+| `out.2609.1.json` | `eb0ec278ba5144dae0a26fcd127773e3443755ec64bf339af1f856db4256cafa` |
 | `out.2609.json` | `77d5df6f8d6b035690a0e54dddde42c75a1840a6969eb9e803140730c9d14d6f` |
 | `rad/annex1_export_summary.json` | `9de671600013bda0ff3257af12305207574d963ca578cce9223749293f92fef1` |
 | `rad/annex1_groups.json` | `700753acee58ccc60c4ac6e7415ff892226a6da0dca8c88115b31e4764688455` |

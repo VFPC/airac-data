@@ -336,3 +336,65 @@ cycle, after all curation classes above).
 - Archive committed and pushed: `airac-data` commit `6f118ea`, "Archive vFPC 2609 production
   artifacts", 176 files changed.
 - **Production promotion checklist complete: staged, uploaded, verified, archived.**
+
+## Post-publication fix: SRD Note 94 (EGKK SFD SID) inverted time window — revision 2609.1 (20260907-1500)
+
+- **Trigger:** a controller-reported RST error (via Calvin) for `EZY1234 EGKK->LEPA` via
+  `SFD Y47 DRAKE L151 SITET UN859 ...` at EOBT 2200Z. The plugin denied citing "only permitted
+  06:00-23:00 local", the exact opposite of vMATS's "SFD SIDs only available 2300-0600 local".
+- **Root cause:** `in.json` note 94's own coded `start`/`end` (`0600`/`2300`) were inverted
+  relative to every other source of truth: the note's own alert free-text ("available
+  2300-0600"), the official NATS `Notes.csv` wording ("NOT AVAILABLE 0600-2300"), the UK AIP
+  AD 2-EGKK chart ("Via SFD... to be used only 2300-0600 (2200-0500)"), RAD Annex 2B EG3306
+  ("NUCHU DCT BOGNA/SFD Night Time Fuel Saving Routes"), and the pre-2605 hard-coded `in.json`
+  encoding of the SFD point itself (`start:2300/end:0600`, correct). Confirmed against runtime
+  semantics: `VFPC-next/src/TimeWindow.h checkTimeWindow()` treats a plain (non-`banned`)
+  restriction's `[start,end]` as the *permitted* window. The inversion was introduced during
+  the AIRAC 2605 refactor that converted the EGKK SFD/BOGNA/HARDY hard-coded airport block into
+  reusable Note 94 — live in production for 3 cycles (2605, 2607, 2609) before this fix.
+- **Why the linter missed it:** `lint_in_json.py`'s `ONLY_AVAILABLE_COMPLEMENT_TIME_MISMATCH`
+  check (added for VFP-426) only fires when `alert.ban == True` and the alert text matches
+  "only available ... HH:MM-HH:MM" (only-first phrasing). Note 94 has `warn:true` (not
+  `ban:true`, it's a plain single restriction, not a ban+complement pair) and its wording is
+  "available ... local only" (available-first) — both preconditions fail, so the check never
+  inspects it. No existing check cross-validates a note's free-text alert time window against
+  its own coded `start`/`end` for the plain-restriction shape. Flagged as a real gap in
+  [VFP-434](https://linear.app/vfpc/issue/VFP-434), not separately scoped for a fix.
+- **Issue filed:** [VFP-434](https://linear.app/vfpc/issue/VFP-434) — thorough writeup with the
+  full evidence chain, regression history, and scope, filed before making any changes.
+- **Fix applied:**
+  - `C:\Users\jkino\Desktop\vFPC files\Historical Files\vFPC 2609\in.json` note 94: swapped
+    `start.time` `"0600"`->`"2300"` and `end.time` `"2300"`->`"0600"`. Alert text unchanged
+    (it was already correct).
+  - `New-SRDParser\Testing\TestData\in.json` note 94: same swap, for test-fixture consistency.
+    Committed as its own PR: VFPC/New-SRDParser#206 (branch `fix/vfp-434-note94-sfd-time-window`,
+    squash-merged). No test assertions reference note 94/SFD/SEAFORD directly. The 15
+    pre-existing `dotnet test` failures on `main` (aggregate alert-count invariant,
+    `Phase3_Statistics_AggregateMetrics`) are confirmed present with or without this change
+    (verified via `git stash`) — unrelated, not investigated further here.
+  - Re-linted production in.json: 0 errors/0 warnings (unchanged).
+- **Regenerated `out.json`** via `New-SRDParser` with `CYCLE_OVERRIDE=2609.1` (dot-revision,
+  per `Program.ParseCycleOverride` convention for same-cycle corrections) after refreshing the
+  `SRD Testing Files` working copy from the fixed production inputs. Schema/lint clean, MC
+  4355/4355 resolved (100%), same 12974 output constraints as the pre-fix run.
+- **Verified the diff is exactly the expected 4 constraints**, nothing else moved: compared
+  the new `out.json` against the pre-fix production copy constraint-by-constraint (by
+  `(icao, sid.point, constraint_index)`). Diffs: exactly `EGKK/SFD` constraint indices 0, 1, 3,
+  6 — all four constraints carrying the note-94 alert — each with `start`/`end` swapped as
+  intended. Total constraint count unchanged (12974), airport count unchanged (89).
+- **Bulk evaluator sanity check** (real routes, not synthetic): copied the new `out.json` to
+  `data/local/2609/routes/out.json` and re-ran `bulk_evaluate_srd.py --airac 2609`. Result:
+  15377 routes evaluated (unchanged from the final pre-fix baseline), `raw_unexpected`=0,
+  `unreviewed_unexpected`=0, `eval_errors`=0, `passed`=14750, `referred`=89 — all identical to
+  the pre-fix baseline, confirming no regression elsewhere. Note: the EGKK/SFD restriction is
+  airport-section-coded in `in.json` (not driven by a `Routes.csv` row), so no individual
+  `dep=EGKK, sid_point=SFD` trace record exists in this diagnostic tool's population — the
+  isolated `out.json` constraint diff above is the direct evidence for this specific fix.
+- **Promoted to production:** backed up the pre-fix `out.json`
+  (`out.json.pre-note94-fix.<timestamp>.bak`), copied the `2609.1`-tagged `out.json` to
+  `C:\Users\jkino\Desktop\vFPC files\Historical Files\vFPC 2609\out.json` (SHA-256
+  `EB0EC278BA5144DAE0A26FCD127773E3443755EC64BF339AF1F856DB4256CAFA`), regenerated
+  `airac_manifest.json`/`.md` and `in_json_lint_report.json`.
+- **Next:** archive as `out.2609.1.json` via `airac-archiver`, hand off for upload (operator
+  uploads personally), and send a private reply to the original reporter (Calvin's ticket) —
+  **no public Discord announcement** for this fix, per operator direction.
