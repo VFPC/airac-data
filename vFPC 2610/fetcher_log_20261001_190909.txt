@@ -1,0 +1,285 @@
+2026-10-01 19:09:09  INFO      src.cli  === airac-data-fetcher run started ===
+2026-10-01 19:09:09  INFO      src.cli  Cycle: AIRAC 2610 (2026-10-01 – 2026-10-28)
+2026-10-01 19:09:09  INFO      src.cli  Directory: C:\Users\jkino\Desktop\vFPC files\Historical Files\vFPC 2610
+2026-10-01 19:09:09  INFO      src.cli  in.json copied forward from previous cycle to C:\Users\jkino\Desktop\vFPC files\Historical Files\vFPC 2610\in.json
+2026-10-01 19:09:09  INFO      src.sources.eaip_html  Fetching AIP index page: https://nats-uk.ead-it.com/cms-nats/opencms/en/Publications/AIP/
+2026-10-01 19:09:09  INFO      src.sources.eaip_html  AIP index page fetched (20009 bytes)
+2026-10-01 19:09:09  INFO      src.sources.eaip_html  Resolved eAIP zip URL: https://nats-uk.ead-it.com/cms-nats/export/sites/default/en/Publications/AIP/HTML_AIP/AIRAC-10-26.zip
+2026-10-01 19:09:36  INFO      src.sources.eaip_html  eAIP zip downloaded (876030367 bytes)
+2026-10-01 19:09:36  INFO      src.sources.eaip_html  Extracted EG-ENR-2.1-en-GB.html (2544224 bytes)
+2026-10-01 19:09:36  INFO      src.sources.eaip_html  Extracted EG-ENR-2.2-en-GB.html (513084 bytes)
+2026-10-01 19:09:36  INFO      src.sources.eaip_html  Extracted EG-ENR-3.2-en-GB.html (6420703 bytes)
+2026-10-01 19:09:36  INFO      src.sources.eaip_html  Extracted EG-ENR-3.3-en-GB.html (38323 bytes)
+2026-10-01 19:09:36  INFO      src.sources.eaip_html  Extracted EG-ENR-4.1-en-GB.html (145521 bytes)
+2026-10-01 19:09:36  INFO      src.sources.eaip_html  Extracted EG-ENR-4.2-en-GB.html (2343 bytes)
+2026-10-01 19:09:36  INFO      src.sources.eaip_html  Extracted EG-ENR-4.4-en-GB.html (1219706 bytes)
+2026-10-01 19:09:36  INFO      src.sources.eaip_html  Extracted EG-ENR-5.1-en-GB.html (4856417 bytes)
+2026-10-01 19:09:36  INFO      src.sources.eaip_html  Extracted EG-ENR-5.2-en-GB.html (392828 bytes)
+2026-10-01 19:09:36  INFO      src.sources.eaip_html  Extracted EG-AD-2.EGAA-en-GB.html (344086 bytes)
+2026-10-01 19:09:36  INFO      src.sources.eaip_html  Extracted EG-AD-2.EGAB-en-GB.html (123419 bytes)
+2026-10-01 19:09:36  INFO      src.sources.eaip_html  Extracted EG-AD-2.EGAC-en-GB.html (365952 bytes)
+2026-10-01 19:09:36  INFO      src.sources.eaip_html  Extracted EG-AD-2.EGAD-en-GB.html (168240 bytes)
+2026-10-01 19:09:36  INFO      src.sources.eaip_html  Extracted EG-AD-2.EGAE-en-GB.html (194936 bytes)
+2026-10-01 19:09:36  INFO      src.sources.eaip_html  Extracted EG-AD-2.EGBB-en-GB.html (422761 bytes)
+2026-10-01 19:09:36  INFO      src.sources.eaip_html  Extracted EG-AD-2.EGBD-en-GB.html (95849 bytes)
+2026-10-01 19:09:36  INFO      src.sources.eaip_html  Extracted EG-AD-2.EGBG-en-GB.html (131362 bytes)
+2026-10-01 19:09:36  INFO      src.sources.eaip_html  Extracted EG-AD-2.EGBJ-en-GB.html (253705 bytes)
+2026-10-01 19:09:36  INFO      src.sources.eaip_html  Extracted EG-AD-2.EGBM-en-GB.html (92172 bytes)
+2026-10-01 19:09:36  INFO      src.sources.eaip_html  Extracted EG-AD-2.EGBN-en-GB.html (126253 bytes)
+2026-10-01 19:09:36  INFO      src.sources.eaip_html  Extracted EG-AD-2.EGBO-en-GB.html (199421 bytes)
+2026-10-01 19:09:36  INFO      src.sources.eaip_html  Extracted EG-AD-2.EGBP-en-GB.html (157803 bytes)
+2026-10-01 19:09:36  INFO      src.sources.eaip_html  Extracted EG-AD-2.EGBS-en-GB.html (108544 bytes)
+2026-10-01 19:09:36  INFO      src.sources.eaip_html  Extracted EG-AD-2.EGBW-en-GB.html (139757 bytes)
+2026-10-01 19:09:36  INFO      src.sources.eaip_html  Extracted EG-AD-2.EGCB-en-GB.html (260410 bytes)
+2026-10-01 19:09:36  INFO      src.sources.eaip_html  Extracted EG-AD-2.EGCC-en-GB.html (418012 bytes)
+2026-10-01 19:09:36  INFO      src.sources.eaip_html  Extracted EG-AD-2.EGCJ-en-GB.html (164832 bytes)
+2026-10-01 19:09:36  INFO      src.sources.eaip_html  Extracted EG-AD-2.EGCK-en-GB.html (109045 bytes)
+2026-10-01 19:09:36  INFO      src.sources.eaip_html  Extracted EG-AD-2.EGCL-en-GB.html (96609 bytes)
+2026-10-01 19:09:36  INFO      src.sources.eaip_html  Extracted EG-AD-2.EGCM-en-GB.html (179175 bytes)
+2026-10-01 19:09:36  INFO      src.sources.eaip_html  Extracted EG-AD-2.EGCV-en-GB.html (114461 bytes)
+2026-10-01 19:09:36  INFO      src.sources.eaip_html  Extracted EG-AD-2.EGCW-en-GB.html (106992 bytes)
+2026-10-01 19:09:36  INFO      src.sources.eaip_html  Extracted EG-AD-2.EGEC-en-GB.html (185883 bytes)
+2026-10-01 19:09:36  INFO      src.sources.eaip_html  Extracted EG-AD-2.EGED-en-GB.html (73308 bytes)
+2026-10-01 19:09:36  INFO      src.sources.eaip_html  Extracted EG-AD-2.EGEF-en-GB.html (94956 bytes)
+2026-10-01 19:09:36  INFO      src.sources.eaip_html  Extracted EG-AD-2.EGEL-en-GB.html (91277 bytes)
+2026-10-01 19:09:36  INFO      src.sources.eaip_html  Extracted EG-AD-2.EGEN-en-GB.html (144592 bytes)
+2026-10-01 19:09:36  INFO      src.sources.eaip_html  Extracted EG-AD-2.EGEO-en-GB.html (185436 bytes)
+2026-10-01 19:09:36  INFO      src.sources.eaip_html  Extracted EG-AD-2.EGEP-en-GB.html (116173 bytes)
+2026-10-01 19:09:36  INFO      src.sources.eaip_html  Extracted EG-AD-2.EGER-en-GB.html (135493 bytes)
+2026-10-01 19:09:36  INFO      src.sources.eaip_html  Extracted EG-AD-2.EGES-en-GB.html (154569 bytes)
+2026-10-01 19:09:36  INFO      src.sources.eaip_html  Extracted EG-AD-2.EGET-en-GB.html (168544 bytes)
+2026-10-01 19:09:36  INFO      src.sources.eaip_html  Extracted EG-AD-2.EGEW-en-GB.html (138525 bytes)
+2026-10-01 19:09:36  INFO      src.sources.eaip_html  Extracted EG-AD-2.EGEY-en-GB.html (104729 bytes)
+2026-10-01 19:09:36  INFO      src.sources.eaip_html  Extracted EG-AD-2.EGFA-en-GB.html (101941 bytes)
+2026-10-01 19:09:36  INFO      src.sources.eaip_html  Extracted EG-AD-2.EGFE-en-GB.html (128405 bytes)
+2026-10-01 19:09:36  INFO      src.sources.eaip_html  Extracted EG-AD-2.EGFF-en-GB.html (302043 bytes)
+2026-10-01 19:09:36  INFO      src.sources.eaip_html  Extracted EG-AD-2.EGFH-en-GB.html (129295 bytes)
+2026-10-01 19:09:36  INFO      src.sources.eaip_html  Extracted EG-AD-2.EGGD-en-GB.html (241902 bytes)
+2026-10-01 19:09:36  INFO      src.sources.eaip_html  Extracted EG-AD-2.EGGP-en-GB.html (432039 bytes)
+2026-10-01 19:09:36  INFO      src.sources.eaip_html  Extracted EG-AD-2.EGGW-en-GB.html (325225 bytes)
+2026-10-01 19:09:36  INFO      src.sources.eaip_html  Extracted EG-AD-2.EGHA-en-GB.html (93593 bytes)
+2026-10-01 19:09:36  INFO      src.sources.eaip_html  Extracted EG-AD-2.EGHC-en-GB.html (307594 bytes)
+2026-10-01 19:09:36  INFO      src.sources.eaip_html  Extracted EG-AD-2.EGHE-en-GB.html (156320 bytes)
+2026-10-01 19:09:36  INFO      src.sources.eaip_html  Extracted EG-AD-2.EGHF-en-GB.html (122981 bytes)
+2026-10-01 19:09:36  INFO      src.sources.eaip_html  Extracted EG-AD-2.EGHG-en-GB.html (192655 bytes)
+2026-10-01 19:09:36  INFO      src.sources.eaip_html  Extracted EG-AD-2.EGHH-en-GB.html (306516 bytes)
+2026-10-01 19:09:36  INFO      src.sources.eaip_html  Extracted EG-AD-2.EGHI-en-GB.html (285796 bytes)
+2026-10-01 19:09:36  INFO      src.sources.eaip_html  Extracted EG-AD-2.EGHO-en-GB.html (135376 bytes)
+2026-10-01 19:09:36  INFO      src.sources.eaip_html  Extracted EG-AD-2.EGHQ-en-GB.html (257216 bytes)
+2026-10-01 19:09:36  INFO      src.sources.eaip_html  Extracted EG-AD-2.EGHR-en-GB.html (150014 bytes)
+2026-10-01 19:09:36  INFO      src.sources.eaip_html  Extracted EG-AD-2.EGJA-en-GB.html (209520 bytes)
+2026-10-01 19:09:36  INFO      src.sources.eaip_html  Extracted EG-AD-2.EGJB-en-GB.html (199322 bytes)
+2026-10-01 19:09:36  INFO      src.sources.eaip_html  Extracted EG-AD-2.EGJJ-en-GB.html (309677 bytes)
+2026-10-01 19:09:36  INFO      src.sources.eaip_html  Extracted EG-AD-2.EGKA-en-GB.html (256835 bytes)
+2026-10-01 19:09:36  INFO      src.sources.eaip_html  Extracted EG-AD-2.EGKB-en-GB.html (212856 bytes)
+2026-10-01 19:09:36  INFO      src.sources.eaip_html  Extracted EG-AD-2.EGKH-en-GB.html (77391 bytes)
+2026-10-01 19:09:36  INFO      src.sources.eaip_html  Extracted EG-AD-2.EGKK-en-GB.html (539837 bytes)
+2026-10-01 19:09:36  INFO      src.sources.eaip_html  Extracted EG-AD-2.EGKR-en-GB.html (208753 bytes)
+2026-10-01 19:09:36  INFO      src.sources.eaip_html  Extracted EG-AD-2.EGLC-en-GB.html (277871 bytes)
+2026-10-01 19:09:36  INFO      src.sources.eaip_html  Extracted EG-AD-2.EGLD-en-GB.html (121495 bytes)
+2026-10-01 19:09:36  INFO      src.sources.eaip_html  Extracted EG-AD-2.EGLF-en-GB.html (321341 bytes)
+2026-10-01 19:09:36  INFO      src.sources.eaip_html  Extracted EG-AD-2.EGLJ-en-GB.html (84154 bytes)
+2026-10-01 19:09:36  INFO      src.sources.eaip_html  Extracted EG-AD-2.EGLK-en-GB.html (180760 bytes)
+2026-10-01 19:09:36  INFO      src.sources.eaip_html  Extracted EG-AD-2.EGLL-en-GB.html (735426 bytes)
+2026-10-01 19:09:36  INFO      src.sources.eaip_html  Extracted EG-AD-2.EGLM-en-GB.html (153634 bytes)
+2026-10-01 19:09:36  INFO      src.sources.eaip_html  Extracted EG-AD-2.EGMC-en-GB.html (234463 bytes)
+2026-10-01 19:09:36  INFO      src.sources.eaip_html  Extracted EG-AD-2.EGMD-en-GB.html (190915 bytes)
+2026-10-01 19:09:36  INFO      src.sources.eaip_html  Extracted EG-AD-2.EGNE-en-GB.html (130729 bytes)
+2026-10-01 19:09:36  INFO      src.sources.eaip_html  Extracted EG-AD-2.EGNF-en-GB.html (110130 bytes)
+2026-10-01 19:09:36  INFO      src.sources.eaip_html  Extracted EG-AD-2.EGNH-en-GB.html (204911 bytes)
+2026-10-01 19:09:36  INFO      src.sources.eaip_html  Extracted EG-AD-2.EGNJ-en-GB.html (302912 bytes)
+2026-10-01 19:09:36  INFO      src.sources.eaip_html  Extracted EG-AD-2.EGNL-en-GB.html (216473 bytes)
+2026-10-01 19:09:36  INFO      src.sources.eaip_html  Extracted EG-AD-2.EGNM-en-GB.html (250476 bytes)
+2026-10-01 19:09:36  INFO      src.sources.eaip_html  Extracted EG-AD-2.EGNO-en-GB.html (266119 bytes)
+2026-10-01 19:09:36  INFO      src.sources.eaip_html  Extracted EG-AD-2.EGNR-en-GB.html (287316 bytes)
+2026-10-01 19:09:36  INFO      src.sources.eaip_html  Extracted EG-AD-2.EGNS-en-GB.html (275787 bytes)
+2026-10-01 19:09:36  INFO      src.sources.eaip_html  Extracted EG-AD-2.EGNT-en-GB.html (313648 bytes)
+2026-10-01 19:09:36  INFO      src.sources.eaip_html  Extracted EG-AD-2.EGNV-en-GB.html (181986 bytes)
+2026-10-01 19:09:36  INFO      src.sources.eaip_html  Extracted EG-AD-2.EGNW-en-GB.html (97565 bytes)
+2026-10-01 19:09:36  INFO      src.sources.eaip_html  Extracted EG-AD-2.EGNX-en-GB.html (348206 bytes)
+2026-10-01 19:09:36  INFO      src.sources.eaip_html  Extracted EG-AD-2.EGPA-en-GB.html (213460 bytes)
+2026-10-01 19:09:36  INFO      src.sources.eaip_html  Extracted EG-AD-2.EGPB-en-GB.html (294141 bytes)
+2026-10-01 19:09:36  INFO      src.sources.eaip_html  Extracted EG-AD-2.EGPC-en-GB.html (206213 bytes)
+2026-10-01 19:09:36  INFO      src.sources.eaip_html  Extracted EG-AD-2.EGPD-en-GB.html (285846 bytes)
+2026-10-01 19:09:36  INFO      src.sources.eaip_html  Extracted EG-AD-2.EGPE-en-GB.html (231987 bytes)
+2026-10-01 19:09:36  INFO      src.sources.eaip_html  Extracted EG-AD-2.EGPF-en-GB.html (311778 bytes)
+2026-10-01 19:09:36  INFO      src.sources.eaip_html  Extracted EG-AD-2.EGPG-en-GB.html (123833 bytes)
+2026-10-01 19:09:36  INFO      src.sources.eaip_html  Extracted EG-AD-2.EGPH-en-GB.html (297406 bytes)
+2026-10-01 19:09:36  INFO      src.sources.eaip_html  Extracted EG-AD-2.EGPI-en-GB.html (132500 bytes)
+2026-10-01 19:09:36  INFO      src.sources.eaip_html  Extracted EG-AD-2.EGPK-en-GB.html (372766 bytes)
+2026-10-01 19:09:36  INFO      src.sources.eaip_html  Extracted EG-AD-2.EGPL-en-GB.html (138398 bytes)
+2026-10-01 19:09:36  INFO      src.sources.eaip_html  Extracted EG-AD-2.EGPN-en-GB.html (188869 bytes)
+2026-10-01 19:09:36  INFO      src.sources.eaip_html  Extracted EG-AD-2.EGPO-en-GB.html (276615 bytes)
+2026-10-01 19:09:36  INFO      src.sources.eaip_html  Extracted EG-AD-2.EGPR-en-GB.html (111022 bytes)
+2026-10-01 19:09:36  INFO      src.sources.eaip_html  Extracted EG-AD-2.EGPT-en-GB.html (124983 bytes)
+2026-10-01 19:09:36  INFO      src.sources.eaip_html  Extracted EG-AD-2.EGPU-en-GB.html (146441 bytes)
+2026-10-01 19:09:36  INFO      src.sources.eaip_html  Extracted EG-AD-2.EGSC-en-GB.html (305616 bytes)
+2026-10-01 19:09:36  INFO      src.sources.eaip_html  Extracted EG-AD-2.EGSG-en-GB.html (109784 bytes)
+2026-10-01 19:09:36  INFO      src.sources.eaip_html  Extracted EG-AD-2.EGSH-en-GB.html (262223 bytes)
+2026-10-01 19:09:36  INFO      src.sources.eaip_html  Extracted EG-AD-2.EGSL-en-GB.html (101121 bytes)
+2026-10-01 19:09:36  INFO      src.sources.eaip_html  Extracted EG-AD-2.EGSR-en-GB.html (120695 bytes)
+2026-10-01 19:09:36  INFO      src.sources.eaip_html  Extracted EG-AD-2.EGSS-en-GB.html (383631 bytes)
+2026-10-01 19:09:36  INFO      src.sources.eaip_html  Extracted EG-AD-2.EGSU-en-GB.html (107673 bytes)
+2026-10-01 19:09:36  INFO      src.sources.eaip_html  Extracted EG-AD-2.EGSV-en-GB.html (124238 bytes)
+2026-10-01 19:09:36  INFO      src.sources.eaip_html  Extracted EG-AD-2.EGSY-en-GB.html (302533 bytes)
+2026-10-01 19:09:36  INFO      src.sources.eaip_html  Extracted EG-AD-2.EGTB-en-GB.html (150144 bytes)
+2026-10-01 19:09:36  INFO      src.sources.eaip_html  Extracted EG-AD-2.EGTC-en-GB.html (202529 bytes)
+2026-10-01 19:09:36  INFO      src.sources.eaip_html  Extracted EG-AD-2.EGTE-en-GB.html (211594 bytes)
+2026-10-01 19:09:36  INFO      src.sources.eaip_html  Extracted EG-AD-2.EGTF-en-GB.html (177792 bytes)
+2026-10-01 19:09:36  INFO      src.sources.eaip_html  Extracted EG-AD-2.EGTH-en-GB.html (149401 bytes)
+2026-10-01 19:09:36  INFO      src.sources.eaip_html  Extracted EG-AD-2.EGTK-en-GB.html (246950 bytes)
+2026-10-01 19:09:36  INFO      src.sources.eaip_html  Extracted EG-AD-2.EGTO-en-GB.html (225375 bytes)
+2026-10-01 19:09:36  INFO      src.sources.eaip_html  Extracted EG-AD-2.EGTR-en-GB.html (82854 bytes)
+2026-10-01 19:09:36  INFO      src.sources.eaip_html  Extracted EG-AD-2.EGTU-en-GB.html (122567 bytes)
+2026-10-01 19:09:36  INFO      src.sources.eaip_html  Extracted 116 AD 2.2 aerodrome pages into C:\Users\jkino\Desktop\vFPC files\Historical Files\vFPC 2610/ad2/
+2026-10-01 19:09:37  INFO      src.sources.eaip_html  Validated effective date for EG-ENR-2.1-en-GB.html: 2026-10-01
+2026-10-01 19:09:37  INFO      src.sources.eaip_html  Validated effective date for EG-ENR-2.2-en-GB.html: 2026-10-01
+2026-10-01 19:09:39  INFO      src.sources.eaip_html  Validated effective date for EG-ENR-3.2-en-GB.html: 2026-10-01
+2026-10-01 19:09:39  INFO      src.sources.eaip_html  Validated effective date for EG-ENR-3.3-en-GB.html: 2026-10-01
+2026-10-01 19:09:39  INFO      src.sources.eaip_html  Validated effective date for EG-ENR-4.1-en-GB.html: 2026-10-01
+2026-10-01 19:09:39  INFO      src.sources.eaip_html  Validated effective date for EG-ENR-4.2-en-GB.html: 2026-10-01
+2026-10-01 19:09:39  INFO      src.sources.eaip_html  Validated effective date for EG-ENR-4.4-en-GB.html: 2026-10-01
+2026-10-01 19:09:40  INFO      src.sources.eaip_html  Validated effective date for EG-ENR-5.1-en-GB.html: 2026-10-01
+2026-10-01 19:09:40  INFO      src.sources.eaip_html  Validated effective date for EG-ENR-5.2-en-GB.html: 2026-10-01
+2026-10-01 19:09:41  INFO      src.sources.eaip_html  Validated effective date for EG-AD-2.EGAA-en-GB.html: 2026-10-01
+2026-10-01 19:09:41  INFO      src.sources.eaip_html  Validated effective date for EG-AD-2.EGAB-en-GB.html: 2026-10-01
+2026-10-01 19:09:41  INFO      src.sources.eaip_html  Validated effective date for EG-AD-2.EGAC-en-GB.html: 2026-10-01
+2026-10-01 19:09:41  INFO      src.sources.eaip_html  Validated effective date for EG-AD-2.EGAD-en-GB.html: 2026-10-01
+2026-10-01 19:09:41  INFO      src.sources.eaip_html  Validated effective date for EG-AD-2.EGAE-en-GB.html: 2026-10-01
+2026-10-01 19:09:41  INFO      src.sources.eaip_html  Validated effective date for EG-AD-2.EGBB-en-GB.html: 2026-10-01
+2026-10-01 19:09:41  INFO      src.sources.eaip_html  Validated effective date for EG-AD-2.EGBD-en-GB.html: 2026-10-01
+2026-10-01 19:09:41  INFO      src.sources.eaip_html  Validated effective date for EG-AD-2.EGBG-en-GB.html: 2026-10-01
+2026-10-01 19:09:41  INFO      src.sources.eaip_html  Validated effective date for EG-AD-2.EGBJ-en-GB.html: 2026-10-01
+2026-10-01 19:09:41  INFO      src.sources.eaip_html  Validated effective date for EG-AD-2.EGBM-en-GB.html: 2026-10-01
+2026-10-01 19:09:41  INFO      src.sources.eaip_html  Validated effective date for EG-AD-2.EGBN-en-GB.html: 2026-10-01
+2026-10-01 19:09:41  INFO      src.sources.eaip_html  Validated effective date for EG-AD-2.EGBO-en-GB.html: 2026-10-01
+2026-10-01 19:09:41  INFO      src.sources.eaip_html  Validated effective date for EG-AD-2.EGBP-en-GB.html: 2026-10-01
+2026-10-01 19:09:41  INFO      src.sources.eaip_html  Validated effective date for EG-AD-2.EGBS-en-GB.html: 2026-10-01
+2026-10-01 19:09:41  INFO      src.sources.eaip_html  Validated effective date for EG-AD-2.EGBW-en-GB.html: 2026-10-01
+2026-10-01 19:09:41  INFO      src.sources.eaip_html  Validated effective date for EG-AD-2.EGCB-en-GB.html: 2026-10-01
+2026-10-01 19:09:41  INFO      src.sources.eaip_html  Validated effective date for EG-AD-2.EGCC-en-GB.html: 2026-10-01
+2026-10-01 19:09:41  INFO      src.sources.eaip_html  Validated effective date for EG-AD-2.EGCJ-en-GB.html: 2026-10-01
+2026-10-01 19:09:41  INFO      src.sources.eaip_html  Validated effective date for EG-AD-2.EGCK-en-GB.html: 2026-10-01
+2026-10-01 19:09:41  INFO      src.sources.eaip_html  Validated effective date for EG-AD-2.EGCL-en-GB.html: 2026-10-01
+2026-10-01 19:09:41  INFO      src.sources.eaip_html  Validated effective date for EG-AD-2.EGCM-en-GB.html: 2026-10-01
+2026-10-01 19:09:41  INFO      src.sources.eaip_html  Validated effective date for EG-AD-2.EGCV-en-GB.html: 2026-10-01
+2026-10-01 19:09:42  INFO      src.sources.eaip_html  Validated effective date for EG-AD-2.EGCW-en-GB.html: 2026-10-01
+2026-10-01 19:09:42  INFO      src.sources.eaip_html  Validated effective date for EG-AD-2.EGEC-en-GB.html: 2026-10-01
+2026-10-01 19:09:42  INFO      src.sources.eaip_html  Validated effective date for EG-AD-2.EGED-en-GB.html: 2026-10-01
+2026-10-01 19:09:42  INFO      src.sources.eaip_html  Validated effective date for EG-AD-2.EGEF-en-GB.html: 2026-10-01
+2026-10-01 19:09:42  INFO      src.sources.eaip_html  Validated effective date for EG-AD-2.EGEL-en-GB.html: 2026-10-01
+2026-10-01 19:09:42  INFO      src.sources.eaip_html  Validated effective date for EG-AD-2.EGEN-en-GB.html: 2026-10-01
+2026-10-01 19:09:42  INFO      src.sources.eaip_html  Validated effective date for EG-AD-2.EGEO-en-GB.html: 2026-10-01
+2026-10-01 19:09:42  INFO      src.sources.eaip_html  Validated effective date for EG-AD-2.EGEP-en-GB.html: 2026-10-01
+2026-10-01 19:09:42  INFO      src.sources.eaip_html  Validated effective date for EG-AD-2.EGER-en-GB.html: 2026-10-01
+2026-10-01 19:09:42  INFO      src.sources.eaip_html  Validated effective date for EG-AD-2.EGES-en-GB.html: 2026-10-01
+2026-10-01 19:09:42  INFO      src.sources.eaip_html  Validated effective date for EG-AD-2.EGET-en-GB.html: 2026-10-01
+2026-10-01 19:09:42  INFO      src.sources.eaip_html  Validated effective date for EG-AD-2.EGEW-en-GB.html: 2026-10-01
+2026-10-01 19:09:42  INFO      src.sources.eaip_html  Validated effective date for EG-AD-2.EGEY-en-GB.html: 2026-10-01
+2026-10-01 19:09:42  INFO      src.sources.eaip_html  Validated effective date for EG-AD-2.EGFA-en-GB.html: 2026-10-01
+2026-10-01 19:09:42  INFO      src.sources.eaip_html  Validated effective date for EG-AD-2.EGFE-en-GB.html: 2026-10-01
+2026-10-01 19:09:42  INFO      src.sources.eaip_html  Validated effective date for EG-AD-2.EGFF-en-GB.html: 2026-10-01
+2026-10-01 19:09:42  INFO      src.sources.eaip_html  Validated effective date for EG-AD-2.EGFH-en-GB.html: 2026-10-01
+2026-10-01 19:09:42  INFO      src.sources.eaip_html  Validated effective date for EG-AD-2.EGGD-en-GB.html: 2026-10-01
+2026-10-01 19:09:42  INFO      src.sources.eaip_html  Validated effective date for EG-AD-2.EGGP-en-GB.html: 2026-10-01
+2026-10-01 19:09:42  INFO      src.sources.eaip_html  Validated effective date for EG-AD-2.EGGW-en-GB.html: 2026-10-01
+2026-10-01 19:09:42  INFO      src.sources.eaip_html  Validated effective date for EG-AD-2.EGHA-en-GB.html: 2026-10-01
+2026-10-01 19:09:42  INFO      src.sources.eaip_html  Validated effective date for EG-AD-2.EGHC-en-GB.html: 2026-10-01
+2026-10-01 19:09:42  INFO      src.sources.eaip_html  Validated effective date for EG-AD-2.EGHE-en-GB.html: 2026-10-01
+2026-10-01 19:09:42  INFO      src.sources.eaip_html  Validated effective date for EG-AD-2.EGHF-en-GB.html: 2026-10-01
+2026-10-01 19:09:42  INFO      src.sources.eaip_html  Validated effective date for EG-AD-2.EGHG-en-GB.html: 2026-10-01
+2026-10-01 19:09:42  INFO      src.sources.eaip_html  Validated effective date for EG-AD-2.EGHH-en-GB.html: 2026-10-01
+2026-10-01 19:09:42  INFO      src.sources.eaip_html  Validated effective date for EG-AD-2.EGHI-en-GB.html: 2026-10-01
+2026-10-01 19:09:42  INFO      src.sources.eaip_html  Validated effective date for EG-AD-2.EGHO-en-GB.html: 2026-10-01
+2026-10-01 19:09:43  INFO      src.sources.eaip_html  Validated effective date for EG-AD-2.EGHQ-en-GB.html: 2026-10-01
+2026-10-01 19:09:43  INFO      src.sources.eaip_html  Validated effective date for EG-AD-2.EGHR-en-GB.html: 2026-10-01
+2026-10-01 19:09:43  INFO      src.sources.eaip_html  Validated effective date for EG-AD-2.EGJA-en-GB.html: 2026-10-01
+2026-10-01 19:09:43  INFO      src.sources.eaip_html  Validated effective date for EG-AD-2.EGJB-en-GB.html: 2026-10-01
+2026-10-01 19:09:43  INFO      src.sources.eaip_html  Validated effective date for EG-AD-2.EGJJ-en-GB.html: 2026-10-01
+2026-10-01 19:09:43  INFO      src.sources.eaip_html  Validated effective date for EG-AD-2.EGKA-en-GB.html: 2026-10-01
+2026-10-01 19:09:43  INFO      src.sources.eaip_html  Validated effective date for EG-AD-2.EGKB-en-GB.html: 2026-10-01
+2026-10-01 19:09:43  INFO      src.sources.eaip_html  Validated effective date for EG-AD-2.EGKH-en-GB.html: 2026-10-01
+2026-10-01 19:09:43  INFO      src.sources.eaip_html  Validated effective date for EG-AD-2.EGKK-en-GB.html: 2026-10-01
+2026-10-01 19:09:43  INFO      src.sources.eaip_html  Validated effective date for EG-AD-2.EGKR-en-GB.html: 2026-10-01
+2026-10-01 19:09:43  INFO      src.sources.eaip_html  Validated effective date for EG-AD-2.EGLC-en-GB.html: 2026-10-01
+2026-10-01 19:09:43  INFO      src.sources.eaip_html  Validated effective date for EG-AD-2.EGLD-en-GB.html: 2026-10-01
+2026-10-01 19:09:43  INFO      src.sources.eaip_html  Validated effective date for EG-AD-2.EGLF-en-GB.html: 2026-10-01
+2026-10-01 19:09:43  INFO      src.sources.eaip_html  Validated effective date for EG-AD-2.EGLJ-en-GB.html: 2026-10-01
+2026-10-01 19:09:43  INFO      src.sources.eaip_html  Validated effective date for EG-AD-2.EGLK-en-GB.html: 2026-10-01
+2026-10-01 19:09:43  INFO      src.sources.eaip_html  Validated effective date for EG-AD-2.EGLL-en-GB.html: 2026-10-01
+2026-10-01 19:09:43  INFO      src.sources.eaip_html  Validated effective date for EG-AD-2.EGLM-en-GB.html: 2026-10-01
+2026-10-01 19:09:43  INFO      src.sources.eaip_html  Validated effective date for EG-AD-2.EGMC-en-GB.html: 2026-10-01
+2026-10-01 19:09:43  INFO      src.sources.eaip_html  Validated effective date for EG-AD-2.EGMD-en-GB.html: 2026-10-01
+2026-10-01 19:09:43  INFO      src.sources.eaip_html  Validated effective date for EG-AD-2.EGNE-en-GB.html: 2026-10-01
+2026-10-01 19:09:43  INFO      src.sources.eaip_html  Validated effective date for EG-AD-2.EGNF-en-GB.html: 2026-10-01
+2026-10-01 19:09:43  INFO      src.sources.eaip_html  Validated effective date for EG-AD-2.EGNH-en-GB.html: 2026-10-01
+2026-10-01 19:09:44  INFO      src.sources.eaip_html  Validated effective date for EG-AD-2.EGNJ-en-GB.html: 2026-10-01
+2026-10-01 19:09:44  INFO      src.sources.eaip_html  Validated effective date for EG-AD-2.EGNL-en-GB.html: 2026-10-01
+2026-10-01 19:09:44  INFO      src.sources.eaip_html  Validated effective date for EG-AD-2.EGNM-en-GB.html: 2026-10-01
+2026-10-01 19:09:44  INFO      src.sources.eaip_html  Validated effective date for EG-AD-2.EGNO-en-GB.html: 2026-10-01
+2026-10-01 19:09:44  INFO      src.sources.eaip_html  Validated effective date for EG-AD-2.EGNR-en-GB.html: 2026-10-01
+2026-10-01 19:09:44  INFO      src.sources.eaip_html  Validated effective date for EG-AD-2.EGNS-en-GB.html: 2026-10-01
+2026-10-01 19:09:44  INFO      src.sources.eaip_html  Validated effective date for EG-AD-2.EGNT-en-GB.html: 2026-10-01
+2026-10-01 19:09:44  INFO      src.sources.eaip_html  Validated effective date for EG-AD-2.EGNV-en-GB.html: 2026-10-01
+2026-10-01 19:09:44  INFO      src.sources.eaip_html  Validated effective date for EG-AD-2.EGNW-en-GB.html: 2026-10-01
+2026-10-01 19:09:44  INFO      src.sources.eaip_html  Validated effective date for EG-AD-2.EGNX-en-GB.html: 2026-10-01
+2026-10-01 19:09:44  INFO      src.sources.eaip_html  Validated effective date for EG-AD-2.EGPA-en-GB.html: 2026-10-01
+2026-10-01 19:09:44  INFO      src.sources.eaip_html  Validated effective date for EG-AD-2.EGPB-en-GB.html: 2026-10-01
+2026-10-01 19:09:44  INFO      src.sources.eaip_html  Validated effective date for EG-AD-2.EGPC-en-GB.html: 2026-10-01
+2026-10-01 19:09:44  INFO      src.sources.eaip_html  Validated effective date for EG-AD-2.EGPD-en-GB.html: 2026-10-01
+2026-10-01 19:09:44  INFO      src.sources.eaip_html  Validated effective date for EG-AD-2.EGPE-en-GB.html: 2026-10-01
+2026-10-01 19:09:44  INFO      src.sources.eaip_html  Validated effective date for EG-AD-2.EGPF-en-GB.html: 2026-10-01
+2026-10-01 19:09:44  INFO      src.sources.eaip_html  Validated effective date for EG-AD-2.EGPG-en-GB.html: 2026-10-01
+2026-10-01 19:09:44  INFO      src.sources.eaip_html  Validated effective date for EG-AD-2.EGPH-en-GB.html: 2026-10-01
+2026-10-01 19:09:44  INFO      src.sources.eaip_html  Validated effective date for EG-AD-2.EGPI-en-GB.html: 2026-10-01
+2026-10-01 19:09:45  INFO      src.sources.eaip_html  Validated effective date for EG-AD-2.EGPK-en-GB.html: 2026-10-01
+2026-10-01 19:09:45  INFO      src.sources.eaip_html  Validated effective date for EG-AD-2.EGPL-en-GB.html: 2026-10-01
+2026-10-01 19:09:45  INFO      src.sources.eaip_html  Validated effective date for EG-AD-2.EGPN-en-GB.html: 2026-10-01
+2026-10-01 19:09:45  INFO      src.sources.eaip_html  Validated effective date for EG-AD-2.EGPO-en-GB.html: 2026-10-01
+2026-10-01 19:09:45  INFO      src.sources.eaip_html  Validated effective date for EG-AD-2.EGPR-en-GB.html: 2026-10-01
+2026-10-01 19:09:45  INFO      src.sources.eaip_html  Validated effective date for EG-AD-2.EGPT-en-GB.html: 2026-10-01
+2026-10-01 19:09:45  INFO      src.sources.eaip_html  Validated effective date for EG-AD-2.EGPU-en-GB.html: 2026-10-01
+2026-10-01 19:09:45  INFO      src.sources.eaip_html  Validated effective date for EG-AD-2.EGSC-en-GB.html: 2026-10-01
+2026-10-01 19:09:45  INFO      src.sources.eaip_html  Validated effective date for EG-AD-2.EGSG-en-GB.html: 2026-10-01
+2026-10-01 19:09:45  INFO      src.sources.eaip_html  Validated effective date for EG-AD-2.EGSH-en-GB.html: 2026-10-01
+2026-10-01 19:09:45  INFO      src.sources.eaip_html  Validated effective date for EG-AD-2.EGSL-en-GB.html: 2026-10-01
+2026-10-01 19:09:45  INFO      src.sources.eaip_html  Validated effective date for EG-AD-2.EGSR-en-GB.html: 2026-10-01
+2026-10-01 19:09:45  INFO      src.sources.eaip_html  Validated effective date for EG-AD-2.EGSS-en-GB.html: 2026-10-01
+2026-10-01 19:09:45  INFO      src.sources.eaip_html  Validated effective date for EG-AD-2.EGSU-en-GB.html: 2026-10-01
+2026-10-01 19:09:45  INFO      src.sources.eaip_html  Validated effective date for EG-AD-2.EGSV-en-GB.html: 2026-10-01
+2026-10-01 19:09:45  INFO      src.sources.eaip_html  Validated effective date for EG-AD-2.EGSY-en-GB.html: 2026-10-01
+2026-10-01 19:09:45  INFO      src.sources.eaip_html  Validated effective date for EG-AD-2.EGTB-en-GB.html: 2026-10-01
+2026-10-01 19:09:45  INFO      src.sources.eaip_html  Validated effective date for EG-AD-2.EGTC-en-GB.html: 2026-10-01
+2026-10-01 19:09:45  INFO      src.sources.eaip_html  Validated effective date for EG-AD-2.EGTE-en-GB.html: 2026-10-01
+2026-10-01 19:09:45  INFO      src.sources.eaip_html  Validated effective date for EG-AD-2.EGTF-en-GB.html: 2026-10-01
+2026-10-01 19:09:45  INFO      src.sources.eaip_html  Validated effective date for EG-AD-2.EGTH-en-GB.html: 2026-10-01
+2026-10-01 19:09:45  INFO      src.sources.eaip_html  Validated effective date for EG-AD-2.EGTK-en-GB.html: 2026-10-01
+2026-10-01 19:09:45  INFO      src.sources.eaip_html  Validated effective date for EG-AD-2.EGTO-en-GB.html: 2026-10-01
+2026-10-01 19:09:45  INFO      src.sources.eaip_html  Validated effective date for EG-AD-2.EGTR-en-GB.html: 2026-10-01
+2026-10-01 19:09:45  INFO      src.sources.eaip_html  Validated effective date for EG-AD-2.EGTU-en-GB.html: 2026-10-01
+2026-10-01 19:09:45  INFO      src.sources.nats_srd  Fetching SRD zip: https://nats-uk.ead-it.com/cms-nats/export/sites/default/en/Publications/digital-datasets/SRD/AIRAC-10-2026.zip
+2026-10-01 19:09:46  INFO      src.sources.nats_srd  SRD zip downloaded (1704107 bytes)
+2026-10-01 19:09:46  INFO      src.sources.nats_srd  Extracted UK and Ireland SRD_01 October 2026_Excel and Notes.xlsx (1837835 bytes)
+2026-10-01 19:09:46  INFO      src.processing.excel_to_csv  Opening SRD workbook: UK and Ireland SRD_01 October 2026_Excel and Notes.xlsx
+2026-10-01 19:09:46  INFO      src.processing.excel_to_csv  Sheets found: ["What's New", 'Introduction', 'Routes', 'Notes', 'West S8 OEP']
+2026-10-01 19:09:46  INFO      src.processing.excel_to_csv  What's New date validated for cycle 2610
+2026-10-01 19:09:47  INFO      src.processing.excel_to_csv  Exported Routes → Routes.csv (2710642 bytes)
+2026-10-01 19:09:48  INFO      src.processing.excel_to_csv  Exported Notes → Notes.csv (31692914 bytes)
+2026-10-01 19:09:48  INFO      src.sources.vatsim_sct  Fetching GitHub releases: https://api.github.com/repos/VATSIM-UK/uk-controller-pack/releases
+2026-10-01 19:09:48  INFO      src.sources.vatsim_sct  Received 30 releases
+2026-10-01 19:09:48  INFO      src.sources.vatsim_sct  Selected tag: 2026_10
+2026-10-01 19:09:48  INFO      src.sources.vatsim_sct  Downloading source zip: https://github.com/VATSIM-UK/uk-controller-pack/archive/refs/tags/2026_10.zip
+2026-10-01 19:10:05  INFO      src.sources.vatsim_sct  Source zip downloaded (104707870 bytes)
+2026-10-01 19:10:05  INFO      src.sources.vatsim_sct  Extracted UK_2026_10.sct (11474272 bytes)
+2026-10-01 19:10:06  WARNING   src.sources.foreign_enr44_html  AirNav Ireland portal does not expose eAIP HTML for AIRAC 2610 (2026-10-01).
+2026-10-01 19:10:06  INFO      src.sources.foreign_enr44_html  Fetching French ENR 4.4 HTML: https://www.sia.aviation-civile.gouv.fr/media/dvd/eAIP_01_OCT_2026/FRANCE/AIRAC-2026-10-01/html/eAIP/FR-ENR-4.4-fr-FR.html
+2026-10-01 19:10:06  INFO      src.sources.foreign_enr44_html  French ENR 4.4 HTML written to C:\Users\jkino\Desktop\vFPC files\Historical Files\vFPC 2610\FR-ENR-4.4-fr-FR.html (1582667 bytes)
+2026-10-01 19:10:06  INFO      src.cli  Foreign ENR 4.4 HTML files written: FR-ENR-4.4-fr-FR.html
+2026-10-01 19:10:06  INFO      src.sources.irish_eaip_pdf  Fetching Irish IAIP package page: https://www.airnav.ie/air-traffic-management/aeronautical-information-management/aip-package
+2026-10-01 19:10:07  WARNING   src.sources.irish_eaip_pdf  Could not find EI_ENR_4_4_EN.pdf link on the IAIP package page. AirNav may have restructured the page. [RULE:IRISH-EAIP-ENR44-URL]
+2026-10-01 19:10:07  WARNING   src.cli  EI_ENR_4_4_EN.pdf fetch skipped — check log for details
+2026-10-01 19:10:07  INFO      src.sources.nats_rad  Fetching RAD index: https://www.nm.eurocontrol.int/RAD/index.html
+2026-10-01 19:10:07  INFO      src.sources.nats_rad  Selected RAD workbook URL: https://www.nm.eurocontrol.int/RAD/assets/AIRAC-RAD_DATA/CURRENT_AIRAC/RAD_2610_v1_11.xlsx
+2026-10-01 19:10:07  INFO      src.sources.nats_rad  RAD workbook downloaded: RAD_2610_v1_11.xlsx (2642965 bytes)
+2026-10-01 19:10:07  INFO      src.cli  RAD workbook written to C:\Users\jkino\Desktop\vFPC files\Historical Files\vFPC 2610\RAD_2610_v1_11.xlsx
+2026-10-01 19:10:07  INFO      src.cli  === All files ready — run complete ===
