@@ -1050,7 +1050,7 @@
       "note": 2,
       "start": {
         "date": 4,
-        "time": "1701"
+        "time": "1801"
       },
       "end": {
         "date": 0,
@@ -1065,7 +1065,7 @@
       },
       "end": {
         "date": 0,
-        "time": "1700"
+        "time": "1800"
       }
     },
     {
@@ -1076,7 +1076,7 @@
       },
       "end": {
         "date": 1,
-        "time": "1700"
+        "time": "1800"
       }
     },
     {
@@ -1087,7 +1087,7 @@
       },
       "end": {
         "date": 2,
-        "time": "1700"
+        "time": "1800"
       }
     },
     {
@@ -1098,7 +1098,7 @@
       },
       "end": {
         "date": 3,
-        "time": "1700"
+        "time": "1800"
       }
     },
     {
@@ -1109,7 +1109,7 @@
       },
       "end": {
         "date": 4,
-        "time": "1700"
+        "time": "1800"
       }
     },
     {
@@ -1522,13 +1522,13 @@
       ],
       "start": {
         "date": 2,
-        "time": "0800"
+        "time": "0900"
       },
       "end": {
         "date": 2,
-        "time": "1515"
+        "time": "1615"
       },
-      "comment": "Summer UTC coding for AIRAC 2605.3 current-season generation; winter variant is not encoded by the current schema."
+      "comment": "Winter/raw local time per NATS note and RAD (AIRAC 2610.2, VFPC v4 go-live). VFPC v4 converts local to UTC itself; no seasonal flip."
     },
     {
       "note": 258,
@@ -1674,13 +1674,13 @@
       ],
       "start": {
         "date": 1,
-        "time": "0800"
+        "time": "0900"
       },
       "end": {
         "date": 1,
-        "time": "1515"
+        "time": "1615"
       },
-      "comment": "Summer UTC coding for AIRAC 2605.3 current-season generation; winter variant is not encoded by the current schema."
+      "comment": "Winter/raw local time per NATS note and RAD (AIRAC 2610.2, VFPC v4 go-live). VFPC v4 converts local to UTC itself; no seasonal flip."
     },
     {
       "note": 258,
@@ -1826,13 +1826,13 @@
       ],
       "start": {
         "date": 0,
-        "time": "0800"
+        "time": "0900"
       },
       "end": {
         "date": 0,
-        "time": "1515"
+        "time": "1615"
       },
-      "comment": "Summer UTC coding for AIRAC 2605.3 current-season generation; winter variant is not encoded by the current schema."
+      "comment": "Winter/raw local time per NATS note and RAD (AIRAC 2610.2, VFPC v4 go-live). VFPC v4 converts local to UTC itself; no seasonal flip."
     },
     {
       "note": 258,
@@ -1978,13 +1978,13 @@
       ],
       "start": {
         "date": 3,
-        "time": "0800"
+        "time": "0900"
       },
       "end": {
         "date": 3,
-        "time": "1515"
+        "time": "1615"
       },
-      "comment": "Summer UTC coding for AIRAC 2605.3 current-season generation; winter variant is not encoded by the current schema."
+      "comment": "Winter/raw local time per NATS note and RAD (AIRAC 2610.2, VFPC v4 go-live). VFPC v4 converts local to UTC itself; no seasonal flip."
     },
     {
       "note": 258,
@@ -2130,13 +2130,13 @@
       ],
       "start": {
         "date": 4,
-        "time": "0800"
+        "time": "0900"
       },
       "end": {
         "date": 4,
-        "time": "1515"
+        "time": "1615"
       },
-      "comment": "Summer UTC coding for AIRAC 2605.3 current-season generation; winter variant is not encoded by the current schema."
+      "comment": "Winter/raw local time per NATS note and RAD (AIRAC 2610.2, VFPC v4 go-live). VFPC v4 converts local to UTC itself; no seasonal flip."
     },
     {
       "note": 262,
@@ -2277,22 +2277,22 @@
       "note": 295,
       "max": 285,
       "start": {
-        "time": "0900"
+        "time": "1000"
       },
       "end": {
-        "time": "1500"
+        "time": "1600"
       },
-      "comment": "Summer UTC coding for AIRAC 2605.3 current-season generation; winter variant is not encoded by the current schema."
+      "comment": "Winter/raw local time per NATS note and RAD (AIRAC 2610.2, VFPC v4 go-live). VFPC v4 converts local to UTC itself; no seasonal flip. AUDIT: RAD EG4017 is H24 RFL FL285 since 2512; note text still gives a 1000-1600 window. Re-check each cycle until NATS corrects."
     },
     {
       "note": 295,
       "start": {
-        "time": "1500"
+        "time": "1600"
       },
       "end": {
-        "time": "0900"
+        "time": "1000"
       },
-      "comment": "Summer UTC coding for AIRAC 2605.3 current-season generation; winter variant is not encoded by the current schema."
+      "comment": "Winter/raw local time per NATS note and RAD (AIRAC 2610.2, VFPC v4 go-live). VFPC v4 converts local to UTC itself; no seasonal flip. AUDIT: RAD EG4017 is H24 RFL FL285 since 2512; note text still gives a 1000-1600 window. Re-check each cycle until NATS corrects."
     },
     {
       "note": 303,
@@ -2378,12 +2378,12 @@
         "EGNR"
       ],
       "start": {
-        "time": "2330"
+        "time": "0030"
       },
       "end": {
-        "time": "0500"
+        "time": "0600"
       },
-      "comment": "Summer UTC coding for AIRAC 2605.3 current-season generation; winter variant is not encoded by the current schema."
+      "comment": "Winter/raw local time per NATS note and RAD (AIRAC 2610.2, VFPC v4 go-live). VFPC v4 converts local to UTC itself; no seasonal flip."
     },
     {
       "note": 335,
@@ -2394,13 +2394,13 @@
       ],
       "start": {
         "date": 0,
-        "time": "2330"
+        "time": "2230"
       },
       "end": {
         "date": 1,
-        "time": "0500"
+        "time": "0600"
       },
-      "comment": "Summer UTC coding for AIRAC 2605.3 current-season generation; winter variant is not encoded by the current schema."
+      "comment": "Winter/raw local time per NATS note and RAD (AIRAC 2610.2, VFPC v4 go-live). VFPC v4 converts local to UTC itself; no seasonal flip."
     },
     {
       "note": 335,
@@ -2411,13 +2411,13 @@
       ],
       "start": {
         "date": 1,
-        "time": "2330"
+        "time": "2230"
       },
       "end": {
         "date": 2,
-        "time": "0500"
+        "time": "0600"
       },
-      "comment": "Summer UTC coding for AIRAC 2605.3 current-season generation; winter variant is not encoded by the current schema."
+      "comment": "Winter/raw local time per NATS note and RAD (AIRAC 2610.2, VFPC v4 go-live). VFPC v4 converts local to UTC itself; no seasonal flip."
     },
     {
       "note": 335,
@@ -2428,13 +2428,13 @@
       ],
       "start": {
         "date": 3,
-        "time": "2330"
+        "time": "2230"
       },
       "end": {
         "date": 4,
-        "time": "0500"
+        "time": "0600"
       },
-      "comment": "Summer UTC coding for AIRAC 2605.3 current-season generation; winter variant is not encoded by the current schema."
+      "comment": "Winter/raw local time per NATS note and RAD (AIRAC 2610.2, VFPC v4 go-live). VFPC v4 converts local to UTC itself; no seasonal flip."
     },
     {
       "note": 335,
@@ -2445,13 +2445,13 @@
       ],
       "start": {
         "date": 4,
-        "time": "2330"
+        "time": "2230"
       },
       "end": {
         "date": 5,
-        "time": "0500"
+        "time": "0600"
       },
-      "comment": "Summer UTC coding for AIRAC 2605.3 current-season generation; winter variant is not encoded by the current schema."
+      "comment": "Winter/raw local time per NATS note and RAD (AIRAC 2610.2, VFPC v4 go-live). VFPC v4 converts local to UTC itself; no seasonal flip."
     },
     {
       "note": 335,
@@ -2462,13 +2462,13 @@
       ],
       "start": {
         "date": 5,
-        "time": "2330"
+        "time": "2230"
       },
       "end": {
         "date": 6,
-        "time": "0500"
+        "time": "0600"
       },
-      "comment": "Summer UTC coding for AIRAC 2605.3 current-season generation; winter variant is not encoded by the current schema."
+      "comment": "Winter/raw local time per NATS note and RAD (AIRAC 2610.2, VFPC v4 go-live). VFPC v4 converts local to UTC itself; no seasonal flip."
     },
     {
       "note": 335,
@@ -2479,13 +2479,13 @@
       ],
       "start": {
         "date": 6,
-        "time": "2330"
+        "time": "2230"
       },
       "end": {
         "date": 0,
-        "time": "0500"
+        "time": "0600"
       },
-      "comment": "Summer UTC coding for AIRAC 2605.3 current-season generation; winter variant is not encoded by the current schema."
+      "comment": "Winter/raw local time per NATS note and RAD (AIRAC 2610.2, VFPC v4 go-live). VFPC v4 converts local to UTC itself; no seasonal flip."
     },
     {
       "note": 335,
@@ -2496,13 +2496,13 @@
       ],
       "start": {
         "date": 2,
-        "time": "2330"
+        "time": "2230"
       },
       "end": {
         "date": 3,
-        "time": "0500"
+        "time": "0600"
       },
-      "comment": "Summer UTC coding for AIRAC 2605.3 current-season generation; winter variant is not encoded by the current schema."
+      "comment": "Winter/raw local time per NATS note and RAD (AIRAC 2610.2, VFPC v4 go-live). VFPC v4 converts local to UTC itself; no seasonal flip."
     },
     {
       "note": 336,
@@ -2515,12 +2515,12 @@
     {
       "note": 338,
       "start": {
-        "time": "2330"
+        "time": "0030"
       },
       "end": {
-        "time": "0500"
+        "time": "0600"
       },
-      "comment": "Summer UTC coding for AIRAC 2605.3 current-season generation; winter variant is not encoded by the current schema."
+      "comment": "Winter/raw local time per NATS note and RAD (AIRAC 2610.2, VFPC v4 go-live). VFPC v4 converts local to UTC itself; no seasonal flip."
     },
     {
       "note": 339,
@@ -2530,13 +2530,13 @@
       ],
       "start": {
         "date": 2,
-        "time": "2000"
+        "time": "2100"
       },
       "end": {
         "date": 3,
-        "time": "0500"
+        "time": "0600"
       },
-      "comment": "Summer UTC coding for AIRAC 2605.3 current-season generation; winter variant is not encoded by the current schema."
+      "comment": "Winter/raw local time per NATS note and RAD (AIRAC 2610.2, VFPC v4 go-live). VFPC v4 converts local to UTC itself; no seasonal flip."
     },
     {
       "note": 339,
@@ -2546,13 +2546,13 @@
       ],
       "start": {
         "date": 3,
-        "time": "2000"
+        "time": "2100"
       },
       "end": {
         "date": 4,
-        "time": "0500"
+        "time": "0600"
       },
-      "comment": "Summer UTC coding for AIRAC 2605.3 current-season generation; winter variant is not encoded by the current schema."
+      "comment": "Winter/raw local time per NATS note and RAD (AIRAC 2610.2, VFPC v4 go-live). VFPC v4 converts local to UTC itself; no seasonal flip."
     },
     {
       "note": 339,
@@ -2562,13 +2562,13 @@
       ],
       "start": {
         "date": 4,
-        "time": "2000"
+        "time": "2100"
       },
       "end": {
         "date": 5,
-        "time": "0500"
+        "time": "0600"
       },
-      "comment": "Summer UTC coding for AIRAC 2605.3 current-season generation; winter variant is not encoded by the current schema."
+      "comment": "Winter/raw local time per NATS note and RAD (AIRAC 2610.2, VFPC v4 go-live). VFPC v4 converts local to UTC itself; no seasonal flip."
     },
     {
       "note": 339,
@@ -2578,13 +2578,13 @@
       ],
       "start": {
         "date": 5,
-        "time": "2000"
+        "time": "2100"
       },
       "end": {
         "date": 6,
-        "time": "0500"
+        "time": "0600"
       },
-      "comment": "Summer UTC coding for AIRAC 2605.3 current-season generation; winter variant is not encoded by the current schema."
+      "comment": "Winter/raw local time per NATS note and RAD (AIRAC 2610.2, VFPC v4 go-live). VFPC v4 converts local to UTC itself; no seasonal flip."
     },
     {
       "note": 339,
@@ -2594,13 +2594,13 @@
       ],
       "start": {
         "date": 6,
-        "time": "2000"
+        "time": "2100"
       },
       "end": {
         "date": 0,
-        "time": "0500"
+        "time": "0600"
       },
-      "comment": "Summer UTC coding for AIRAC 2605.3 current-season generation; winter variant is not encoded by the current schema."
+      "comment": "Winter/raw local time per NATS note and RAD (AIRAC 2610.2, VFPC v4 go-live). VFPC v4 converts local to UTC itself; no seasonal flip."
     },
     {
       "note": 339,
@@ -2610,13 +2610,13 @@
       ],
       "start": {
         "date": 0,
-        "time": "2000"
+        "time": "2100"
       },
       "end": {
         "date": 1,
-        "time": "0500"
+        "time": "0600"
       },
-      "comment": "Summer UTC coding for AIRAC 2605.3 current-season generation; winter variant is not encoded by the current schema."
+      "comment": "Winter/raw local time per NATS note and RAD (AIRAC 2610.2, VFPC v4 go-live). VFPC v4 converts local to UTC itself; no seasonal flip."
     },
     {
       "note": 339,
@@ -2656,12 +2656,12 @@
         "RATSU"
       ],
       "start": {
-        "time": "2301"
+        "time": "0001"
       },
       "end": {
-        "time": "0500"
+        "time": "0600"
       },
-      "comment": "Summer UTC coding for AIRAC 2605.3 current-season generation; winter variant is not encoded by the current schema."
+      "comment": "Winter/raw local time per NATS note and RAD (AIRAC 2610.2, VFPC v4 go-live). VFPC v4 converts local to UTC itself; no seasonal flip."
     },
     {
       "note": 339,
@@ -2671,13 +2671,13 @@
       ],
       "start": {
         "date": 1,
-        "time": "2000"
+        "time": "2100"
       },
       "end": {
         "date": 2,
-        "time": "0500"
+        "time": "0600"
       },
-      "comment": "Summer UTC coding for AIRAC 2605.3 current-season generation; winter variant is not encoded by the current schema."
+      "comment": "Winter/raw local time per NATS note and RAD (AIRAC 2610.2, VFPC v4 go-live). VFPC v4 converts local to UTC itself; no seasonal flip."
     },
     {
       "note": 342,
@@ -2691,12 +2691,12 @@
       "note": 344,
       "max": 340,
       "start": {
-        "time": "2301"
+        "time": "0001"
       },
       "end": {
-        "time": "0420"
+        "time": "0520"
       },
-      "comment": "Summer UTC coding for AIRAC 2605.3 current-season generation; winter variant is not encoded by the current schema."
+      "comment": "Winter/raw local time per NATS note and RAD (AIRAC 2610.2, VFPC v4 go-live). VFPC v4 converts local to UTC itself; no seasonal flip."
     },
     {
       "note": 348,
@@ -2713,85 +2713,85 @@
       "note": 350,
       "start": {
         "date": 6,
-        "time": "2259"
+        "time": "2359"
       },
       "end": {
         "date": 0,
-        "time": "0515"
+        "time": "0615"
       },
-      "comment": "Summer UTC coding for AIRAC 2605.3 current-season generation; winter variant is not encoded by the current schema."
+      "comment": "Winter/raw local time per NATS note and RAD (AIRAC 2610.2, VFPC v4 go-live). VFPC v4 converts local to UTC itself; no seasonal flip."
     },
     {
       "note": 350,
       "start": {
         "date": 5,
-        "time": "2259"
+        "time": "2359"
       },
       "end": {
         "date": 6,
-        "time": "0515"
+        "time": "0615"
       },
-      "comment": "Summer UTC coding for AIRAC 2605.3 current-season generation; winter variant is not encoded by the current schema."
+      "comment": "Winter/raw local time per NATS note and RAD (AIRAC 2610.2, VFPC v4 go-live). VFPC v4 converts local to UTC itself; no seasonal flip."
     },
     {
       "note": 350,
       "start": {
         "date": 3,
-        "time": "2259"
+        "time": "2359"
       },
       "end": {
         "date": 4,
-        "time": "0515"
+        "time": "0615"
       },
-      "comment": "Summer UTC coding for AIRAC 2605.3 current-season generation; winter variant is not encoded by the current schema."
+      "comment": "Winter/raw local time per NATS note and RAD (AIRAC 2610.2, VFPC v4 go-live). VFPC v4 converts local to UTC itself; no seasonal flip."
     },
     {
       "note": 350,
       "start": {
         "date": 2,
-        "time": "2259"
+        "time": "2359"
       },
       "end": {
         "date": 3,
-        "time": "0515"
+        "time": "0615"
       },
-      "comment": "Summer UTC coding for AIRAC 2605.3 current-season generation; winter variant is not encoded by the current schema."
+      "comment": "Winter/raw local time per NATS note and RAD (AIRAC 2610.2, VFPC v4 go-live). VFPC v4 converts local to UTC itself; no seasonal flip."
     },
     {
       "note": 350,
       "start": {
         "date": 1,
-        "time": "2259"
+        "time": "2359"
       },
       "end": {
         "date": 2,
-        "time": "0515"
+        "time": "0615"
       },
-      "comment": "Summer UTC coding for AIRAC 2605.3 current-season generation; winter variant is not encoded by the current schema."
+      "comment": "Winter/raw local time per NATS note and RAD (AIRAC 2610.2, VFPC v4 go-live). VFPC v4 converts local to UTC itself; no seasonal flip."
     },
     {
       "note": 350,
       "start": {
         "date": 0,
-        "time": "2259"
+        "time": "2359"
       },
       "end": {
         "date": 1,
-        "time": "0515"
+        "time": "0615"
       },
-      "comment": "Summer UTC coding for AIRAC 2605.3 current-season generation; winter variant is not encoded by the current schema."
+      "comment": "Winter/raw local time per NATS note and RAD (AIRAC 2610.2, VFPC v4 go-live). VFPC v4 converts local to UTC itself; no seasonal flip."
     },
     {
       "note": 350,
       "start": {
         "date": 4,
-        "time": "2259"
+        "time": "2359"
       },
       "end": {
         "date": 5,
-        "time": "0515"
+        "time": "0615"
       },
-      "comment": "Summer UTC coding for AIRAC 2605.3 current-season generation; winter variant is not encoded by the current schema."
+      "comment": "Winter/raw local time per NATS note and RAD (AIRAC 2610.2, VFPC v4 go-live). VFPC v4 converts local to UTC itself; no seasonal flip."
     },
     {
       "note": 351,
@@ -2818,91 +2818,91 @@
       "min": 250,
       "start": {
         "date": 0,
-        "time": "2230"
+        "time": "2330"
       },
       "end": {
         "date": 1,
-        "time": "0500"
+        "time": "0600"
       },
-      "comment": "Summer UTC coding for AIRAC 2605.3 current-season generation; winter variant is not encoded by the current schema."
+      "comment": "Winter/raw local time per NATS note and RAD (AIRAC 2610.2, VFPC v4 go-live). VFPC v4 converts local to UTC itself; no seasonal flip."
     },
     {
       "note": 374,
       "min": 250,
       "start": {
         "date": 1,
-        "time": "2230"
+        "time": "2330"
       },
       "end": {
         "date": 2,
-        "time": "0500"
+        "time": "0600"
       },
-      "comment": "Summer UTC coding for AIRAC 2605.3 current-season generation; winter variant is not encoded by the current schema."
+      "comment": "Winter/raw local time per NATS note and RAD (AIRAC 2610.2, VFPC v4 go-live). VFPC v4 converts local to UTC itself; no seasonal flip."
     },
     {
       "note": 374,
       "min": 250,
       "start": {
         "date": 2,
-        "time": "2230"
+        "time": "2330"
       },
       "end": {
         "date": 3,
-        "time": "0500"
+        "time": "0600"
       },
-      "comment": "Summer UTC coding for AIRAC 2605.3 current-season generation; winter variant is not encoded by the current schema."
+      "comment": "Winter/raw local time per NATS note and RAD (AIRAC 2610.2, VFPC v4 go-live). VFPC v4 converts local to UTC itself; no seasonal flip."
     },
     {
       "note": 374,
       "min": 250,
       "start": {
         "date": 3,
-        "time": "2230"
+        "time": "2330"
       },
       "end": {
         "date": 4,
-        "time": "0500"
+        "time": "0600"
       },
-      "comment": "Summer UTC coding for AIRAC 2605.3 current-season generation; winter variant is not encoded by the current schema."
+      "comment": "Winter/raw local time per NATS note and RAD (AIRAC 2610.2, VFPC v4 go-live). VFPC v4 converts local to UTC itself; no seasonal flip."
     },
     {
       "note": 374,
       "min": 250,
       "start": {
         "date": 4,
-        "time": "2230"
+        "time": "2330"
       },
       "end": {
         "date": 5,
-        "time": "0500"
+        "time": "0600"
       },
-      "comment": "Summer UTC coding for AIRAC 2605.3 current-season generation; winter variant is not encoded by the current schema."
+      "comment": "Winter/raw local time per NATS note and RAD (AIRAC 2610.2, VFPC v4 go-live). VFPC v4 converts local to UTC itself; no seasonal flip."
     },
     {
       "note": 374,
       "min": 250,
       "start": {
         "date": 5,
-        "time": "2230"
+        "time": "2330"
       },
       "end": {
         "date": 6,
-        "time": "0500"
+        "time": "0600"
       },
-      "comment": "Summer UTC coding for AIRAC 2605.3 current-season generation; winter variant is not encoded by the current schema."
+      "comment": "Winter/raw local time per NATS note and RAD (AIRAC 2610.2, VFPC v4 go-live). VFPC v4 converts local to UTC itself; no seasonal flip."
     },
     {
       "note": 374,
       "min": 250,
       "start": {
         "date": 6,
-        "time": "2230"
+        "time": "2330"
       },
       "end": {
         "date": 0,
-        "time": "0500"
+        "time": "0600"
       },
-      "comment": "Summer UTC coding for AIRAC 2605.3 current-season generation; winter variant is not encoded by the current schema."
+      "comment": "Winter/raw local time per NATS note and RAD (AIRAC 2610.2, VFPC v4 go-live). VFPC v4 converts local to UTC itself; no seasonal flip."
     },
     {
       "note": 375,
@@ -2928,23 +2928,23 @@
       "note": 382,
       "max": 195,
       "start": {
-        "time": "0530"
+        "time": "0630"
       },
       "end": {
-        "time": "0900"
+        "time": "1000"
       },
-      "comment": "Summer UTC coding for AIRAC 2605.3 current-season generation; winter variant is not encoded by the current schema."
+      "comment": "Winter/raw local time per NATS note and RAD (AIRAC 2610.2, VFPC v4 go-live). VFPC v4 converts local to UTC itself; no seasonal flip."
     },
     {
       "note": 382,
       "max": 235,
       "start": {
-        "time": "0900"
+        "time": "1000"
       },
       "end": {
-        "time": "0530"
+        "time": "0630"
       },
-      "comment": "Summer UTC coding for AIRAC 2605.3 current-season generation; winter variant is not encoded by the current schema."
+      "comment": "Winter/raw local time per NATS note and RAD (AIRAC 2610.2, VFPC v4 go-live). VFPC v4 converts local to UTC itself; no seasonal flip."
     },
     {
       "note": 384,
@@ -3094,23 +3094,23 @@
       "note": 447,
       "max": 325,
       "start": {
-        "time": "0801"
+        "time": "0901"
       },
       "end": {
-        "time": "0459"
+        "time": "0559"
       },
-      "comment": "Summer UTC coding for AIRAC 2605.3 current-season generation; winter variant is not encoded by the current schema."
+      "comment": "Winter/raw local time per NATS note and RAD (AIRAC 2610.2, VFPC v4 go-live). VFPC v4 converts local to UTC itself; no seasonal flip."
     },
     {
       "note": 447,
       "max": 285,
       "start": {
-        "time": "0500"
+        "time": "0600"
       },
       "end": {
-        "time": "0800"
+        "time": "0900"
       },
-      "comment": "Summer UTC coding for AIRAC 2605.3 current-season generation; winter variant is not encoded by the current schema."
+      "comment": "Winter/raw local time per NATS note and RAD (AIRAC 2610.2, VFPC v4 go-live). VFPC v4 converts local to UTC itself; no seasonal flip."
     },
     {
       "note": 448,
@@ -3152,15 +3152,15 @@
         "EIWT"
       ],
       "start": {
-        "time": "0530"
+        "time": "0630"
       },
       "end": {
-        "time": "2130"
+        "time": "2230"
       },
       "alt": [
         "Reroute via M145"
       ],
-      "comment": "Summer UTC coding for AIRAC 2605.3 current-season generation; winter variant is not encoded by the current schema."
+      "comment": "Winter/raw local time per NATS note and RAD (AIRAC 2610.2, VFPC v4 go-live). VFPC v4 converts local to UTC itself; no seasonal flip."
     },
     {
       "note": 455,
@@ -3170,22 +3170,22 @@
         "E"
       ],
       "start": {
-        "time": "0530"
+        "time": "0630"
       },
       "end": {
-        "time": "2130"
+        "time": "2230"
       },
-      "comment": "Summer UTC coding for AIRAC 2605.3 current-season generation; winter variant is not encoded by the current schema."
+      "comment": "Winter/raw local time per NATS note and RAD (AIRAC 2610.2, VFPC v4 go-live). VFPC v4 converts local to UTC itself; no seasonal flip."
     },
     {
       "note": 455,
       "start": {
-        "time": "2130"
+        "time": "2230"
       },
       "end": {
-        "time": "0530"
+        "time": "0630"
       },
-      "comment": "Summer UTC coding for AIRAC 2605.3 current-season generation; winter variant is not encoded by the current schema."
+      "comment": "Winter/raw local time per NATS note and RAD (AIRAC 2610.2, VFPC v4 go-live). VFPC v4 converts local to UTC itself; no seasonal flip."
     },
     {
       "note": 456,
@@ -3258,13 +3258,13 @@
       ],
       "start": {
         "date": 4,
-        "time": "0815"
+        "time": "0915"
       },
       "end": {
         "date": 4,
-        "time": "1530"
+        "time": "1630"
       },
-      "comment": "Summer UTC coding for AIRAC 2605.3 current-season generation; winter variant is not encoded by the current schema."
+      "comment": "Winter/raw local time per NATS note and RAD (AIRAC 2610.2, VFPC v4 go-live). VFPC v4 converts local to UTC itself; no seasonal flip."
     },
     {
       "note": 468,
@@ -3280,13 +3280,13 @@
       ],
       "start": {
         "date": 4,
-        "time": "0815"
+        "time": "0915"
       },
       "end": {
         "date": 4,
-        "time": "1530"
+        "time": "1630"
       },
-      "comment": "Summer UTC coding for AIRAC 2605.3 current-season generation; winter variant is not encoded by the current schema."
+      "comment": "Winter/raw local time per NATS note and RAD (AIRAC 2610.2, VFPC v4 go-live). VFPC v4 converts local to UTC itself; no seasonal flip."
     },
     {
       "note": 468,
@@ -3304,13 +3304,13 @@
       ],
       "start": {
         "date": 1,
-        "time": "0815"
+        "time": "0915"
       },
       "end": {
         "date": 1,
-        "time": "1530"
+        "time": "1630"
       },
-      "comment": "Summer UTC coding for AIRAC 2605.3 current-season generation; winter variant is not encoded by the current schema."
+      "comment": "Winter/raw local time per NATS note and RAD (AIRAC 2610.2, VFPC v4 go-live). VFPC v4 converts local to UTC itself; no seasonal flip."
     },
     {
       "note": 468,
@@ -3326,13 +3326,13 @@
       ],
       "start": {
         "date": 3,
-        "time": "0815"
+        "time": "0915"
       },
       "end": {
         "date": 3,
-        "time": "1530"
+        "time": "1630"
       },
-      "comment": "Summer UTC coding for AIRAC 2605.3 current-season generation; winter variant is not encoded by the current schema."
+      "comment": "Winter/raw local time per NATS note and RAD (AIRAC 2610.2, VFPC v4 go-live). VFPC v4 converts local to UTC itself; no seasonal flip."
     },
     {
       "note": 468,
@@ -3350,13 +3350,13 @@
       ],
       "start": {
         "date": 2,
-        "time": "0815"
+        "time": "0915"
       },
       "end": {
         "date": 2,
-        "time": "1530"
+        "time": "1630"
       },
-      "comment": "Summer UTC coding for AIRAC 2605.3 current-season generation; winter variant is not encoded by the current schema."
+      "comment": "Winter/raw local time per NATS note and RAD (AIRAC 2610.2, VFPC v4 go-live). VFPC v4 converts local to UTC itself; no seasonal flip."
     },
     {
       "note": 468,
@@ -3372,13 +3372,13 @@
       ],
       "start": {
         "date": 2,
-        "time": "0815"
+        "time": "0915"
       },
       "end": {
         "date": 2,
-        "time": "1530"
+        "time": "1630"
       },
-      "comment": "Summer UTC coding for AIRAC 2605.3 current-season generation; winter variant is not encoded by the current schema."
+      "comment": "Winter/raw local time per NATS note and RAD (AIRAC 2610.2, VFPC v4 go-live). VFPC v4 converts local to UTC itself; no seasonal flip."
     },
     {
       "note": 468,
@@ -3394,13 +3394,13 @@
       ],
       "start": {
         "date": 1,
-        "time": "0815"
+        "time": "0915"
       },
       "end": {
         "date": 1,
-        "time": "1530"
+        "time": "1630"
       },
-      "comment": "Summer UTC coding for AIRAC 2605.3 current-season generation; winter variant is not encoded by the current schema."
+      "comment": "Winter/raw local time per NATS note and RAD (AIRAC 2610.2, VFPC v4 go-live). VFPC v4 converts local to UTC itself; no seasonal flip."
     },
     {
       "note": 468,
@@ -3418,13 +3418,13 @@
       ],
       "start": {
         "date": 0,
-        "time": "0815"
+        "time": "0915"
       },
       "end": {
         "date": 0,
-        "time": "1530"
+        "time": "1630"
       },
-      "comment": "Summer UTC coding for AIRAC 2605.3 current-season generation; winter variant is not encoded by the current schema."
+      "comment": "Winter/raw local time per NATS note and RAD (AIRAC 2610.2, VFPC v4 go-live). VFPC v4 converts local to UTC itself; no seasonal flip."
     },
     {
       "note": 468,
@@ -3442,13 +3442,13 @@
       ],
       "start": {
         "date": 3,
-        "time": "0815"
+        "time": "0915"
       },
       "end": {
         "date": 3,
-        "time": "1530"
+        "time": "1630"
       },
-      "comment": "Summer UTC coding for AIRAC 2605.3 current-season generation; winter variant is not encoded by the current schema."
+      "comment": "Winter/raw local time per NATS note and RAD (AIRAC 2610.2, VFPC v4 go-live). VFPC v4 converts local to UTC itself; no seasonal flip."
     },
     {
       "note": 468,
@@ -3464,13 +3464,13 @@
       ],
       "start": {
         "date": 0,
-        "time": "0815"
+        "time": "0915"
       },
       "end": {
         "date": 0,
-        "time": "1530"
+        "time": "1630"
       },
-      "comment": "Summer UTC coding for AIRAC 2605.3 current-season generation; winter variant is not encoded by the current schema."
+      "comment": "Winter/raw local time per NATS note and RAD (AIRAC 2610.2, VFPC v4 go-live). VFPC v4 converts local to UTC itself; no seasonal flip."
     },
     {
       "note": 469,
@@ -3479,13 +3479,13 @@
       ],
       "start": {
         "date": 2,
-        "time": "1615"
+        "time": "1715"
       },
       "end": {
         "date": 3,
-        "time": "0730"
+        "time": "0830"
       },
-      "comment": "Summer UTC coding for AIRAC 2605.3 current-season generation; winter variant is not encoded by the current schema."
+      "comment": "Winter/raw local time per NATS note and RAD (AIRAC 2610.2, VFPC v4 go-live). VFPC v4 converts local to UTC itself; no seasonal flip."
     },
     {
       "note": 469,
@@ -3494,13 +3494,13 @@
       ],
       "start": {
         "date": 1,
-        "time": "1615"
+        "time": "1715"
       },
       "end": {
         "date": 2,
-        "time": "0730"
+        "time": "0830"
       },
-      "comment": "Summer UTC coding for AIRAC 2605.3 current-season generation; winter variant is not encoded by the current schema."
+      "comment": "Winter/raw local time per NATS note and RAD (AIRAC 2610.2, VFPC v4 go-live). VFPC v4 converts local to UTC itself; no seasonal flip."
     },
     {
       "note": 469,
@@ -3509,13 +3509,13 @@
       ],
       "start": {
         "date": 0,
-        "time": "1615"
+        "time": "1715"
       },
       "end": {
         "date": 1,
-        "time": "0730"
+        "time": "0830"
       },
-      "comment": "Summer UTC coding for AIRAC 2605.3 current-season generation; winter variant is not encoded by the current schema."
+      "comment": "Winter/raw local time per NATS note and RAD (AIRAC 2610.2, VFPC v4 go-live). VFPC v4 converts local to UTC itself; no seasonal flip."
     },
     {
       "note": 469,
@@ -3524,13 +3524,13 @@
       ],
       "start": {
         "date": 4,
-        "time": "1615"
+        "time": "1715"
       },
       "end": {
         "date": 0,
-        "time": "0730"
+        "time": "0830"
       },
-      "comment": "Summer UTC coding for AIRAC 2605.3 current-season generation; winter variant is not encoded by the current schema."
+      "comment": "Winter/raw local time per NATS note and RAD (AIRAC 2610.2, VFPC v4 go-live). VFPC v4 converts local to UTC itself; no seasonal flip."
     },
     {
       "note": 469,
@@ -3539,13 +3539,13 @@
       ],
       "start": {
         "date": 3,
-        "time": "1615"
+        "time": "1715"
       },
       "end": {
         "date": 4,
-        "time": "0730"
+        "time": "0830"
       },
-      "comment": "Summer UTC coding for AIRAC 2605.3 current-season generation; winter variant is not encoded by the current schema."
+      "comment": "Winter/raw local time per NATS note and RAD (AIRAC 2610.2, VFPC v4 go-live). VFPC v4 converts local to UTC itself; no seasonal flip."
     },
     {
       "note": 470,
@@ -3554,13 +3554,13 @@
       ],
       "start": {
         "date": 1,
-        "time": "1600"
+        "time": "1700"
       },
       "end": {
         "date": 2,
-        "time": "0715"
+        "time": "0815"
       },
-      "comment": "Summer UTC coding for AIRAC 2605.3 current-season generation; winter variant is not encoded by the current schema."
+      "comment": "Winter/raw local time per NATS note and RAD (AIRAC 2610.2, VFPC v4 go-live). VFPC v4 converts local to UTC itself; no seasonal flip."
     },
     {
       "note": 470,
@@ -3569,13 +3569,13 @@
       ],
       "start": {
         "date": 0,
-        "time": "1600"
+        "time": "1700"
       },
       "end": {
         "date": 1,
-        "time": "0715"
+        "time": "0815"
       },
-      "comment": "Summer UTC coding for AIRAC 2605.3 current-season generation; winter variant is not encoded by the current schema."
+      "comment": "Winter/raw local time per NATS note and RAD (AIRAC 2610.2, VFPC v4 go-live). VFPC v4 converts local to UTC itself; no seasonal flip."
     },
     {
       "note": 470,
@@ -3583,12 +3583,12 @@
         "EGNX"
       ],
       "start": {
-        "time": "2325"
+        "time": "0025"
       },
       "end": {
-        "time": "0735"
+        "time": "0835"
       },
-      "comment": "Summer UTC coding for AIRAC 2605.3 current-season generation; winter variant is not encoded by the current schema."
+      "comment": "Winter/raw local time per NATS note and RAD (AIRAC 2610.2, VFPC v4 go-live). VFPC v4 converts local to UTC itself; no seasonal flip. AUDIT: RAD EG2967 (since 2604) gives EGNX Mon-Fri 1700-0815 subject to EGD218C; note text says daily 0025-0835. Re-check each cycle until NATS corrects."
     },
     {
       "note": 470,
@@ -3597,13 +3597,13 @@
       ],
       "start": {
         "date": 4,
-        "time": "1600"
+        "time": "1700"
       },
       "end": {
         "date": 0,
-        "time": "0715"
+        "time": "0815"
       },
-      "comment": "Summer UTC coding for AIRAC 2605.3 current-season generation; winter variant is not encoded by the current schema."
+      "comment": "Winter/raw local time per NATS note and RAD (AIRAC 2610.2, VFPC v4 go-live). VFPC v4 converts local to UTC itself; no seasonal flip."
     },
     {
       "note": 470,
@@ -3612,13 +3612,13 @@
       ],
       "start": {
         "date": 3,
-        "time": "1600"
+        "time": "1700"
       },
       "end": {
         "date": 4,
-        "time": "0715"
+        "time": "0815"
       },
-      "comment": "Summer UTC coding for AIRAC 2605.3 current-season generation; winter variant is not encoded by the current schema."
+      "comment": "Winter/raw local time per NATS note and RAD (AIRAC 2610.2, VFPC v4 go-live). VFPC v4 converts local to UTC itself; no seasonal flip."
     },
     {
       "note": 470,
@@ -3627,13 +3627,13 @@
       ],
       "start": {
         "date": 2,
-        "time": "1600"
+        "time": "1700"
       },
       "end": {
         "date": 3,
-        "time": "0715"
+        "time": "0815"
       },
-      "comment": "Summer UTC coding for AIRAC 2605.3 current-season generation; winter variant is not encoded by the current schema."
+      "comment": "Winter/raw local time per NATS note and RAD (AIRAC 2610.2, VFPC v4 go-live). VFPC v4 converts local to UTC itself; no seasonal flip."
     },
     {
       "note": 472,
@@ -3715,12 +3715,12 @@
       ],
       "min": 310,
       "start": {
-        "time": "0501"
+        "time": "0601"
       },
       "end": {
-        "time": "2259"
+        "time": "2359"
       },
-      "comment": "Summer UTC coding for AIRAC 2606 current-season generation. This is the positive daytime availability branch for non-Manchester/Midlands/EGCN/EGNM departures."
+      "comment": "Winter/raw local time per NATS note and RAD (AIRAC 2610.2, VFPC v4 go-live). VFPC v4 converts local to UTC itself; no seasonal flip. This is the positive daytime availability branch for non-Manchester/Midlands/EGCN/EGNM departures."
     },
     {
       "note": 484,
@@ -3735,10 +3735,10 @@
         "EGNM"
       ],
       "start": {
-        "time": "0501"
+        "time": "0601"
       },
       "end": {
-        "time": "2259"
+        "time": "2359"
       },
       "alert": {
         "ban": true,
@@ -3760,12 +3760,12 @@
       ],
       "min": 310,
       "start": {
-        "time": "0501"
+        "time": "0601"
       },
       "end": {
-        "time": "2259"
+        "time": "2359"
       },
-      "comment": "Summer UTC coding for AIRAC 2606 current-season generation. This is the positive daytime availability branch for non-Manchester/Midlands/EGCN/EGNM departures."
+      "comment": "Winter/raw local time per NATS note and RAD (AIRAC 2610.2, VFPC v4 go-live). VFPC v4 converts local to UTC itself; no seasonal flip. This is the positive daytime availability branch for non-Manchester/Midlands/EGCN/EGNM departures."
     },
     {
       "note": 485,
@@ -3780,10 +3780,10 @@
         "EGNM"
       ],
       "start": {
-        "time": "0501"
+        "time": "0601"
       },
       "end": {
-        "time": "2259"
+        "time": "2359"
       },
       "alert": {
         "ban": true,
@@ -3941,113 +3941,113 @@
       "note": 516,
       "start": {
         "date": 0,
-        "time": "0801"
+        "time": "0901"
       },
       "end": {
         "date": 0,
-        "time": "1700"
+        "time": "1800"
       },
       "alert": {
         "ban": true,
         "note": "VAMEB/KEFTE-MAMUL-MOGLI-ODVOD route only available 1700-0800 Summer UTC."
       },
-      "comment": "Summer UTC coding for AIRAC 2605.3 current-season generation; winter variant is not encoded by the current schema."
+      "comment": "Winter/raw local time per NATS note and RAD (AIRAC 2610.2, VFPC v4 go-live). VFPC v4 converts local to UTC itself; no seasonal flip."
     },
     {
       "note": 516,
       "start": {
         "date": 1,
-        "time": "0801"
+        "time": "0901"
       },
       "end": {
         "date": 1,
-        "time": "1700"
+        "time": "1800"
       },
       "alert": {
         "ban": true,
         "note": "VAMEB/KEFTE-MAMUL-MOGLI-ODVOD route only available 1700-0800 Summer UTC."
       },
-      "comment": "Summer UTC coding for AIRAC 2605.3 current-season generation; winter variant is not encoded by the current schema."
+      "comment": "Winter/raw local time per NATS note and RAD (AIRAC 2610.2, VFPC v4 go-live). VFPC v4 converts local to UTC itself; no seasonal flip."
     },
     {
       "note": 516,
       "start": {
         "date": 2,
-        "time": "0801"
+        "time": "0901"
       },
       "end": {
         "date": 2,
-        "time": "1700"
+        "time": "1800"
       },
       "alert": {
         "ban": true,
         "note": "VAMEB/KEFTE-MAMUL-MOGLI-ODVOD route only available 1700-0800 Summer UTC."
       },
-      "comment": "Summer UTC coding for AIRAC 2605.3 current-season generation; winter variant is not encoded by the current schema."
+      "comment": "Winter/raw local time per NATS note and RAD (AIRAC 2610.2, VFPC v4 go-live). VFPC v4 converts local to UTC itself; no seasonal flip."
     },
     {
       "note": 516,
       "start": {
         "date": 3,
-        "time": "0801"
+        "time": "0901"
       },
       "end": {
         "date": 3,
-        "time": "1700"
+        "time": "1800"
       },
       "alert": {
         "ban": true,
         "note": "VAMEB/KEFTE-MAMUL-MOGLI-ODVOD route only available 1700-0800 Summer UTC."
       },
-      "comment": "Summer UTC coding for AIRAC 2605.3 current-season generation; winter variant is not encoded by the current schema."
+      "comment": "Winter/raw local time per NATS note and RAD (AIRAC 2610.2, VFPC v4 go-live). VFPC v4 converts local to UTC itself; no seasonal flip."
     },
     {
       "note": 516,
       "start": {
         "date": 4,
-        "time": "0801"
+        "time": "0901"
       },
       "end": {
         "date": 4,
-        "time": "1700"
+        "time": "1800"
       },
       "alert": {
         "ban": true,
         "note": "VAMEB/KEFTE-MAMUL-MOGLI-ODVOD route only available 1700-0800 Summer UTC."
       },
-      "comment": "Summer UTC coding for AIRAC 2605.3 current-season generation; winter variant is not encoded by the current schema."
+      "comment": "Winter/raw local time per NATS note and RAD (AIRAC 2610.2, VFPC v4 go-live). VFPC v4 converts local to UTC itself; no seasonal flip."
     },
     {
       "note": 516,
       "start": {
         "date": 5,
-        "time": "0801"
+        "time": "0901"
       },
       "end": {
         "date": 5,
-        "time": "1700"
+        "time": "1800"
       },
       "alert": {
         "ban": true,
         "note": "VAMEB/KEFTE-MAMUL-MOGLI-ODVOD route only available 1700-0800 Summer UTC."
       },
-      "comment": "Summer UTC coding for AIRAC 2605.3 current-season generation; winter variant is not encoded by the current schema."
+      "comment": "Winter/raw local time per NATS note and RAD (AIRAC 2610.2, VFPC v4 go-live). VFPC v4 converts local to UTC itself; no seasonal flip."
     },
     {
       "note": 516,
       "start": {
         "date": 6,
-        "time": "0801"
+        "time": "0901"
       },
       "end": {
         "date": 6,
-        "time": "1700"
+        "time": "1800"
       },
       "alert": {
         "ban": true,
         "note": "VAMEB/KEFTE-MAMUL-MOGLI-ODVOD route only available 1700-0800 Summer UTC."
       },
-      "comment": "Summer UTC coding for AIRAC 2605.3 current-season generation; winter variant is not encoded by the current schema."
+      "comment": "Winter/raw local time per NATS note and RAD (AIRAC 2610.2, VFPC v4 go-live). VFPC v4 converts local to UTC itself; no seasonal flip."
     },
     {
       "note": 517,
