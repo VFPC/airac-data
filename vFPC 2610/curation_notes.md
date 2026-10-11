@@ -450,3 +450,80 @@ Still just prose (not filed; genuinely lower-urgency/external/recurring):
 - Run `scripts/airac_repro_bundle.py --airac 2610` and `airac-archiver`
   once the release is finalized (not done this session -- this is a
   diagnostic/curation session, not the final release sign-off).
+
+## 2610.2 -- winter/raw local time revert for VFPC v4.0.0 go-live (2026-10-11)
+
+**Why:** VFPC v4.0.0 (go-live 2026-10-11) treats every restriction
+`start.time`/`end.time` as Europe/London local time and converts the UTC
+EOBT itself (`VFPC-next` `src/TimeWindow.h`, `checkTimeWindow`). Since
+2605.3/2607 this cycle's `in.json` carried *summer UTC* values for every
+"1hr earlier in summer" note, which v4 would read one hour early all year.
+Fix: revert those notes to the season-invariant local value (= the
+unbracketed winter value in the NATS note / RAD rule). This retires the
+seasonal manual flip (Linear `VFP-447`) for v4 users.
+
+**Scope was 17 notes, not the 8 in the seasonal runbook.** Comparing 2604
+(pre-summer) vs 2610 `in.json` showed 258, 382, 447 and 455 were also
+shifted at 2605.3, and 335, 338, 339, 344, 350, 374, 470 were introduced in
+summer UTC. Note 2 was half-shifted (winter start, summer end). Every value
+was checked against the RAD 2610 workbook (`RAD_2610_v1_11.xlsx`):
+
+| Note | RAD | New (local) |
+|---|---|---|
+| 2 | EG2872 | weekday 0800-1800; Fri 1801 - Mon 0759 |
+| 258 | EG5028/EG5032 | 0900-1615 |
+| 295 | (EG4017 now H24, see audit) | 1000-1600 / 1600-1000 |
+| 335 | EG5251 (LESTA), EG5250 (ELVOS) | LESTA (non-EGCC/GP/NR) 0030-0600; ELVOS (EGCC/GP/NR) 2230-0600 |
+| 338 | EG5293/EG5268 | 0030-0600 |
+| 339 | EG5264/EG5266 | 0001-0600; 2100-0600 |
+| 344 | EG2971/EG3333 | 0001-0520 |
+| 350 | EG5301 | 2359-0615 |
+| 374 | EG5359-61 | 2330-0600 |
+| 382 | EG4110/EG4112 | 0630-1000 / 1000-0630 |
+| 447 | EG4124/EG4125 | 0600-0900 / 0901-0559 |
+| 455 | EG2817 | 0630-2230 / 2230-0630 |
+| 468 | EG5073/EG5026 (MOSUN; no timed NUMPO rule) | 0915-1630 |
+| 469 | EG2966/EG2969 | 1715-0830 |
+| 470 | EG2967/EG3538 | EGBB 1700-0815; EGNX 0025-0835 (see audit) |
+| 484/485 | EG5297/EG5298 | 0601-2359 |
+| 516 | EG51145-51184 | ban 0901-1800 (complement of 1800-0900 availability) |
+
+**Audit carry-forward (re-check every cycle until NATS corrects):**
+- Note 295: RAD EG4017 is H24 RFL FL285 since 2512; note text still gives a
+  1000-1600 window. Season-reverted only; semantics unchanged.
+- Note 470 EGNX: RAD EG2967 (since 2604) gives EGNX Mon-Fri 1700-0815
+  subject to EGD218C; note text says daily 0025-0835. Season-reverted only.
+- Note 335 ELVOS: RAD EG5250 and the NATS note both carry the inconsistent
+  bracket `22:30-06:00 (23:30-05:00)`; v4 only needs the winter base.
+
+**Edit method:** text-level edit of the parser working copy
+`C:\Users\jkino\Desktop\SRD Testing Files\in.json` via
+`vFPC-Hub\data\local\2610\tmp\winter_revert_2610_2.py` (asserts every
+current value before changing it). 84 entries changed (168 time strings +
+70 comments, 238 lines); everything else byte-identical. Backup:
+`in.json.pre-winter-revert-2610.2.20261011-103032.bak`. Working copy
+SHA-256 after edit:
+`9FF4D545BB97605A5303126DBD10D5FA231B515DEE01860A2F8BD21FEAA255F8`.
+**Production `in.json` in this folder is NOT yet updated** (human-edit
+only) -- copy the working copy over it before the 2611 rollover, or the
+next cycle will start from the summer values.
+
+**Parser:** same commit as 2610.1 (`f9d7d03`), `CYCLE_OVERRIDE=2610.2`.
+89 airports, 12,992 constraints (unchanged); output identical to 2610.1
+apart from time/comment fields; 874 constraints changed, every change
+exactly +1h. Notes 335/338/339/344/350/374 are not attached to any
+constraint in this cycle's output.
+
+**Bulk eval (real routes, `--airac 2610`, `PYTHONPATH=RAD-Parser\src`):**
+identical before/after, both with no EOBT (14,753 pass, 11 unexpected) and
+with winter EOBT `2026-10-27T08:30:00Z` (14,772 pass, 11 unexpected; same
+629 non-pass routes, same classifications). The Hub evaluator parks
+time-gated SRD rows as `srd_conditional_not_asserted`, so it cannot
+confirm the times themselves -- correctness rests on the RAD table above.
+
+**Promoted:** `out.json` (cycle `2610.2`) SHA-256
+`21B86F9C05F6326DC1D941DF74FD80ED58E527C4FE4A2A49192A153EA19171C5`.
+Previous 2610.1 kept as `out.json.2610.1.pre-winter-revert.bak`
+(`11D47FC2...`). Hub diagnostic copy:
+`data/local/2610/routes/out.json` = `out.2610.2_winter_revert_candidate.json`.
+**Upload to the live API is a manual step** (live is still `2610.1`).

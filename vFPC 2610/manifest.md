@@ -3,7 +3,7 @@
 **Cycle:** 2610  
 **Effective:** 2026-10-01  
 **Expires:** 2026-10-29  
-**Archived:** 2026-10-02 09:47:31 UTC  
+**Archived:** 2026-10-11 12:19:15 UTC  
 **Archived by:** jkino  
 
 ## Files
@@ -152,10 +152,12 @@
 | `bundle/route_network_facts.json` | `345ec0397b74a91e820c9087382ba6469b5e239767cd7ed590a0ae8a967d4ad2` |
 | `bundle/runtime_rules.json` | `745057bbd73eb9663a52e02f71aa75e6fc4e7d2e7783dd9488703ee82448cb5e` |
 | `bundle/selection_indexes.json` | `3e67ba7e0fcfc9f5f913dfa3b3dea06d8d98fdbc9fa5ceffec37e182234d07b9` |
-| `curation_notes.md` | `446dae378fa2333bebe5ac205885c6bddd5dfb4cf72af6f242eef0e989937272` |
+| `curation_notes.md` | `afc9a46979ab761afc15a779c60d929bb812462b8180ec844b6f256b7c2cdaaa` |
 | `fetcher_log_20261001_190909.txt` | `2a945e881eeb347a9f04d2ef1812029264fe7bfdb6c4606042cc78ad5201093c` |
-| `in.json` | `b1f1ef56d97d538e08f3fb619608a7b67d2e010dd0c2d7ab8c3f55af42416bc1` |
+| `in.json` | `9ff4d545bb97605a5303126dbd10d5fa231b515dee01860a2f8bd21feaa255f8` |
+| `in.json.pre-winter-revert-2610.2.20261011-103032.bak` | `b1f1ef56d97d538e08f3fb619608a7b67d2e010dd0c2d7ab8c3f55af42416bc1` |
 | `out.2610.1.json` | `11d47fc21668affa451acd32ff43e132cc838365f6f088d69ce6c5f0bcc66998` |
+| `out.2610.2.json` | `21b86f9c05f6326dc1d941df74fd80ed58e527c4fe4a2a49192a153ea19171c5` |
 | `rad/annex1_export_summary.json` | `27326d174e6d3176381e038d7c4e1a59c6e3d13839662b1add957a26aa88ed4f` |
 | `rad/annex1_groups.json` | `de296947201ad4fc130396bf5f93b198dc95297122a43b0d09528d4b5223ad4a` |
 | `rad/annex2a_export_summary.json` | `e2fb18a6ace2c0cd122939192f02e1e532670b864a9377e6f0cca8e076f94f86` |
